@@ -118,3 +118,19 @@ textarea { width: 100%; resize: vertical; border: 1px solid var(--line); backgro
   .meta-grid { grid-template-columns: 1fr; }
   .item-panel { padding: 16px; }
 }
+.full-prompt-details summary {
+  cursor: pointer;
+  font-weight: 800;
+  color: var(--accent);
+}
+.full-prompt {
+  margin: 12px 0 0;
+  max-height: 420px;
+  overflow: auto;
+  white-space: pre-wrap;
+  word-break: break-word;
+  border: 1px solid var(--line);
+  background: #fbf7ee;
+  padding: 12px;
+  font: 13px/1.55 Consolas, "Microsoft YaHei", monospace;
+}

@@ -11,6 +11,7 @@ let annotator = localStorage.getItem('finif_annotator') || 'A1';
 const itemList = document.getElementById('itemList');
 const metaGrid = document.getElementById('metaGrid');
 const instructionText = document.getElementById('instructionText');
+const fullPromptText = document.getElementById('fullPromptText');
 const sourcesBox = document.getElementById('sourcesBox');
 const constraintsBox = document.getElementById('constraintsBox');
 const ratingForm = document.getElementById('ratingForm');
@@ -145,6 +146,7 @@ function render() {
   itemCounter.textContent = `${current + 1} / ${items.length}`;
   renderMeta(item);
   instructionText.textContent = item.instruction || '';
+  fullPromptText.textContent = item.full_prompt || '';
   renderSources(item);
   renderConstraints(item);
   renderRatings(item);
@@ -205,4 +207,5 @@ function downloadCsv() {
 document.getElementById('downloadBtn').addEventListener('click', downloadCsv);
 
 render();
+
 

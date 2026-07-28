@@ -1,6 +1,6 @@
 ﻿const items = window.FINIF_ITEMS || [];
 const dims = [
-  ['instruction_realism_1to5', '任务真实性'],
+  ['instruction_coherence_1to5', '指令清晰与逻辑连贯性'],
   ['context_support_1to5', '上下文支撑程度'],
   ['constraint_clarity_1to5', '约束清晰度'],
   ['constraint_relevance_1to5', '约束相关性']
@@ -30,7 +30,7 @@ function blankRecord(item) {
   return {
     annotator_id: annotator,
     item_id: item.item_id,
-    instruction_realism_1to5: '',
+    instruction_coherence_1to5: '',
     context_support_1to5: '',
     constraint_clarity_1to5: '',
     constraint_relevance_1to5: '',
@@ -205,3 +205,4 @@ function downloadCsv() {
 document.getElementById('downloadBtn').addEventListener('click', downloadCsv);
 
 render();
+

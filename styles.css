@@ -45,6 +45,17 @@ select, button {
 }
 button { cursor: pointer; font-weight: 700; }
 button:hover { border-color: var(--accent); color: var(--accent); }
+.nav-link {
+  border: 1px solid var(--line);
+  background: var(--panel);
+  color: var(--accent);
+  min-height: 38px;
+  padding: 8px 12px;
+  text-decoration: none;
+  font-weight: 800;
+  display: inline-flex;
+  align-items: center;
+}
 .app-shell {
   display: grid;
   grid-template-columns: 290px minmax(0, 1fr) 360px;
@@ -159,3 +170,33 @@ textarea { width: 100%; resize: vertical; border: 1px solid var(--line); backgro
   color: #7b5a20;
   background: #f5e9cc;
 }
+.summary-box { padding: 14px 16px; border-bottom: 1px solid var(--line); display: grid; gap: 8px; }
+.summary-title { font-weight: 900; }
+.metric { background: #f3f0e8; border-left: 4px solid var(--accent); padding: 8px; display: grid; grid-template-columns: 1fr auto; gap: 2px 8px; }
+.metric span { color: var(--muted); font-size: 12px; }
+.metric strong { font-size: 18px; }
+.metric em { grid-column: 1 / -1; color: var(--muted); font-style: normal; font-size: 12px; }
+.metric.small strong { font-size: 15px; }
+.constraint-focus .constraint { margin-bottom: 0; }
+.badge.pass, .pass { color: #0f6a3a; }
+.badge.fail, .fail { color: #a43a20; }
+.badge.pass { background: #dff1e7; }
+.badge.fail { background: #f7ded5; }
+.judge-reason { margin-top: 10px; color: #4d5952; font-size: 13px; }
+.constraint-card {
+  width: 100%;
+  text-align: left;
+  display: grid;
+  gap: 5px;
+  border: 1px solid var(--line);
+  background: #fffaf0;
+  margin-bottom: 8px;
+  padding: 10px;
+  font-weight: 400;
+}
+.constraint-card.active { border-color: var(--accent); background: var(--soft); }
+.constraint-card.complete .constraint-card-head::after { content: " · 已审"; color: var(--accent); }
+.constraint-card-head { font-weight: 900; font-size: 13px; }
+.choice-buttons { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+.choice-buttons button.selected { background: var(--accent); color: white; border-color: var(--accent); }
+.module-b-shell { grid-template-columns: 310px minmax(0, 1fr) 340px; }

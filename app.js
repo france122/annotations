@@ -1,9 +1,14 @@
 ﻿const items = window.FINIF_ITEMS || [];
 const dims = [
   ['instruction_coherence_1to5', '指令清晰与逻辑连贯性'],
+  ['operational_plausibility_1to5', '金融工作场景合理性'],
   ['context_support_1to5', '上下文支撑程度'],
   ['constraint_clarity_1to5', '约束清晰度'],
   ['constraint_relevance_1to5', '约束相关性']
+];
+const flags = [
+  ['unsupported_regulation_like_context', '是否存在“像法规/规则但缺少来源”的 context？'],
+  ['template_like_or_weak_constraint', '是否存在“模板化/弱相关”的 constraint？']
 ];
 let current = 0;
 let annotator = localStorage.getItem('finif_annotator') || 'A1';
@@ -32,16 +37,20 @@ function blankRecord(item) {
     annotator_id: annotator,
     item_id: item.item_id,
     instruction_coherence_1to5: '',
+    operational_plausibility_1to5: '',
     context_support_1to5: '',
     constraint_clarity_1to5: '',
     constraint_relevance_1to5: '',
+    unsupported_regulation_like_context: '',
+    template_like_or_weak_constraint: '',
     comments: ''
   };
 }
 
 function getRecord(item) {
   const raw = localStorage.getItem(key(item.item_id));
-  return raw ? JSON.parse(raw) : blankRecord(item);
+  const base = blankRecord(item);
+  return raw ? { ...base, ...JSON.parse(raw) } : base;
 }
 
 function saveRecord(item, record) {
@@ -64,7 +73,7 @@ function isComplete(item) {
 function renderList() {
   itemList.innerHTML = items.map((item, idx) => `
     <button class="item-chip ${idx === current ? 'active' : ''} ${isComplete(item) ? 'complete' : ''}" data-idx="${idx}" type="button">
-      <span class="chip-no">${item.sample_no}. ${escapeHtml(item.item_id)}</span>
+      <span class="chip-no">${item.sample_no}. ${escapeHtml(item.item_id)}${isComplete(item) ? ' · 已填' : ''}</span>
       <span class="chip-title">${escapeHtml(item.workflow)}</span>
     </button>
   `).join('');
@@ -99,7 +108,7 @@ function renderSources(item) {
     <div class="source">
       <div class="source-head">
         <span>${escapeHtml(src.label)} · ${escapeHtml(src.title)}</span>
-        ${src.provenance ? '<span class="badge">provenance</span>' : ''}
+        ${src.provenance ? '<span class="badge">有来源溯源</span>' : '<span class="badge muted-badge">无来源溯源</span>'}
       </div>
       <p>${escapeHtml(src.content)}</p>
     </div>
@@ -127,13 +136,32 @@ function renderRatings(item) {
         ${[1,2,3,4,5].map(score => `<button type="button" class="${Number(record[field]) === score ? 'selected' : ''}" data-score="${score}">${score}</button>`).join('')}
       </div>
     </div>
-  `).join('');
+  `).join('') + `
+    <div class="flag-group">
+      ${flags.map(([field, label]) => `
+        <div class="flag-row" data-field="${field}">
+          <div class="flag-label">${label}</div>
+          <button type="button" class="${record[field] === 'Yes' ? 'selected' : ''}" data-value="Yes">是</button>
+          <button type="button" class="${record[field] === 'No' ? 'selected' : ''}" data-value="No">否</button>
+        </div>
+      `).join('')}
+    </div>
+  `;
   commentsInput.value = record.comments || '';
   ratingForm.querySelectorAll('.score-buttons button').forEach(btn => {
     btn.addEventListener('click', () => {
       const field = btn.parentElement.dataset.field;
       const next = getRecord(item);
       next[field] = btn.dataset.score;
+      saveRecord(item, next);
+      renderRatings(item);
+    });
+  });
+  ratingForm.querySelectorAll('.flag-row button').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const field = btn.parentElement.dataset.field;
+      const next = getRecord(item);
+      next[field] = btn.dataset.value;
       saveRecord(item, next);
       renderRatings(item);
     });
@@ -183,13 +211,13 @@ function csvCell(value) {
 }
 
 function downloadCsv() {
-  const header = ['sample_no','annotator_id','item_id','workflow','task','work_product','constraint_count',...dims.map(d => d[0]),'comments'];
+  const header = ['sample_no','annotator_id','item_id','workflow','task','work_product','constraint_count',...dims.map(d => d[0]),...flags.map(f => f[0]),'comments'];
   const lines = [header.join(',')];
   items.forEach(item => {
     const r = getRecord(item);
     const row = [
       item.sample_no, annotator, item.item_id, item.workflow, item.task, item.work_product, item.constraints.length,
-      ...dims.map(([field]) => r[field] || ''), r.comments || ''
+      ...dims.map(([field]) => r[field] || ''), ...flags.map(([field]) => r[field] || ''), r.comments || ''
     ];
     lines.push(row.map(csvCell).join(','));
   });
@@ -207,5 +235,3 @@ function downloadCsv() {
 document.getElementById('downloadBtn').addEventListener('click', downloadCsv);
 
 render();
-
-

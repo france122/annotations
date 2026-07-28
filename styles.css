@@ -134,3 +134,28 @@ textarea { width: 100%; resize: vertical; border: 1px solid var(--line); backgro
   padding: 12px;
   font: 13px/1.55 Consolas, "Microsoft YaHei", monospace;
 }
+.flag-group {
+  border-top: 1px solid var(--line);
+  padding-top: 14px;
+  display: grid;
+  gap: 12px;
+}
+.flag-row {
+  display: grid;
+  grid-template-columns: 1fr 54px 54px;
+  align-items: center;
+  gap: 8px;
+}
+.flag-label {
+  font-weight: 800;
+  font-size: 13px;
+}
+.flag-row button.selected {
+  background: var(--accent);
+  color: white;
+  border-color: var(--accent);
+}
+.muted-badge {
+  color: #7b5a20;
+  background: #f5e9cc;
+}

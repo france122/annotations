@@ -1,13 +1,13 @@
 ﻿const items = window.FINIF_ITEMS || [];
 const dims = [
-  ['instruction_coherence_1to5', '指令清晰与逻辑连贯性'],
+  ['instruction_coherence_1to5', '完整输入清晰与逻辑连贯性'],
   ['operational_plausibility_1to5', '金融工作场景合理性'],
-  ['context_support_1to5', '上下文支撑程度'],
+  ['context_support_1to5', '约束被完整输入支撑的程度'],
   ['constraint_clarity_1to5', '约束清晰度'],
   ['constraint_relevance_1to5', '约束相关性']
 ];
 const flags = [
-  ['unsupported_regulation_like_context', '是否存在“像法规/规则但缺少来源”的 context？'],
+  ['unsupported_regulation_like_context', '完整输入中是否存在“像法规/规则但缺少来源”的内容？'],
   ['template_like_or_weak_constraint', '是否存在“模板化/弱相关”的 constraint？']
 ];
 let current = 0;
@@ -15,9 +15,7 @@ let annotator = localStorage.getItem('finif_annotator') || 'A1';
 
 const itemList = document.getElementById('itemList');
 const metaGrid = document.getElementById('metaGrid');
-const instructionText = document.getElementById('instructionText');
 const fullPromptText = document.getElementById('fullPromptText');
-const sourcesBox = document.getElementById('sourcesBox');
 const constraintsBox = document.getElementById('constraintsBox');
 const ratingForm = document.getElementById('ratingForm');
 const commentsInput = document.getElementById('commentsInput');
@@ -103,18 +101,6 @@ function renderMeta(item) {
   `).join('');
 }
 
-function renderSources(item) {
-  sourcesBox.innerHTML = item.sources.map(src => `
-    <div class="source">
-      <div class="source-head">
-        <span>${escapeHtml(src.label)} · ${escapeHtml(src.title)}</span>
-        ${src.provenance ? '<span class="badge">有来源溯源</span>' : '<span class="badge muted-badge">无来源溯源</span>'}
-      </div>
-      <p>${escapeHtml(src.content)}</p>
-    </div>
-  `).join('');
-}
-
 function renderConstraints(item) {
   constraintsBox.innerHTML = item.constraints.map(c => `
     <div class="constraint">
@@ -173,9 +159,7 @@ function render() {
   if (!item) return;
   itemCounter.textContent = `${current + 1} / ${items.length}`;
   renderMeta(item);
-  instructionText.textContent = item.instruction || '';
   fullPromptText.textContent = item.full_prompt || '';
-  renderSources(item);
   renderConstraints(item);
   renderRatings(item);
   renderList();

@@ -3,14 +3,14 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>FinIF Judge 校准</title>
+  <title>FinIF 双模型 Judge 校准</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <header class="topbar">
     <div>
       <p class="eyebrow">FinIF 人工审核 · 模块 B</p>
-      <h1>Judge / Rule Checker 判定审核</h1>
+      <h1>双模型 Judge / Rule Checker 盲审</h1>
     </div>
     <div class="toolbar">
       <a class="nav-link" href="index.html">模块 A</a>
@@ -30,7 +30,7 @@
     <aside class="sidebar">
       <div class="progress-card">
         <div class="progress-title">审核进度</div>
-        <div id="progressText" class="progress-text">0 / 221</div>
+        <div id="progressText" class="progress-text">0 / 442</div>
         <div class="progress-track"><div id="progressBar"></div></div>
       </div>
       <div id="summaryBox" class="summary-box"></div>
@@ -48,7 +48,7 @@
         <div class="meta-grid" id="metaGrid"></div>
 
         <section class="block">
-          <h2>当前 Constraint 与自动判定</h2>
+          <h2>当前 Constraint</h2>
           <div id="constraintFocus" class="constraint-focus"></div>
         </section>
 
@@ -58,7 +58,7 @@
         </section>
 
         <section class="block">
-          <h2>ds-v4-flash Response</h2>
+          <h2 id="responseHeading">模型 Response（模型名称已隐藏）</h2>
           <pre id="responseText" class="full-prompt"></pre>
         </section>
 
@@ -71,15 +71,17 @@
 
     <aside class="rating-panel">
       <h2>人工审核</h2>
-      <p class="hint">请判断自动判定是否正确。这里同时包含 rule checker 和 GPT-4o judge。</p>
+      <p class="hint">先独立判断，不显示模型、路由或自动结论；完成本 Response 的全部评分并锁定后，才会显示 GPT-4o / rule checker 结果。</p>
+      <div id="qualityForm" class="quality-form"></div>
       <div id="ratingForm" class="rating-form"></div>
+      <div id="revealBox" class="reveal-panel"></div>
       <label class="comments-label" for="commentsInput">备注</label>
-      <textarea id="commentsInput" rows="7" placeholder="如果不同意自动判定，请说明原因；如同意可留空。"></textarea>
+      <textarea id="commentsInput" rows="6" placeholder="可记录判断依据；锁定后若与自动结果不同，请补充原因。"></textarea>
       <div class="autosave">自动保存到当前浏览器</div>
     </aside>
   </main>
 
-  <script src="module_b_items.js?v=moduleb2"></script>
-  <script src="module_b_app.js?v=moduleb2"></script>
+  <script src="module_b_items.js?v=moduleb3"></script>
+  <script src="module_b_app.js?v=moduleb3"></script>
 </body>
 </html>

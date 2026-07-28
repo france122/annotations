@@ -1,41 +1,34 @@
 window.FINIF_MODULE_B = {
+  "schema_version": "module_b_blind_v3",
   "summary": {
-    "items": 20,
-    "total_constraints": 221,
-    "passed_constraints": 151,
-    "csr": 0.6832579185520362,
-    "isr": 0.0,
-    "exact_item_passed": 0,
-    "quality_mean_0_10": 3.5,
+    "unique_prompts": 20,
+    "response_pairs": 40,
+    "total_decisions": 442,
+    "models": 2,
     "by_route": {
-      "LLM": {
-        "total": 127,
-        "passed": 80,
-        "csr": 0.6299212598425197
-      },
-      "rule": {
-        "total": 94,
-        "passed": 71,
-        "csr": 0.7553191489361702
-      }
+      "LLM": 254,
+      "rule": 188
     }
   },
   "items": [
     {
+      "pair_id": "tonight_hard_line_228__gpt-5.5",
+      "prompt_index": 1,
+      "response_variant": "A",
       "item_id": "tonight_hard_line_228",
       "workflow": "Decision and Structuring",
       "task": "DCF valuation / pricing analysis",
       "work_product": "WACC sensitivity briefing",
       "full_prompt": "Assignment 228 - WACC sensitivity briefing\n\nInput record\nKYC QA packet -- BluePeak Solar is a fictional utility-scale solar developer. Backlog is $1.9 billion, contracted revenue is concentrated in three states, and management disclosed interconnection-delay risk.\n\nName for this material: handoff checklist. Content: Base enterprise value at 9.25% WACC is $2.48 billion. Net debt is $610 million. Diluted shares are 95 million. Current share price is $18.25. WACC sensitivity: at 8.25% EV is $2.92 billion; at 10.25% EV is $2.12 billion. Terminal growth is held constant at 2.25%.\n\noperations readiness rule\nTitle: Investment Committee Question\nThe committee wants a WACC-only sensitivity briefing. Do not change terminal growth, and do not present the output as a full fairness opinion.\n\nWhat to deliver\nComplete the work product as follows: a WACC-only sensitivity briefing for BluePeak Solar. Hold terminal growth constant, recalculate implied equity value per share for the 8.25%, 9.25%, and 10.25% WACC cases, rank the cases from most favorable to least favorable for equity holders, state whether the current price sits above or below the base case, cite the source labels, and avoid calling the briefing a fairness opinion.\n\nWhen the answer uses evidence, cite the material labels shown above.\n\nFinal work-product request\nDraft a WACC-only sensitivity briefing for BluePeak Solar. Hold terminal growth constant, recalculate implied equity value per share for the 8.25%, 9.25%, and 10.25% WACC cases, rank the cases from most favorable to least favorable for equity holders, state whether the current price sits above or below the base case, cite visible material labels, and avoid calling the briefing a fairness opinion. Produce the WACC sensitivity briefing under an audit-ready reconciliation posture: connect each final action to the active evidence and the governing rule, policy, task standard, or active-case trigger; keep active source labels beside the material facts, figures, thresholds, missing-evidence triggers, and decision points where they are used; for any calculation or reconciliation, show the source inputs, formula or comparison, result, and business implication; for any comparison, ranking, alternative, scenario, or trade-off, state the comparison basis, source inputs, result, and decision implication; for any stress, sensitivity, shock, downside, or scenario test, keep the assumption, horizon, source inputs, formula or comparison, and final result tied together; write every percentage value, including percent or percentage-point values, with exactly two decimal places. Open the WACC sensitivity briefing with a Markdown bold title on the first non-empty line. Near the end, include the exact handoff label Next action:; if the packet supports no next action, write Next action: none supported by the packet. Use at least four numbered list items in the 1. / 2. / 3. style for checks, blockers, steps, or required actions. Keep the full response between 220 and 520 words. Treat the layout as part of the requested finance work product, but do not omit required evidence, calculations, boundaries, or decisions just to satisfy presentation.\n",
-      "model": "deepseek-v4-flash",
-      "response": "**WACC Sensitivity Briefing – BluePeak Solar**\n\n1. **Recalculated implied equity value per share** (terminal growth constant at 2.25%; source: KYC QA packet):  \n   - 8.25% WACC: EV $2.92B → Equity value = $2.92B – $610M net debt = $2.31B → $2.31B ÷ 95M shares = **$24.32** per share.  \n   - 9.25% WACC (base): EV $2.48B → Equity = $1.87B → **$19.68** per share.  \n   - 10.25% WACC: EV $2.12B → Equity = $1.51B → **$15.89** per share.  \n\n2. **Ranking from most to least favorable for equity holders** (comparison basis: higher implied per-share value is more favorable):  \n   - 1st: 8.25% WACC ($24.32)  \n   - 2nd: 9.25% WACC ($19.68)  \n   - 3rd: 10.25% WACC ($15.89)  \n\n3. **Current share price vs. base case**: Current price $18.25 (source: KYC QA packet) is **below** the base-case implied value of $19.68.  \n\n4. **Source labels cited** throughout: KYC QA packet for all enterprise values, net debt, diluted shares, current price, and terminal growth assumption (2.25%). All percentage values shown with exactly two decimal places (e.g., 9.25%, 2.25%).  \n\n5. **Audit-ready reconciliation**:  \n   - Equity value = EV – net debt; per share = equity ÷ diluted shares.  \n   - Formula applied consistently; no change to terminal growth per committee rule.  \n   - Business implication: equity holders benefit from a lower WACC (higher valuation), while a higher WACC erodes value.  \n\n6. **Next action**: none supported by the packet. The committee requested a sensitivity briefing only; no additional analyses or opinions are required.  \n\n**Note**: This briefing is provided for sensitivity analysis under the Investment Committee Question rule and is not a fairness opinion.",
+      "model": "gpt-5.5-2026-04-23",
+      "run_label": "gpt-5.5",
+      "response": "**BluePeak Solar WACC-Only Sensitivity Briefing**\n\n1. **Mandate and boundary check.** This briefing is limited to WACC-only sensitivity for BluePeak Solar, with terminal growth held constant at **2.25%** [handoff checklist]. This follows the governing instruction that the committee wants a WACC-only sensitivity, terminal growth must not be changed, and the output must not be presented as a full fairness opinion [Investment Committee Question]. No operating-case, backlog, geographic concentration, or interconnection-delay adjustment is made in the calculations, although those risks are noted in the packet [KYC QA packet].\n\n2. **Source inputs used for reconciliation.** Base enterprise value at **9.25%** WACC is **$2.48 billion**; net debt is **$610 million**; diluted shares are **95 million**; current share price is **$18.25** [handoff checklist]. WACC sensitivity enterprise values are: **$2.92 billion** at **8.25%** WACC and **$2.12 billion** at **10.25%** WACC [handoff checklist]. Formula applied in each case: implied equity value per share = `(enterprise value - net debt) / diluted shares`.\n\n3. **WACC-only valuation reconciliation.**\n\n| Case | Source inputs | Calculation | Implied equity value / share | Business implication |\n|---|---:|---:|---:|---|\n| **8.25% WACC** | EV **$2.92 billion**; net debt **$610 million**; shares **95 million** [handoff checklist] | `($2.92 billion - $0.61 billion) / 95 million` | **$24.32** | Most favorable equity-holder case because lower WACC increases EV. |\n| **9.25% WACC / base** | EV **$2.48 billion**; net debt **$610 million**; shares **95 million** [handoff checklist] | `($2.48 billion - $0.61 billion) / 95 million` | **$19.68** | Base-case reference point. |\n| **10.25% WACC** | EV **$2.12 billion**; net debt **$610 million**; shares **95 million** [handoff checklist] | `($2.12 billion - $0.61 billion) / 95 million` | **$15.89** | Least favorable equity-holder case because higher WACC reduces EV. |\n\n4. **Ranking from most favorable to least favorable for equity holders.** Comparison basis is implied equity value per diluted share, using the WACC-only cases and constant **2.25%** terminal growth [handoff checklist; Investment Committee Question]. Ranking: **1st: 8.25% WACC at $24.32 per share; 2nd: 9.25% WACC at $19.68 per share; 3rd: 10.25% WACC at $15.89 per share**. Decision implication: equity value is materially sensitive to WACC changes, with a **1.00 percentage-point** lower WACC increasing implied value versus base, and a **1.00 percentage-point** higher WACC decreasing implied value versus base.\n\n5. **Current price comparison.** Current share price is **$18.25** [handoff checklist]. Base-case implied value is **$19.68** per share. Comparison: `$18.25 - $19.68 = -$1.43`; percentage comparison: `-$1.43 / $19.68 = -7.27%`. Result: the current price sits **below** the base-case implied equity value per share by **$1.43**, or **7.27%**.\n\nNext action: none supported by the packet.",
+      "auto_quality_score": 10,
+      "auto_quality_reason": "The response is accurate, complete, well-grounded, and decision-useful, meeting all constraints.",
       "item_pass": false,
-      "item_csr": 0.45454545454545453,
-      "passed_constraints": 5,
-      "total_constraints": 11,
+      "item_csr": null,
       "constraints": [
         {
-          "global_no": 1,
           "constraint_index": 0,
           "route": "LLM",
           "score": 1,
@@ -44,10 +37,161 @@ window.FINIF_MODULE_B = {
           "method": "judge:openai-gpt-4o",
           "family": "Decision and Boundary",
           "tag": "DB4",
-          "constraint": "The response must avoid calling the briefing a fairness opinion."
+          "constraint": "The response must avoid calling the briefing a fairness opinion.",
+          "global_no": 1
         },
         {
-          "global_no": 2,
+          "constraint_index": 1,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "The response connects evidence, rules, and actions in a reasoning chain.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Decision and Boundary",
+          "tag": "DB9",
+          "constraint": "The response must connect active evidence, governing rule or task standard, and final action in a single reasoning chain; it must not present facts, calculations, and recommendations as disconnected checklist fragments.",
+          "global_no": 2
+        },
+        {
+          "constraint_index": 2,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Material facts and calculations have active source labels next to them.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Evidence and Grounding",
+          "tag": "EG2",
+          "constraint": "Material facts, numeric inputs, thresholds, calculation results, missing-evidence triggers, and decision points must have active source labels next to the sentence, row, or bullet where they are used; collected end-only citations are not sufficient.",
+          "global_no": 3
+        },
+        {
+          "constraint_index": 3,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "The response shows source inputs, formulas, results, and implications for calculations.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Quantitative Verification",
+          "tag": "QV2",
+          "constraint": "For every requested calculation, reconciliation, variance, threshold test, date count, headroom, or shortfall, the response must show source inputs, formula or comparison, final result, and business implication; a bare computed number does not satisfy this requirement.",
+          "global_no": 4
+        },
+        {
+          "constraint_index": 4,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "The response states comparison basis, inputs, results, and implications for rankings.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Quantitative Verification",
+          "tag": "QV6",
+          "constraint": "For every requested comparison, ranking, alternative, scenario, or trade-off, the response must state the comparison basis, source inputs, result, and decision implication rather than listing options without a supported ordering or boundary.",
+          "global_no": 5
+        },
+        {
+          "constraint_index": 5,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "The response ties assumptions, inputs, formulas, and results for sensitivity tests.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Quantitative Verification",
+          "tag": "QV7",
+          "constraint": "For every requested stress, sensitivity, shock, downside, or scenario test, the response must keep the assumption, horizon, source inputs, formula or comparison, and final result tied together; it must not present the scenario result as a base-case fact.",
+          "global_no": 6
+        },
+        {
+          "constraint_index": 6,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "All decimal numeric values use 2 decimal place(s).",
+          "method": "rule_aided:decimal_places",
+          "family": "Format and Presentation",
+          "tag": "FP3",
+          "constraint": "Every percentage value in the response, including values written with percent or percentage points, must use exactly two decimal places.",
+          "global_no": 7
+        },
+        {
+          "constraint_index": 7,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "First non-empty line uses Markdown bold format.",
+          "method": "rule_aided:first_line_format",
+          "family": "Format and Presentation",
+          "tag": "FP6",
+          "constraint": "The first non-empty line must be a Markdown bold title.",
+          "global_no": 8
+        },
+        {
+          "constraint_index": 8,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "All required keyword(s) were found.",
+          "method": "rule_aided:required_keyword",
+          "family": "Format and Presentation",
+          "tag": "FP4",
+          "constraint": "The response must include the exact label Next action:.",
+          "global_no": 9
+        },
+        {
+          "constraint_index": 9,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Response has 5 ordered list item(s).",
+          "method": "rule_aided:ordered_list_count",
+          "family": "Format and Presentation",
+          "tag": "FP2",
+          "constraint": "The response must include at least four ordered-list items using numeric list markers.",
+          "global_no": 10
+        },
+        {
+          "constraint_index": 10,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Response has 390 mixed word/character unit(s).",
+          "method": "rule_aided:word_range",
+          "family": "Format and Presentation",
+          "tag": "FP3",
+          "constraint": "The response must be between 220 and 520 words.",
+          "global_no": 11
+        }
+      ]
+    },
+    {
+      "pair_id": "tonight_hard_line_228__ds-v4-flash",
+      "prompt_index": 1,
+      "response_variant": "B",
+      "item_id": "tonight_hard_line_228",
+      "workflow": "Decision and Structuring",
+      "task": "DCF valuation / pricing analysis",
+      "work_product": "WACC sensitivity briefing",
+      "full_prompt": "Assignment 228 - WACC sensitivity briefing\n\nInput record\nKYC QA packet -- BluePeak Solar is a fictional utility-scale solar developer. Backlog is $1.9 billion, contracted revenue is concentrated in three states, and management disclosed interconnection-delay risk.\n\nName for this material: handoff checklist. Content: Base enterprise value at 9.25% WACC is $2.48 billion. Net debt is $610 million. Diluted shares are 95 million. Current share price is $18.25. WACC sensitivity: at 8.25% EV is $2.92 billion; at 10.25% EV is $2.12 billion. Terminal growth is held constant at 2.25%.\n\noperations readiness rule\nTitle: Investment Committee Question\nThe committee wants a WACC-only sensitivity briefing. Do not change terminal growth, and do not present the output as a full fairness opinion.\n\nWhat to deliver\nComplete the work product as follows: a WACC-only sensitivity briefing for BluePeak Solar. Hold terminal growth constant, recalculate implied equity value per share for the 8.25%, 9.25%, and 10.25% WACC cases, rank the cases from most favorable to least favorable for equity holders, state whether the current price sits above or below the base case, cite the source labels, and avoid calling the briefing a fairness opinion.\n\nWhen the answer uses evidence, cite the material labels shown above.\n\nFinal work-product request\nDraft a WACC-only sensitivity briefing for BluePeak Solar. Hold terminal growth constant, recalculate implied equity value per share for the 8.25%, 9.25%, and 10.25% WACC cases, rank the cases from most favorable to least favorable for equity holders, state whether the current price sits above or below the base case, cite visible material labels, and avoid calling the briefing a fairness opinion. Produce the WACC sensitivity briefing under an audit-ready reconciliation posture: connect each final action to the active evidence and the governing rule, policy, task standard, or active-case trigger; keep active source labels beside the material facts, figures, thresholds, missing-evidence triggers, and decision points where they are used; for any calculation or reconciliation, show the source inputs, formula or comparison, result, and business implication; for any comparison, ranking, alternative, scenario, or trade-off, state the comparison basis, source inputs, result, and decision implication; for any stress, sensitivity, shock, downside, or scenario test, keep the assumption, horizon, source inputs, formula or comparison, and final result tied together; write every percentage value, including percent or percentage-point values, with exactly two decimal places. Open the WACC sensitivity briefing with a Markdown bold title on the first non-empty line. Near the end, include the exact handoff label Next action:; if the packet supports no next action, write Next action: none supported by the packet. Use at least four numbered list items in the 1. / 2. / 3. style for checks, blockers, steps, or required actions. Keep the full response between 220 and 520 words. Treat the layout as part of the requested finance work product, but do not omit required evidence, calculations, boundaries, or decisions just to satisfy presentation.\n",
+      "model": "deepseek-v4-flash",
+      "run_label": "ds-v4-flash",
+      "response": "**WACC Sensitivity Briefing – BluePeak Solar**\n\n1. **Recalculated implied equity value per share** (terminal growth constant at 2.25%; source: KYC QA packet):  \n   - 8.25% WACC: EV $2.92B → Equity value = $2.92B – $610M net debt = $2.31B → $2.31B ÷ 95M shares = **$24.32** per share.  \n   - 9.25% WACC (base): EV $2.48B → Equity = $1.87B → **$19.68** per share.  \n   - 10.25% WACC: EV $2.12B → Equity = $1.51B → **$15.89** per share.  \n\n2. **Ranking from most to least favorable for equity holders** (comparison basis: higher implied per-share value is more favorable):  \n   - 1st: 8.25% WACC ($24.32)  \n   - 2nd: 9.25% WACC ($19.68)  \n   - 3rd: 10.25% WACC ($15.89)  \n\n3. **Current share price vs. base case**: Current price $18.25 (source: KYC QA packet) is **below** the base-case implied value of $19.68.  \n\n4. **Source labels cited** throughout: KYC QA packet for all enterprise values, net debt, diluted shares, current price, and terminal growth assumption (2.25%). All percentage values shown with exactly two decimal places (e.g., 9.25%, 2.25%).  \n\n5. **Audit-ready reconciliation**:  \n   - Equity value = EV – net debt; per share = equity ÷ diluted shares.  \n   - Formula applied consistently; no change to terminal growth per committee rule.  \n   - Business implication: equity holders benefit from a lower WACC (higher valuation), while a higher WACC erodes value.  \n\n6. **Next action**: none supported by the packet. The committee requested a sensitivity briefing only; no additional analyses or opinions are required.  \n\n**Note**: This briefing is provided for sensitivity analysis under the Investment Committee Question rule and is not a fairness opinion.",
+      "auto_quality_score": 3,
+      "auto_quality_reason": "The response fails to connect evidence, calculations, and decisions in a coherent reasoning chain, lacks active source labels, and does not fully explain calculations or implications.",
+      "item_pass": false,
+      "item_csr": 0.45454545454545453,
+      "constraints": [
+        {
+          "constraint_index": 0,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "The response avoids calling the briefing a fairness opinion.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Decision and Boundary",
+          "tag": "DB4",
+          "constraint": "The response must avoid calling the briefing a fairness opinion.",
+          "global_no": 12
+        },
+        {
           "constraint_index": 1,
           "route": "LLM",
           "score": 0,
@@ -56,10 +200,10 @@ window.FINIF_MODULE_B = {
           "method": "judge:openai-gpt-4o",
           "family": "Decision and Boundary",
           "tag": "DB9",
-          "constraint": "The response must connect active evidence, governing rule or task standard, and final action in a single reasoning chain; it must not present facts, calculations, and recommendations as disconnected checklist fragments."
+          "constraint": "The response must connect active evidence, governing rule or task standard, and final action in a single reasoning chain; it must not present facts, calculations, and recommendations as disconnected checklist fragments.",
+          "global_no": 13
         },
         {
-          "global_no": 3,
           "constraint_index": 2,
           "route": "LLM",
           "score": 0,
@@ -68,10 +212,10 @@ window.FINIF_MODULE_B = {
           "method": "judge:openai-gpt-4o",
           "family": "Evidence and Grounding",
           "tag": "EG2",
-          "constraint": "Material facts, numeric inputs, thresholds, calculation results, missing-evidence triggers, and decision points must have active source labels next to the sentence, row, or bullet where they are used; collected end-only citations are not sufficient."
+          "constraint": "Material facts, numeric inputs, thresholds, calculation results, missing-evidence triggers, and decision points must have active source labels next to the sentence, row, or bullet where they are used; collected end-only citations are not sufficient.",
+          "global_no": 14
         },
         {
-          "global_no": 4,
           "constraint_index": 3,
           "route": "LLM",
           "score": 0,
@@ -80,10 +224,10 @@ window.FINIF_MODULE_B = {
           "method": "judge:openai-gpt-4o",
           "family": "Quantitative Verification",
           "tag": "QV2",
-          "constraint": "For every requested calculation, reconciliation, variance, threshold test, date count, headroom, or shortfall, the response must show source inputs, formula or comparison, final result, and business implication; a bare computed number does not satisfy this requirement."
+          "constraint": "For every requested calculation, reconciliation, variance, threshold test, date count, headroom, or shortfall, the response must show source inputs, formula or comparison, final result, and business implication; a bare computed number does not satisfy this requirement.",
+          "global_no": 15
         },
         {
-          "global_no": 5,
           "constraint_index": 4,
           "route": "LLM",
           "score": 0,
@@ -92,10 +236,10 @@ window.FINIF_MODULE_B = {
           "method": "judge:openai-gpt-4o",
           "family": "Quantitative Verification",
           "tag": "QV6",
-          "constraint": "For every requested comparison, ranking, alternative, scenario, or trade-off, the response must state the comparison basis, source inputs, result, and decision implication rather than listing options without a supported ordering or boundary."
+          "constraint": "For every requested comparison, ranking, alternative, scenario, or trade-off, the response must state the comparison basis, source inputs, result, and decision implication rather than listing options without a supported ordering or boundary.",
+          "global_no": 16
         },
         {
-          "global_no": 6,
           "constraint_index": 5,
           "route": "LLM",
           "score": 0,
@@ -104,10 +248,10 @@ window.FINIF_MODULE_B = {
           "method": "judge:openai-gpt-4o",
           "family": "Quantitative Verification",
           "tag": "QV7",
-          "constraint": "For every requested stress, sensitivity, shock, downside, or scenario test, the response must keep the assumption, horizon, source inputs, formula or comparison, and final result tied together; it must not present the scenario result as a base-case fact."
+          "constraint": "For every requested stress, sensitivity, shock, downside, or scenario test, the response must keep the assumption, horizon, source inputs, formula or comparison, and final result tied together; it must not present the scenario result as a base-case fact.",
+          "global_no": 17
         },
         {
-          "global_no": 7,
           "constraint_index": 6,
           "route": "rule",
           "score": 1,
@@ -116,10 +260,10 @@ window.FINIF_MODULE_B = {
           "method": "rule_aided:decimal_places",
           "family": "Format and Presentation",
           "tag": "FP3",
-          "constraint": "Every percentage value in the response, including values written with percent or percentage points, must use exactly two decimal places."
+          "constraint": "Every percentage value in the response, including values written with percent or percentage points, must use exactly two decimal places.",
+          "global_no": 18
         },
         {
-          "global_no": 8,
           "constraint_index": 7,
           "route": "rule",
           "score": 1,
@@ -128,10 +272,10 @@ window.FINIF_MODULE_B = {
           "method": "rule_aided:first_line_format",
           "family": "Format and Presentation",
           "tag": "FP6",
-          "constraint": "The first non-empty line must be a Markdown bold title."
+          "constraint": "The first non-empty line must be a Markdown bold title.",
+          "global_no": 19
         },
         {
-          "global_no": 9,
           "constraint_index": 8,
           "route": "rule",
           "score": 0,
@@ -140,10 +284,10 @@ window.FINIF_MODULE_B = {
           "method": "rule_aided:required_keyword",
           "family": "Format and Presentation",
           "tag": "FP4",
-          "constraint": "The response must include the exact label Next action:."
+          "constraint": "The response must include the exact label Next action:.",
+          "global_no": 20
         },
         {
-          "global_no": 10,
           "constraint_index": 9,
           "route": "rule",
           "score": 1,
@@ -152,10 +296,10 @@ window.FINIF_MODULE_B = {
           "method": "rule_aided:ordered_list_count",
           "family": "Format and Presentation",
           "tag": "FP2",
-          "constraint": "The response must include at least four ordered-list items using numeric list markers."
+          "constraint": "The response must include at least four ordered-list items using numeric list markers.",
+          "global_no": 21
         },
         {
-          "global_no": 11,
           "constraint_index": 10,
           "route": "rule",
           "score": 1,
@@ -164,25 +308,29 @@ window.FINIF_MODULE_B = {
           "method": "rule_aided:word_range",
           "family": "Format and Presentation",
           "tag": "FP3",
-          "constraint": "The response must be between 220 and 520 words."
+          "constraint": "The response must be between 220 and 520 words.",
+          "global_no": 22
         }
       ]
     },
     {
+      "pair_id": "tonight_hard_line_253__gpt-5.5",
+      "prompt_index": 2,
+      "response_variant": "A",
       "item_id": "tonight_hard_line_253",
       "workflow": "Decision and Structuring",
       "task": "Credit memo drafting",
       "work_product": "collateral shortfall credit memo",
       "full_prompt": "Analyst packet 253 for Credit memo drafting\n\nCompletion instructions\nFor the final response, handle this assignment: a collateral shortfall credit memo for Lakeshore Plastics Co. Use a two-column table for current collateral value and required cure amount, calculate collateral coverage and the dollar shortfall to full coverage, decide whether to release, release with substitute collateral, or deny the lien release, and list acceptable cure options. Rely only on the materials above and cite the source labels.\n\nSource materials\nName for this material: conditional hold matrix. Content: Borrower: Lakeshore Plastics Co., a fictional injection-molding business. Outstanding term loan balance is $4.8 million. Most recent appraisal values machinery at $3.2 million and eligible receivables at $1.1 million. The prior memo assumed $6.0 million of collateral value. Borrower asks to release a secondary lien on two molding machines to finance replacement equipment.\n\ntrigger policy\nTitle: Collateral Protection Policy\nCollateral shortfall memos must calculate collateral coverage as collateral value divided by outstanding loan balance, calculate dollar shortfall to 100% coverage, decide release, release with substitute collateral, or deny, and list cure options. Collateral releases are not permitted when collateral coverage is below 100% unless substitute collateral or principal paydown restores coverage at or above 100%. Credit Committee approval is required for any collateral release denial override.\n\nowner assignment guide; accordance with ASC Topic 932, Extractive Activities - Oil life of the underlying asset. This is often represented as the In evaluating collateral valuations for RBL “reserve tail tests” that are based on the economic half-life facilities, banks often utilize alternative discount rates. For of the reserves or the cash flow remaining after projected creditworthy borrowers and during more benign operating loan payout. cycles, a 9 percent discount rate is commonly used. higher-risk borrowers or during volatile or declining market Loan durations should be fairly short-term and directly tied cycles for O&G, higher discount rates are typically used. If to the economic life of the asset (generally 50 to 60 percent a discount rate is selected that significantly differs from of the economic life of the proved reserves or the proved generally accepted discount rates, examiners should assess reserves’ half-life). The terms generally depend on the management’s documentation supporting its rationale. projected and actual reserve production (reserve run data), Some banks may use multiple discount rates under certain as well as the type and range of collateral (PDP, PDNP, or An example may include establishing a PUD). A reasonable portion of the estimated revenues standard discount rate for performing credits and a higher should remain after the debt has fully amortized (reserve rate for higher risk facilities. tail). Borrowing bases should be re-determined at least semiannually, subject to an updated reserve engineering Prudent management regularly evaluates, and updates as Covenants necessary, its pricing assumptions for RBL, commonly referred to as the institution’s price deck. The price deck is Appropriate use of covenants is imperative in managing a forecast used to derive cash flow and collateral value credit risk for O&G loans. Lenders typically require assumptions, and typically is approved by the board of financial covenants to instill discipline in the lending directors or a specifically designated board committee. relationship, including the borrower’s leverage position, Pricing assumptions typically represent the most significant repayment capacity, and liquidity. Loans (3-2026) 3.2-14 RMS Manual of Examination Policies Federal Deposit Insurance Corporation designed covenants limit cash distributions to management should be able to demonstrate the ability to owners/shareholders, and include standard performance and streamline operations, maintain reasonable production, financial reporting requirements. Examples of commonly manage working capital, strategically reduce CAPEX, and used ratios/covenants for evaluating E&P companies make sound divestitures to ensure repayment of debt. include Free Cash Flow (FCF), Interest Coverage, Fixed management should evaluate the borrower’s cost cycle, Charge Coverage, Current Ratio, Quick Ratio, Senior which reflects not only the ability to generate cash flow Debt/EBITDA(X), and Total Debt/EBITDA(X). The from production, but also the CAPEX necessary to replace calculation of earnings before interest, taxes, depreciation, depleted reserves. Working capital management is and amortization (EBITDA) typically incorporates critically important, as delinquent payments to vendors can maintenance CAPEX (X) due to its impact on the amount result in a negative working capital position (due to of projected FCF that is available after debt service to accounts payable increasing) and an increased leverage support operations. ratio. Hedging Financial analysis typically includes the following: When used properly, hedging may be an effective tool to • Adequacy of operating cash flows to service existing help protect the borrower and the lender from sharp total debt; commodity price declines by providing a stable cash flow • Overall compliance with financial covenants, including E&P companies frequently use hedging borrowing base limitations as detailed in the loan instruments such as futures contracts, swaps, collars, and agreement; put options to reduce price risk exposure. Generally, hedges • Reasonableness of the company’s budget assumptions should be limited to no more than 85 percent of projected and projections; Counterparties are typically limited to • Comparison of borrower provided production reputable, financially sound companies that are approved in projections with actual results; accordance with the institution’s O&G loan policy. If the • Working capital, tangible net worth, and leverage hedges are taken as collateral or part of the borrowing base, positions; and the advance rate and any limitations on the hedging position • Impact of capital expenses and recent acquisitions. should be documented in the loan agreement. sold or monetized, the proceeds of such are generally O&G Loan Policy Guidelines applied to the respective debt. The O&G loan policy should provide sufficient guidance to Borrower and Financial Analysis loan officers, clearly convey appropriate policy limitations and monitoring procedures, and detail appropriate Management should have a clear understanding of the underwriting standards and practices. overall financial health of the borrower that includes an should clearly indicate those industry segments (Upstream, assessment of the borrower’s ability to maintain operations Midstream, Downstream, and Support/Services) the board through adverse market conditions. E&P companies in chooses to lend to and include guidance on each of those sound financial condition should have strong cash flow segments. from reliable revenue sources and well-controlled operating Companies should also have adequate sources of For institutions engaged in RBL, appropriate policies liquidity and effective working capital management, sound address reserve measurement and valuation analysis,\n\nWhen the answer uses evidence, cite the material labels shown above.\n\nFinal work-product request\nWrite a collateral shortfall credit memo for Lakeshore Plastics Co. Use a two-column table for current collateral value and required cure amount, calculate collateral coverage and the dollar shortfall to full coverage, decide whether to release, release with substitute collateral, or deny the lien release, and list acceptable cure options. Use only the context and cite visible material labels. Produce the collateral shortfall credit memo under an audit-ready disclosure-review posture: connect each final action to the active evidence and the governing rule, policy, task standard, or active-case trigger; keep active source labels beside the material facts, figures, thresholds, missing-evidence triggers, and decision points where they are used; for any calculation or reconciliation, show the source inputs, formula or comparison, result, and business implication; separate source-stated facts from reviewer inferences, assumptions, customer statements, or management assertions; name any required approver, authority evidence, authorization, or review prerequisite that controls the outcome; write every percentage value, including percent or percentage-point values, with exactly two decimal places. Open the collateral shortfall credit memo with a Markdown bold title on the first non-empty line. Near the end, include the exact handoff label Next action:; if the packet supports no next action, write Next action: none supported by the packet. Use at least four numbered list items in the 1. / 2. / 3. style for checks, blockers, steps, or required actions. Keep the full response between 220 and 520 words. Treat the layout as part of the requested finance work product, but do not omit required evidence, calculations, boundaries, or decisions just to satisfy presentation.\n",
-      "model": "deepseek-v4-flash",
-      "response": "**Collateral Shortfall Credit Memo: Lakeshore Plastics Co.**\n\n**Current Collateral Value and Required Cure Amount**\n\n| Current Collateral Value | Required Cure Amount |\n|--------------------------|----------------------|\n| $4,300,000               | $500,000             |\n\n*Source: conditional hold matrix* – Most recent appraisal: machinery $3.2M + eligible receivables $1.1M = $4.3M. Outstanding term loan balance $4.8M. Prior memo figure of $6.0M is superseded by current appraisal.\n\n**Calculations**  \nCollateral coverage = $4,300,000 / $4,800,000 = **89.58%** (below 100%).  \nDollar shortfall to 100% coverage = $4,800,000 − $4,300,000 = **$500,000**.\n\n**Decision: Deny lien release.**  \nPer the *trigger policy* (Collateral Protection Policy): “Collateral releases are not permitted when collateral coverage is below 100% unless substitute collateral or principal paydown restores coverage at or above 100%.” Current coverage is 89.58%, and releasing a secondary lien on two molding machines would further reduce collateral value. No substitute collateral or principal paydown has been offered to cure the shortfall.\n\n**Acceptable Cure Options** (to permit release with substitute collateral or principal paydown):\n1. Principal paydown of at least **$500,000** to bring outstanding balance to ≤ $4.3M.\n2. Pledge of substitute collateral appraised at a minimum of **$500,000** (value to be confirmed by new appraisal).\n3. Any combination of paydown and substitute collateral that restores coverage",
+      "model": "gpt-5.5-2026-04-23",
+      "run_label": "gpt-5.5",
+      "response": "**Collateral Shortfall Credit Memo — Lakeshore Plastics Co.**\n\n**Request and source-stated facts.** Lakeshore Plastics Co., a fictional injection-molding business, has an outstanding term loan balance of **$4.80 million**. Current collateral consists of machinery appraised at **$3.20 million** and eligible receivables of **$1.10 million**. The prior memo assumed **$6.00 million** of collateral value. Borrower requests release of a secondary lien on two molding machines to finance replacement equipment. [conditional hold matrix]\n\n| Current collateral value | Required cure amount |\n|---:|---:|\n| $4.30 million | $0.50 million minimum to reach 100.00% coverage before any release |\n\n**Calculation and implication.**  \nSource inputs: machinery **$3.20 million** + eligible receivables **$1.10 million** = current collateral value **$4.30 million**; outstanding loan balance **$4.80 million**. [conditional hold matrix]  \nFormula: collateral coverage = collateral value ÷ outstanding loan balance. [trigger policy]  \nResult: **$4.30 million ÷ $4.80 million = 89.58%**.  \nDollar shortfall to 100.00% coverage = **$4.80 million − $4.30 million = $0.50 million**. [trigger policy]  \nBusiness implication: current collateral is below the required 100.00% coverage threshold before giving effect to the requested lien release. [trigger policy]\n\n**Collateral value reconciliation.** The prior memo assumed **$6.00 million** of collateral value, while current supported collateral is **$4.30 million**, a decrease of **$1.70 million**. [conditional hold matrix] Reviewer inference: the release request cannot be approved on the prior memo assumption because the active collateral evidence supports only **89.58%** coverage.\n\n**Decision.** Deny the lien release as submitted. The governing policy states that collateral releases are not permitted when collateral coverage is below 100.00% unless substitute collateral or principal paydown restores coverage at or above 100.00%. [trigger policy] Because current coverage is **89.58%**, the borrower must cure at least **$0.50 million** before any release; additionally, because the packet does not provide an allocated appraised value for the two molding machines proposed for release, the required substitute collateral or paydown for an actual release cannot be fully quantified from the packet. [conditional hold matrix; trigger policy]\n\n1. **Blocker:** Current collateral coverage is **89.58%**, below the 100.00% release threshold. [trigger policy]  \n2. **Minimum cure before release consideration:** principal paydown or acceptable substitute collateral of at least **$0.50 million** to restore current coverage to 100.00%. [trigger policy]  \n3. **Additional release-specific cure:** if the two molding machines are released, substitute collateral or additional paydown must also cover the verified collateral value removed by that release. [trigger policy]  \n4. **Authority prerequisite:** any override of this denial requires Credit Committee approval. [trigger policy]\n\n**Acceptable cure options.** Principal paydown; substitute collateral with supported value sufficient to bring coverage to at least 100.00%; or a combined paydown and substitute-collateral package that restores coverage to at least 100.00% after accounting for the released machines. [trigger policy]\n\nNext action: obtain the allocated current appraised value of the two molding machines and a proposed cure package; otherwise maintain denial absent Credit Committee-approved override.",
+      "auto_quality_score": 10,
+      "auto_quality_reason": "The response is accurate, complete, well-grounded, and decision-useful, meeting all constraints.",
       "item_pass": false,
-      "item_csr": 0.46153846153846156,
-      "passed_constraints": 6,
-      "total_constraints": 13,
+      "item_csr": null,
       "constraints": [
         {
-          "global_no": 12,
           "constraint_index": 0,
           "route": "LLM",
           "score": 1,
@@ -191,22 +339,22 @@ window.FINIF_MODULE_B = {
           "method": "judge:openai-gpt-4o",
           "family": "Format and Presentation",
           "tag": "FP2",
-          "constraint": "The memo must use a two-column table for current collateral value and required cure amount."
+          "constraint": "The memo must use a two-column table for current collateral value and required cure amount.",
+          "global_no": 23
         },
         {
-          "global_no": 13,
           "constraint_index": 1,
           "route": "LLM",
           "score": 1,
           "label": "PASS",
-          "reason": "Memo denies release below 100% coverage without substitute collateral or paydown.",
+          "reason": "Memo does not support release below 100% coverage without cure.",
           "method": "judge:openai-gpt-4o",
           "family": "Decision and Boundary",
           "tag": "DB2",
-          "constraint": "The memo must not support a collateral release below 100% coverage unless substitute collateral or principal paydown restores coverage."
+          "constraint": "The memo must not support a collateral release below 100% coverage unless substitute collateral or principal paydown restores coverage.",
+          "global_no": 24
         },
         {
-          "global_no": 14,
           "constraint_index": 2,
           "route": "LLM",
           "score": 1,
@@ -215,10 +363,185 @@ window.FINIF_MODULE_B = {
           "method": "judge:openai-gpt-4o",
           "family": "Evidence and Grounding",
           "tag": "EG1",
-          "constraint": "The memo must use only the provided context."
+          "constraint": "The memo must use only the provided context.",
+          "global_no": 25
         },
         {
-          "global_no": 15,
+          "constraint_index": 3,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Response connects evidence, rule, and action in a reasoning chain.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Decision and Boundary",
+          "tag": "DB9",
+          "constraint": "The response must connect active evidence, governing rule or task standard, and final action in a single reasoning chain; it must not present facts, calculations, and recommendations as disconnected checklist fragments.",
+          "global_no": 26
+        },
+        {
+          "constraint_index": 4,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Source labels are next to material facts and decisions.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Evidence and Grounding",
+          "tag": "EG2",
+          "constraint": "Material facts, numeric inputs, thresholds, calculation results, missing-evidence triggers, and decision points must have active source labels next to the sentence, row, or bullet where they are used; collected end-only citations are not sufficient.",
+          "global_no": 27
+        },
+        {
+          "constraint_index": 5,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Calculations show inputs, formula, result, and implication.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Quantitative Verification",
+          "tag": "QV2",
+          "constraint": "For every requested calculation, reconciliation, variance, threshold test, date count, headroom, or shortfall, the response must show source inputs, formula or comparison, final result, and business implication; a bare computed number does not satisfy this requirement.",
+          "global_no": 28
+        },
+        {
+          "constraint_index": 6,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Source-stated facts are separated from inferences.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Evidence and Grounding",
+          "tag": "EG3",
+          "constraint": "The response must separate source-stated facts from reviewer inferences, assumptions, customer statements, or management assertions; it must not present inferred conclusions as source facts.",
+          "global_no": 29
+        },
+        {
+          "constraint_index": 7,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Credit Committee approval is named as authority prerequisite.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Decision and Boundary",
+          "tag": "DB7",
+          "constraint": "If approval, authorization, authority evidence, or a review prerequisite controls the outcome, the response must name the required approver or prerequisite and must not imply approval while that prerequisite is missing.",
+          "global_no": 30
+        },
+        {
+          "constraint_index": 8,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "All decimal numeric values use 2 decimal place(s).",
+          "method": "rule_aided:decimal_places",
+          "family": "Format and Presentation",
+          "tag": "FP3",
+          "constraint": "Every percentage value in the response, including values written with percent or percentage points, must use exactly two decimal places.",
+          "global_no": 31
+        },
+        {
+          "constraint_index": 9,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "First non-empty line uses Markdown bold format.",
+          "method": "rule_aided:first_line_format",
+          "family": "Format and Presentation",
+          "tag": "FP6",
+          "constraint": "The first non-empty line must be a Markdown bold title.",
+          "global_no": 32
+        },
+        {
+          "constraint_index": 10,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "All required keyword(s) were found.",
+          "method": "rule_aided:required_keyword",
+          "family": "Format and Presentation",
+          "tag": "FP4",
+          "constraint": "The response must include the exact label Next action:.",
+          "global_no": 33
+        },
+        {
+          "constraint_index": 11,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Response has 4 ordered list item(s).",
+          "method": "rule_aided:ordered_list_count",
+          "family": "Format and Presentation",
+          "tag": "FP2",
+          "constraint": "The response must include at least four ordered-list items using numeric list markers.",
+          "global_no": 34
+        },
+        {
+          "constraint_index": 12,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Response has 452 mixed word/character unit(s).",
+          "method": "rule_aided:word_range",
+          "family": "Format and Presentation",
+          "tag": "FP3",
+          "constraint": "The response must be between 220 and 520 words.",
+          "global_no": 35
+        }
+      ]
+    },
+    {
+      "pair_id": "tonight_hard_line_253__ds-v4-flash",
+      "prompt_index": 2,
+      "response_variant": "B",
+      "item_id": "tonight_hard_line_253",
+      "workflow": "Decision and Structuring",
+      "task": "Credit memo drafting",
+      "work_product": "collateral shortfall credit memo",
+      "full_prompt": "Analyst packet 253 for Credit memo drafting\n\nCompletion instructions\nFor the final response, handle this assignment: a collateral shortfall credit memo for Lakeshore Plastics Co. Use a two-column table for current collateral value and required cure amount, calculate collateral coverage and the dollar shortfall to full coverage, decide whether to release, release with substitute collateral, or deny the lien release, and list acceptable cure options. Rely only on the materials above and cite the source labels.\n\nSource materials\nName for this material: conditional hold matrix. Content: Borrower: Lakeshore Plastics Co., a fictional injection-molding business. Outstanding term loan balance is $4.8 million. Most recent appraisal values machinery at $3.2 million and eligible receivables at $1.1 million. The prior memo assumed $6.0 million of collateral value. Borrower asks to release a secondary lien on two molding machines to finance replacement equipment.\n\ntrigger policy\nTitle: Collateral Protection Policy\nCollateral shortfall memos must calculate collateral coverage as collateral value divided by outstanding loan balance, calculate dollar shortfall to 100% coverage, decide release, release with substitute collateral, or deny, and list cure options. Collateral releases are not permitted when collateral coverage is below 100% unless substitute collateral or principal paydown restores coverage at or above 100%. Credit Committee approval is required for any collateral release denial override.\n\nowner assignment guide; accordance with ASC Topic 932, Extractive Activities - Oil life of the underlying asset. This is often represented as the In evaluating collateral valuations for RBL “reserve tail tests” that are based on the economic half-life facilities, banks often utilize alternative discount rates. For of the reserves or the cash flow remaining after projected creditworthy borrowers and during more benign operating loan payout. cycles, a 9 percent discount rate is commonly used. higher-risk borrowers or during volatile or declining market Loan durations should be fairly short-term and directly tied cycles for O&G, higher discount rates are typically used. If to the economic life of the asset (generally 50 to 60 percent a discount rate is selected that significantly differs from of the economic life of the proved reserves or the proved generally accepted discount rates, examiners should assess reserves’ half-life). The terms generally depend on the management’s documentation supporting its rationale. projected and actual reserve production (reserve run data), Some banks may use multiple discount rates under certain as well as the type and range of collateral (PDP, PDNP, or An example may include establishing a PUD). A reasonable portion of the estimated revenues standard discount rate for performing credits and a higher should remain after the debt has fully amortized (reserve rate for higher risk facilities. tail). Borrowing bases should be re-determined at least semiannually, subject to an updated reserve engineering Prudent management regularly evaluates, and updates as Covenants necessary, its pricing assumptions for RBL, commonly referred to as the institution’s price deck. The price deck is Appropriate use of covenants is imperative in managing a forecast used to derive cash flow and collateral value credit risk for O&G loans. Lenders typically require assumptions, and typically is approved by the board of financial covenants to instill discipline in the lending directors or a specifically designated board committee. relationship, including the borrower’s leverage position, Pricing assumptions typically represent the most significant repayment capacity, and liquidity. Loans (3-2026) 3.2-14 RMS Manual of Examination Policies Federal Deposit Insurance Corporation designed covenants limit cash distributions to management should be able to demonstrate the ability to owners/shareholders, and include standard performance and streamline operations, maintain reasonable production, financial reporting requirements. Examples of commonly manage working capital, strategically reduce CAPEX, and used ratios/covenants for evaluating E&P companies make sound divestitures to ensure repayment of debt. include Free Cash Flow (FCF), Interest Coverage, Fixed management should evaluate the borrower’s cost cycle, Charge Coverage, Current Ratio, Quick Ratio, Senior which reflects not only the ability to generate cash flow Debt/EBITDA(X), and Total Debt/EBITDA(X). The from production, but also the CAPEX necessary to replace calculation of earnings before interest, taxes, depreciation, depleted reserves. Working capital management is and amortization (EBITDA) typically incorporates critically important, as delinquent payments to vendors can maintenance CAPEX (X) due to its impact on the amount result in a negative working capital position (due to of projected FCF that is available after debt service to accounts payable increasing) and an increased leverage support operations. ratio. Hedging Financial analysis typically includes the following: When used properly, hedging may be an effective tool to • Adequacy of operating cash flows to service existing help protect the borrower and the lender from sharp total debt; commodity price declines by providing a stable cash flow • Overall compliance with financial covenants, including E&P companies frequently use hedging borrowing base limitations as detailed in the loan instruments such as futures contracts, swaps, collars, and agreement; put options to reduce price risk exposure. Generally, hedges • Reasonableness of the company’s budget assumptions should be limited to no more than 85 percent of projected and projections; Counterparties are typically limited to • Comparison of borrower provided production reputable, financially sound companies that are approved in projections with actual results; accordance with the institution’s O&G loan policy. If the • Working capital, tangible net worth, and leverage hedges are taken as collateral or part of the borrowing base, positions; and the advance rate and any limitations on the hedging position • Impact of capital expenses and recent acquisitions. should be documented in the loan agreement. sold or monetized, the proceeds of such are generally O&G Loan Policy Guidelines applied to the respective debt. The O&G loan policy should provide sufficient guidance to Borrower and Financial Analysis loan officers, clearly convey appropriate policy limitations and monitoring procedures, and detail appropriate Management should have a clear understanding of the underwriting standards and practices. overall financial health of the borrower that includes an should clearly indicate those industry segments (Upstream, assessment of the borrower’s ability to maintain operations Midstream, Downstream, and Support/Services) the board through adverse market conditions. E&P companies in chooses to lend to and include guidance on each of those sound financial condition should have strong cash flow segments. from reliable revenue sources and well-controlled operating Companies should also have adequate sources of For institutions engaged in RBL, appropriate policies liquidity and effective working capital management, sound address reserve measurement and valuation analysis,\n\nWhen the answer uses evidence, cite the material labels shown above.\n\nFinal work-product request\nWrite a collateral shortfall credit memo for Lakeshore Plastics Co. Use a two-column table for current collateral value and required cure amount, calculate collateral coverage and the dollar shortfall to full coverage, decide whether to release, release with substitute collateral, or deny the lien release, and list acceptable cure options. Use only the context and cite visible material labels. Produce the collateral shortfall credit memo under an audit-ready disclosure-review posture: connect each final action to the active evidence and the governing rule, policy, task standard, or active-case trigger; keep active source labels beside the material facts, figures, thresholds, missing-evidence triggers, and decision points where they are used; for any calculation or reconciliation, show the source inputs, formula or comparison, result, and business implication; separate source-stated facts from reviewer inferences, assumptions, customer statements, or management assertions; name any required approver, authority evidence, authorization, or review prerequisite that controls the outcome; write every percentage value, including percent or percentage-point values, with exactly two decimal places. Open the collateral shortfall credit memo with a Markdown bold title on the first non-empty line. Near the end, include the exact handoff label Next action:; if the packet supports no next action, write Next action: none supported by the packet. Use at least four numbered list items in the 1. / 2. / 3. style for checks, blockers, steps, or required actions. Keep the full response between 220 and 520 words. Treat the layout as part of the requested finance work product, but do not omit required evidence, calculations, boundaries, or decisions just to satisfy presentation.\n",
+      "model": "deepseek-v4-flash",
+      "run_label": "ds-v4-flash",
+      "response": "**Collateral Shortfall Credit Memo: Lakeshore Plastics Co.**\n\n**Current Collateral Value and Required Cure Amount**\n\n| Current Collateral Value | Required Cure Amount |\n|--------------------------|----------------------|\n| $4,300,000               | $500,000             |\n\n*Source: conditional hold matrix* – Most recent appraisal: machinery $3.2M + eligible receivables $1.1M = $4.3M. Outstanding term loan balance $4.8M. Prior memo figure of $6.0M is superseded by current appraisal.\n\n**Calculations**  \nCollateral coverage = $4,300,000 / $4,800,000 = **89.58%** (below 100%).  \nDollar shortfall to 100% coverage = $4,800,000 − $4,300,000 = **$500,000**.\n\n**Decision: Deny lien release.**  \nPer the *trigger policy* (Collateral Protection Policy): “Collateral releases are not permitted when collateral coverage is below 100% unless substitute collateral or principal paydown restores coverage at or above 100%.” Current coverage is 89.58%, and releasing a secondary lien on two molding machines would further reduce collateral value. No substitute collateral or principal paydown has been offered to cure the shortfall.\n\n**Acceptable Cure Options** (to permit release with substitute collateral or principal paydown):\n1. Principal paydown of at least **$500,000** to bring outstanding balance to ≤ $4.3M.\n2. Pledge of substitute collateral appraised at a minimum of **$500,000** (value to be confirmed by new appraisal).\n3. Any combination of paydown and substitute collateral that restores coverage",
+      "auto_quality_score": 3,
+      "auto_quality_reason": "The response fails to connect evidence, rules, and actions in a single reasoning chain and lacks detailed calculation verification. Quality capped to 3/10 due to 3 central IF failure(s); multiple central failures; severe authority/route/trigger failure.",
+      "item_pass": false,
+      "item_csr": 0.46153846153846156,
+      "constraints": [
+        {
+          "constraint_index": 0,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Two-column table is used for current collateral value and required cure amount.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Format and Presentation",
+          "tag": "FP2",
+          "constraint": "The memo must use a two-column table for current collateral value and required cure amount.",
+          "global_no": 36
+        },
+        {
+          "constraint_index": 1,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Memo denies release below 100% coverage without substitute collateral or paydown.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Decision and Boundary",
+          "tag": "DB2",
+          "constraint": "The memo must not support a collateral release below 100% coverage unless substitute collateral or principal paydown restores coverage.",
+          "global_no": 37
+        },
+        {
+          "constraint_index": 2,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Memo uses only the provided context.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Evidence and Grounding",
+          "tag": "EG1",
+          "constraint": "The memo must use only the provided context.",
+          "global_no": 38
+        },
+        {
           "constraint_index": 3,
           "route": "LLM",
           "score": 0,
@@ -227,10 +550,10 @@ window.FINIF_MODULE_B = {
           "method": "judge:openai-gpt-4o",
           "family": "Decision and Boundary",
           "tag": "DB9",
-          "constraint": "The response must connect active evidence, governing rule or task standard, and final action in a single reasoning chain; it must not present facts, calculations, and recommendations as disconnected checklist fragments."
+          "constraint": "The response must connect active evidence, governing rule or task standard, and final action in a single reasoning chain; it must not present facts, calculations, and recommendations as disconnected checklist fragments.",
+          "global_no": 39
         },
         {
-          "global_no": 16,
           "constraint_index": 4,
           "route": "LLM",
           "score": 0,
@@ -239,10 +562,10 @@ window.FINIF_MODULE_B = {
           "method": "judge:openai-gpt-4o",
           "family": "Evidence and Grounding",
           "tag": "EG2",
-          "constraint": "Material facts, numeric inputs, thresholds, calculation results, missing-evidence triggers, and decision points must have active source labels next to the sentence, row, or bullet where they are used; collected end-only citations are not sufficient."
+          "constraint": "Material facts, numeric inputs, thresholds, calculation results, missing-evidence triggers, and decision points must have active source labels next to the sentence, row, or bullet where they are used; collected end-only citations are not sufficient.",
+          "global_no": 40
         },
         {
-          "global_no": 17,
           "constraint_index": 5,
           "route": "LLM",
           "score": 0,
@@ -251,10 +574,10 @@ window.FINIF_MODULE_B = {
           "method": "judge:openai-gpt-4o",
           "family": "Quantitative Verification",
           "tag": "QV2",
-          "constraint": "For every requested calculation, reconciliation, variance, threshold test, date count, headroom, or shortfall, the response must show source inputs, formula or comparison, final result, and business implication; a bare computed number does not satisfy this requirement."
+          "constraint": "For every requested calculation, reconciliation, variance, threshold test, date count, headroom, or shortfall, the response must show source inputs, formula or comparison, final result, and business implication; a bare computed number does not satisfy this requirement.",
+          "global_no": 41
         },
         {
-          "global_no": 18,
           "constraint_index": 6,
           "route": "LLM",
           "score": 1,
@@ -263,10 +586,10 @@ window.FINIF_MODULE_B = {
           "method": "judge:openai-gpt-4o",
           "family": "Evidence and Grounding",
           "tag": "EG3",
-          "constraint": "The response must separate source-stated facts from reviewer inferences, assumptions, customer statements, or management assertions; it must not present inferred conclusions as source facts."
+          "constraint": "The response must separate source-stated facts from reviewer inferences, assumptions, customer statements, or management assertions; it must not present inferred conclusions as source facts.",
+          "global_no": 42
         },
         {
-          "global_no": 19,
           "constraint_index": 7,
           "route": "LLM",
           "score": 1,
@@ -275,10 +598,10 @@ window.FINIF_MODULE_B = {
           "method": "judge:openai-gpt-4o",
           "family": "Decision and Boundary",
           "tag": "DB7",
-          "constraint": "If approval, authorization, authority evidence, or a review prerequisite controls the outcome, the response must name the required approver or prerequisite and must not imply approval while that prerequisite is missing."
+          "constraint": "If approval, authorization, authority evidence, or a review prerequisite controls the outcome, the response must name the required approver or prerequisite and must not imply approval while that prerequisite is missing.",
+          "global_no": 43
         },
         {
-          "global_no": 20,
           "constraint_index": 8,
           "route": "rule",
           "score": 0,
@@ -287,10 +610,10 @@ window.FINIF_MODULE_B = {
           "method": "rule_aided:decimal_places",
           "family": "Format and Presentation",
           "tag": "FP3",
-          "constraint": "Every percentage value in the response, including values written with percent or percentage points, must use exactly two decimal places."
+          "constraint": "Every percentage value in the response, including values written with percent or percentage points, must use exactly two decimal places.",
+          "global_no": 44
         },
         {
-          "global_no": 21,
           "constraint_index": 9,
           "route": "rule",
           "score": 1,
@@ -299,10 +622,10 @@ window.FINIF_MODULE_B = {
           "method": "rule_aided:first_line_format",
           "family": "Format and Presentation",
           "tag": "FP6",
-          "constraint": "The first non-empty line must be a Markdown bold title."
+          "constraint": "The first non-empty line must be a Markdown bold title.",
+          "global_no": 45
         },
         {
-          "global_no": 22,
           "constraint_index": 10,
           "route": "rule",
           "score": 0,
@@ -311,10 +634,10 @@ window.FINIF_MODULE_B = {
           "method": "rule_aided:required_keyword",
           "family": "Format and Presentation",
           "tag": "FP4",
-          "constraint": "The response must include the exact label Next action:."
+          "constraint": "The response must include the exact label Next action:.",
+          "global_no": 46
         },
         {
-          "global_no": 23,
           "constraint_index": 11,
           "route": "rule",
           "score": 0,
@@ -323,10 +646,10 @@ window.FINIF_MODULE_B = {
           "method": "rule_aided:ordered_list_count",
           "family": "Format and Presentation",
           "tag": "FP2",
-          "constraint": "The response must include at least four ordered-list items using numeric list markers."
+          "constraint": "The response must include at least four ordered-list items using numeric list markers.",
+          "global_no": 47
         },
         {
-          "global_no": 24,
           "constraint_index": 12,
           "route": "rule",
           "score": 0,
@@ -335,25 +658,29 @@ window.FINIF_MODULE_B = {
           "method": "rule_aided:word_range",
           "family": "Format and Presentation",
           "tag": "FP3",
-          "constraint": "The response must be between 220 and 520 words."
+          "constraint": "The response must be between 220 and 520 words.",
+          "global_no": 48
         }
       ]
     },
     {
+      "pair_id": "tonight_hard_line_260__ds-v4-flash",
+      "prompt_index": 3,
+      "response_variant": "A",
       "item_id": "tonight_hard_line_260",
       "workflow": "Decision and Structuring",
       "task": "DCF valuation / pricing analysis",
       "work_product": "missing market quote hold note",
       "full_prompt": "Case file 260: missing market quote hold note\nCase inputs\nvaluation sensitivity extract -- Portfolio manager requests pricing for Lakeview 3.25% municipal bonds due 2036. The request includes coupon, maturity, and par amount of $2 million, but no market quote, evaluated price, yield curve input, credit spread, or comparable trade.\n\nName for this material: CFO review question. Content: A municipal bond pricing analysis requires at least one of the following current market inputs: executable quote, evaluated price, benchmark yield plus spread, or comparable trade. Without any current market input, the analyst must place the task on hold and request missing pricing evidence.\n\nterminal growth worksheet\nTitle: Client Communication Boundary\nDo not provide an estimated price to the client when the pricing analysis is on hold for missing market inputs.\n\nWhen the answer uses evidence, cite the material labels shown above.\n\nWhat to deliver\nComplete the work product as follows: the Lakeview municipal bond pricing request. Check whether any required current market input is present, list the missing pricing evidence, decide between proceed and hold, cite the procedure and request documents, draft the internal next-step request for evidence, and do not provide an estimated client price if the task is on hold.\n\nFinal work-product request\nClassify the Lakeview municipal bond pricing request. Check whether any required current market input is present, list the missing pricing evidence, decide between proceed and hold, cite the procedure and request documents, draft the internal next-step request for evidence, and do not provide an estimated client price if the task is on hold. Produce the missing market quote hold note under an audit-ready reconciliation posture: connect each final action to the active evidence and the governing rule, policy, task standard, or active-case trigger; keep active source labels beside the material facts, figures, thresholds, missing-evidence triggers, and decision points where they are used; for any calculation or reconciliation, show the source inputs, formula or comparison, result, and business implication; preserve exact source figures, dates, thresholds, names, and rule references when they control the decision; use only packet-supported category, status, classification, or risk-level labels; write every percentage value, including percent or percentage-point values, with exactly two decimal places. Open the missing market quote hold note with a Markdown bold title on the first non-empty line. Near the end, include the exact handoff label Next action:; if the packet supports no next action, write Next action: none supported by the packet. Keep the missing market quote hold note to between four and nine non-empty paragraphs, counting any table or list as part of the paragraph where it appears. Treat the layout as part of the requested finance work product, but do not omit required evidence, calculations, boundaries, or decisions just to satisfy presentation.\n",
       "model": "deepseek-v4-flash",
+      "run_label": "ds-v4-flash",
       "response": "**Missing Market Quote Hold Note – Lakeview 3.25% Municipal Bonds Due 2036**\n\nThe pricing request originates from the **valuation sensitivity extract**, where the portfolio manager seeks a price for Lakeview 3.25% municipal bonds maturing in 2036, with a par amount of $2,000,000.00. No executable quote, evaluated price, yield curve input, credit spread, or comparable trade has been supplied alongside the coupon (3.25%), maturity (2036), and par amount.\n\nPer the **CFO review question**, a municipal bond pricing analysis requires at least one of the following current market inputs: executable quote, evaluated price, benchmark yield plus spread, or comparable trade. A review of the request confirms that **none** of these inputs are present. The specific missing pricing evidence is: (i) an executable quote, (ii) an evaluated price, (iii) a benchmark yield curve with a credit spread, and (iv) a comparable trade. Because the request lacks any of the four required current market inputs, the pricing task must be placed on **hold**.\n\nThe governing procedure is explicitly stated in the **CFO review question**: “Without any current market input, the analyst must place the task on hold and request missing pricing evidence.” Additionally, the **terminal growth worksheet** (titled “Client Communication Boundary”) prohibits providing an estimated price when the pricing analysis is on hold for missing market inputs. Therefore, no estimated client price will be produced at this stage.\n\nThe internal next-step request for evidence should be directed to the portfolio manager and the market data desk. The request must specifically ask for at least one of the following: a current executable quote from a broker or electronic trading platform, an evaluated price from a pricing vendor (e.g., Bloomberg, Markit), a benchmark yield curve (e.g., AAA municipal curve) combined with a credit spread for the Lakeview issuer, or a comparable trade of a similar municipal bond (same rating, maturity, and structure). All missing inputs should be documented in the request to ensure audit-trail completeness.\n\nNo estimated price is provided in this note. The task is classified as **hold** pending receipt of the required market evidence.  \n**Next action:** Request missing pricing evidence from the portfolio manager and market data desk; re-evaluate only after at least one current market input is received.",
+      "auto_quality_score": 3,
+      "auto_quality_reason": "The response is generally well-structured and follows the task requirements, but it fails to provide active source labels next to all material facts and decision points, which is crucial for audit readiness. Quality capped to 3/10 due to 1 central IF failure(s); severe authority/route/trigger failure.",
       "item_pass": false,
       "item_csr": 0.9090909090909091,
-      "passed_constraints": 10,
-      "total_constraints": 11,
       "constraints": [
         {
-          "global_no": 25,
           "constraint_index": 0,
           "route": "LLM",
           "score": 1,
@@ -362,10 +689,10 @@ window.FINIF_MODULE_B = {
           "method": "judge:openai-gpt-4o",
           "family": "Decision and Boundary",
           "tag": "DB6",
-          "constraint": "The response must decide between proceed and hold."
+          "constraint": "The response must decide between proceed and hold.",
+          "global_no": 49
         },
         {
-          "global_no": 26,
           "constraint_index": 1,
           "route": "LLM",
           "score": 1,
@@ -374,10 +701,10 @@ window.FINIF_MODULE_B = {
           "method": "judge:openai-gpt-4o",
           "family": "Decision and Boundary",
           "tag": "DB2",
-          "constraint": "The response must not provide an estimated client price if the task is on hold."
+          "constraint": "The response must not provide an estimated client price if the task is on hold.",
+          "global_no": 50
         },
         {
-          "global_no": 27,
           "constraint_index": 2,
           "route": "LLM",
           "score": 1,
@@ -386,10 +713,10 @@ window.FINIF_MODULE_B = {
           "method": "judge:openai-gpt-4o",
           "family": "Decision and Boundary",
           "tag": "DB9",
-          "constraint": "The response must connect active evidence, governing rule or task standard, and final action in a single reasoning chain; it must not present facts, calculations, and recommendations as disconnected checklist fragments."
+          "constraint": "The response must connect active evidence, governing rule or task standard, and final action in a single reasoning chain; it must not present facts, calculations, and recommendations as disconnected checklist fragments.",
+          "global_no": 51
         },
         {
-          "global_no": 28,
           "constraint_index": 3,
           "route": "LLM",
           "score": 0,
@@ -398,10 +725,10 @@ window.FINIF_MODULE_B = {
           "method": "judge:openai-gpt-4o",
           "family": "Evidence and Grounding",
           "tag": "EG2",
-          "constraint": "Material facts, numeric inputs, thresholds, calculation results, missing-evidence triggers, and decision points must have active source labels next to the sentence, row, or bullet where they are used; collected end-only citations are not sufficient."
+          "constraint": "Material facts, numeric inputs, thresholds, calculation results, missing-evidence triggers, and decision points must have active source labels next to the sentence, row, or bullet where they are used; collected end-only citations are not sufficient.",
+          "global_no": 52
         },
         {
-          "global_no": 29,
           "constraint_index": 4,
           "route": "LLM",
           "score": 1,
@@ -410,10 +737,10 @@ window.FINIF_MODULE_B = {
           "method": "judge:openai-gpt-4o",
           "family": "Quantitative Verification",
           "tag": "QV2",
-          "constraint": "For every requested calculation, reconciliation, variance, threshold test, date count, headroom, or shortfall, the response must show source inputs, formula or comparison, final result, and business implication; a bare computed number does not satisfy this requirement."
+          "constraint": "For every requested calculation, reconciliation, variance, threshold test, date count, headroom, or shortfall, the response must show source inputs, formula or comparison, final result, and business implication; a bare computed number does not satisfy this requirement.",
+          "global_no": 53
         },
         {
-          "global_no": 30,
           "constraint_index": 5,
           "route": "LLM",
           "score": 1,
@@ -422,10 +749,10 @@ window.FINIF_MODULE_B = {
           "method": "judge:openai-gpt-4o",
           "family": "Evidence and Grounding",
           "tag": "EG5",
-          "constraint": "The response must preserve exact source figures, dates, thresholds, names, and rule references when they control the decision; it must not round, rename, or paraphrase them in a way that changes the controlling source meaning."
+          "constraint": "The response must preserve exact source figures, dates, thresholds, names, and rule references when they control the decision; it must not round, rename, or paraphrase them in a way that changes the controlling source meaning.",
+          "global_no": 54
         },
         {
-          "global_no": 31,
           "constraint_index": 6,
           "route": "LLM",
           "score": 1,
@@ -434,10 +761,10 @@ window.FINIF_MODULE_B = {
           "method": "judge:openai-gpt-4o",
           "family": "Decision and Boundary",
           "tag": "DB6",
-          "constraint": "When the task requires classification, status, or risk-level labeling, the response must use the explicit category labels supported by the packet and must not substitute a softer or unlisted label."
+          "constraint": "When the task requires classification, status, or risk-level labeling, the response must use the explicit category labels supported by the packet and must not substitute a softer or unlisted label.",
+          "global_no": 55
         },
         {
-          "global_no": 32,
           "constraint_index": 7,
           "route": "rule",
           "score": 1,
@@ -446,10 +773,10 @@ window.FINIF_MODULE_B = {
           "method": "rule_aided:decimal_places",
           "family": "Format and Presentation",
           "tag": "FP3",
-          "constraint": "Every percentage value in the response, including values written with percent or percentage points, must use exactly two decimal places."
+          "constraint": "Every percentage value in the response, including values written with percent or percentage points, must use exactly two decimal places.",
+          "global_no": 56
         },
         {
-          "global_no": 33,
           "constraint_index": 8,
           "route": "rule",
           "score": 1,
@@ -458,10 +785,10 @@ window.FINIF_MODULE_B = {
           "method": "rule_aided:first_line_format",
           "family": "Format and Presentation",
           "tag": "FP6",
-          "constraint": "The first non-empty line must be a Markdown bold title."
+          "constraint": "The first non-empty line must be a Markdown bold title.",
+          "global_no": 57
         },
         {
-          "global_no": 34,
           "constraint_index": 9,
           "route": "rule",
           "score": 1,
@@ -470,10 +797,10 @@ window.FINIF_MODULE_B = {
           "method": "rule_aided:required_keyword",
           "family": "Format and Presentation",
           "tag": "FP4",
-          "constraint": "The response must include the exact label Next action:."
+          "constraint": "The response must include the exact label Next action:.",
+          "global_no": 58
         },
         {
-          "global_no": 35,
           "constraint_index": 10,
           "route": "rule",
           "score": 1,
@@ -482,25 +809,307 @@ window.FINIF_MODULE_B = {
           "method": "rule_aided:paragraph_count",
           "family": "Format and Presentation",
           "tag": "FP3",
-          "constraint": "The response must use between four and nine non-empty paragraphs."
+          "constraint": "The response must use between four and nine non-empty paragraphs.",
+          "global_no": 59
         }
       ]
     },
     {
+      "pair_id": "tonight_hard_line_260__gpt-5.5",
+      "prompt_index": 3,
+      "response_variant": "B",
+      "item_id": "tonight_hard_line_260",
+      "workflow": "Decision and Structuring",
+      "task": "DCF valuation / pricing analysis",
+      "work_product": "missing market quote hold note",
+      "full_prompt": "Case file 260: missing market quote hold note\nCase inputs\nvaluation sensitivity extract -- Portfolio manager requests pricing for Lakeview 3.25% municipal bonds due 2036. The request includes coupon, maturity, and par amount of $2 million, but no market quote, evaluated price, yield curve input, credit spread, or comparable trade.\n\nName for this material: CFO review question. Content: A municipal bond pricing analysis requires at least one of the following current market inputs: executable quote, evaluated price, benchmark yield plus spread, or comparable trade. Without any current market input, the analyst must place the task on hold and request missing pricing evidence.\n\nterminal growth worksheet\nTitle: Client Communication Boundary\nDo not provide an estimated price to the client when the pricing analysis is on hold for missing market inputs.\n\nWhen the answer uses evidence, cite the material labels shown above.\n\nWhat to deliver\nComplete the work product as follows: the Lakeview municipal bond pricing request. Check whether any required current market input is present, list the missing pricing evidence, decide between proceed and hold, cite the procedure and request documents, draft the internal next-step request for evidence, and do not provide an estimated client price if the task is on hold.\n\nFinal work-product request\nClassify the Lakeview municipal bond pricing request. Check whether any required current market input is present, list the missing pricing evidence, decide between proceed and hold, cite the procedure and request documents, draft the internal next-step request for evidence, and do not provide an estimated client price if the task is on hold. Produce the missing market quote hold note under an audit-ready reconciliation posture: connect each final action to the active evidence and the governing rule, policy, task standard, or active-case trigger; keep active source labels beside the material facts, figures, thresholds, missing-evidence triggers, and decision points where they are used; for any calculation or reconciliation, show the source inputs, formula or comparison, result, and business implication; preserve exact source figures, dates, thresholds, names, and rule references when they control the decision; use only packet-supported category, status, classification, or risk-level labels; write every percentage value, including percent or percentage-point values, with exactly two decimal places. Open the missing market quote hold note with a Markdown bold title on the first non-empty line. Near the end, include the exact handoff label Next action:; if the packet supports no next action, write Next action: none supported by the packet. Keep the missing market quote hold note to between four and nine non-empty paragraphs, counting any table or list as part of the paragraph where it appears. Treat the layout as part of the requested finance work product, but do not omit required evidence, calculations, boundaries, or decisions just to satisfy presentation.\n",
+      "model": "gpt-5.5-2026-04-23",
+      "run_label": "gpt-5.5",
+      "response": "**Missing Market Quote Hold Note — Case file 260, Lakeview municipal bond pricing request**\n\nClassification and request facts: The Lakeview municipal bond pricing request is a municipal bond pricing analysis for Lakeview 3.25% municipal bonds due 2036, par amount $2 million, requested by the portfolio manager [valuation sensitivity extract]. The request provides coupon, maturity, and par amount only; it does not provide a market quote, evaluated price, yield curve input, credit spread, or comparable trade [valuation sensitivity extract].\n\nRequired-input check and reconciliation: Governing procedure requires at least one current market input for a municipal bond pricing analysis: executable quote, evaluated price, benchmark yield plus spread, or comparable trade [CFO review question]. Comparison performed: required current market input present = executable quote? no; evaluated price? no; benchmark yield plus spread? no, because no yield curve input and no credit spread were provided; comparable trade? no [valuation sensitivity extract; CFO review question]. Result: zero qualifying current market inputs are present. Business implication: the request does not meet the minimum evidence threshold to proceed with pricing analysis [CFO review question].\n\nMissing pricing evidence: The missing evidence is at least one of the following current market inputs: an executable market quote, an evaluated price, a benchmark yield plus spread, or a comparable trade [CFO review question]. The active request specifically lacks market quote, evaluated price, yield curve input, credit spread, and comparable trade evidence [valuation sensitivity extract].\n\nDecision: Hold. Because the analyst has no current market input, the governing procedure requires the analyst to place the task on hold and request missing pricing evidence [CFO review question]. No estimated price is provided to the client because the client-communication boundary states not to provide an estimated price when the pricing analysis is on hold for missing market inputs [terminal growth worksheet].\n\nInternal next-step request for evidence: Please provide current pricing evidence for the Lakeview 3.25% municipal bonds due 2036, par amount $2 million, before analysis resumes [valuation sensitivity extract]. Acceptable evidence is one of the following: executable quote, evaluated price, benchmark yield plus spread, or comparable trade [CFO review question]. If benchmark-based support is provided, include both benchmark yield input and credit spread support so the benchmark yield plus spread input can be reconciled [valuation sensitivity extract; CFO review question].\n\nNext action: Request missing pricing evidence and keep the Lakeview municipal bond pricing analysis on hold until at least one required current market input is received; do not provide an estimated client price while the task remains on hold [CFO review question; terminal growth worksheet].",
+      "auto_quality_score": 10,
+      "auto_quality_reason": "The response is accurate, complete, well-grounded, and follows all instructions precisely.",
+      "item_pass": false,
+      "item_csr": null,
+      "constraints": [
+        {
+          "constraint_index": 0,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "The response decides to hold the task.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Decision and Boundary",
+          "tag": "DB6",
+          "constraint": "The response must decide between proceed and hold.",
+          "global_no": 60
+        },
+        {
+          "constraint_index": 1,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "The response does not provide an estimated client price since the task is on hold.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Decision and Boundary",
+          "tag": "DB2",
+          "constraint": "The response must not provide an estimated client price if the task is on hold.",
+          "global_no": 61
+        },
+        {
+          "constraint_index": 2,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "The response connects evidence, rules, and actions in a reasoning chain.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Decision and Boundary",
+          "tag": "DB9",
+          "constraint": "The response must connect active evidence, governing rule or task standard, and final action in a single reasoning chain; it must not present facts, calculations, and recommendations as disconnected checklist fragments.",
+          "global_no": 62
+        },
+        {
+          "constraint_index": 3,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Active source labels are present next to material facts and decision points.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Evidence and Grounding",
+          "tag": "EG2",
+          "constraint": "Material facts, numeric inputs, thresholds, calculation results, missing-evidence triggers, and decision points must have active source labels next to the sentence, row, or bullet where they are used; collected end-only citations are not sufficient.",
+          "global_no": 63
+        },
+        {
+          "constraint_index": 4,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "The response shows source inputs, comparisons, results, and implications for the required checks.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Quantitative Verification",
+          "tag": "QV2",
+          "constraint": "For every requested calculation, reconciliation, variance, threshold test, date count, headroom, or shortfall, the response must show source inputs, formula or comparison, final result, and business implication; a bare computed number does not satisfy this requirement.",
+          "global_no": 64
+        },
+        {
+          "constraint_index": 5,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Exact source figures, names, and rule references are preserved.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Evidence and Grounding",
+          "tag": "EG5",
+          "constraint": "The response must preserve exact source figures, dates, thresholds, names, and rule references when they control the decision; it must not round, rename, or paraphrase them in a way that changes the controlling source meaning.",
+          "global_no": 65
+        },
+        {
+          "constraint_index": 6,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "The response uses explicit category labels supported by the packet.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Decision and Boundary",
+          "tag": "DB6",
+          "constraint": "When the task requires classification, status, or risk-level labeling, the response must use the explicit category labels supported by the packet and must not substitute a softer or unlisted label.",
+          "global_no": 66
+        },
+        {
+          "constraint_index": 7,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "All decimal numeric values use 2 decimal place(s).",
+          "method": "rule_aided:decimal_places",
+          "family": "Format and Presentation",
+          "tag": "FP3",
+          "constraint": "Every percentage value in the response, including values written with percent or percentage points, must use exactly two decimal places.",
+          "global_no": 67
+        },
+        {
+          "constraint_index": 8,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "First non-empty line uses Markdown bold format.",
+          "method": "rule_aided:first_line_format",
+          "family": "Format and Presentation",
+          "tag": "FP6",
+          "constraint": "The first non-empty line must be a Markdown bold title.",
+          "global_no": 68
+        },
+        {
+          "constraint_index": 9,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "All required keyword(s) were found.",
+          "method": "rule_aided:required_keyword",
+          "family": "Format and Presentation",
+          "tag": "FP4",
+          "constraint": "The response must include the exact label Next action:.",
+          "global_no": 69
+        },
+        {
+          "constraint_index": 10,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Response has 6 paragraph(s).",
+          "method": "rule_aided:paragraph_count",
+          "family": "Format and Presentation",
+          "tag": "FP3",
+          "constraint": "The response must use between four and nine non-empty paragraphs.",
+          "global_no": 70
+        }
+      ]
+    },
+    {
+      "pair_id": "tonight_hard_swapin_016__gpt-5.5",
+      "prompt_index": 4,
+      "response_variant": "A",
+      "item_id": "tonight_hard_swapin_016",
+      "workflow": "Decision and Structuring",
+      "task": "DCF valuation / pricing analysis",
+      "work_product": "NAV premium discount analysis",
+      "full_prompt": "Review file 97: NAV premium discount analysis\n\nAnalyst instructions\nThe answer needs to cover this request: Prepare the Harbor Bond Fund NAV premium/discount pricing note. Calculate the current-day premium or discount, calculate the prior-day premium or discount, compute the day-over-day change in basis points, test the current-day result against the 0.50% escalation threshold, cite visible material labels for prices, NAVs, and policy, and label the escalation status as escalate or no escalate.\n\nSource materials\nfund pricing file -- Harbor Bond Fund reports market price of $24.18 and NAV of $24.06 as of 2026-06-10. Prior day market price was $24.05 and prior day NAV was $24.04.\n\nName for this material: premium discount policy. Content: Premium or discount equals market price divided by NAV minus 1. A premium or discount greater than 0.50% in absolute value must be escalated to ETF Capital Markets.\n\ndesk output request (Desk Output Request)\nThe desk wants a pricing note with current day and prior day premium or discount, change in basis points, and escalation status.\n\nWhen the answer uses evidence, cite the material labels shown above.\n\nFinal work-product request\nPrepare the Harbor Bond Fund NAV premium/discount pricing note. Calculate the current-day premium or discount, calculate the prior-day premium or discount, compute the day-over-day change in basis points, test the current-day result against the 0.50% escalation threshold, cite visible material labels for prices, NAVs, and policy, and label the escalation status as escalate or no escalate. Produce the NAV premium discount analysis under an audit-ready controller review posture: connect each final action to the active evidence and the governing rule, policy, task standard, or active-case trigger; keep active source labels beside the material facts, figures, thresholds, missing-evidence triggers, and decision points where they are used; for any calculation or reconciliation, show the source inputs, formula or comparison, result, and business implication; preserve exact source figures, dates, thresholds, names, and rule references when they control the decision; use only packet-supported category, status, classification, or risk-level labels; write every percentage value, including percent or percentage-point values, with exactly two decimal places. Open the NAV premium discount analysis with a Markdown bold title on the first non-empty line. Near the end, include the exact handoff label Next action:; if the packet supports no next action, write Next action: none supported by the packet. Structure the NAV premium discount analysis with at least three level-2 Markdown headings that start with ##. Treat the layout as part of the requested finance work product, but do not omit required evidence, calculations, boundaries, or decisions just to satisfy presentation.\n",
+      "model": "gpt-5.5-2026-04-23",
+      "run_label": "gpt-5.5",
+      "response": "**Harbor Bond Fund NAV Premium/Discount Pricing Note**\n\n## Scope and governing evidence\n\n- Pricing note requested for Harbor Bond Fund, including current-day and prior-day premium/discount, day-over-day basis-point change, and escalation status [Desk Output Request].\n- Current-day source inputs:\n  - Market price: $24.18 as of 2026-06-10 [fund pricing file].\n  - NAV: $24.06 as of 2026-06-10 [fund pricing file].\n- Prior-day source inputs:\n  - Market price: $24.05 [fund pricing file].\n  - NAV: $24.04 [fund pricing file].\n- Governing calculation rule: premium or discount equals market price divided by NAV minus 1 [premium discount policy].\n- Governing escalation threshold: a premium or discount greater than 0.50% in absolute value must be escalated to ETF Capital Markets [premium discount policy].\n\n## Premium/discount calculations\n\n| Test item | Source inputs | Formula / comparison | Result | Business implication |\n|---|---:|---:|---:|---|\n| Current-day premium/discount | Market price $24.18; NAV $24.06 [fund pricing file] | $24.18 / $24.06 - 1 [premium discount policy] | 0.50% premium | Current-day market price is above NAV. Test against 0.50% absolute-value escalation threshold required [premium discount policy]. |\n| Prior-day premium/discount | Prior-day market price $24.05; prior-day NAV $24.04 [fund pricing file] | $24.05 / $24.04 - 1 [premium discount policy] | 0.04% premium | Prior-day market price was above NAV. Used as baseline for day-over-day movement [Desk Output Request]. |\n| Day-over-day change | Current-day 0.50% premium; prior-day 0.04% premium | Current-day premium/discount minus prior-day premium/discount | +45.72 basis points | Premium widened day over day. |\n\n## Escalation threshold test\n\n- Policy trigger: escalate only when the premium or discount is greater than 0.50% in absolute value [premium discount policy].\n- Current-day result: 0.50% premium, calculated from $24.18 market price and $24.06 NAV [fund pricing file; premium discount policy].\n- Escalation comparison: current-day unrounded calculation is below the “greater than 0.50%” absolute-value threshold, even though the displayed rounded result is 0.50% [premium discount policy].\n- Escalation status: **no escalate**.\n\n## Controller review conclusion\n\nHarbor Bond Fund traded at a current-day 0.50% premium to NAV as of 2026-06-10, compared with a prior-day 0.04% premium, a day-over-day widening of +45.72 basis points [fund pricing file; premium discount policy]. Because the governing policy requires escalation only for an absolute premium or discount greater than 0.50%, the current-day result does not trigger escalation to ETF Capital Markets [premium discount policy].\n\nNext action: none supported by the packet.",
+      "auto_quality_score": 10,
+      "auto_quality_reason": "The response is accurate, complete, well-structured, and fully compliant with all constraints.",
+      "item_pass": false,
+      "item_csr": null,
+      "constraints": [
+        {
+          "constraint_index": 0,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "The response connects evidence, rules, and actions in a reasoning chain.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Decision and Boundary",
+          "tag": "DB9",
+          "constraint": "The response must connect active evidence, governing rule or task standard, and final action in a single reasoning chain; it must not present facts, calculations, and recommendations as disconnected checklist fragments.",
+          "global_no": 71
+        },
+        {
+          "constraint_index": 1,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Active source labels are present next to material facts and calculations.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Evidence and Grounding",
+          "tag": "EG2",
+          "constraint": "Material facts, numeric inputs, thresholds, calculation results, missing-evidence triggers, and decision points must have active source labels next to the sentence, row, or bullet where they are used; collected end-only citations are not sufficient.",
+          "global_no": 72
+        },
+        {
+          "constraint_index": 2,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Calculations show inputs, formulas, results, and implications.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Quantitative Verification",
+          "tag": "QV2",
+          "constraint": "For every requested calculation, reconciliation, variance, threshold test, date count, headroom, or shortfall, the response must show source inputs, formula or comparison, final result, and business implication; a bare computed number does not satisfy this requirement.",
+          "global_no": 73
+        },
+        {
+          "constraint_index": 3,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Exact source figures, dates, thresholds, and names are preserved.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Evidence and Grounding",
+          "tag": "EG5",
+          "constraint": "The response must preserve exact source figures, dates, thresholds, names, and rule references when they control the decision; it must not round, rename, or paraphrase them in a way that changes the controlling source meaning.",
+          "global_no": 74
+        },
+        {
+          "constraint_index": 4,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "The response uses explicit category labels supported by the packet.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Decision and Boundary",
+          "tag": "DB6",
+          "constraint": "When the task requires classification, status, or risk-level labeling, the response must use the explicit category labels supported by the packet and must not substitute a softer or unlisted label.",
+          "global_no": 75
+        },
+        {
+          "constraint_index": 5,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "All decimal numeric values use 2 decimal place(s).",
+          "method": "rule_aided:decimal_places",
+          "family": "Format and Presentation",
+          "tag": "FP3",
+          "constraint": "Every percentage value in the response, including values written with percent or percentage points, must use exactly two decimal places.",
+          "global_no": 76
+        },
+        {
+          "constraint_index": 6,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "First non-empty line uses Markdown bold format.",
+          "method": "rule_aided:first_line_format",
+          "family": "Format and Presentation",
+          "tag": "FP6",
+          "constraint": "The first non-empty line must be a Markdown bold title.",
+          "global_no": 77
+        },
+        {
+          "constraint_index": 7,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "All required keyword(s) were found.",
+          "method": "rule_aided:required_keyword",
+          "family": "Format and Presentation",
+          "tag": "FP4",
+          "constraint": "The response must include the exact label Next action:.",
+          "global_no": 78
+        },
+        {
+          "constraint_index": 8,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Response has 4 level-2 heading(s).",
+          "method": "rule_aided:heading_level",
+          "family": "Format and Presentation",
+          "tag": "FP1",
+          "constraint": "The response must use at least three level-2 Markdown headings.",
+          "global_no": 79
+        }
+      ]
+    },
+    {
+      "pair_id": "tonight_hard_swapin_016__ds-v4-flash",
+      "prompt_index": 4,
+      "response_variant": "B",
       "item_id": "tonight_hard_swapin_016",
       "workflow": "Decision and Structuring",
       "task": "DCF valuation / pricing analysis",
       "work_product": "NAV premium discount analysis",
       "full_prompt": "Review file 97: NAV premium discount analysis\n\nAnalyst instructions\nThe answer needs to cover this request: Prepare the Harbor Bond Fund NAV premium/discount pricing note. Calculate the current-day premium or discount, calculate the prior-day premium or discount, compute the day-over-day change in basis points, test the current-day result against the 0.50% escalation threshold, cite visible material labels for prices, NAVs, and policy, and label the escalation status as escalate or no escalate.\n\nSource materials\nfund pricing file -- Harbor Bond Fund reports market price of $24.18 and NAV of $24.06 as of 2026-06-10. Prior day market price was $24.05 and prior day NAV was $24.04.\n\nName for this material: premium discount policy. Content: Premium or discount equals market price divided by NAV minus 1. A premium or discount greater than 0.50% in absolute value must be escalated to ETF Capital Markets.\n\ndesk output request (Desk Output Request)\nThe desk wants a pricing note with current day and prior day premium or discount, change in basis points, and escalation status.\n\nWhen the answer uses evidence, cite the material labels shown above.\n\nFinal work-product request\nPrepare the Harbor Bond Fund NAV premium/discount pricing note. Calculate the current-day premium or discount, calculate the prior-day premium or discount, compute the day-over-day change in basis points, test the current-day result against the 0.50% escalation threshold, cite visible material labels for prices, NAVs, and policy, and label the escalation status as escalate or no escalate. Produce the NAV premium discount analysis under an audit-ready controller review posture: connect each final action to the active evidence and the governing rule, policy, task standard, or active-case trigger; keep active source labels beside the material facts, figures, thresholds, missing-evidence triggers, and decision points where they are used; for any calculation or reconciliation, show the source inputs, formula or comparison, result, and business implication; preserve exact source figures, dates, thresholds, names, and rule references when they control the decision; use only packet-supported category, status, classification, or risk-level labels; write every percentage value, including percent or percentage-point values, with exactly two decimal places. Open the NAV premium discount analysis with a Markdown bold title on the first non-empty line. Near the end, include the exact handoff label Next action:; if the packet supports no next action, write Next action: none supported by the packet. Structure the NAV premium discount analysis with at least three level-2 Markdown headings that start with ##. Treat the layout as part of the requested finance work product, but do not omit required evidence, calculations, boundaries, or decisions just to satisfy presentation.\n",
       "model": "deepseek-v4-flash",
+      "run_label": "ds-v4-flash",
       "response": "**Harbor Bond Fund NAV Premium/Discount Pricing Note**\n\n## Current Day Premium/Discount Calculation\n\n- **Source inputs**:  \n  - Market price (current day) = $24.18 (from *fund pricing file*)  \n  - NAV (current day) = $24.06 (from *fund pricing file*)  \n  - Date: 2026-06-10  \n\n- **Formula** (from *premium discount policy*):  \n  Premium/Discount = (Market Price ÷ NAV) – 1  \n\n- **Calculation**:  \n  \\( \\frac{24.18}{24.06} - 1 = 1.0049875 - 1 = 0.0049875 \\)  \n\n- **Result**:  \n  Current-day premium = 0.49875% (rounded to two decimal places: **0.50%**)  \n\n- **Business implication**:  \n  The fund is trading at a premium of approximately 0.50% relative to its NAV. This value is just below the escalation",
+      "auto_quality_score": 2,
+      "auto_quality_reason": "Response fails to connect evidence, calculations, and decisions; lacks active source labels; rounds figures; and omits required labels.",
       "item_pass": false,
       "item_csr": 0.1111111111111111,
-      "passed_constraints": 1,
-      "total_constraints": 9,
       "constraints": [
         {
-          "global_no": 36,
           "constraint_index": 0,
           "route": "LLM",
           "score": 0,
@@ -509,10 +1118,10 @@ window.FINIF_MODULE_B = {
           "method": "judge:openai-gpt-4o",
           "family": "Decision and Boundary",
           "tag": "DB9",
-          "constraint": "The response must connect active evidence, governing rule or task standard, and final action in a single reasoning chain; it must not present facts, calculations, and recommendations as disconnected checklist fragments."
+          "constraint": "The response must connect active evidence, governing rule or task standard, and final action in a single reasoning chain; it must not present facts, calculations, and recommendations as disconnected checklist fragments.",
+          "global_no": 80
         },
         {
-          "global_no": 37,
           "constraint_index": 1,
           "route": "LLM",
           "score": 0,
@@ -521,10 +1130,10 @@ window.FINIF_MODULE_B = {
           "method": "judge:openai-gpt-4o",
           "family": "Evidence and Grounding",
           "tag": "EG2",
-          "constraint": "Material facts, numeric inputs, thresholds, calculation results, missing-evidence triggers, and decision points must have active source labels next to the sentence, row, or bullet where they are used; collected end-only citations are not sufficient."
+          "constraint": "Material facts, numeric inputs, thresholds, calculation results, missing-evidence triggers, and decision points must have active source labels next to the sentence, row, or bullet where they are used; collected end-only citations are not sufficient.",
+          "global_no": 81
         },
         {
-          "global_no": 38,
           "constraint_index": 2,
           "route": "LLM",
           "score": 0,
@@ -533,10 +1142,10 @@ window.FINIF_MODULE_B = {
           "method": "judge:openai-gpt-4o",
           "family": "Quantitative Verification",
           "tag": "QV2",
-          "constraint": "For every requested calculation, reconciliation, variance, threshold test, date count, headroom, or shortfall, the response must show source inputs, formula or comparison, final result, and business implication; a bare computed number does not satisfy this requirement."
+          "constraint": "For every requested calculation, reconciliation, variance, threshold test, date count, headroom, or shortfall, the response must show source inputs, formula or comparison, final result, and business implication; a bare computed number does not satisfy this requirement.",
+          "global_no": 82
         },
         {
-          "global_no": 39,
           "constraint_index": 3,
           "route": "LLM",
           "score": 0,
@@ -545,10 +1154,10 @@ window.FINIF_MODULE_B = {
           "method": "judge:openai-gpt-4o",
           "family": "Evidence and Grounding",
           "tag": "EG5",
-          "constraint": "The response must preserve exact source figures, dates, thresholds, names, and rule references when they control the decision; it must not round, rename, or paraphrase them in a way that changes the controlling source meaning."
+          "constraint": "The response must preserve exact source figures, dates, thresholds, names, and rule references when they control the decision; it must not round, rename, or paraphrase them in a way that changes the controlling source meaning.",
+          "global_no": 83
         },
         {
-          "global_no": 40,
           "constraint_index": 4,
           "route": "LLM",
           "score": 0,
@@ -557,10 +1166,10 @@ window.FINIF_MODULE_B = {
           "method": "judge:openai-gpt-4o",
           "family": "Decision and Boundary",
           "tag": "DB6",
-          "constraint": "When the task requires classification, status, or risk-level labeling, the response must use the explicit category labels supported by the packet and must not substitute a softer or unlisted label."
+          "constraint": "When the task requires classification, status, or risk-level labeling, the response must use the explicit category labels supported by the packet and must not substitute a softer or unlisted label.",
+          "global_no": 84
         },
         {
-          "global_no": 41,
           "constraint_index": 5,
           "route": "rule",
           "score": 0,
@@ -569,10 +1178,10 @@ window.FINIF_MODULE_B = {
           "method": "rule_aided:decimal_places",
           "family": "Format and Presentation",
           "tag": "FP3",
-          "constraint": "Every percentage value in the response, including values written with percent or percentage points, must use exactly two decimal places."
+          "constraint": "Every percentage value in the response, including values written with percent or percentage points, must use exactly two decimal places.",
+          "global_no": 85
         },
         {
-          "global_no": 42,
           "constraint_index": 6,
           "route": "rule",
           "score": 1,
@@ -581,10 +1190,10 @@ window.FINIF_MODULE_B = {
           "method": "rule_aided:first_line_format",
           "family": "Format and Presentation",
           "tag": "FP6",
-          "constraint": "The first non-empty line must be a Markdown bold title."
+          "constraint": "The first non-empty line must be a Markdown bold title.",
+          "global_no": 86
         },
         {
-          "global_no": 43,
           "constraint_index": 7,
           "route": "rule",
           "score": 0,
@@ -593,10 +1202,10 @@ window.FINIF_MODULE_B = {
           "method": "rule_aided:required_keyword",
           "family": "Format and Presentation",
           "tag": "FP4",
-          "constraint": "The response must include the exact label Next action:."
+          "constraint": "The response must include the exact label Next action:.",
+          "global_no": 87
         },
         {
-          "global_no": 44,
           "constraint_index": 8,
           "route": "rule",
           "score": 0,
@@ -605,25 +1214,29 @@ window.FINIF_MODULE_B = {
           "method": "rule_aided:heading_level",
           "family": "Format and Presentation",
           "tag": "FP1",
-          "constraint": "The response must use at least three level-2 Markdown headings."
+          "constraint": "The response must use at least three level-2 Markdown headings.",
+          "global_no": 88
         }
       ]
     },
     {
+      "pair_id": "tonight_hard_line_067__gpt-5.5",
+      "prompt_index": 5,
+      "response_variant": "A",
       "item_id": "tonight_hard_line_067",
       "workflow": "Execution, Monitoring, Reporting, and Operations",
       "task": "Reconciliation",
       "work_product": "cash ledger break table",
       "full_prompt": "Review file 67: Reconciliation\n\nAnalyst instructions\nThe answer needs to cover this request: a cash ledger break table for Oakline Treasury Sweep. Start from the bank statement and internal cash ledger balances, subtract only the documented deposit in transit, compute the adjusted cash variance, apply the $100 open-break threshold, assign the owner, include an aging bucket, and list the records that must remain traceable. Use only the provided materials and do not mark the item reconciled if the adjusted break remains above threshold.\n\nMaterials supplied\ndraw request package (Oakline Cash Ledger Extract)\nAccount: Oakline Treasury Sweep. Reconciliation date: 2026-05-29. Internal cash ledger closing balance: $1,245,880.40. Bank statement closing balance: $1,246,130.40. Open deposit in transit: $150.00. No approved write-off memo is attached. Cash break owner in the operations matrix: Treasury Operations.\n\nconstruction schedule -- Cash variance equals bank statement balance minus internal cash ledger balance, adjusted only for documented timing items. A cash item is Open when the adjusted absolute variance is greater than $100. Items over $100 with no write-off memo must not be marked reconciled. The workpaper must show ledger balance, bank balance, documented timing item, adjusted variance, status, owner, and aging bucket.\n\nName for this material: inspection evidence. Content: § 240.17a–4 17 CFR Ch. Finding Aids section of the printed volume through (31), and analogous records and at www.govinfo.gov. created pursuant to § 240.17a–3(e). (2) All check books, bank statements, § 240.17a–4 Records to be preserved by certain exchange members, brokers cancelled checks and cash reconcili- (3) All bills receivable or payable (or This section applies to the following copies thereof), paid or unpaid, relating types of entities: A member of a na- to the member, broker or dealer’s busi- tional securities exchange who trans- ness as such. acts a business in securities directly (4) Originals of all communications with others than members of a na- received and copies of all communica- tional securities exchange; a broker or tions sent (and any approvals thereof) dealer who transacts a business in se- by the member, broker or dealer (in- curities through the medium of a mem- cluding inter-office memoranda and ber of a national securities exchange; a communications) relating to its busi- broker or dealer, including an OTC de- ness as such, including all communica- rivatives dealer as that term is defined tions which are subject to rules of a in § 240.3b–12, registered pursuant to self-regulatory organization of which section 15 of the Act (15 U.S.C. the member, broker or dealer is a security-based swap dealer registered pursuant to section 15F of the Act (15 member regarding communications 78o–10) that is also a broker or with the public. As used in this para- dealer, including an OTC derivatives graph (b)(4), the term communications dealer, registered pursuant to section includes sales scripts and recordings of 15 of the Act; and a major security- telephone calls required to be main- based swap participant registered pur- tained pursuant to section 15F(g)(1) of suant to section 15F of the Act that is the Act (15 U.S.C. also a broker or dealer, including an (5) All trial balances, computations OTC derivatives dealer, registered pur- of aggregate indebtedness and net cap- suant to section 15 of the Act. Section ital (and working papers in connection 240.18a–6 (rather than this section) ap- therewith), financial statements, plies to the following types of entities: branch office reconciliations, and in- A security-based swap dealer registered ternal audit working papers, relating pursuant to section 15F of the Act that to the member, broker or dealer’s busi- is not also a broker or dealer, including ness as such. an OTC derivatives dealer, registered (6) All guarantees of accounts and all pursuant to section 15 of the Act; and a powers of attorney and other evidence major security-based swap participant of the granting of any discretionary registered pursuant to section 15F of authority given in respect of any ac- the Act that is not also a broker or count, and copies of resolutions em- dealer, including an OTC derivatives powering an agent to act on behalf of a dealer, registered pursuant to section corporation. 15 of the Act. (7) All written agreements (or copies (a) Every member, broker or dealer thereof) entered into by such member, subject to § 240.17a–3 must preserve for broker or dealer relating to its busi- a period of not less than 6 years, the ness as such, including agreements first two years in an easily accessible with respect to any account.\n\nWhen the answer uses evidence, cite the material labels shown above.\n\nFinal work-product request\nBuild a cash ledger break table for Oakline Treasury Sweep. Start from the bank statement and internal cash ledger balances, subtract only the documented deposit in transit, compute the adjusted cash variance, apply the $100 open-break threshold, assign the owner, include an aging bucket, and list the records that must remain traceable. Use only the provided materials and do not mark the item reconciled if the adjusted break remains above threshold. Produce the cash ledger break table under an audit-ready compliance escalation posture: connect each final action to the active evidence and the governing rule, policy, task standard, or active-case trigger; keep active source labels beside the material facts, figures, thresholds, missing-evidence triggers, and decision points where they are used; for any calculation or reconciliation, show the source inputs, formula or comparison, result, and business implication; preserve exact source figures, dates, thresholds, names, and rule references when they control the decision; name any required approver, authority evidence, authorization, or review prerequisite that controls the outcome; write every percentage value, including percent or percentage-point values, with exactly two decimal places. Open the cash ledger break table with a Markdown bold title on the first non-empty line. Near the end, include the exact handoff label Next action:; if the packet supports no next action, write Next action: none supported by the packet. Structure the cash ledger break table with at least three level-2 Markdown headings that start with ##. Treat the layout as part of the requested finance work product, but do not omit required evidence, calculations, boundaries, or decisions just to satisfy presentation.\n",
-      "model": "deepseek-v4-flash",
-      "response": "**Cash Ledger Break Table for Oakline Treasury Sweep**  \nReconciliation Date: 2026-05-29  \n\n---\n\n## Reconciliation Inputs  \n\n| Source                  | Description                         | Figure         | Evidence Label                                                                 |\n|-------------------------|-------------------------------------|----------------|--------------------------------------------------------------------------------|\n| Bank statement balance  | Closing balance per bank statement  | $1,246,130.40  | draw request package (Oakline Cash Ledger Extract)                            |\n| Internal cash ledger balance | Closing balance per internal ledger | $1,245,880.40  | draw request package (Oakline Cash Ledger Extract)                            |\n| Documented timing item  | Deposit in transit                  | $150.00        | draw request package (Oakline Cash Ledger Extract); no write-off memo attached |\n\n**Rule applied:** Per construction schedule, cash variance = bank statement balance minus internal cash ledger balance, adjusted only for documented timing items.  \n\n---\n\n## Adjusted Variance Calculation  \n\n**Step 1 – Adjust bank balance for documented timing item**  \n\nFormula:  \n`Adjusted bank balance = Bank statement balance − Deposit in transit`  \n\n| Input | Value | Source |\n|-------|-------|--------|\n| Bank statement balance | $1,246,130.40 | draw request package |\n| Subtract: Deposit in transit | −$150.00 | draw request package |\n| **Adjusted bank balance** | **$1,245,980.40** | Calculation |\n\n**Step 2 – Compute adjusted cash variance**  \n\nFormula:  \n`Adjusted cash variance = Adjusted bank balance − Internal cash ledger balance`  \n\n| Input | Value |\n|-------|-------|\n| Adjusted bank balance | $1,245,980.40 |\n| Internal cash ledger balance | $1,245,880.40 |\n| **Adjusted cash variance** | **$100.00** |\n\n**Business implication:** A positive variance of $100.00 indicates the adjusted bank balance exceeds the internal ledger by that amount.  \n\n---\n\n## Status and Ownership  \n\n**Threshold application:**  \n- Open‑break threshold = $100.00 (construction schedule: “open when adjusted absolute variance is greater than $100”).  \n- Adjusted absolute variance = $100.00 → **not greater than $100.00**.  \n- Because the adjusted break is **not above** the threshold, the item is **not** marked as open. It may be treated as reconciled within tolerance.",
+      "model": "gpt-5.5-2026-04-23",
+      "run_label": "gpt-5.5",
+      "response": "**Oakline Treasury Sweep — Cash Ledger Break Table**\n\n## 1. Source-controlled reconciliation inputs\n\n| Control point | Source fact / figure | Active source label | Governing rule, policy, task standard, or trigger |\n|---|---:|---|---|\n| Account | Oakline Treasury Sweep | [Oakline Cash Ledger Extract] | Workpaper must identify the cash account being reconciled. |\n| Reconciliation date | 2026-05-29 | [Oakline Cash Ledger Extract] | Workpaper must show the reconciliation population/date. |\n| Bank statement closing balance | $1,246,130.40 | [Oakline Cash Ledger Extract] | Cash variance starts from bank statement balance minus internal cash ledger balance, adjusted only for documented timing items. [construction schedule] |\n| Internal cash ledger closing balance | $1,245,880.40 | [Oakline Cash Ledger Extract] | Cash variance starts from bank statement balance minus internal cash ledger balance, adjusted only for documented timing items. [construction schedule] |\n| Documented timing item | Open deposit in transit: $150.00 | [Oakline Cash Ledger Extract] | Adjust only for documented timing items. [construction schedule] |\n| Write-off evidence | No approved write-off memo is attached | [Oakline Cash Ledger Extract] | Items over $100 with no write-off memo must not be marked reconciled. [construction schedule] |\n| Open-break threshold | Greater than $100 adjusted absolute variance | [construction schedule] | A cash item is Open when the adjusted absolute variance is greater than $100. [construction schedule] |\n| Owner | Treasury Operations | [Oakline Cash Ledger Extract] | Cash break owner in the operations matrix: Treasury Operations. [Oakline Cash Ledger Extract] |\n| Traceability / preservation baseline | Bank statements and cash reconciliations; trial balances, computations, financial statements, branch office reconciliations, and internal audit working papers | [inspection evidence] | § 240.17a–4 requires preservation of bank statements, cancelled checks and cash reconciliations, and related working papers/financial records. [inspection evidence] |\n\n## 2. Cash ledger break calculation and threshold decision\n\n**Formula required by packet:**  \nCash variance = bank statement balance − internal cash ledger balance, adjusted only for documented timing items. [construction schedule]\n\n| Step | Source inputs | Formula / comparison | Result | Business implication |\n|---|---:|---|---:|---|\n| 1. Unadjusted cash variance | Bank statement closing balance: $1,246,130.40; Internal cash ledger closing balance: $1,245,880.40 [Oakline Cash Ledger Extract] | $1,246,130.40 − $1,245,880.40 | $250.00 | Bank exceeds internal ledger by $250.00 before permitted timing adjustment. |\n| 2. Documented timing-item adjustment | Open deposit in transit: $150.00 [Oakline Cash Ledger Extract] | $250.00 − $150.00 | $100.00 | Only the documented deposit in transit has been subtracted, as required. [construction schedule] |\n| 3. Threshold test | Adjusted absolute variance: $100.00; Open-break threshold: greater than $100 [construction schedule] | Is $100.00 > $100.00? | No | The adjusted variance does **not** exceed the $100 open-break threshold. [construction schedule] |\n| 4. Write-off / reconciliation constraint | No approved write-off memo attached [Oakline Cash Ledger Extract] | Constraint applies to items over $100 without write-off memo [construction schedule] | Not triggered by $100.00 | Because the adjusted break is not greater than $100.00, the open-break prohibition for items over $100 without a write-off memo is not triggered. Do not treat this as authority to write off without review evidence. |\n\n## 3. Cash ledger break table\n\n| Account | Reconciliation date | Bank statement balance | Internal cash ledger balance | Documented timing item subtracted | Adjusted cash variance | Threshold test | Status | Owner | Aging bucket | Required review / authorization evidence |\n|---|---:|---:|---:|---:|---:|---|---|---|---|---|\n| Oakline Treasury Sweep | 2026-05-29 | $1,246,130.40 [Oakline Cash Ledger Extract] | $1,245,880.40 [Oakline Cash Ledger Extract] | $150.00 open deposit in transit [Oakline Cash Ledger Extract] | $100.00 | $100.00 is **not greater than** the $100 open-break threshold [construction schedule] | **Within threshold / not an open break**. Not marked as an open reconciled item above threshold. | Treasury Operations [Oakline Cash Ledger Extract] | Current / 0 days from 2026-05-29, based only on the reconciliation date supplied [Oakline Cash Ledger Extract] | No approved write-off memo is attached [Oakline Cash Ledger Extract]. Any final close/review signoff must remain supported by the workpaper and retained reconciliation evidence under § 240.17a–4. [inspection evidence] |\n\n## 4. Records that must remain traceable\n\nThe following records must remain traceable to support the calculation, status, owner assignment, and compliance posture:\n\n1. **Bank statement for Oakline Treasury Sweep showing the $1,246,130.40 closing balance as of 2026-05-29** — required because § 240.17a–4 includes bank statements and cash reconciliations among records to be preserved. [Oakline Cash Ledger Extract; inspection evidence]  \n2. **Internal cash ledger extract showing the $1,245,880.40 closing balance as of 2026-05-29** — required to support the ledger side of the bank-minus-ledger calculation. [Oakline Cash Ledger Extract; construction schedule]  \n3. **Documented deposit-in-transit support for $150.00** — required because only documented timing items may adjust the cash variance. [Oakline Cash Ledger Extract; construction schedule]  \n4. **Cash reconciliation workpaper showing the formula, inputs, $250.00 unadjusted variance, $150.00 timing adjustment, and $100.00 adjusted variance** — required because the workpaper must show ledger balance, bank balance, documented timing item, adjusted variance, status, owner, and aging bucket. [construction schedule]  \n5. **Operations matrix evidence assigning the cash break owner to Treasury Operations** — required to support the owner field. [Oakline Cash Ledger Extract]  \n6. **Evidence that no approved write-off memo was attached** — required because items over $100 with no write-off memo must not be marked reconciled; here, that prohibition is evaluated and not triggered because the adjusted variance is exactly $100.00, not greater than $100.00. [Oakline Cash Ledger Extract; construction schedule]  \n7. **Retention evidence for bank statements, cancelled checks where applicable, cash reconciliations, and related working papers** — required under § 240.17a–4 record-preservation language cited in the inspection evidence. [inspection evidence]\n\n## 5. Escalation posture and final action\n\n- **Decision:** The adjusted cash variance is **$100.00** after subtracting only the documented $150.00 deposit in transit. [Oakline Cash Ledger Extract; construction schedule]  \n- **Threshold outcome:** Because a cash item is Open only when the adjusted absolute variance is **greater than $100**, the $100.00 adjusted variance is **within threshold / not an open break**. [construction schedule]  \n- **Reconciliation restriction:** The packet states that items over $100 with no write-off memo must not be marked reconciled. The adjusted variance is not over $100.00, so that active-case trigger is not met. [Oakline Cash Ledger Extract; construction schedule]  \n- **Owner:** Treasury Operations remains the responsible owner for the cash break record under the operations matrix. [Oakline Cash Ledger Extract]  \n- **Aging bucket:** Current / 0 days from the supplied reconciliation date of 2026-05-29. [Oakline Cash Ledger Extract]  \n- **Traceability requirement:** The reconciliation package, bank statement, ledger extract, timing-item support, owner evidence, and workpaper calculations must remain traceable and preserved consistently with § 240.17a–4 record-preservation evidence. [inspection evidence]\n\nNext action: Treasury Operations to retain the reconciliation workpaper and supporting traceable records; no open-break escalation is supported by the packet because the adjusted variance is $100.00 and does not exceed the $100 open-break threshold.",
+      "auto_quality_score": 10,
+      "auto_quality_reason": "The response is complete, accurate, and well-grounded with all constraints satisfied.",
       "item_pass": false,
-      "item_csr": 0.6363636363636364,
-      "passed_constraints": 7,
-      "total_constraints": 11,
+      "item_csr": null,
       "constraints": [
         {
-          "global_no": 45,
           "constraint_index": 0,
           "route": "LLM",
           "score": 1,
@@ -632,10 +1245,161 @@ window.FINIF_MODULE_B = {
           "method": "judge:openai-gpt-4o",
           "family": "Evidence and Grounding",
           "tag": "EG1",
-          "constraint": "The table must use only the provided materials."
+          "constraint": "The table must use only the provided materials.",
+          "global_no": 89
         },
         {
-          "global_no": 46,
+          "constraint_index": 1,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Item is not marked reconciled as the adjusted break is not above threshold.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Decision and Boundary",
+          "tag": "DB4",
+          "constraint": "The table must not mark the item reconciled if the adjusted break remains above threshold.",
+          "global_no": 90
+        },
+        {
+          "constraint_index": 2,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Response connects evidence, rules, and actions in a reasoning chain.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Decision and Boundary",
+          "tag": "DB9",
+          "constraint": "The response must connect active evidence, governing rule or task standard, and final action in a single reasoning chain; it must not present facts, calculations, and recommendations as disconnected checklist fragments.",
+          "global_no": 91
+        },
+        {
+          "constraint_index": 3,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Active source labels are present next to material facts and decisions.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Evidence and Grounding",
+          "tag": "EG2",
+          "constraint": "Material facts, numeric inputs, thresholds, calculation results, missing-evidence triggers, and decision points must have active source labels next to the sentence, row, or bullet where they are used; collected end-only citations are not sufficient.",
+          "global_no": 92
+        },
+        {
+          "constraint_index": 4,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Calculations show inputs, formula, result, and implication.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Quantitative Verification",
+          "tag": "QV2",
+          "constraint": "For every requested calculation, reconciliation, variance, threshold test, date count, headroom, or shortfall, the response must show source inputs, formula or comparison, final result, and business implication; a bare computed number does not satisfy this requirement.",
+          "global_no": 93
+        },
+        {
+          "constraint_index": 5,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Exact source figures, dates, and thresholds are preserved.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Evidence and Grounding",
+          "tag": "EG5",
+          "constraint": "The response must preserve exact source figures, dates, thresholds, names, and rule references when they control the decision; it must not round, rename, or paraphrase them in a way that changes the controlling source meaning.",
+          "global_no": 94
+        },
+        {
+          "constraint_index": 6,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "No approval or prerequisite controls the outcome.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Decision and Boundary",
+          "tag": "DB7",
+          "constraint": "If approval, authorization, authority evidence, or a review prerequisite controls the outcome, the response must name the required approver or prerequisite and must not imply approval while that prerequisite is missing.",
+          "global_no": 95
+        },
+        {
+          "constraint_index": 7,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "No percentage values were found, so the percentage decimal-place constraint is vacuously satisfied.",
+          "method": "rule_aided:decimal_places",
+          "family": "Format and Presentation",
+          "tag": "FP3",
+          "constraint": "Every percentage value in the response, including values written with percent or percentage points, must use exactly two decimal places.",
+          "global_no": 96
+        },
+        {
+          "constraint_index": 8,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "First non-empty line uses Markdown bold format.",
+          "method": "rule_aided:first_line_format",
+          "family": "Format and Presentation",
+          "tag": "FP6",
+          "constraint": "The first non-empty line must be a Markdown bold title.",
+          "global_no": 97
+        },
+        {
+          "constraint_index": 9,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "All required keyword(s) were found.",
+          "method": "rule_aided:required_keyword",
+          "family": "Format and Presentation",
+          "tag": "FP4",
+          "constraint": "The response must include the exact label Next action:.",
+          "global_no": 98
+        },
+        {
+          "constraint_index": 10,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Response has 5 level-2 heading(s).",
+          "method": "rule_aided:heading_level",
+          "family": "Format and Presentation",
+          "tag": "FP1",
+          "constraint": "The response must use at least three level-2 Markdown headings.",
+          "global_no": 99
+        }
+      ]
+    },
+    {
+      "pair_id": "tonight_hard_line_067__ds-v4-flash",
+      "prompt_index": 5,
+      "response_variant": "B",
+      "item_id": "tonight_hard_line_067",
+      "workflow": "Execution, Monitoring, Reporting, and Operations",
+      "task": "Reconciliation",
+      "work_product": "cash ledger break table",
+      "full_prompt": "Review file 67: Reconciliation\n\nAnalyst instructions\nThe answer needs to cover this request: a cash ledger break table for Oakline Treasury Sweep. Start from the bank statement and internal cash ledger balances, subtract only the documented deposit in transit, compute the adjusted cash variance, apply the $100 open-break threshold, assign the owner, include an aging bucket, and list the records that must remain traceable. Use only the provided materials and do not mark the item reconciled if the adjusted break remains above threshold.\n\nMaterials supplied\ndraw request package (Oakline Cash Ledger Extract)\nAccount: Oakline Treasury Sweep. Reconciliation date: 2026-05-29. Internal cash ledger closing balance: $1,245,880.40. Bank statement closing balance: $1,246,130.40. Open deposit in transit: $150.00. No approved write-off memo is attached. Cash break owner in the operations matrix: Treasury Operations.\n\nconstruction schedule -- Cash variance equals bank statement balance minus internal cash ledger balance, adjusted only for documented timing items. A cash item is Open when the adjusted absolute variance is greater than $100. Items over $100 with no write-off memo must not be marked reconciled. The workpaper must show ledger balance, bank balance, documented timing item, adjusted variance, status, owner, and aging bucket.\n\nName for this material: inspection evidence. Content: § 240.17a–4 17 CFR Ch. Finding Aids section of the printed volume through (31), and analogous records and at www.govinfo.gov. created pursuant to § 240.17a–3(e). (2) All check books, bank statements, § 240.17a–4 Records to be preserved by certain exchange members, brokers cancelled checks and cash reconcili- (3) All bills receivable or payable (or This section applies to the following copies thereof), paid or unpaid, relating types of entities: A member of a na- to the member, broker or dealer’s busi- tional securities exchange who trans- ness as such. acts a business in securities directly (4) Originals of all communications with others than members of a na- received and copies of all communica- tional securities exchange; a broker or tions sent (and any approvals thereof) dealer who transacts a business in se- by the member, broker or dealer (in- curities through the medium of a mem- cluding inter-office memoranda and ber of a national securities exchange; a communications) relating to its busi- broker or dealer, including an OTC de- ness as such, including all communica- rivatives dealer as that term is defined tions which are subject to rules of a in § 240.3b–12, registered pursuant to self-regulatory organization of which section 15 of the Act (15 U.S.C. the member, broker or dealer is a security-based swap dealer registered pursuant to section 15F of the Act (15 member regarding communications 78o–10) that is also a broker or with the public. As used in this para- dealer, including an OTC derivatives graph (b)(4), the term communications dealer, registered pursuant to section includes sales scripts and recordings of 15 of the Act; and a major security- telephone calls required to be main- based swap participant registered pur- tained pursuant to section 15F(g)(1) of suant to section 15F of the Act that is the Act (15 U.S.C. also a broker or dealer, including an (5) All trial balances, computations OTC derivatives dealer, registered pur- of aggregate indebtedness and net cap- suant to section 15 of the Act. Section ital (and working papers in connection 240.18a–6 (rather than this section) ap- therewith), financial statements, plies to the following types of entities: branch office reconciliations, and in- A security-based swap dealer registered ternal audit working papers, relating pursuant to section 15F of the Act that to the member, broker or dealer’s busi- is not also a broker or dealer, including ness as such. an OTC derivatives dealer, registered (6) All guarantees of accounts and all pursuant to section 15 of the Act; and a powers of attorney and other evidence major security-based swap participant of the granting of any discretionary registered pursuant to section 15F of authority given in respect of any ac- the Act that is not also a broker or count, and copies of resolutions em- dealer, including an OTC derivatives powering an agent to act on behalf of a dealer, registered pursuant to section corporation. 15 of the Act. (7) All written agreements (or copies (a) Every member, broker or dealer thereof) entered into by such member, subject to § 240.17a–3 must preserve for broker or dealer relating to its busi- a period of not less than 6 years, the ness as such, including agreements first two years in an easily accessible with respect to any account.\n\nWhen the answer uses evidence, cite the material labels shown above.\n\nFinal work-product request\nBuild a cash ledger break table for Oakline Treasury Sweep. Start from the bank statement and internal cash ledger balances, subtract only the documented deposit in transit, compute the adjusted cash variance, apply the $100 open-break threshold, assign the owner, include an aging bucket, and list the records that must remain traceable. Use only the provided materials and do not mark the item reconciled if the adjusted break remains above threshold. Produce the cash ledger break table under an audit-ready compliance escalation posture: connect each final action to the active evidence and the governing rule, policy, task standard, or active-case trigger; keep active source labels beside the material facts, figures, thresholds, missing-evidence triggers, and decision points where they are used; for any calculation or reconciliation, show the source inputs, formula or comparison, result, and business implication; preserve exact source figures, dates, thresholds, names, and rule references when they control the decision; name any required approver, authority evidence, authorization, or review prerequisite that controls the outcome; write every percentage value, including percent or percentage-point values, with exactly two decimal places. Open the cash ledger break table with a Markdown bold title on the first non-empty line. Near the end, include the exact handoff label Next action:; if the packet supports no next action, write Next action: none supported by the packet. Structure the cash ledger break table with at least three level-2 Markdown headings that start with ##. Treat the layout as part of the requested finance work product, but do not omit required evidence, calculations, boundaries, or decisions just to satisfy presentation.\n",
+      "model": "deepseek-v4-flash",
+      "run_label": "ds-v4-flash",
+      "response": "**Cash Ledger Break Table for Oakline Treasury Sweep**  \nReconciliation Date: 2026-05-29  \n\n---\n\n## Reconciliation Inputs  \n\n| Source                  | Description                         | Figure         | Evidence Label                                                                 |\n|-------------------------|-------------------------------------|----------------|--------------------------------------------------------------------------------|\n| Bank statement balance  | Closing balance per bank statement  | $1,246,130.40  | draw request package (Oakline Cash Ledger Extract)                            |\n| Internal cash ledger balance | Closing balance per internal ledger | $1,245,880.40  | draw request package (Oakline Cash Ledger Extract)                            |\n| Documented timing item  | Deposit in transit                  | $150.00        | draw request package (Oakline Cash Ledger Extract); no write-off memo attached |\n\n**Rule applied:** Per construction schedule, cash variance = bank statement balance minus internal cash ledger balance, adjusted only for documented timing items.  \n\n---\n\n## Adjusted Variance Calculation  \n\n**Step 1 – Adjust bank balance for documented timing item**  \n\nFormula:  \n`Adjusted bank balance = Bank statement balance − Deposit in transit`  \n\n| Input | Value | Source |\n|-------|-------|--------|\n| Bank statement balance | $1,246,130.40 | draw request package |\n| Subtract: Deposit in transit | −$150.00 | draw request package |\n| **Adjusted bank balance** | **$1,245,980.40** | Calculation |\n\n**Step 2 – Compute adjusted cash variance**  \n\nFormula:  \n`Adjusted cash variance = Adjusted bank balance − Internal cash ledger balance`  \n\n| Input | Value |\n|-------|-------|\n| Adjusted bank balance | $1,245,980.40 |\n| Internal cash ledger balance | $1,245,880.40 |\n| **Adjusted cash variance** | **$100.00** |\n\n**Business implication:** A positive variance of $100.00 indicates the adjusted bank balance exceeds the internal ledger by that amount.  \n\n---\n\n## Status and Ownership  \n\n**Threshold application:**  \n- Open‑break threshold = $100.00 (construction schedule: “open when adjusted absolute variance is greater than $100”).  \n- Adjusted absolute variance = $100.00 → **not greater than $100.00**.  \n- Because the adjusted break is **not above** the threshold, the item is **not** marked as open. It may be treated as reconciled within tolerance.",
+      "auto_quality_score": 3,
+      "auto_quality_reason": "Fails central decision boundary by incorrectly treating the item as reconciled. Lacks a clear reasoning chain and consistent source labeling.",
+      "item_pass": false,
+      "item_csr": 0.6363636363636364,
+      "constraints": [
+        {
+          "constraint_index": 0,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Only provided materials are used.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Evidence and Grounding",
+          "tag": "EG1",
+          "constraint": "The table must use only the provided materials.",
+          "global_no": 100
+        },
+        {
           "constraint_index": 1,
           "route": "LLM",
           "score": 0,
@@ -644,10 +1408,10 @@ window.FINIF_MODULE_B = {
           "method": "judge:openai-gpt-4o",
           "family": "Decision and Boundary",
           "tag": "DB4",
-          "constraint": "The table must not mark the item reconciled if the adjusted break remains above threshold."
+          "constraint": "The table must not mark the item reconciled if the adjusted break remains above threshold.",
+          "global_no": 101
         },
         {
-          "global_no": 47,
           "constraint_index": 2,
           "route": "LLM",
           "score": 0,
@@ -656,10 +1420,10 @@ window.FINIF_MODULE_B = {
           "method": "judge:openai-gpt-4o",
           "family": "Decision and Boundary",
           "tag": "DB9",
-          "constraint": "The response must connect active evidence, governing rule or task standard, and final action in a single reasoning chain; it must not present facts, calculations, and recommendations as disconnected checklist fragments."
+          "constraint": "The response must connect active evidence, governing rule or task standard, and final action in a single reasoning chain; it must not present facts, calculations, and recommendations as disconnected checklist fragments.",
+          "global_no": 102
         },
         {
-          "global_no": 48,
           "constraint_index": 3,
           "route": "LLM",
           "score": 0,
@@ -668,10 +1432,10 @@ window.FINIF_MODULE_B = {
           "method": "judge:openai-gpt-4o",
           "family": "Evidence and Grounding",
           "tag": "EG2",
-          "constraint": "Material facts, numeric inputs, thresholds, calculation results, missing-evidence triggers, and decision points must have active source labels next to the sentence, row, or bullet where they are used; collected end-only citations are not sufficient."
+          "constraint": "Material facts, numeric inputs, thresholds, calculation results, missing-evidence triggers, and decision points must have active source labels next to the sentence, row, or bullet where they are used; collected end-only citations are not sufficient.",
+          "global_no": 103
         },
         {
-          "global_no": 49,
           "constraint_index": 4,
           "route": "LLM",
           "score": 1,
@@ -680,10 +1444,10 @@ window.FINIF_MODULE_B = {
           "method": "judge:openai-gpt-4o",
           "family": "Quantitative Verification",
           "tag": "QV2",
-          "constraint": "For every requested calculation, reconciliation, variance, threshold test, date count, headroom, or shortfall, the response must show source inputs, formula or comparison, final result, and business implication; a bare computed number does not satisfy this requirement."
+          "constraint": "For every requested calculation, reconciliation, variance, threshold test, date count, headroom, or shortfall, the response must show source inputs, formula or comparison, final result, and business implication; a bare computed number does not satisfy this requirement.",
+          "global_no": 104
         },
         {
-          "global_no": 50,
           "constraint_index": 5,
           "route": "LLM",
           "score": 1,
@@ -692,10 +1456,10 @@ window.FINIF_MODULE_B = {
           "method": "judge:openai-gpt-4o",
           "family": "Evidence and Grounding",
           "tag": "EG5",
-          "constraint": "The response must preserve exact source figures, dates, thresholds, names, and rule references when they control the decision; it must not round, rename, or paraphrase them in a way that changes the controlling source meaning."
+          "constraint": "The response must preserve exact source figures, dates, thresholds, names, and rule references when they control the decision; it must not round, rename, or paraphrase them in a way that changes the controlling source meaning.",
+          "global_no": 105
         },
         {
-          "global_no": 51,
           "constraint_index": 6,
           "route": "LLM",
           "score": 1,
@@ -704,10 +1468,10 @@ window.FINIF_MODULE_B = {
           "method": "judge:openai-gpt-4o",
           "family": "Decision and Boundary",
           "tag": "DB7",
-          "constraint": "If approval, authorization, authority evidence, or a review prerequisite controls the outcome, the response must name the required approver or prerequisite and must not imply approval while that prerequisite is missing."
+          "constraint": "If approval, authorization, authority evidence, or a review prerequisite controls the outcome, the response must name the required approver or prerequisite and must not imply approval while that prerequisite is missing.",
+          "global_no": 106
         },
         {
-          "global_no": 52,
           "constraint_index": 7,
           "route": "rule",
           "score": 1,
@@ -716,10 +1480,10 @@ window.FINIF_MODULE_B = {
           "method": "rule_aided:decimal_places",
           "family": "Format and Presentation",
           "tag": "FP3",
-          "constraint": "Every percentage value in the response, including values written with percent or percentage points, must use exactly two decimal places."
+          "constraint": "Every percentage value in the response, including values written with percent or percentage points, must use exactly two decimal places.",
+          "global_no": 107
         },
         {
-          "global_no": 53,
           "constraint_index": 8,
           "route": "rule",
           "score": 1,
@@ -728,10 +1492,10 @@ window.FINIF_MODULE_B = {
           "method": "rule_aided:first_line_format",
           "family": "Format and Presentation",
           "tag": "FP6",
-          "constraint": "The first non-empty line must be a Markdown bold title."
+          "constraint": "The first non-empty line must be a Markdown bold title.",
+          "global_no": 108
         },
         {
-          "global_no": 54,
           "constraint_index": 9,
           "route": "rule",
           "score": 0,
@@ -740,10 +1504,10 @@ window.FINIF_MODULE_B = {
           "method": "rule_aided:required_keyword",
           "family": "Format and Presentation",
           "tag": "FP4",
-          "constraint": "The response must include the exact label Next action:."
+          "constraint": "The response must include the exact label Next action:.",
+          "global_no": 109
         },
         {
-          "global_no": 55,
           "constraint_index": 10,
           "route": "rule",
           "score": 1,
@@ -752,25 +1516,29 @@ window.FINIF_MODULE_B = {
           "method": "rule_aided:heading_level",
           "family": "Format and Presentation",
           "tag": "FP1",
-          "constraint": "The response must use at least three level-2 Markdown headings."
+          "constraint": "The response must use at least three level-2 Markdown headings.",
+          "global_no": 110
         }
       ]
     },
     {
+      "pair_id": "tonight_hard_line_326__ds-v4-flash",
+      "prompt_index": 6,
+      "response_variant": "A",
       "item_id": "tonight_hard_line_326",
       "workflow": "Execution, Monitoring, Reporting, and Operations",
       "task": "Reconciliation",
       "work_product": "FX cash difference analysis",
       "full_prompt": "Desk note 326: FX cash difference analysis\nEvidence in the file\nintake notes\nTitle: Ridgeway FX Cash Sources\nFund: Ridgeway Global Balanced Fund. As-of date: 2026-06-02. EUR cash per custodian: EUR 725,000. Internal ledger USD equivalent: $789,250. Operations FX rate used by the ledger: 1.0880 USD/EUR. Reconciliation control rate: 1.0900 USD/EUR. FX difference owner: Fund Accounting.\n\nprofile sufficiency standard; For foreign-currency cash, recompute USD equivalent using the control FX rate and compare it with the internal ledger USD equivalent. Differences greater than $500 are open FX breaks. The analysis must show foreign amount, ledger rate, control rate, recomputed USD value, USD difference, threshold conclusion, owner, and source-rate citation.\n\nfirm checklist\nSEA Rule 17a-4 recordkeeping excerpt: operations workpapers should remain traceable to the books and records used in the review, including ledgers, blotters, confirmations, account records, memoranda, written agreements, and related communications. For this synthetic reconciliation task, the excerpt is used only as a record-retention and traceability source.\n\nWhen the answer uses evidence, cite the material labels shown above.\n\nWork product needed\nThe reviewer needs the following: an FX cash difference analysis for Ridgeway Global Balanced Fund. Convert the EUR cash balance using the control FX rate, compare that recomputed USD value with the internal ledger USD equivalent, show the impact of the ledger rate versus the control rate, test the $500 FX-break threshold, and cite the document that supplied each rate.\n\nFinal work-product request\nWrite an FX cash difference analysis for Ridgeway Global Balanced Fund. Convert the EUR cash balance using the control FX rate, compare that recomputed USD value with the internal ledger USD equivalent, show the impact of the ledger rate versus the control rate, test the $500 FX-break threshold, and cite the document that supplied each rate. Produce the FX cash difference analysis under an audit-ready diligence challenge posture: connect each final action to the active evidence and the governing rule, policy, task standard, or active-case trigger; keep active source labels beside the material facts, figures, thresholds, missing-evidence triggers, and decision points where they are used; for any calculation or reconciliation, show the source inputs, formula or comparison, result, and business implication; preserve exact source figures, dates, thresholds, names, and rule references when they control the decision; keep hypothetical, projected, target, testimonial, endorsement, ranking, sales-claim, and performance language inside the boundary supported by the packet; write every percentage value, including percent or percentage-point values, with exactly two decimal places. Open the FX cash difference analysis with a Markdown bold title on the first non-empty line. Near the end, include the exact handoff label Next action:; if the packet supports no next action, write Next action: none supported by the packet. Include one Markdown table for the audit trail whose header contains the columns Evidence, Test, Result, and Action. Keep the full response between 180 and 430 words. Treat the layout as part of the requested finance work product, but do not omit required evidence, calculations, boundaries, or decisions just to satisfy presentation.\n",
       "model": "deepseek-v4-flash",
+      "run_label": "ds-v4-flash",
       "response": "**FX Cash Difference Analysis – Ridgeway Global Balanced Fund**\n\n**Evidence & Inputs**  \n- EUR cash per custodian (intake notes): **EUR 725,000**  \n- Internal ledger USD equivalent (intake notes): **$789,250**  \n- Operations FX rate used by ledger (intake notes): **1.0880 USD/EUR**  \n- Reconciliation control rate (intake notes): **1.0900 USD/EUR**  \n- Threshold (profile sufficiency standard): **$500**  \n- FX difference owner (intake notes): **Fund Accounting**  \n- As-of date (intake notes): **2026-06-02**\n\n**Recomputation**  \nRecomputed USD value = EUR 725,000 × 1.0900 = **$790,250.00** (control rate applied).\n\n**Comparison & Difference**  \n- Recomputed USD: $790,250.00  \n- Internal ledger USD: $789,250.00  \n- USD difference: $790,250.00 − $789,250.00 = **$1,000.00** (absolute).  \n- Impact of ledger rate vs. control rate: Ledger rate (1.0880) understates USD by $1,000.00 relative to control rate (1.0900).\n\n**Threshold Test**  \n| Difference | Threshold | Break? |\n|-----------|-----------|--------|\n| $1,000.00  | $500.00   | **Yes – open FX break** |\n\n**Audit Trail Table**\n\n| Evidence | Test | Result | Action |\n|----------|------|--------|--------|\n| Intake notes (EUR 725,000, control rate 1.0900) | Recomputed USD = EUR × control rate | $790,250.00 | Use for comparison |\n| Intake notes (ledger USD $789,250, ledger rate 1.0880) | Compare recomputed USD to ledger USD | $1,000.00 difference (ledger lower) | Identify open break |\n| Profile sufficiency standard ($500 threshold) | Is absolute difference > $500? | Yes – $1,000.00 > $500.00 | Flag as FX break |\n| SEA Rule 17a-4 recordkeeping (firm checklist) | Ensure traceability to intake notes and rates | All source figures cited | Retain workpaper as audit evidence |\n\n**Business Implication**  \nA material USD $1,000.00 discrepancy exists between the internal ledger and the control rate. This open FX break requires immediate investigation by Fund Accounting (the assigned owner).\n\n**Next action:** Assign to Fund Accounting to resolve the EUR cash FX break of $1,000.00 (ledger understatement relative to control rate) and adjust the ledger or reconfirm the control rate source no later than next business day.",
+      "auto_quality_score": 3,
+      "auto_quality_reason": "Fails key grounding, quantitative verification, and decision/boundary constraints; lacks connected reasoning and active source labels.",
       "item_pass": false,
       "item_csr": 0.6,
-      "passed_constraints": 6,
-      "total_constraints": 10,
       "constraints": [
         {
-          "global_no": 56,
           "constraint_index": 0,
           "route": "LLM",
           "score": 0,
@@ -779,10 +1547,10 @@ window.FINIF_MODULE_B = {
           "method": "judge:openai-gpt-4o",
           "family": "Decision and Boundary",
           "tag": "DB9",
-          "constraint": "The response must connect active evidence, governing rule or task standard, and final action in a single reasoning chain; it must not present facts, calculations, and recommendations as disconnected checklist fragments."
+          "constraint": "The response must connect active evidence, governing rule or task standard, and final action in a single reasoning chain; it must not present facts, calculations, and recommendations as disconnected checklist fragments.",
+          "global_no": 111
         },
         {
-          "global_no": 57,
           "constraint_index": 1,
           "route": "LLM",
           "score": 0,
@@ -791,10 +1559,10 @@ window.FINIF_MODULE_B = {
           "method": "judge:openai-gpt-4o",
           "family": "Evidence and Grounding",
           "tag": "EG2",
-          "constraint": "Material facts, numeric inputs, thresholds, calculation results, missing-evidence triggers, and decision points must have active source labels next to the sentence, row, or bullet where they are used; collected end-only citations are not sufficient."
+          "constraint": "Material facts, numeric inputs, thresholds, calculation results, missing-evidence triggers, and decision points must have active source labels next to the sentence, row, or bullet where they are used; collected end-only citations are not sufficient.",
+          "global_no": 112
         },
         {
-          "global_no": 58,
           "constraint_index": 2,
           "route": "LLM",
           "score": 0,
@@ -803,10 +1571,10 @@ window.FINIF_MODULE_B = {
           "method": "judge:openai-gpt-4o",
           "family": "Quantitative Verification",
           "tag": "QV2",
-          "constraint": "For every requested calculation, reconciliation, variance, threshold test, date count, headroom, or shortfall, the response must show source inputs, formula or comparison, final result, and business implication; a bare computed number does not satisfy this requirement."
+          "constraint": "For every requested calculation, reconciliation, variance, threshold test, date count, headroom, or shortfall, the response must show source inputs, formula or comparison, final result, and business implication; a bare computed number does not satisfy this requirement.",
+          "global_no": 113
         },
         {
-          "global_no": 59,
           "constraint_index": 3,
           "route": "LLM",
           "score": 1,
@@ -815,10 +1583,10 @@ window.FINIF_MODULE_B = {
           "method": "judge:openai-gpt-4o",
           "family": "Evidence and Grounding",
           "tag": "EG5",
-          "constraint": "The response must preserve exact source figures, dates, thresholds, names, and rule references when they control the decision; it must not round, rename, or paraphrase them in a way that changes the controlling source meaning."
+          "constraint": "The response must preserve exact source figures, dates, thresholds, names, and rule references when they control the decision; it must not round, rename, or paraphrase them in a way that changes the controlling source meaning.",
+          "global_no": 114
         },
         {
-          "global_no": 60,
           "constraint_index": 4,
           "route": "LLM",
           "score": 1,
@@ -827,10 +1595,10 @@ window.FINIF_MODULE_B = {
           "method": "judge:openai-gpt-4o",
           "family": "Decision and Boundary",
           "tag": "DB8",
-          "constraint": "The response must not convert hypothetical, projected, target, testimonial, endorsement, ranking, or sales-claim language into a current, certain, approved, or substantiated performance claim unless the packet supports that boundary."
+          "constraint": "The response must not convert hypothetical, projected, target, testimonial, endorsement, ranking, or sales-claim language into a current, certain, approved, or substantiated performance claim unless the packet supports that boundary.",
+          "global_no": 115
         },
         {
-          "global_no": 61,
           "constraint_index": 5,
           "route": "rule",
           "score": 1,
@@ -839,10 +1607,10 @@ window.FINIF_MODULE_B = {
           "method": "rule_aided:decimal_places",
           "family": "Format and Presentation",
           "tag": "FP3",
-          "constraint": "Every percentage value in the response, including values written with percent or percentage points, must use exactly two decimal places."
+          "constraint": "Every percentage value in the response, including values written with percent or percentage points, must use exactly two decimal places.",
+          "global_no": 116
         },
         {
-          "global_no": 62,
           "constraint_index": 6,
           "route": "rule",
           "score": 1,
@@ -851,10 +1619,10 @@ window.FINIF_MODULE_B = {
           "method": "rule_aided:first_line_format",
           "family": "Format and Presentation",
           "tag": "FP6",
-          "constraint": "The first non-empty line must be a Markdown bold title."
+          "constraint": "The first non-empty line must be a Markdown bold title.",
+          "global_no": 117
         },
         {
-          "global_no": 63,
           "constraint_index": 7,
           "route": "rule",
           "score": 1,
@@ -863,10 +1631,10 @@ window.FINIF_MODULE_B = {
           "method": "rule_aided:required_keyword",
           "family": "Format and Presentation",
           "tag": "FP4",
-          "constraint": "The response must include the exact label Next action:."
+          "constraint": "The response must include the exact label Next action:.",
+          "global_no": 118
         },
         {
-          "global_no": 64,
           "constraint_index": 8,
           "route": "rule",
           "score": 0,
@@ -875,10 +1643,10 @@ window.FINIF_MODULE_B = {
           "method": "rule_aided:table_columns",
           "family": "Format and Presentation",
           "tag": "FP2",
-          "constraint": "The response must include a Markdown table with columns Evidence, Test, Result, and Action."
+          "constraint": "The response must include a Markdown table with columns Evidence, Test, Result, and Action.",
+          "global_no": 119
         },
         {
-          "global_no": 65,
           "constraint_index": 9,
           "route": "rule",
           "score": 1,
@@ -887,25 +1655,168 @@ window.FINIF_MODULE_B = {
           "method": "rule_aided:word_range",
           "family": "Format and Presentation",
           "tag": "FP3",
-          "constraint": "The response must be between 180 and 430 words."
+          "constraint": "The response must be between 180 and 430 words.",
+          "global_no": 120
         }
       ]
     },
     {
+      "pair_id": "tonight_hard_line_326__gpt-5.5",
+      "prompt_index": 6,
+      "response_variant": "B",
+      "item_id": "tonight_hard_line_326",
+      "workflow": "Execution, Monitoring, Reporting, and Operations",
+      "task": "Reconciliation",
+      "work_product": "FX cash difference analysis",
+      "full_prompt": "Desk note 326: FX cash difference analysis\nEvidence in the file\nintake notes\nTitle: Ridgeway FX Cash Sources\nFund: Ridgeway Global Balanced Fund. As-of date: 2026-06-02. EUR cash per custodian: EUR 725,000. Internal ledger USD equivalent: $789,250. Operations FX rate used by the ledger: 1.0880 USD/EUR. Reconciliation control rate: 1.0900 USD/EUR. FX difference owner: Fund Accounting.\n\nprofile sufficiency standard; For foreign-currency cash, recompute USD equivalent using the control FX rate and compare it with the internal ledger USD equivalent. Differences greater than $500 are open FX breaks. The analysis must show foreign amount, ledger rate, control rate, recomputed USD value, USD difference, threshold conclusion, owner, and source-rate citation.\n\nfirm checklist\nSEA Rule 17a-4 recordkeeping excerpt: operations workpapers should remain traceable to the books and records used in the review, including ledgers, blotters, confirmations, account records, memoranda, written agreements, and related communications. For this synthetic reconciliation task, the excerpt is used only as a record-retention and traceability source.\n\nWhen the answer uses evidence, cite the material labels shown above.\n\nWork product needed\nThe reviewer needs the following: an FX cash difference analysis for Ridgeway Global Balanced Fund. Convert the EUR cash balance using the control FX rate, compare that recomputed USD value with the internal ledger USD equivalent, show the impact of the ledger rate versus the control rate, test the $500 FX-break threshold, and cite the document that supplied each rate.\n\nFinal work-product request\nWrite an FX cash difference analysis for Ridgeway Global Balanced Fund. Convert the EUR cash balance using the control FX rate, compare that recomputed USD value with the internal ledger USD equivalent, show the impact of the ledger rate versus the control rate, test the $500 FX-break threshold, and cite the document that supplied each rate. Produce the FX cash difference analysis under an audit-ready diligence challenge posture: connect each final action to the active evidence and the governing rule, policy, task standard, or active-case trigger; keep active source labels beside the material facts, figures, thresholds, missing-evidence triggers, and decision points where they are used; for any calculation or reconciliation, show the source inputs, formula or comparison, result, and business implication; preserve exact source figures, dates, thresholds, names, and rule references when they control the decision; keep hypothetical, projected, target, testimonial, endorsement, ranking, sales-claim, and performance language inside the boundary supported by the packet; write every percentage value, including percent or percentage-point values, with exactly two decimal places. Open the FX cash difference analysis with a Markdown bold title on the first non-empty line. Near the end, include the exact handoff label Next action:; if the packet supports no next action, write Next action: none supported by the packet. Include one Markdown table for the audit trail whose header contains the columns Evidence, Test, Result, and Action. Keep the full response between 180 and 430 words. Treat the layout as part of the requested finance work product, but do not omit required evidence, calculations, boundaries, or decisions just to satisfy presentation.\n",
+      "model": "gpt-5.5-2026-04-23",
+      "run_label": "gpt-5.5",
+      "response": "**FX Cash Difference Analysis — Ridgeway Global Balanced Fund**\n\nAs of 2026-06-02, Ridgeway Global Balanced Fund held EUR 725,000 cash per custodian, with an internal ledger USD equivalent of $789,250 [intake notes]. The ledger used an operations FX rate of 1.0880 USD/EUR, while the reconciliation control rate is 1.0900 USD/EUR [intake notes]. The required control is to recompute foreign-currency cash using the control FX rate and compare it with the internal ledger USD equivalent; differences greater than $500 are open FX breaks [profile sufficiency standard].\n\n**Calculation and conclusion**\n\n- Source foreign amount: EUR 725,000 [intake notes].  \n- Ledger USD equivalent: $789,250 [intake notes].  \n- Ledger FX rate: 1.0880 USD/EUR [intake notes].  \n- Control FX rate: 1.0900 USD/EUR [intake notes].  \n- Recomputed USD value: EUR 725,000 × 1.0900 = **$790,250**.  \n- USD difference versus ledger: $790,250 − $789,250 = **$1,000**.  \n- Threshold test: $1,000 is greater than the $500 open-break threshold [profile sufficiency standard].  \n- Business implication: **open FX break** requiring Fund Accounting ownership, as assigned in the evidence [intake notes].\n\nThe rate-only impact of using the control rate instead of the ledger rate is EUR 725,000 × (1.0900 − 1.0880) = **$1,450**. Separately, EUR 725,000 × 1.0880 = $788,800, which is $450 below the stated internal ledger USD equivalent of $789,250 [intake notes]. The audit trail should therefore retain both the rate-source evidence and the ledger-equivalent comparison so the workpaper remains traceable to the books and records used in the review, consistent with the cited SEA Rule 17a-4 recordkeeping excerpt [firm checklist].\n\n| Evidence | Test | Result | Action |\n|---|---:|---:|---|\n| EUR 725,000 custodian cash; $789,250 ledger USD; 1.0880 ledger rate; 1.0900 control rate; owner Fund Accounting [intake notes] | Recompute EUR cash at control rate and compare to ledger USD per required FX cash standard [profile sufficiency standard] | $790,250 recomputed value; $1,000 USD difference; exceeds $500 threshold [profile sufficiency standard] | Record as open FX break; assign to Fund Accounting; retain traceable workpaper support under SEA Rule 17a-4 excerpt [firm checklist] |\n\nNext action: Fund Accounting should investigate and resolve the $1,000 open FX break.",
+      "auto_quality_score": 3,
+      "auto_quality_reason": "The response is generally well-structured and follows instructions, but it fails to consistently provide active source labels next to all material facts and decision points. Quality capped to 3/10 due to 1 central IF failure(s); severe authority/route/trigger failure.",
+      "item_pass": false,
+      "item_csr": null,
+      "constraints": [
+        {
+          "constraint_index": 0,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "The response connects evidence, governing rules, and actions in a coherent reasoning chain.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Decision and Boundary",
+          "tag": "DB9",
+          "constraint": "The response must connect active evidence, governing rule or task standard, and final action in a single reasoning chain; it must not present facts, calculations, and recommendations as disconnected checklist fragments.",
+          "global_no": 121
+        },
+        {
+          "constraint_index": 1,
+          "route": "LLM",
+          "score": 0,
+          "label": "FAIL",
+          "reason": "Not all material facts and decision points have active source labels next to them.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Evidence and Grounding",
+          "tag": "EG2",
+          "constraint": "Material facts, numeric inputs, thresholds, calculation results, missing-evidence triggers, and decision points must have active source labels next to the sentence, row, or bullet where they are used; collected end-only citations are not sufficient.",
+          "global_no": 122
+        },
+        {
+          "constraint_index": 2,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "The response shows source inputs, formula, result, and business implication for calculations.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Quantitative Verification",
+          "tag": "QV2",
+          "constraint": "For every requested calculation, reconciliation, variance, threshold test, date count, headroom, or shortfall, the response must show source inputs, formula or comparison, final result, and business implication; a bare computed number does not satisfy this requirement.",
+          "global_no": 123
+        },
+        {
+          "constraint_index": 3,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "The response preserves exact source figures, dates, thresholds, and names.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Evidence and Grounding",
+          "tag": "EG5",
+          "constraint": "The response must preserve exact source figures, dates, thresholds, names, and rule references when they control the decision; it must not round, rename, or paraphrase them in a way that changes the controlling source meaning.",
+          "global_no": 124
+        },
+        {
+          "constraint_index": 4,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "The response does not convert hypothetical or projected language into certain claims.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Decision and Boundary",
+          "tag": "DB8",
+          "constraint": "The response must not convert hypothetical, projected, target, testimonial, endorsement, ranking, or sales-claim language into a current, certain, approved, or substantiated performance claim unless the packet supports that boundary.",
+          "global_no": 125
+        },
+        {
+          "constraint_index": 5,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "No percentage values were found, so the percentage decimal-place constraint is vacuously satisfied.",
+          "method": "rule_aided:decimal_places",
+          "family": "Format and Presentation",
+          "tag": "FP3",
+          "constraint": "Every percentage value in the response, including values written with percent or percentage points, must use exactly two decimal places.",
+          "global_no": 126
+        },
+        {
+          "constraint_index": 6,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "First non-empty line uses Markdown bold format.",
+          "method": "rule_aided:first_line_format",
+          "family": "Format and Presentation",
+          "tag": "FP6",
+          "constraint": "The first non-empty line must be a Markdown bold title.",
+          "global_no": 127
+        },
+        {
+          "constraint_index": 7,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "All required keyword(s) were found.",
+          "method": "rule_aided:required_keyword",
+          "family": "Format and Presentation",
+          "tag": "FP4",
+          "constraint": "The response must include the exact label Next action:.",
+          "global_no": 128
+        },
+        {
+          "constraint_index": 8,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "All required table column(s) were found.",
+          "method": "rule_aided:table_columns",
+          "family": "Format and Presentation",
+          "tag": "FP2",
+          "constraint": "The response must include a Markdown table with columns Evidence, Test, Result, and Action.",
+          "global_no": 129
+        },
+        {
+          "constraint_index": 9,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Response has 320 mixed word/character unit(s).",
+          "method": "rule_aided:word_range",
+          "family": "Format and Presentation",
+          "tag": "FP3",
+          "constraint": "The response must be between 180 and 430 words.",
+          "global_no": 130
+        }
+      ]
+    },
+    {
+      "pair_id": "tonight_hard_swapin_027__gpt-5.5",
+      "prompt_index": 7,
+      "response_variant": "A",
       "item_id": "tonight_hard_swapin_027",
       "workflow": "Execution, Monitoring, Reporting, and Operations",
       "task": "Board / regulatory reporting",
       "work_product": "product governance committee report",
       "full_prompt": "Case file 274: Product governance committee report\n\nReviewer request\nPlease complete this request: Write a product governance committee report for Newbridge Advisory Platform. Classify each watched product as Continue, Watch with conditions, or Suspend new sales, apply the complaint, concentration, and training triggers, list required conditions or actions, and avoid stating that any product has been terminated.\n\nEvidence in the file\nproduct governance metrics -- Entity: Newbridge Advisory Platform. Period: May 2026. Products under watch: Structured Note Series A, Non-traded REIT Income Fund. Complaints: Structured Note Series A has 7 complaints; Non-traded REIT Income Fund has 2 complaints. Sales concentration: Structured Note Series A 18% of new sales; watch threshold 15%. Training completion for Non-traded REIT Income Fund: 88%; required 95%.\n\nName for this material: governance committee rules. Content: The committee report must classify each watched product as Continue, Watch with conditions, or Suspend new sales. Suspend new sales is required if both complaint count exceeds 5 and sales concentration exceeds 15%. Watch with conditions is required for training completion below 95%.\n\naction log (Action Log)\nProposed conditions: additional representative training, updated risk disclosure, and sales supervision review. No product termination decision has been approved.\n\nWhen the answer uses evidence, cite the material labels shown above.\n\nFinal work-product request\nWrite a product governance committee report for Newbridge Advisory Platform. Classify each watched product as Continue, Watch with conditions, or Suspend new sales, apply the complaint, concentration, and training triggers, list required conditions or actions, and avoid stating that any product has been terminated. Produce the product governance committee report under an audit-ready credit committee posture: connect each final action to the active evidence and the governing rule, policy, task standard, or active-case trigger; keep active source labels beside the material facts, figures, thresholds, missing-evidence triggers, and decision points where they are used; for any calculation or reconciliation, show the source inputs, formula or comparison, result, and business implication; preserve exact source figures, dates, thresholds, names, and rule references when they control the decision; use only packet-supported category, status, classification, or risk-level labels; write every percentage value, including percent or percentage-point values, with exactly two decimal places. Open the product governance committee report with a Markdown bold title on the first non-empty line. Near the end, include the exact handoff label Next action:; if the packet supports no next action, write Next action: none supported by the packet. Include at least two short Markdown blockquote lines beginning with > for source or rule excerpts that anchor the decision. Use at least eight complete sentences in the full response. Treat the layout as part of the requested finance work product, but do not omit required evidence, calculations, boundaries, or decisions just to satisfy presentation.\n",
-      "model": "deepseek-v4-flash",
-      "response": "**Product Governance Committee Report – Newbridge Advisory Platform**  \n**Period: May 2026**  \n\nThe committee convened to review two products under active surveillance: Structured Note Series A and Non-traded REIT Income Fund. Classifications and required actions are determined solely by the thresholds and rules documented in the governance committee rules packet and the metrics from the product governance metrics packet. No product termination decision has been approved; all outcomes are limited to the categories Continue, Watch with conditions, or Suspend new sales.\n\n> “Suspend new sales is required if both complaint count exceeds 5 and sales concentration exceeds 15%.” (governance committee rules)  \n> “Proposed conditions: additional representative training, updated risk disclosure, and sales supervision review.” (action log)\n\n**Structured Note Series A**  \n- **Evidence**: complaint count = 7 (product governance metrics), sales concentration = 18.00% (product governance metrics).  \n- **Trigger application**: Complaint count 7 > 5.00 AND sales concentration 18.00% > 15.00% → both conditions satisfied.  \n- **Classification**: **Suspend new sales**.  \n- **Required actions**: The committee orders immediate suspension of all new sales of Structured Note Series A. To lift the suspension, the firm must implement all three conditions from the action log: additional representative training, updated risk disclosure, and a sales supervision review. Progress on these conditions will be re-evaluated at the next monthly committee meeting.\n\n**Non-traded REIT Income Fund**  \n- **Evidence**: complaint count = 2 (product governance metrics), training completion = 88.00% (product governance metrics).  \n- **Trigger application**: Complaints 2.00 ≤ 5.00, so the “Suspend new sales” dual trigger is not met. Training completion 88.00% < 95.00% → “Watch with conditions” trigger applies per governance committee rules.  \n- **Classification**: **Watch with conditions**.  \n- **Required actions**: The committee imposes the three conditions from the action log: additional representative training, updated risk disclosure, and sales supervision review. The product remains available for new sales, but the conditions must be fulfilled within 30 days. A follow-up report on training completion will be required to confirm it reaches the 95.00% threshold.\n\nThe committee emphasizes that all evidence—complaint counts, concentration percentages, and training rates—is taken directly from the product governance metrics for May 2026. The decisions flow from the explicit comparison of each metric against the governance committee rules thresholds (5.00 for complaints, 15.00% for concentration, and 95.00% for training). No other factors or undocumented criteria were considered.\n\n**Next action:** Implement conditions for Non-traded REIT Income Fund and initiate the suspension process for Structured Note Series A, including a 30-day remediation plan monitored by the product governance team.",
+      "model": "gpt-5.5-2026-04-23",
+      "run_label": "gpt-5.5",
+      "response": "**Product Governance Committee Report — Newbridge Advisory Platform, May 2026**\n\n**Scope and governing standard.** This report covers the watched products for Newbridge Advisory Platform for the May 2026 period: Structured Note Series A and Non-traded REIT Income Fund [product governance metrics]. The committee classification options supported by the packet are **Continue**, **Watch with conditions**, and **Suspend new sales** [governance committee rules]. The governing rule requires **Suspend new sales** when complaint count exceeds 5 and sales concentration exceeds 15.00% [governance committee rules]. The governing rule also requires **Watch with conditions** when training completion is below 95.00% [governance committee rules].\n\n> “Products under watch: Structured Note Series A, Non-traded REIT Income Fund.” [product governance metrics]  \n> “Suspend new sales is required if both complaint count exceeds 5 and sales concentration exceeds 15.00%.” [governance committee rules]  \n> “Watch with conditions is required for training completion below 95.00%.” [governance committee rules]\n\n### Committee classification summary\n\n| Product | Active evidence and trigger application | Calculation / comparison | Classification | Required conditions or actions |\n|---|---|---:|---|---|\n| Structured Note Series A | Complaints are 7 [product governance metrics]. Sales concentration is 18.00% of new sales [product governance metrics]. The suspend trigger applies when complaints exceed 5 and sales concentration exceeds 15.00% [governance committee rules]. | Complaint comparison: 7 > 5 = trigger met. Concentration comparison: 18.00% > 15.00% = trigger met. Business implication: both required elements are met, so new sales must be suspended under the rule. | **Suspend new sales** | Implement sales supervision review, updated risk disclosure, and additional representative training as supported proposed conditions [Action Log]. |\n| Non-traded REIT Income Fund | Complaints are 2 [product governance metrics]. Training completion is 88.00%, and the required level is 95.00% [product governance metrics; governance committee rules]. The training trigger requires Watch with conditions when completion is below 95.00% [governance committee rules]. | Training comparison: 88.00% < 95.00% = trigger met. Training gap: 95.00% − 88.00% = 7.00 percentage points. Business implication: training completion is below the required level, so the product must be placed on Watch with conditions. | **Watch with conditions** | Require additional representative training, updated risk disclosure, and sales supervision review as supported proposed conditions [Action Log]. |\n\n### Product-by-product committee findings\n\nFor **Structured Note Series A**, the active complaint count is 7 [product governance metrics]. The applicable complaint trigger threshold is more than 5 complaints [governance committee rules]. Because 7 is greater than 5, the complaint trigger is met. The active sales concentration is 18.00% of new sales [product governance metrics]. The applicable concentration threshold is more than 15.00% [governance committee rules]. Because 18.00% is greater than 15.00%, the concentration trigger is also met. Since both the complaint and sales concentration triggers are met, the required classification is **Suspend new sales** [governance committee rules]. The required actions are sales supervision review, updated risk disclosure, and additional representative training, each of which is supported by the proposed conditions in the action log [Action Log].\n\nFor **Non-traded REIT Income Fund**, the active complaint count is 2 [product governance metrics]. The packet does not support applying the combined complaint-plus-concentration suspend trigger to this product because the decisive active trigger supplied for this product is training completion below the required level [product governance metrics; governance committee rules]. Training completion is 88.00%, compared with the required 95.00% completion level [product governance metrics; governance committee rules]. The calculation is 88.00% < 95.00%, producing a 7.00 percentage-point shortfall. Because training completion is below 95.00%, the required classification is **Watch with conditions** [governance committee rules]. The required conditions are additional representative training, updated risk disclosure, and sales supervision review, as supported by the action log [Action Log].\n\n### Committee decision record\n\nThe committee classifies **Structured Note Series A** as **Suspend new sales** based on the combined complaint and sales concentration trigger [product governance metrics; governance committee rules]. The committee classifies **Non-traded REIT Income Fund** as **Watch with conditions** based on the training completion trigger [product governance metrics; governance committee rules]. The actions assigned in this report are limited to the packet-supported conditions of additional representative training, updated risk disclosure, and sales supervision review [Action Log]. No product termination decision is included in this report, and the action log states that no such decision has been approved [Action Log].\n\nNext action: execute additional representative training, updated risk disclosure, and sales supervision review for the watched products as specified above [Action Log].",
+      "auto_quality_score": 10,
+      "auto_quality_reason": "The response is excellent, fully compliant with all constraints, and provides a complete, accurate, and well-structured report.",
       "item_pass": false,
-      "item_csr": 0.7272727272727273,
-      "passed_constraints": 8,
-      "total_constraints": 11,
+      "item_csr": null,
       "constraints": [
         {
-          "global_no": 66,
           "constraint_index": 0,
           "route": "LLM",
           "score": 1,
@@ -914,10 +1825,10 @@ window.FINIF_MODULE_B = {
           "method": "judge:openai-gpt-4o",
           "family": "Decision and Boundary",
           "tag": "DB4",
-          "constraint": "The report must avoid stating that any product has been terminated."
+          "constraint": "The report must avoid stating that any product has been terminated.",
+          "global_no": 131
         },
         {
-          "global_no": 67,
           "constraint_index": 1,
           "route": "LLM",
           "score": 1,
@@ -926,10 +1837,161 @@ window.FINIF_MODULE_B = {
           "method": "judge:openai-gpt-4o",
           "family": "Decision and Boundary",
           "tag": "DB9",
-          "constraint": "The response must connect active evidence, governing rule or task standard, and final action in a single reasoning chain; it must not present facts, calculations, and recommendations as disconnected checklist fragments."
+          "constraint": "The response must connect active evidence, governing rule or task standard, and final action in a single reasoning chain; it must not present facts, calculations, and recommendations as disconnected checklist fragments.",
+          "global_no": 132
         },
         {
-          "global_no": 68,
+          "constraint_index": 2,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Active source labels are used next to material facts and decisions.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Evidence and Grounding",
+          "tag": "EG2",
+          "constraint": "Material facts, numeric inputs, thresholds, calculation results, missing-evidence triggers, and decision points must have active source labels next to the sentence, row, or bullet where they are used; collected end-only citations are not sufficient.",
+          "global_no": 133
+        },
+        {
+          "constraint_index": 3,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Calculations show inputs, comparisons, results, and implications.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Quantitative Verification",
+          "tag": "QV2",
+          "constraint": "For every requested calculation, reconciliation, variance, threshold test, date count, headroom, or shortfall, the response must show source inputs, formula or comparison, final result, and business implication; a bare computed number does not satisfy this requirement.",
+          "global_no": 134
+        },
+        {
+          "constraint_index": 4,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Exact source figures, thresholds, and rule references are preserved.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Evidence and Grounding",
+          "tag": "EG5",
+          "constraint": "The response must preserve exact source figures, dates, thresholds, names, and rule references when they control the decision; it must not round, rename, or paraphrase them in a way that changes the controlling source meaning.",
+          "global_no": 135
+        },
+        {
+          "constraint_index": 5,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Explicit category labels from the packet are used correctly.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Decision and Boundary",
+          "tag": "DB6",
+          "constraint": "When the task requires classification, status, or risk-level labeling, the response must use the explicit category labels supported by the packet and must not substitute a softer or unlisted label.",
+          "global_no": 136
+        },
+        {
+          "constraint_index": 6,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "All decimal numeric values use 2 decimal place(s).",
+          "method": "rule_aided:decimal_places",
+          "family": "Format and Presentation",
+          "tag": "FP3",
+          "constraint": "Every percentage value in the response, including values written with percent or percentage points, must use exactly two decimal places.",
+          "global_no": 137
+        },
+        {
+          "constraint_index": 7,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "First non-empty line uses Markdown bold format.",
+          "method": "rule_aided:first_line_format",
+          "family": "Format and Presentation",
+          "tag": "FP6",
+          "constraint": "The first non-empty line must be a Markdown bold title.",
+          "global_no": 138
+        },
+        {
+          "constraint_index": 8,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "All required keyword(s) were found.",
+          "method": "rule_aided:required_keyword",
+          "family": "Format and Presentation",
+          "tag": "FP4",
+          "constraint": "The response must include the exact label Next action:.",
+          "global_no": 139
+        },
+        {
+          "constraint_index": 9,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Response has 3 blockquote line(s).",
+          "method": "rule_aided:blockquote_count",
+          "family": "Format and Presentation",
+          "tag": "FP2",
+          "constraint": "The response must include at least two Markdown blockquote lines.",
+          "global_no": 140
+        },
+        {
+          "constraint_index": 10,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Response has 10 sentence(s).",
+          "method": "rule_aided:sentence_count",
+          "family": "Format and Presentation",
+          "tag": "FP3",
+          "constraint": "The response must contain at least eight complete sentences.",
+          "global_no": 141
+        }
+      ]
+    },
+    {
+      "pair_id": "tonight_hard_swapin_027__ds-v4-flash",
+      "prompt_index": 7,
+      "response_variant": "B",
+      "item_id": "tonight_hard_swapin_027",
+      "workflow": "Execution, Monitoring, Reporting, and Operations",
+      "task": "Board / regulatory reporting",
+      "work_product": "product governance committee report",
+      "full_prompt": "Case file 274: Product governance committee report\n\nReviewer request\nPlease complete this request: Write a product governance committee report for Newbridge Advisory Platform. Classify each watched product as Continue, Watch with conditions, or Suspend new sales, apply the complaint, concentration, and training triggers, list required conditions or actions, and avoid stating that any product has been terminated.\n\nEvidence in the file\nproduct governance metrics -- Entity: Newbridge Advisory Platform. Period: May 2026. Products under watch: Structured Note Series A, Non-traded REIT Income Fund. Complaints: Structured Note Series A has 7 complaints; Non-traded REIT Income Fund has 2 complaints. Sales concentration: Structured Note Series A 18% of new sales; watch threshold 15%. Training completion for Non-traded REIT Income Fund: 88%; required 95%.\n\nName for this material: governance committee rules. Content: The committee report must classify each watched product as Continue, Watch with conditions, or Suspend new sales. Suspend new sales is required if both complaint count exceeds 5 and sales concentration exceeds 15%. Watch with conditions is required for training completion below 95%.\n\naction log (Action Log)\nProposed conditions: additional representative training, updated risk disclosure, and sales supervision review. No product termination decision has been approved.\n\nWhen the answer uses evidence, cite the material labels shown above.\n\nFinal work-product request\nWrite a product governance committee report for Newbridge Advisory Platform. Classify each watched product as Continue, Watch with conditions, or Suspend new sales, apply the complaint, concentration, and training triggers, list required conditions or actions, and avoid stating that any product has been terminated. Produce the product governance committee report under an audit-ready credit committee posture: connect each final action to the active evidence and the governing rule, policy, task standard, or active-case trigger; keep active source labels beside the material facts, figures, thresholds, missing-evidence triggers, and decision points where they are used; for any calculation or reconciliation, show the source inputs, formula or comparison, result, and business implication; preserve exact source figures, dates, thresholds, names, and rule references when they control the decision; use only packet-supported category, status, classification, or risk-level labels; write every percentage value, including percent or percentage-point values, with exactly two decimal places. Open the product governance committee report with a Markdown bold title on the first non-empty line. Near the end, include the exact handoff label Next action:; if the packet supports no next action, write Next action: none supported by the packet. Include at least two short Markdown blockquote lines beginning with > for source or rule excerpts that anchor the decision. Use at least eight complete sentences in the full response. Treat the layout as part of the requested finance work product, but do not omit required evidence, calculations, boundaries, or decisions just to satisfy presentation.\n",
+      "model": "deepseek-v4-flash",
+      "run_label": "ds-v4-flash",
+      "response": "**Product Governance Committee Report – Newbridge Advisory Platform**  \n**Period: May 2026**  \n\nThe committee convened to review two products under active surveillance: Structured Note Series A and Non-traded REIT Income Fund. Classifications and required actions are determined solely by the thresholds and rules documented in the governance committee rules packet and the metrics from the product governance metrics packet. No product termination decision has been approved; all outcomes are limited to the categories Continue, Watch with conditions, or Suspend new sales.\n\n> “Suspend new sales is required if both complaint count exceeds 5 and sales concentration exceeds 15%.” (governance committee rules)  \n> “Proposed conditions: additional representative training, updated risk disclosure, and sales supervision review.” (action log)\n\n**Structured Note Series A**  \n- **Evidence**: complaint count = 7 (product governance metrics), sales concentration = 18.00% (product governance metrics).  \n- **Trigger application**: Complaint count 7 > 5.00 AND sales concentration 18.00% > 15.00% → both conditions satisfied.  \n- **Classification**: **Suspend new sales**.  \n- **Required actions**: The committee orders immediate suspension of all new sales of Structured Note Series A. To lift the suspension, the firm must implement all three conditions from the action log: additional representative training, updated risk disclosure, and a sales supervision review. Progress on these conditions will be re-evaluated at the next monthly committee meeting.\n\n**Non-traded REIT Income Fund**  \n- **Evidence**: complaint count = 2 (product governance metrics), training completion = 88.00% (product governance metrics).  \n- **Trigger application**: Complaints 2.00 ≤ 5.00, so the “Suspend new sales” dual trigger is not met. Training completion 88.00% < 95.00% → “Watch with conditions” trigger applies per governance committee rules.  \n- **Classification**: **Watch with conditions**.  \n- **Required actions**: The committee imposes the three conditions from the action log: additional representative training, updated risk disclosure, and sales supervision review. The product remains available for new sales, but the conditions must be fulfilled within 30 days. A follow-up report on training completion will be required to confirm it reaches the 95.00% threshold.\n\nThe committee emphasizes that all evidence—complaint counts, concentration percentages, and training rates—is taken directly from the product governance metrics for May 2026. The decisions flow from the explicit comparison of each metric against the governance committee rules thresholds (5.00 for complaints, 15.00% for concentration, and 95.00% for training). No other factors or undocumented criteria were considered.\n\n**Next action:** Implement conditions for Non-traded REIT Income Fund and initiate the suspension process for Structured Note Series A, including a 30-day remediation plan monitored by the product governance team.",
+      "auto_quality_score": 3,
+      "auto_quality_reason": "Fails to provide source labels for all decision points and lacks detailed calculation explanations. Quality capped to 3/10 due to 2 central IF failure(s); multiple central failures; severe authority/route/trigger failure.",
+      "item_pass": false,
+      "item_csr": 0.7272727272727273,
+      "constraints": [
+        {
+          "constraint_index": 0,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "No product termination is stated.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Decision and Boundary",
+          "tag": "DB4",
+          "constraint": "The report must avoid stating that any product has been terminated.",
+          "global_no": 142
+        },
+        {
+          "constraint_index": 1,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Evidence, rules, and actions are connected in reasoning chains.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Decision and Boundary",
+          "tag": "DB9",
+          "constraint": "The response must connect active evidence, governing rule or task standard, and final action in a single reasoning chain; it must not present facts, calculations, and recommendations as disconnected checklist fragments.",
+          "global_no": 143
+        },
+        {
           "constraint_index": 2,
           "route": "LLM",
           "score": 0,
@@ -938,10 +2000,10 @@ window.FINIF_MODULE_B = {
           "method": "judge:openai-gpt-4o",
           "family": "Evidence and Grounding",
           "tag": "EG2",
-          "constraint": "Material facts, numeric inputs, thresholds, calculation results, missing-evidence triggers, and decision points must have active source labels next to the sentence, row, or bullet where they are used; collected end-only citations are not sufficient."
+          "constraint": "Material facts, numeric inputs, thresholds, calculation results, missing-evidence triggers, and decision points must have active source labels next to the sentence, row, or bullet where they are used; collected end-only citations are not sufficient.",
+          "global_no": 144
         },
         {
-          "global_no": 69,
           "constraint_index": 3,
           "route": "LLM",
           "score": 0,
@@ -950,10 +2012,10 @@ window.FINIF_MODULE_B = {
           "method": "judge:openai-gpt-4o",
           "family": "Quantitative Verification",
           "tag": "QV2",
-          "constraint": "For every requested calculation, reconciliation, variance, threshold test, date count, headroom, or shortfall, the response must show source inputs, formula or comparison, final result, and business implication; a bare computed number does not satisfy this requirement."
+          "constraint": "For every requested calculation, reconciliation, variance, threshold test, date count, headroom, or shortfall, the response must show source inputs, formula or comparison, final result, and business implication; a bare computed number does not satisfy this requirement.",
+          "global_no": 145
         },
         {
-          "global_no": 70,
           "constraint_index": 4,
           "route": "LLM",
           "score": 1,
@@ -962,10 +2024,10 @@ window.FINIF_MODULE_B = {
           "method": "judge:openai-gpt-4o",
           "family": "Evidence and Grounding",
           "tag": "EG5",
-          "constraint": "The response must preserve exact source figures, dates, thresholds, names, and rule references when they control the decision; it must not round, rename, or paraphrase them in a way that changes the controlling source meaning."
+          "constraint": "The response must preserve exact source figures, dates, thresholds, names, and rule references when they control the decision; it must not round, rename, or paraphrase them in a way that changes the controlling source meaning.",
+          "global_no": 146
         },
         {
-          "global_no": 71,
           "constraint_index": 5,
           "route": "LLM",
           "score": 1,
@@ -974,10 +2036,10 @@ window.FINIF_MODULE_B = {
           "method": "judge:openai-gpt-4o",
           "family": "Decision and Boundary",
           "tag": "DB6",
-          "constraint": "When the task requires classification, status, or risk-level labeling, the response must use the explicit category labels supported by the packet and must not substitute a softer or unlisted label."
+          "constraint": "When the task requires classification, status, or risk-level labeling, the response must use the explicit category labels supported by the packet and must not substitute a softer or unlisted label.",
+          "global_no": 147
         },
         {
-          "global_no": 72,
           "constraint_index": 6,
           "route": "rule",
           "score": 0,
@@ -986,10 +2048,10 @@ window.FINIF_MODULE_B = {
           "method": "rule_aided:decimal_places",
           "family": "Format and Presentation",
           "tag": "FP3",
-          "constraint": "Every percentage value in the response, including values written with percent or percentage points, must use exactly two decimal places."
+          "constraint": "Every percentage value in the response, including values written with percent or percentage points, must use exactly two decimal places.",
+          "global_no": 148
         },
         {
-          "global_no": 73,
           "constraint_index": 7,
           "route": "rule",
           "score": 1,
@@ -998,10 +2060,10 @@ window.FINIF_MODULE_B = {
           "method": "rule_aided:first_line_format",
           "family": "Format and Presentation",
           "tag": "FP6",
-          "constraint": "The first non-empty line must be a Markdown bold title."
+          "constraint": "The first non-empty line must be a Markdown bold title.",
+          "global_no": 149
         },
         {
-          "global_no": 74,
           "constraint_index": 8,
           "route": "rule",
           "score": 1,
@@ -1010,10 +2072,10 @@ window.FINIF_MODULE_B = {
           "method": "rule_aided:required_keyword",
           "family": "Format and Presentation",
           "tag": "FP4",
-          "constraint": "The response must include the exact label Next action:."
+          "constraint": "The response must include the exact label Next action:.",
+          "global_no": 150
         },
         {
-          "global_no": 75,
           "constraint_index": 9,
           "route": "rule",
           "score": 1,
@@ -1022,10 +2084,10 @@ window.FINIF_MODULE_B = {
           "method": "rule_aided:blockquote_count",
           "family": "Format and Presentation",
           "tag": "FP2",
-          "constraint": "The response must include at least two Markdown blockquote lines."
+          "constraint": "The response must include at least two Markdown blockquote lines.",
+          "global_no": 151
         },
         {
-          "global_no": 76,
           "constraint_index": 10,
           "route": "rule",
           "score": 1,
@@ -1034,25 +2096,29 @@ window.FINIF_MODULE_B = {
           "method": "rule_aided:sentence_count",
           "family": "Format and Presentation",
           "tag": "FP3",
-          "constraint": "The response must contain at least eight complete sentences."
+          "constraint": "The response must contain at least eight complete sentences.",
+          "global_no": 152
         }
       ]
     },
     {
+      "pair_id": "tonight_hard_swapin_047__ds-v4-flash",
+      "prompt_index": 8,
+      "response_variant": "A",
       "item_id": "tonight_hard_swapin_047",
       "workflow": "Execution, Monitoring, Reporting, and Operations",
       "task": "Trade / loan / investment execution check",
       "work_product": "allocation implementation variance table",
       "full_prompt": "Review file 481: Allocation implementation variance table\n\nAnalyst instructions\nThe answer needs to cover this request: Prepare an allocation implementation variance table for Riverton Family IPS. Recalculate each executed sleeve as a percentage of total portfolio value, compare it with the approved target, compute percentage-point variance, flag sleeves outside the 1.0 percentage-point tolerance, test the alternatives restriction, and conclude Implemented as approved or Implementation exception. Use visible material labels for the target and executed amounts.\n\nMaterials supplied\nriverton approved allocation -- Riverton Family IPS implementation approval for 2026-06-20: total portfolio value 4,000,000. Approved allocation: Core equity 1,800,000 target 45.0%; municipal bonds 1,400,000 target 35.0%; alternatives 600,000 target 15.0%; cash 200,000 target 5.0%. Client restriction: alternatives must not exceed 15.0%.\n\nName for this material: riverton executed allocation. Content: Executed allocation: Core equity 1,760,000; municipal bonds 1,360,000; alternatives 720,000; cash 160,000. Implementation tolerance is plus or minus 1.0 percentage point from approved target. Any sleeve outside tolerance or violating a client restriction is an Implementation exception.\n\nWhen the answer uses evidence, cite the material labels shown above.\n\nFinal work-product request\nPrepare an allocation implementation variance table for Riverton Family IPS. Recalculate each executed sleeve as a percentage of total portfolio value, compare it with the approved target, compute percentage-point variance, flag sleeves outside the 1.0 percentage-point tolerance, test the alternatives restriction, and conclude Implemented as approved or Implementation exception. Use visible material labels for the target and executed amounts. Produce the allocation implementation variance table under an audit-ready controller review posture: connect each final action to the active evidence and the governing rule, policy, task standard, or active-case trigger; keep active source labels beside the material facts, figures, thresholds, missing-evidence triggers, and decision points where they are used; for any calculation or reconciliation, show the source inputs, formula or comparison, result, and business implication; identify any active breach, exception, waiver need, deficiency, unresolved inconsistency, control gap, or non-compliance indicator rather than treating the workflow as cleared; name any required approver, authority evidence, authorization, or review prerequisite that controls the outcome; write every percentage value, including percent or percentage-point values, with exactly two decimal places. Open the allocation implementation variance table with a Markdown bold title on the first non-empty line. Near the end, include the exact handoff label Next action:; if the packet supports no next action, write Next action: none supported by the packet. Include one Markdown table for the audit trail whose header contains the columns Evidence, Test, Result, and Action. Keep the full response between 180 and 430 words. Treat the layout as part of the requested finance work product, but do not omit required evidence, calculations, boundaries, or decisions just to satisfy presentation.\n",
       "model": "deepseek-v4-flash",
+      "run_label": "ds-v4-flash",
       "response": "**Allocation Implementation Variance Table – Riverton Family IPS**\n\n| Sleeve | Target % (riverton approved allocation) | Executed % (riverton executed allocation) | Variance (pp) | Within ±1.0 pp Tolerance? | Client Restriction (Alternatives ≤15.0%) | Flag |\n|--------|----------------------------------------|-------------------------------------------|---------------|---------------------------|------------------------------------------|------|\n| Core equity | 45.00% | 44.00% | -1.00 | Yes (at limit) | N/A | – |\n| Municipal bonds | 35.00% | 34.00% | -1.00 | Yes (at limit) | N/A | – |\n| Alternatives | 15.00% | 18.00% | +3.00 | **No** | **Exceeded (18.00% > 15.00%)** | **Exception** |\n| Cash | 5.00% | 4.00% | -1.00 | Yes (at limit) | N/A | – |\n| **Total portfolio value** | $4,000,000 (riverton approved allocation) | $4,000,000 (sum of executed amounts) | – | – | – | – |\n\n**Audit Trail**\n\n| Evidence | Test | Result | Action |\n|----------|------|--------|--------|\n| riverton approved allocation (targets, restriction, tolerance) | Compare executed % per riverton executed allocation to target % | Alternatives variance +3.00 pp > 1.00 pp; restriction violated (18.00% > 15.00%) | Flag as Implementation exception; require client waiver or rebalancing |\n| riverton executed allocation (amounts) | Calculate executed % = executed amount ÷ $4,000,000 | Core 44.00%, Munis 34.00%, Alts 18.00%, Cash 4.00% | Confirm exception; no other sleeve exceeds tolerance |\n| Tolerance rule: ±1.0 pp | Variance = executed % – target % | Core –1.00 pp (within), Munis –1.00 pp (within), Alts +3.00 pp (outside), Cash –1.00 pp (within) | Outside tolerance triggers exception for Alternatives |\n| Client restriction: Alternatives ≤15.0% | Check if executed % > 15.0% | 18.00% > 15.00% — active breach | Non-compliance; immediate review needed |\n\n**Conclusion:** **Implementation exception** – Alternatives sleeve exceeds both the 1.0 pp tolerance and the 15.0% client restriction. No other sleeve is outside tolerance. The packet requires a waiver or rebalance authorization from the client/advisor.\n\n**Next action:** Submit exception report to Riverton Family fiduciary for approval of breach waiver or corrective rebalance.",
+      "auto_quality_score": 10,
+      "auto_quality_reason": "The response is complete, accurate, and well-grounded with all required elements and calculations clearly presented.",
       "item_pass": false,
       "item_csr": 0.8,
-      "passed_constraints": 8,
-      "total_constraints": 10,
       "constraints": [
         {
-          "global_no": 77,
           "constraint_index": 0,
           "route": "LLM",
           "score": 1,
@@ -1061,10 +2127,10 @@ window.FINIF_MODULE_B = {
           "method": "judge:openai-gpt-4o",
           "family": "Evidence and Grounding",
           "tag": "EG2",
-          "constraint": "The response must use visible material labels for the target and executed amounts."
+          "constraint": "The response must use visible material labels for the target and executed amounts.",
+          "global_no": 153
         },
         {
-          "global_no": 78,
           "constraint_index": 1,
           "route": "LLM",
           "score": 1,
@@ -1073,10 +2139,10 @@ window.FINIF_MODULE_B = {
           "method": "judge:openai-gpt-4o",
           "family": "Decision and Boundary",
           "tag": "DB9",
-          "constraint": "The response must connect active evidence, governing rule or task standard, and final action in a single reasoning chain; it must not present facts, calculations, and recommendations as disconnected checklist fragments."
+          "constraint": "The response must connect active evidence, governing rule or task standard, and final action in a single reasoning chain; it must not present facts, calculations, and recommendations as disconnected checklist fragments.",
+          "global_no": 154
         },
         {
-          "global_no": 79,
           "constraint_index": 2,
           "route": "LLM",
           "score": 1,
@@ -1085,10 +2151,10 @@ window.FINIF_MODULE_B = {
           "method": "judge:openai-gpt-4o",
           "family": "Evidence and Grounding",
           "tag": "EG2",
-          "constraint": "Material facts, numeric inputs, thresholds, calculation results, missing-evidence triggers, and decision points must have active source labels next to the sentence, row, or bullet where they are used; collected end-only citations are not sufficient."
+          "constraint": "Material facts, numeric inputs, thresholds, calculation results, missing-evidence triggers, and decision points must have active source labels next to the sentence, row, or bullet where they are used; collected end-only citations are not sufficient.",
+          "global_no": 155
         },
         {
-          "global_no": 80,
           "constraint_index": 3,
           "route": "LLM",
           "score": 1,
@@ -1097,10 +2163,10 @@ window.FINIF_MODULE_B = {
           "method": "judge:openai-gpt-4o",
           "family": "Quantitative Verification",
           "tag": "QV2",
-          "constraint": "For every requested calculation, reconciliation, variance, threshold test, date count, headroom, or shortfall, the response must show source inputs, formula or comparison, final result, and business implication; a bare computed number does not satisfy this requirement."
+          "constraint": "For every requested calculation, reconciliation, variance, threshold test, date count, headroom, or shortfall, the response must show source inputs, formula or comparison, final result, and business implication; a bare computed number does not satisfy this requirement.",
+          "global_no": 156
         },
         {
-          "global_no": 81,
           "constraint_index": 4,
           "route": "LLM",
           "score": 1,
@@ -1109,10 +2175,10 @@ window.FINIF_MODULE_B = {
           "method": "judge:openai-gpt-4o",
           "family": "Decision and Boundary",
           "tag": "DB7",
-          "constraint": "If approval, authorization, authority evidence, or a review prerequisite controls the outcome, the response must name the required approver or prerequisite and must not imply approval while that prerequisite is missing."
+          "constraint": "If approval, authorization, authority evidence, or a review prerequisite controls the outcome, the response must name the required approver or prerequisite and must not imply approval while that prerequisite is missing.",
+          "global_no": 157
         },
         {
-          "global_no": 82,
           "constraint_index": 5,
           "route": "rule",
           "score": 0,
@@ -1121,10 +2187,10 @@ window.FINIF_MODULE_B = {
           "method": "rule_aided:decimal_places",
           "family": "Format and Presentation",
           "tag": "FP3",
-          "constraint": "Every percentage value in the response, including values written with percent or percentage points, must use exactly two decimal places."
+          "constraint": "Every percentage value in the response, including values written with percent or percentage points, must use exactly two decimal places.",
+          "global_no": 158
         },
         {
-          "global_no": 83,
           "constraint_index": 6,
           "route": "rule",
           "score": 1,
@@ -1133,10 +2199,10 @@ window.FINIF_MODULE_B = {
           "method": "rule_aided:first_line_format",
           "family": "Format and Presentation",
           "tag": "FP6",
-          "constraint": "The first non-empty line must be a Markdown bold title."
+          "constraint": "The first non-empty line must be a Markdown bold title.",
+          "global_no": 159
         },
         {
-          "global_no": 84,
           "constraint_index": 7,
           "route": "rule",
           "score": 1,
@@ -1145,10 +2211,10 @@ window.FINIF_MODULE_B = {
           "method": "rule_aided:required_keyword",
           "family": "Format and Presentation",
           "tag": "FP4",
-          "constraint": "The response must include the exact label Next action:."
+          "constraint": "The response must include the exact label Next action:.",
+          "global_no": 160
         },
         {
-          "global_no": 85,
           "constraint_index": 8,
           "route": "rule",
           "score": 0,
@@ -1157,10 +2223,10 @@ window.FINIF_MODULE_B = {
           "method": "rule_aided:table_columns",
           "family": "Format and Presentation",
           "tag": "FP2",
-          "constraint": "The response must include a Markdown table with columns Evidence, Test, Result, and Action."
+          "constraint": "The response must include a Markdown table with columns Evidence, Test, Result, and Action.",
+          "global_no": 161
         },
         {
-          "global_no": 86,
           "constraint_index": 9,
           "route": "rule",
           "score": 1,
@@ -1169,25 +2235,168 @@ window.FINIF_MODULE_B = {
           "method": "rule_aided:word_range",
           "family": "Format and Presentation",
           "tag": "FP3",
-          "constraint": "The response must be between 180 and 430 words."
+          "constraint": "The response must be between 180 and 430 words.",
+          "global_no": 162
         }
       ]
     },
     {
+      "pair_id": "tonight_hard_swapin_047__gpt-5.5",
+      "prompt_index": 8,
+      "response_variant": "B",
+      "item_id": "tonight_hard_swapin_047",
+      "workflow": "Execution, Monitoring, Reporting, and Operations",
+      "task": "Trade / loan / investment execution check",
+      "work_product": "allocation implementation variance table",
+      "full_prompt": "Review file 481: Allocation implementation variance table\n\nAnalyst instructions\nThe answer needs to cover this request: Prepare an allocation implementation variance table for Riverton Family IPS. Recalculate each executed sleeve as a percentage of total portfolio value, compare it with the approved target, compute percentage-point variance, flag sleeves outside the 1.0 percentage-point tolerance, test the alternatives restriction, and conclude Implemented as approved or Implementation exception. Use visible material labels for the target and executed amounts.\n\nMaterials supplied\nriverton approved allocation -- Riverton Family IPS implementation approval for 2026-06-20: total portfolio value 4,000,000. Approved allocation: Core equity 1,800,000 target 45.0%; municipal bonds 1,400,000 target 35.0%; alternatives 600,000 target 15.0%; cash 200,000 target 5.0%. Client restriction: alternatives must not exceed 15.0%.\n\nName for this material: riverton executed allocation. Content: Executed allocation: Core equity 1,760,000; municipal bonds 1,360,000; alternatives 720,000; cash 160,000. Implementation tolerance is plus or minus 1.0 percentage point from approved target. Any sleeve outside tolerance or violating a client restriction is an Implementation exception.\n\nWhen the answer uses evidence, cite the material labels shown above.\n\nFinal work-product request\nPrepare an allocation implementation variance table for Riverton Family IPS. Recalculate each executed sleeve as a percentage of total portfolio value, compare it with the approved target, compute percentage-point variance, flag sleeves outside the 1.0 percentage-point tolerance, test the alternatives restriction, and conclude Implemented as approved or Implementation exception. Use visible material labels for the target and executed amounts. Produce the allocation implementation variance table under an audit-ready controller review posture: connect each final action to the active evidence and the governing rule, policy, task standard, or active-case trigger; keep active source labels beside the material facts, figures, thresholds, missing-evidence triggers, and decision points where they are used; for any calculation or reconciliation, show the source inputs, formula or comparison, result, and business implication; identify any active breach, exception, waiver need, deficiency, unresolved inconsistency, control gap, or non-compliance indicator rather than treating the workflow as cleared; name any required approver, authority evidence, authorization, or review prerequisite that controls the outcome; write every percentage value, including percent or percentage-point values, with exactly two decimal places. Open the allocation implementation variance table with a Markdown bold title on the first non-empty line. Near the end, include the exact handoff label Next action:; if the packet supports no next action, write Next action: none supported by the packet. Include one Markdown table for the audit trail whose header contains the columns Evidence, Test, Result, and Action. Keep the full response between 180 and 430 words. Treat the layout as part of the requested finance work product, but do not omit required evidence, calculations, boundaries, or decisions just to satisfy presentation.\n",
+      "model": "gpt-5.5-2026-04-23",
+      "run_label": "gpt-5.5",
+      "response": "**Riverton Family IPS — Allocation Implementation Variance Table**\n\nTotal portfolio value used for recalculation: **$4,000,000** [riverton approved allocation]. Executed total reconciles to **$4,000,000**: $1,760,000 + $1,360,000 + $720,000 + $160,000 [riverton executed allocation].\n\n| Sleeve | Approved target amount / target % | Executed amount | Executed % calculation | Executed % | Variance vs. target | Tolerance test | Restriction / implication |\n|---|---:|---:|---|---:|---:|---|---|\n| Core equity | $1,800,000 / 45.00% [riverton approved allocation] | $1,760,000 [riverton executed allocation] | $1,760,000 ÷ $4,000,000 | 44.00% | -1.00 percentage points | Within ±1.00 percentage point | No exception indicated |\n| Municipal bonds | $1,400,000 / 35.00% [riverton approved allocation] | $1,360,000 [riverton executed allocation] | $1,360,000 ÷ $4,000,000 | 34.00% | -1.00 percentage points | Within ±1.00 percentage point | No exception indicated |\n| Alternatives | $600,000 / 15.00% [riverton approved allocation] | $720,000 [riverton executed allocation] | $720,000 ÷ $4,000,000 | 18.00% | +3.00 percentage points | **Outside ±1.00 percentage point** | **Breach: alternatives exceed 15.00% client restriction** [riverton approved allocation] |\n| Cash | $200,000 / 5.00% [riverton approved allocation] | $160,000 [riverton executed allocation] | $160,000 ÷ $4,000,000 | 4.00% | -1.00 percentage points | Within ±1.00 percentage point | No exception indicated |\n\n**Conclusion:** **Implementation exception.** The alternatives sleeve is **18.00%**, which is **+3.00 percentage points** versus the approved **15.00%** target and exceeds both the **±1.00 percentage-point implementation tolerance** and the client restriction that alternatives must not exceed **15.00%** [riverton approved allocation; riverton executed allocation]. No waiver, client authorization, or IPS amendment evidence is supplied; therefore the exception cannot be treated as approved.\n\n| Evidence | Test | Result | Action |\n|---|---|---|---|\n| Approved targets and restriction [riverton approved allocation]; executed amounts [riverton executed allocation] | Recalculate each executed sleeve as executed amount ÷ $4,000,000 and compare to target with ±1.00 percentage-point tolerance | Core equity, municipal bonds, and cash are within tolerance; alternatives is outside tolerance at 18.00% versus 15.00% | Record implementation exception |\n| Client restriction: alternatives must not exceed 15.00% [riverton approved allocation] | Compare alternatives executed allocation of 18.00% to 15.00% cap | Restriction breach of +3.00 percentage points | Require correction or documented client/authorized IPS approval before clearance |\n\nNext action: obtain authorized correction to reduce alternatives to at or below 15.00%, or obtain documented client/IPS-approved waiver or amendment before implementation can be accepted.",
+      "auto_quality_score": 10,
+      "auto_quality_reason": "The response is complete, accurate, and well-grounded with all required elements and clear reasoning.",
+      "item_pass": false,
+      "item_csr": null,
+      "constraints": [
+        {
+          "constraint_index": 0,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Visible material labels for target and executed amounts are used.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Evidence and Grounding",
+          "tag": "EG2",
+          "constraint": "The response must use visible material labels for the target and executed amounts.",
+          "global_no": 163
+        },
+        {
+          "constraint_index": 1,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "The response connects evidence, rules, and actions in a reasoning chain.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Decision and Boundary",
+          "tag": "DB9",
+          "constraint": "The response must connect active evidence, governing rule or task standard, and final action in a single reasoning chain; it must not present facts, calculations, and recommendations as disconnected checklist fragments.",
+          "global_no": 164
+        },
+        {
+          "constraint_index": 2,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Active source labels are present next to material facts and decisions.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Evidence and Grounding",
+          "tag": "EG2",
+          "constraint": "Material facts, numeric inputs, thresholds, calculation results, missing-evidence triggers, and decision points must have active source labels next to the sentence, row, or bullet where they are used; collected end-only citations are not sufficient.",
+          "global_no": 165
+        },
+        {
+          "constraint_index": 3,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Calculations show inputs, formulas, results, and implications.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Quantitative Verification",
+          "tag": "QV2",
+          "constraint": "For every requested calculation, reconciliation, variance, threshold test, date count, headroom, or shortfall, the response must show source inputs, formula or comparison, final result, and business implication; a bare computed number does not satisfy this requirement.",
+          "global_no": 166
+        },
+        {
+          "constraint_index": 4,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "The response names the lack of required approval for the exception.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Decision and Boundary",
+          "tag": "DB7",
+          "constraint": "If approval, authorization, authority evidence, or a review prerequisite controls the outcome, the response must name the required approver or prerequisite and must not imply approval while that prerequisite is missing.",
+          "global_no": 167
+        },
+        {
+          "constraint_index": 5,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "All decimal numeric values use 2 decimal place(s).",
+          "method": "rule_aided:decimal_places",
+          "family": "Format and Presentation",
+          "tag": "FP3",
+          "constraint": "Every percentage value in the response, including values written with percent or percentage points, must use exactly two decimal places.",
+          "global_no": 168
+        },
+        {
+          "constraint_index": 6,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "First non-empty line uses Markdown bold format.",
+          "method": "rule_aided:first_line_format",
+          "family": "Format and Presentation",
+          "tag": "FP6",
+          "constraint": "The first non-empty line must be a Markdown bold title.",
+          "global_no": 169
+        },
+        {
+          "constraint_index": 7,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "All required keyword(s) were found.",
+          "method": "rule_aided:required_keyword",
+          "family": "Format and Presentation",
+          "tag": "FP4",
+          "constraint": "The response must include the exact label Next action:.",
+          "global_no": 170
+        },
+        {
+          "constraint_index": 8,
+          "route": "rule",
+          "score": 0,
+          "label": "FAIL",
+          "reason": "Missing required table column(s): Evidence, Test, Result, Action.",
+          "method": "rule_aided:table_columns",
+          "family": "Format and Presentation",
+          "tag": "FP2",
+          "constraint": "The response must include a Markdown table with columns Evidence, Test, Result, and Action.",
+          "global_no": 171
+        },
+        {
+          "constraint_index": 9,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Response has 317 mixed word/character unit(s).",
+          "method": "rule_aided:word_range",
+          "family": "Format and Presentation",
+          "tag": "FP3",
+          "constraint": "The response must be between 180 and 430 words.",
+          "global_no": 172
+        }
+      ]
+    },
+    {
+      "pair_id": "tonight_hard_line_311__ds-v4-flash",
+      "prompt_index": 9,
+      "response_variant": "A",
       "item_id": "tonight_hard_line_311",
       "workflow": "Intake and Profiling",
       "task": "Client risk profiling",
       "work_product": "risk profile evidence map",
       "full_prompt": "Review request 311 - Client risk profiling\n\nAnswer requirements\nUse the file contents to address this: a risk profile evidence map for Noah Singh's account review. For each profile conclusion, map it to the supporting field or say unsupported; include no narrative paragraphs; and flag any conclusion that relies on advisor memory rather than a document.\n\nWhen the answer uses evidence, cite the material labels shown above.\n\nReview packet contents\ninvestment memo excerpt; Know Your Customer | FINRA.org FINRA Data provides non-commercial use of data, specifically the ability to save data views and create and manage a Bond Watchlist. For Industry Professionals Registered representatives can fulfill Continuing Education requirements, view their industry CRD record and perform other compliance tasks. Firm compliance professionals can access filings and requests, run reports and submit support tickets. For Case Participants Arbitration and mediation case participants and FINRA neutrals can view case information and submit documents through this Dispute Resolution Portal. Need Help? | Check System Status Log In to other FINRA systems Rules & Guidance R&G Section 1 FINRA Manual Interpreting the Rules Frequently Asked Questions Interpretive Questions R&G Section 2 The Rulemaking Process Rule Filing Status Report Requests for Comments Regulatory Policy Agenda Rulebook Consolidation R&G Section 3 Adjudications & Decisions National Adjudicatory Council (NAC) Office of Hearing Officers (OHO) R&G Section 4 Enforcement Disciplinary Actions Online Monthly Disciplinary Actions Individuals Barred by FINRA Registration, Exams & CE Registration section 1 Registration Capital Acquisition Brokers Registration Section 2 Qualification Exams Securities Industry Essentials Exam (SIE) Continuing Education (CE) View a Regulatory Element Learning Plan Registration Section 3 Registration Systems Financial Professional Gateway (FinPro) Financial Industry Networking Directory (FIND) Events & Training Events & Training Section 1 Upcoming Events FINRA Crypto and Blockchain Education Program FINRA Certified Regulatory and Compliance Professional (CRCP)® Program Financial Learning Experience (FLEX) Technical & Navigational Webinars Filing & Reporting Filing & Reporting Section 1 FINRA Gateway Financial Intelligence Fusion Center (FIFC) Market Transparency Reporting Tools Regulatory Filing Systems Compliance Tools Compliance Tools Section 1 Anti-Money Laundering Template Cybersecurity Checklist Weekly Update Email Archive Membership Application Program (MAP) Tools For Investors For Investors Section 1 Investor Insights For Investors Section 2 Investing Investment Strategies Working With an Investment Professional Safeguard Your Identity For Investors Section 3 For the Military FINRA Securities Helpline for Seniors Dispute Resolution Services Avenues for Recovery of Losses FINRA Data provides non-commercial use of data, specifically the ability to save data views and create and manage a Bond Watchlist. For Industry Professionals Registered representatives can fulfill Continuing Education requirements, view their industry CRD record and perform other compliance tasks. Firm compliance professionals can access filings and requests, run reports and submit support tickets. For Case Participants Arbitration and mediation case participants and FINRA neutrals can view case information and submit documents through this Dispute Resolution Portal. Need Help? | Check System Status Log In to other FINRA systems Font Awesome fontawesome.com --> Every member shall use reasonable diligence, in regard to the opening and maintenance of every account, to know (and retain) the essential facts concerning every customer and concerning the authority of each person acting on behalf of such customer. • • • Supplementary Material: -------------- For purposes of this Rule, facts \"essential\" to \"knowing the customer\" are those required to (a) effectively service the customer's account, (b) act in accordance with any special handling instructions for the account, (c) understand the authority of each person acting on behalf of the customer, and (d) comply with applicable laws, regulations, and rules. Adopted by SR-FINRA-2010-039 and amended by SR-FINRA-2011-016 eff. Selected Notices: 11-02 , 11-25 , 12-25 . Regulatory Notice 12-25 Additional Guidance on FINRA’s New Suitability Rule Regulatory Notice 11-25 New Implementation Date for and Additional Guidance on the Consolidated FINRA Rules Governing Know-Your-Customer and Suitability Obligations Regulatory Notice 11-02 SEC Approves Consolidated FINRA Rules Governing Know-Your-Customer and Suitability Obligations Book traversal links for 2090. Prohibited Conditions Relating to Expungement of Customer Dispute TRANSACTIONS WITH CUSTOMERS › Disclaimer: The summary and detailed topics are only available for 40 FINRA Rules and have been applied as part of the FINRA Rulebook Search Tool™ (FIRST™) prototype. is for informational purposes only and does not provide regulatory or compliance advice. You should always review the relevant rule text and the related guidance to understand your regulatory obligations. Usage or reliance on this tool is not a defense to a failure to comply with FINRA Main Navigation Registration, Exams & CE Securities Helpline for Seniors ® 844-574-3577 (Mon-Fri 9am-5pm ET) File a Regulatory Tip To report on abuse or fraud in the industry Arbitration & Mediation FINRA operates the largest securities dispute resolution forum in the United States\n\nscenario standard\nClient: Noah Singh. Documented fields: objective income with capital preservation; risk tolerance conservative; time horizon 4 years; liquidity need 30% within 12 months; income USD 74,000; liquid net worth USD 180,000. Advisor memory note: 'I remember Noah said he might accept more equity risk.' No signed update or meeting note supports the memory note. Draft conclusion: client is moderate risk because he accepts more equity risk. Draft conclusion: profile has elevated liquidity need. Draft conclusion: account authority is client only.\n\ncommittee boundary: Evidence maps must connect each profile conclusion to a specific supporting field or mark it Unsupported. Advisor memory without a dated note, signed form, or recorded field is not documentary support. Evidence maps should not use narrative paragraphs. If a conclusion is unsupported, flag it for follow-up instead of treating it as established.\n\nFinal work-product request\nPrepare a risk profile evidence map for Noah Singh's account review. For each profile conclusion, map it to the supporting field or say unsupported; include no narrative paragraphs; and flag any conclusion that relies on advisor memory rather than a document. Produce the risk profile evidence map under an audit-ready operations handoff posture: connect each final action to the active evidence and the governing rule, policy, task standard, or active-case trigger; keep active source labels beside the material facts, figures, thresholds, missing-evidence triggers, and decision points where they are used; for any calculation or reconciliation, show the source inputs, formula or comparison, result, and business implication; name any required approver, authority evidence, authorization, or review prerequisite that controls the outcome; for any comparison, ranking, alternative, scenario, or trade-off, state the comparison basis, source inputs, result, and decision implication; write every percentage value, including percent or percentage-point values, with exactly two decimal places. Open the risk profile evidence map with a Markdown bold title on the first non-empty line. Near the end, include the exact handoff label Next action:; if the packet supports no next action, write Next action: none supported by the packet. Include one Markdown table for the audit trail whose header contains the columns Evidence, Test, Result, and Action. Keep the full response between 180 and 430 words. Treat the layout as part of the requested finance work product, but do not omit required evidence, calculations, boundaries, or decisions just to satisfy presentation.\n",
       "model": "deepseek-v4-flash",
+      "run_label": "ds-v4-flash",
       "response": "**Risk Profile Evidence Map – Noah Singh**\n\n**Conclusion 1: Moderate risk (because he accepts more equity risk)**  \n- **Supporting field:** None. Documented fields show *risk tolerance: conservative* and *objective: income with capital preservation*.  \n- **Unsupported** – flag for follow-up.  \n- **Advisor memory note** (“I remember Noah said…”) is not documentary support per committee boundary. No signed update or meeting note exists.  \n- **Governing rule:** FINRA Rule 2090 (Know Your Customer) – essential facts must be documented.  \n- **Missing-evidence trigger:** No current document supports a moderate risk classification.  \n- **Required approver:** Advisor must obtain a signed update or recorded field before changing risk profile.\n\n**Conclusion 2: Elevated liquidity need**  \n- **Supporting field:** *liquidity need: 30.00% within 12 months* (source: documented fields).  \n- **Supported** – the field directly defines the need. The term “elevated” is interpretive, but the 30.00% figure is specific.  \n- **No missing evidence.**  \n- **Decision point:** Liquidity threshold of 30.00% aligns with the client’s stated requirement; no scenario comparison needed.\n\n**Conclusion 3: Account authority is client only**  \n- **Supporting field:** None. Packet contains no field or document indicating account authority.  \n- **Unsupported** – flag for follow-up.  \n- **Missing-evidence trigger:** No CRD record, signed form, or recorded field references authority.  \n- **Next action:** Advisor must provide a signed account authorization document or confirm via KYC process.\n\n**Audit Trail**\n\n| Evidence | Test | Result | Action |\n|----------|------|--------|--------|\n| Documented fields: risk tolerance conservative, objective income with capital preservation | Supports moderate risk? | No – contradicts. Conclusion unsupported. | Obtain signed update or meeting note to justify change. |\n| Advisor memory note (undated, unsigned) | Valid documentary support? | No – per committee boundary, memory is not evidence. | Flag as non-compliant; require documented client confirmation. |\n| Documented field: liquidity need 30.00% within 12 months | Supports elevated liquidity need? | Yes – field matches conclusion. | Retain; no further action. |\n| No documented field for account authority | Supports client-only authority? | No – no evidence. | Request account authorization form or KYC record. |\n\n**Next action:** Advisor to provide signed documentation supporting moderate risk classification and account authority; liquidity need conclusion is already supported.",
+      "auto_quality_score": 3,
+      "auto_quality_reason": "The response fails to connect evidence, rules, and actions in a reasoning chain, lacks active source labels, and omits calculation details.",
       "item_pass": false,
       "item_csr": 0.6666666666666666,
-      "passed_constraints": 8,
-      "total_constraints": 12,
       "constraints": [
         {
-          "global_no": 87,
           "constraint_index": 0,
           "route": "LLM",
           "score": 1,
@@ -1196,10 +2405,10 @@ window.FINIF_MODULE_B = {
           "method": "judge:openai-gpt-4o",
           "family": "Format and Presentation",
           "tag": "FP2",
-          "constraint": "The response must include no narrative paragraphs."
+          "constraint": "The response must include no narrative paragraphs.",
+          "global_no": 173
         },
         {
-          "global_no": 88,
           "constraint_index": 1,
           "route": "LLM",
           "score": 1,
@@ -1208,10 +2417,10 @@ window.FINIF_MODULE_B = {
           "method": "judge:openai-gpt-4o",
           "family": "Evidence and Grounding",
           "tag": "EG5",
-          "constraint": "The response must not treat advisor memory without a dated note, signed form, or recorded field as documentary support."
+          "constraint": "The response must not treat advisor memory without a dated note, signed form, or recorded field as documentary support.",
+          "global_no": 174
         },
         {
-          "global_no": 89,
           "constraint_index": 2,
           "route": "LLM",
           "score": 0,
@@ -1220,10 +2429,10 @@ window.FINIF_MODULE_B = {
           "method": "judge:openai-gpt-4o",
           "family": "Decision and Boundary",
           "tag": "DB9",
-          "constraint": "The response must connect active evidence, governing rule or task standard, and final action in a single reasoning chain; it must not present facts, calculations, and recommendations as disconnected checklist fragments."
+          "constraint": "The response must connect active evidence, governing rule or task standard, and final action in a single reasoning chain; it must not present facts, calculations, and recommendations as disconnected checklist fragments.",
+          "global_no": 175
         },
         {
-          "global_no": 90,
           "constraint_index": 3,
           "route": "LLM",
           "score": 0,
@@ -1232,10 +2441,10 @@ window.FINIF_MODULE_B = {
           "method": "judge:openai-gpt-4o",
           "family": "Evidence and Grounding",
           "tag": "EG2",
-          "constraint": "Material facts, numeric inputs, thresholds, calculation results, missing-evidence triggers, and decision points must have active source labels next to the sentence, row, or bullet where they are used; collected end-only citations are not sufficient."
+          "constraint": "Material facts, numeric inputs, thresholds, calculation results, missing-evidence triggers, and decision points must have active source labels next to the sentence, row, or bullet where they are used; collected end-only citations are not sufficient.",
+          "global_no": 176
         },
         {
-          "global_no": 91,
           "constraint_index": 4,
           "route": "LLM",
           "score": 0,
@@ -1244,10 +2453,10 @@ window.FINIF_MODULE_B = {
           "method": "judge:openai-gpt-4o",
           "family": "Quantitative Verification",
           "tag": "QV2",
-          "constraint": "For every requested calculation, reconciliation, variance, threshold test, date count, headroom, or shortfall, the response must show source inputs, formula or comparison, final result, and business implication; a bare computed number does not satisfy this requirement."
+          "constraint": "For every requested calculation, reconciliation, variance, threshold test, date count, headroom, or shortfall, the response must show source inputs, formula or comparison, final result, and business implication; a bare computed number does not satisfy this requirement.",
+          "global_no": 177
         },
         {
-          "global_no": 92,
           "constraint_index": 5,
           "route": "LLM",
           "score": 1,
@@ -1256,10 +2465,10 @@ window.FINIF_MODULE_B = {
           "method": "judge:openai-gpt-4o",
           "family": "Decision and Boundary",
           "tag": "DB7",
-          "constraint": "If approval, authorization, authority evidence, or a review prerequisite controls the outcome, the response must name the required approver or prerequisite and must not imply approval while that prerequisite is missing."
+          "constraint": "If approval, authorization, authority evidence, or a review prerequisite controls the outcome, the response must name the required approver or prerequisite and must not imply approval while that prerequisite is missing.",
+          "global_no": 178
         },
         {
-          "global_no": 93,
           "constraint_index": 6,
           "route": "LLM",
           "score": 0,
@@ -1268,10 +2477,10 @@ window.FINIF_MODULE_B = {
           "method": "judge:openai-gpt-4o",
           "family": "Quantitative Verification",
           "tag": "QV6",
-          "constraint": "For every requested comparison, ranking, alternative, scenario, or trade-off, the response must state the comparison basis, source inputs, result, and decision implication rather than listing options without a supported ordering or boundary."
+          "constraint": "For every requested comparison, ranking, alternative, scenario, or trade-off, the response must state the comparison basis, source inputs, result, and decision implication rather than listing options without a supported ordering or boundary.",
+          "global_no": 179
         },
         {
-          "global_no": 94,
           "constraint_index": 7,
           "route": "rule",
           "score": 1,
@@ -1280,10 +2489,10 @@ window.FINIF_MODULE_B = {
           "method": "rule_aided:decimal_places",
           "family": "Format and Presentation",
           "tag": "FP3",
-          "constraint": "Every percentage value in the response, including values written with percent or percentage points, must use exactly two decimal places."
+          "constraint": "Every percentage value in the response, including values written with percent or percentage points, must use exactly two decimal places.",
+          "global_no": 180
         },
         {
-          "global_no": 95,
           "constraint_index": 8,
           "route": "rule",
           "score": 1,
@@ -1292,10 +2501,10 @@ window.FINIF_MODULE_B = {
           "method": "rule_aided:first_line_format",
           "family": "Format and Presentation",
           "tag": "FP6",
-          "constraint": "The first non-empty line must be a Markdown bold title."
+          "constraint": "The first non-empty line must be a Markdown bold title.",
+          "global_no": 181
         },
         {
-          "global_no": 96,
           "constraint_index": 9,
           "route": "rule",
           "score": 1,
@@ -1304,10 +2513,10 @@ window.FINIF_MODULE_B = {
           "method": "rule_aided:required_keyword",
           "family": "Format and Presentation",
           "tag": "FP4",
-          "constraint": "The response must include the exact label Next action:."
+          "constraint": "The response must include the exact label Next action:.",
+          "global_no": 182
         },
         {
-          "global_no": 97,
           "constraint_index": 10,
           "route": "rule",
           "score": 1,
@@ -1316,10 +2525,10 @@ window.FINIF_MODULE_B = {
           "method": "rule_aided:table_columns",
           "family": "Format and Presentation",
           "tag": "FP2",
-          "constraint": "The response must include a Markdown table with columns Evidence, Test, Result, and Action."
+          "constraint": "The response must include a Markdown table with columns Evidence, Test, Result, and Action.",
+          "global_no": 183
         },
         {
-          "global_no": 98,
           "constraint_index": 11,
           "route": "rule",
           "score": 1,
@@ -1328,25 +2537,192 @@ window.FINIF_MODULE_B = {
           "method": "rule_aided:word_range",
           "family": "Format and Presentation",
           "tag": "FP3",
-          "constraint": "The response must be between 180 and 430 words."
+          "constraint": "The response must be between 180 and 430 words.",
+          "global_no": 184
         }
       ]
     },
     {
+      "pair_id": "tonight_hard_line_311__gpt-5.5",
+      "prompt_index": 9,
+      "response_variant": "B",
+      "item_id": "tonight_hard_line_311",
+      "workflow": "Intake and Profiling",
+      "task": "Client risk profiling",
+      "work_product": "risk profile evidence map",
+      "full_prompt": "Review request 311 - Client risk profiling\n\nAnswer requirements\nUse the file contents to address this: a risk profile evidence map for Noah Singh's account review. For each profile conclusion, map it to the supporting field or say unsupported; include no narrative paragraphs; and flag any conclusion that relies on advisor memory rather than a document.\n\nWhen the answer uses evidence, cite the material labels shown above.\n\nReview packet contents\ninvestment memo excerpt; Know Your Customer | FINRA.org FINRA Data provides non-commercial use of data, specifically the ability to save data views and create and manage a Bond Watchlist. For Industry Professionals Registered representatives can fulfill Continuing Education requirements, view their industry CRD record and perform other compliance tasks. Firm compliance professionals can access filings and requests, run reports and submit support tickets. For Case Participants Arbitration and mediation case participants and FINRA neutrals can view case information and submit documents through this Dispute Resolution Portal. Need Help? | Check System Status Log In to other FINRA systems Rules & Guidance R&G Section 1 FINRA Manual Interpreting the Rules Frequently Asked Questions Interpretive Questions R&G Section 2 The Rulemaking Process Rule Filing Status Report Requests for Comments Regulatory Policy Agenda Rulebook Consolidation R&G Section 3 Adjudications & Decisions National Adjudicatory Council (NAC) Office of Hearing Officers (OHO) R&G Section 4 Enforcement Disciplinary Actions Online Monthly Disciplinary Actions Individuals Barred by FINRA Registration, Exams & CE Registration section 1 Registration Capital Acquisition Brokers Registration Section 2 Qualification Exams Securities Industry Essentials Exam (SIE) Continuing Education (CE) View a Regulatory Element Learning Plan Registration Section 3 Registration Systems Financial Professional Gateway (FinPro) Financial Industry Networking Directory (FIND) Events & Training Events & Training Section 1 Upcoming Events FINRA Crypto and Blockchain Education Program FINRA Certified Regulatory and Compliance Professional (CRCP)® Program Financial Learning Experience (FLEX) Technical & Navigational Webinars Filing & Reporting Filing & Reporting Section 1 FINRA Gateway Financial Intelligence Fusion Center (FIFC) Market Transparency Reporting Tools Regulatory Filing Systems Compliance Tools Compliance Tools Section 1 Anti-Money Laundering Template Cybersecurity Checklist Weekly Update Email Archive Membership Application Program (MAP) Tools For Investors For Investors Section 1 Investor Insights For Investors Section 2 Investing Investment Strategies Working With an Investment Professional Safeguard Your Identity For Investors Section 3 For the Military FINRA Securities Helpline for Seniors Dispute Resolution Services Avenues for Recovery of Losses FINRA Data provides non-commercial use of data, specifically the ability to save data views and create and manage a Bond Watchlist. For Industry Professionals Registered representatives can fulfill Continuing Education requirements, view their industry CRD record and perform other compliance tasks. Firm compliance professionals can access filings and requests, run reports and submit support tickets. For Case Participants Arbitration and mediation case participants and FINRA neutrals can view case information and submit documents through this Dispute Resolution Portal. Need Help? | Check System Status Log In to other FINRA systems Font Awesome fontawesome.com --> Every member shall use reasonable diligence, in regard to the opening and maintenance of every account, to know (and retain) the essential facts concerning every customer and concerning the authority of each person acting on behalf of such customer. • • • Supplementary Material: -------------- For purposes of this Rule, facts \"essential\" to \"knowing the customer\" are those required to (a) effectively service the customer's account, (b) act in accordance with any special handling instructions for the account, (c) understand the authority of each person acting on behalf of the customer, and (d) comply with applicable laws, regulations, and rules. Adopted by SR-FINRA-2010-039 and amended by SR-FINRA-2011-016 eff. Selected Notices: 11-02 , 11-25 , 12-25 . Regulatory Notice 12-25 Additional Guidance on FINRA’s New Suitability Rule Regulatory Notice 11-25 New Implementation Date for and Additional Guidance on the Consolidated FINRA Rules Governing Know-Your-Customer and Suitability Obligations Regulatory Notice 11-02 SEC Approves Consolidated FINRA Rules Governing Know-Your-Customer and Suitability Obligations Book traversal links for 2090. Prohibited Conditions Relating to Expungement of Customer Dispute TRANSACTIONS WITH CUSTOMERS › Disclaimer: The summary and detailed topics are only available for 40 FINRA Rules and have been applied as part of the FINRA Rulebook Search Tool™ (FIRST™) prototype. is for informational purposes only and does not provide regulatory or compliance advice. You should always review the relevant rule text and the related guidance to understand your regulatory obligations. Usage or reliance on this tool is not a defense to a failure to comply with FINRA Main Navigation Registration, Exams & CE Securities Helpline for Seniors ® 844-574-3577 (Mon-Fri 9am-5pm ET) File a Regulatory Tip To report on abuse or fraud in the industry Arbitration & Mediation FINRA operates the largest securities dispute resolution forum in the United States\n\nscenario standard\nClient: Noah Singh. Documented fields: objective income with capital preservation; risk tolerance conservative; time horizon 4 years; liquidity need 30% within 12 months; income USD 74,000; liquid net worth USD 180,000. Advisor memory note: 'I remember Noah said he might accept more equity risk.' No signed update or meeting note supports the memory note. Draft conclusion: client is moderate risk because he accepts more equity risk. Draft conclusion: profile has elevated liquidity need. Draft conclusion: account authority is client only.\n\ncommittee boundary: Evidence maps must connect each profile conclusion to a specific supporting field or mark it Unsupported. Advisor memory without a dated note, signed form, or recorded field is not documentary support. Evidence maps should not use narrative paragraphs. If a conclusion is unsupported, flag it for follow-up instead of treating it as established.\n\nFinal work-product request\nPrepare a risk profile evidence map for Noah Singh's account review. For each profile conclusion, map it to the supporting field or say unsupported; include no narrative paragraphs; and flag any conclusion that relies on advisor memory rather than a document. Produce the risk profile evidence map under an audit-ready operations handoff posture: connect each final action to the active evidence and the governing rule, policy, task standard, or active-case trigger; keep active source labels beside the material facts, figures, thresholds, missing-evidence triggers, and decision points where they are used; for any calculation or reconciliation, show the source inputs, formula or comparison, result, and business implication; name any required approver, authority evidence, authorization, or review prerequisite that controls the outcome; for any comparison, ranking, alternative, scenario, or trade-off, state the comparison basis, source inputs, result, and decision implication; write every percentage value, including percent or percentage-point values, with exactly two decimal places. Open the risk profile evidence map with a Markdown bold title on the first non-empty line. Near the end, include the exact handoff label Next action:; if the packet supports no next action, write Next action: none supported by the packet. Include one Markdown table for the audit trail whose header contains the columns Evidence, Test, Result, and Action. Keep the full response between 180 and 430 words. Treat the layout as part of the requested finance work product, but do not omit required evidence, calculations, boundaries, or decisions just to satisfy presentation.\n",
+      "model": "gpt-5.5-2026-04-23",
+      "run_label": "gpt-5.5",
+      "response": "**Risk Profile Evidence Map — Noah Singh Account Review**\n\n- Governing rule / control: know and retain essential customer facts for account opening and maintenance; essential facts include servicing, special instructions, authority, and legal/rule compliance. [investment memo excerpt]\n- Evidence standard: advisor memory without dated note, signed form, or recorded field is not documentary support. [committee boundary]\n- Review prerequisite: any risk-profile change requires documentary support: signed update, dated meeting note, or recorded field. [committee boundary]\n- Required approver / authority evidence: not identified in packet; authority conclusion must remain unresolved unless supported by documented account-authority evidence. [scenario standard; committee boundary]\n\n| Evidence | Test | Result | Action |\n|---|---|---|---|\n| Draft conclusion: “client is moderate risk because he accepts more equity risk.” Advisor memory note: “I remember Noah said he might accept more equity risk.” No signed update or meeting note supports it. [scenario standard] | Documentary-support test: conclusion must map to a recorded field, signed update, or dated meeting note; advisor memory alone is not support. [committee boundary] | Unsupported. Relies on advisor memory; flagged. Existing documented risk tolerance is conservative. [scenario standard] | Do not treat moderate-risk profile as established. Follow up for signed risk-profile update or dated/recorded meeting note before any change. |\n| Documented field: risk tolerance conservative. [scenario standard] | Risk-profile evidence map: recorded risk field controls unless superseded by valid documentary update. [committee boundary] | Supported conclusion: conservative risk tolerance. | Maintain conservative risk tolerance for review until valid update is obtained. |\n| Documented field: objective income with capital preservation. [scenario standard] | Objective consistency test against moderate-equity-risk conclusion. | Income with capital preservation supports lower-risk posture; does not support “moderate risk because accepts more equity risk.” | Use as active profile evidence; escalate inconsistency only if new documents are produced. |\n| Documented field: time horizon 4 years. [scenario standard] | Horizon evidence test: map conclusion to recorded horizon. | Supported fact: 4-year horizon; no standalone support for higher equity risk. | Retain 4-year horizon in profile. |\n| Documented field: liquidity need 30.00% within 12 months. [scenario standard] | Liquidity calculation/comparison: source input = 30.00% required within 12 months; result = material near-term liquidity requirement within first year of 4-year horizon. [scenario standard] | Supported conclusion: profile has elevated liquidity need. Business implication: liquidity constraint should be considered in recommendations. | Treat elevated liquidity need as established. |\n| Documented fields: income USD 74,000; liquid net worth USD 180,000. [scenario standard] | Financial-capacity evidence test: map to recorded fields; no packet formula for risk-capacity upgrade. | Supported facts only; not support for moderate-risk reclassification. | Retain as KYC facts; do not infer higher risk tolerance. |\n| Draft conclusion: “account authority is client only.” [scenario standard] | Authority-support test under KYC: must understand authority of each person acting on behalf of customer. [investment memo excerpt] | Unsupported; no documented authority field in packet. | Flag for follow-up; obtain account-authority evidence before treating client-only authority as established. |\n\nNext action: obtain documentary support for any moderate-risk update and account-authority conclusion; otherwise maintain documented conservative profile with elevated liquidity need.",
+      "auto_quality_score": 3,
+      "auto_quality_reason": "Fails to provide active source labels for all material facts and lacks detailed calculation steps and implications for liquidity need. Quality capped to 3/10 due to 2 central IF failure(s); multiple central failures; severe authority/route/trigger failure.",
+      "item_pass": false,
+      "item_csr": null,
+      "constraints": [
+        {
+          "constraint_index": 0,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "No narrative paragraphs are present.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Format and Presentation",
+          "tag": "FP2",
+          "constraint": "The response must include no narrative paragraphs.",
+          "global_no": 185
+        },
+        {
+          "constraint_index": 1,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Advisor memory is not treated as documentary support.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Evidence and Grounding",
+          "tag": "EG5",
+          "constraint": "The response must not treat advisor memory without a dated note, signed form, or recorded field as documentary support.",
+          "global_no": 186
+        },
+        {
+          "constraint_index": 2,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Evidence, rule, and action are connected in reasoning chains.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Decision and Boundary",
+          "tag": "DB9",
+          "constraint": "The response must connect active evidence, governing rule or task standard, and final action in a single reasoning chain; it must not present facts, calculations, and recommendations as disconnected checklist fragments.",
+          "global_no": 187
+        },
+        {
+          "constraint_index": 3,
+          "route": "LLM",
+          "score": 0,
+          "label": "FAIL",
+          "reason": "Some material facts lack active source labels next to them.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Evidence and Grounding",
+          "tag": "EG2",
+          "constraint": "Material facts, numeric inputs, thresholds, calculation results, missing-evidence triggers, and decision points must have active source labels next to the sentence, row, or bullet where they are used; collected end-only citations are not sufficient.",
+          "global_no": 188
+        },
+        {
+          "constraint_index": 4,
+          "route": "LLM",
+          "score": 0,
+          "label": "FAIL",
+          "reason": "Liquidity calculation lacks detailed source inputs and business implication.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Quantitative Verification",
+          "tag": "QV2",
+          "constraint": "For every requested calculation, reconciliation, variance, threshold test, date count, headroom, or shortfall, the response must show source inputs, formula or comparison, final result, and business implication; a bare computed number does not satisfy this requirement.",
+          "global_no": 189
+        },
+        {
+          "constraint_index": 5,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "No implied approval without prerequisite evidence.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Decision and Boundary",
+          "tag": "DB7",
+          "constraint": "If approval, authorization, authority evidence, or a review prerequisite controls the outcome, the response must name the required approver or prerequisite and must not imply approval while that prerequisite is missing.",
+          "global_no": 190
+        },
+        {
+          "constraint_index": 6,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Comparisons and implications are stated with basis and inputs.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Quantitative Verification",
+          "tag": "QV6",
+          "constraint": "For every requested comparison, ranking, alternative, scenario, or trade-off, the response must state the comparison basis, source inputs, result, and decision implication rather than listing options without a supported ordering or boundary.",
+          "global_no": 191
+        },
+        {
+          "constraint_index": 7,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "All decimal numeric values use 2 decimal place(s).",
+          "method": "rule_aided:decimal_places",
+          "family": "Format and Presentation",
+          "tag": "FP3",
+          "constraint": "Every percentage value in the response, including values written with percent or percentage points, must use exactly two decimal places.",
+          "global_no": 192
+        },
+        {
+          "constraint_index": 8,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "First non-empty line uses Markdown bold format.",
+          "method": "rule_aided:first_line_format",
+          "family": "Format and Presentation",
+          "tag": "FP6",
+          "constraint": "The first non-empty line must be a Markdown bold title.",
+          "global_no": 193
+        },
+        {
+          "constraint_index": 9,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "All required keyword(s) were found.",
+          "method": "rule_aided:required_keyword",
+          "family": "Format and Presentation",
+          "tag": "FP4",
+          "constraint": "The response must include the exact label Next action:.",
+          "global_no": 194
+        },
+        {
+          "constraint_index": 10,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "All required table column(s) were found.",
+          "method": "rule_aided:table_columns",
+          "family": "Format and Presentation",
+          "tag": "FP2",
+          "constraint": "The response must include a Markdown table with columns Evidence, Test, Result, and Action.",
+          "global_no": 195
+        },
+        {
+          "constraint_index": 11,
+          "route": "rule",
+          "score": 0,
+          "label": "FAIL",
+          "reason": "Response has 469 mixed word/character unit(s); expected at most 430.",
+          "method": "rule_aided:word_range",
+          "family": "Format and Presentation",
+          "tag": "FP3",
+          "constraint": "The response must be between 180 and 430 words.",
+          "global_no": 196
+        }
+      ]
+    },
+    {
+      "pair_id": "tonight_hard_swapin_049__gpt-5.5",
+      "prompt_index": 10,
+      "response_variant": "A",
       "item_id": "tonight_hard_swapin_049",
       "workflow": "Intake and Profiling",
       "task": "Service scope explanation",
       "work_product": "client wording conversion",
       "full_prompt": "Case file 654: Client wording conversion\n\nReviewer request\nPlease complete this request: Rewrite the internal draft into client-appropriate wording for Greenline Studio LLC. use only the provided materials. Remove internal jargon and threatening language, accurately list the missing authority and ownership information, and explain that review cannot continue until required information is received. Do not say KYC failed, legal will reject the account, or that a final decision has been made.\n\nEvidence in the file\nfinra rule (FINRA Rule 2090 Know Your Customer)\nFINRA Rule 2090 says a member must use reasonable diligence, when opening and maintaining an account, to know and retain the essential facts concerning every customer and the authority of each person acting on behalf of the customer. Essential facts include facts needed to service the account, follow special handling instructions, understand authority, and comply with applicable laws, regulations, and rules.\n\ninternal -- Internal draft says: 'Account is blocked because KYC failed. Client has not proven authority and BO file is deficient. Tell them legal will reject it unless they send the missing papers today.' File facts: Greenline Studio LLC provided articles of organization and W-9. Missing: manager consent authorizing account opening; beneficial-owner percentages for two members; residential address for control person Nia Patel. Screening is not complete. No legal review has occurred.\n\nName for this material: client wording policy. Content: Client communications must avoid internal jargon such as KYC failed, BO file, blocked, deficient, and legal will reject. Staff may say the file is not yet complete, specify the missing items, and explain that review cannot continue until required information is received. Staff must not threaten rejection, state a legal conclusion, or imply a final decision before review is complete.\n\nWhen the answer uses evidence, cite the material labels shown above.\n\nFinal work-product request\nRewrite the internal draft into client-appropriate wording for Greenline Studio LLC. use only the provided materials. Remove internal jargon and threatening language, accurately list the missing authority and ownership information, and explain that review cannot continue until required information is received. Do not say KYC failed, legal will reject the account, or that a final decision has been made. Produce the client wording conversion under an audit-ready diligence challenge posture: connect each final action to the active evidence and the governing rule, policy, task standard, or active-case trigger; keep active source labels beside the material facts, figures, thresholds, missing-evidence triggers, and decision points where they are used; for any approval, rejection, hold, escalation, exception, classification, recommendation, or boundary, name the controlling trigger and why a softer or opposite outcome is not supported; name any required approver, authority evidence, authorization, or review prerequisite that controls the outcome; keep hypothetical, projected, target, testimonial, endorsement, ranking, sales-claim, and performance language inside the boundary supported by the packet; write every percentage value, including percent or percentage-point values, with exactly two decimal places. Open the client wording conversion with a Markdown bold title on the first non-empty line. Near the end, include the exact handoff label Next action:; if the packet supports no next action, write Next action: none supported by the packet. Include at least two short Markdown blockquote lines beginning with > for source or rule excerpts that anchor the decision. Use at least eight complete sentences in the full response. Treat the layout as part of the requested finance work product, but do not omit required evidence, calculations, boundaries, or decisions just to satisfy presentation.\n",
-      "model": "deepseek-v4-flash",
-      "response": "**Client Communication Regarding Account Opening Documentation – Greenline Studio LLC**\n\nThank you for submitting the articles of organization and W-9 for Greenline Studio LLC. We have reviewed the documents you provided.\n\nAs part of our standard onboarding process, we are required to obtain certain essential facts to know our customers and the authority of each person acting on behalf of the entity. This obligation is based on FINRA Rule 2090 (Know Your Customer), which states that \"a member must use reasonable diligence, when opening and maintaining an account, to know and retain the essential facts concerning every customer and the authority of each person acting on behalf of the customer.\"\n\n> *Source: finra rule (FINRA Rule 2090 Know Your Customer)*\n\nAt this time, your file is not yet complete. The following information is still missing:\n\n1. A manager consent document authorizing the opening of the account – this is needed to confirm the authority of the person(s) acting on behalf of Greenline Studio LLC.\n2. The beneficial-owner percentages for two members – these ownership details are required to understand the ownership structure of the entity.\n3. The residential address for the control person, Nia Patel – this is needed to complete the essential facts about the individual who controls or manages the account.\n\n> *Source: client wording policy – \"Staff may say the file is not yet complete, specify the missing items, and explain that review cannot continue until required information is received.\"*\n\nBecause these items are essential to meeting our Know Your Customer obligations under FINRA Rule 2090, we cannot continue the review of your account application until the missing information is received. No legal review has occurred, and no final decision has been made regarding your account. Once you provide the required documents, we will proceed with the remaining steps of our review process.\n\nPlease send the manager consent, the ownership percentages for the two members, and Nia Patel’s residential address at your earliest convenience. If you have any questions about the required items, do not hesitate to contact us.\n\n**Next action:** Await receipt of missing documentation from Greenline Studio LLC: manager consent, beneficial-owner percentages for two members, and residential address for Nia Patel.",
+      "model": "gpt-5.5-2026-04-23",
+      "run_label": "gpt-5.5",
+      "response": "**Client Wording Conversion for Greenline Studio LLC**\n\nDear Greenline Studio LLC,\n\nThank you for providing the articles of organization and W-9 for your account file. Based on the materials received, the file is not yet complete, and our review cannot continue until we receive the remaining required information. [internal -- File facts; client wording policy]\n\nTo continue the review, please provide the following items:\n\n1. Manager consent authorizing the account opening for Greenline Studio LLC. [internal -- File facts; finra rule (FINRA Rule 2090 Know Your Customer)]  \n2. Beneficial-owner percentage information for two members. [internal -- File facts; finra rule (FINRA Rule 2090 Know Your Customer)]  \n3. Residential address for control person Nia Patel. [internal -- File facts; finra rule (FINRA Rule 2090 Know Your Customer)]  \n\nThese items are needed because the account file must include essential facts about the customer and the authority of each person acting on behalf of the customer. The manager consent is the required authority evidence currently missing from the file, so a softer outcome—such as continuing review without it—is not supported by the governing rule or the client-communication policy. [finra rule (FINRA Rule 2090 Know Your Customer); client wording policy]\n\nThe beneficial-owner percentage information for two members and the residential address for control person Nia Patel are also required to complete the file. Because those ownership and control-person details are missing, review cannot continue at this time. This is a file-completion boundary, not a final account decision. [internal -- File facts; client wording policy]\n\n> “FINRA Rule 2090 says a member must use reasonable diligence, when opening and maintaining an account, to know and retain the essential facts concerning every customer and the authority of each person acting on behalf of the customer.” [finra rule (FINRA Rule 2090 Know Your Customer)]\n\n> “Staff may say the file is not yet complete, specify the missing items, and explain that review cannot continue until required information is received.” [client wording policy]\n\nThe controlling trigger for this request is the missing authority, ownership, and control-person information identified in the file facts. The packet states that screening is not complete and that no legal review has occurred, so the communication should not state or imply that a final decision has been made. [internal -- File facts; client wording policy]\n\nNo named required approver is identified in the packet. The required authorization evidence identified in the packet is the manager consent authorizing the account opening. The review prerequisite is receipt of the listed missing information. [internal -- File facts; finra rule (FINRA Rule 2090 Know Your Customer)]\n\nNext action: Please provide the manager consent authorizing account opening, beneficial-owner percentage information for two members, and residential address for control person Nia Patel so review can continue.",
+      "auto_quality_score": 3,
+      "auto_quality_reason": "Response is generally well-structured and follows instructions, but fails to provide active source labels for some material facts, affecting grounding. Quality capped to 3/10 due to 1 central IF failure(s); severe authority/route/trigger failure.",
       "item_pass": false,
-      "item_csr": 0.7857142857142857,
-      "passed_constraints": 11,
-      "total_constraints": 14,
+      "item_csr": null,
       "constraints": [
         {
-          "global_no": 99,
           "constraint_index": 0,
           "route": "LLM",
           "score": 1,
@@ -1355,34 +2731,34 @@ window.FINIF_MODULE_B = {
           "method": "judge:openai-gpt-4o",
           "family": "Evidence and Grounding",
           "tag": "EG1",
-          "constraint": "The rewritten wording must use only the provided context."
+          "constraint": "The rewritten wording must use only the provided context.",
+          "global_no": 197
         },
         {
-          "global_no": 100,
           "constraint_index": 1,
           "route": "LLM",
           "score": 1,
           "label": "PASS",
-          "reason": "Explains review cannot continue until information is received.",
+          "reason": "Explains review cannot continue until required information is received.",
           "method": "judge:openai-gpt-4o",
           "family": "Decision and Boundary",
           "tag": "DB2",
-          "constraint": "The wording must explain that review cannot continue until required information is received."
+          "constraint": "The wording must explain that review cannot continue until required information is received.",
+          "global_no": 198
         },
         {
-          "global_no": 101,
           "constraint_index": 2,
           "route": "LLM",
           "score": 1,
           "label": "PASS",
-          "reason": "Does not use prohibited terms like KYC failed or legal will reject.",
+          "reason": "Does not use prohibited terms like KYC failed, BO file, blocked, deficient, or legal will reject.",
           "method": "judge:openai-gpt-4o",
           "family": "Format and Presentation",
           "tag": "FP4",
-          "constraint": "The wording must not say KYC failed, BO file, blocked, deficient, or legal will reject."
+          "constraint": "The wording must not say KYC failed, BO file, blocked, deficient, or legal will reject.",
+          "global_no": 199
         },
         {
-          "global_no": 102,
           "constraint_index": 3,
           "route": "LLM",
           "score": 1,
@@ -1391,10 +2767,10 @@ window.FINIF_MODULE_B = {
           "method": "judge:openai-gpt-4o",
           "family": "Decision and Boundary",
           "tag": "DB4",
-          "constraint": "The wording must not state or imply that a final decision has been made."
+          "constraint": "The wording must not state or imply that a final decision has been made.",
+          "global_no": 200
         },
         {
-          "global_no": 103,
           "constraint_index": 4,
           "route": "LLM",
           "score": 1,
@@ -1403,46 +2779,46 @@ window.FINIF_MODULE_B = {
           "method": "judge:openai-gpt-4o",
           "family": "Decision and Boundary",
           "tag": "DB9",
-          "constraint": "The response must connect active evidence, governing rule or task standard, and final action in a single reasoning chain; it must not present facts, calculations, and recommendations as disconnected checklist fragments."
+          "constraint": "The response must connect active evidence, governing rule or task standard, and final action in a single reasoning chain; it must not present facts, calculations, and recommendations as disconnected checklist fragments.",
+          "global_no": 201
         },
         {
-          "global_no": 104,
           "constraint_index": 5,
           "route": "LLM",
           "score": 0,
           "label": "FAIL",
-          "reason": "Missing source labels next to some material facts and decision points.",
+          "reason": "Some material facts lack active source labels next to them.",
           "method": "judge:openai-gpt-4o",
           "family": "Evidence and Grounding",
           "tag": "EG2",
-          "constraint": "Material facts, numeric inputs, thresholds, calculation results, missing-evidence triggers, and decision points must have active source labels next to the sentence, row, or bullet where they are used; collected end-only citations are not sufficient."
+          "constraint": "Material facts, numeric inputs, thresholds, calculation results, missing-evidence triggers, and decision points must have active source labels next to the sentence, row, or bullet where they are used; collected end-only citations are not sufficient.",
+          "global_no": 202
         },
         {
-          "global_no": 105,
           "constraint_index": 6,
           "route": "LLM",
-          "score": 0,
-          "label": "FAIL",
-          "reason": "Does not name the controlling trigger for the hold on review.",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Names controlling trigger and explains why softer outcome is not supported.",
           "method": "judge:openai-gpt-4o",
           "family": "Decision and Boundary",
           "tag": "DB7",
-          "constraint": "Every approval, rejection, hold, escalation, exception, classification, recommendation, or boundary must name the controlling active-case trigger and state why a softer or opposite outcome is not supported."
+          "constraint": "Every approval, rejection, hold, escalation, exception, classification, recommendation, or boundary must name the controlling active-case trigger and state why a softer or opposite outcome is not supported.",
+          "global_no": 203
         },
         {
-          "global_no": 106,
           "constraint_index": 7,
           "route": "LLM",
-          "score": 0,
-          "label": "FAIL",
-          "reason": "Does not name the required approver or prerequisite for the missing information.",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Names required authorization evidence and does not imply approval without it.",
           "method": "judge:openai-gpt-4o",
           "family": "Decision and Boundary",
           "tag": "DB7",
-          "constraint": "If approval, authorization, authority evidence, or a review prerequisite controls the outcome, the response must name the required approver or prerequisite and must not imply approval while that prerequisite is missing."
+          "constraint": "If approval, authorization, authority evidence, or a review prerequisite controls the outcome, the response must name the required approver or prerequisite and must not imply approval while that prerequisite is missing.",
+          "global_no": 204
         },
         {
-          "global_no": 107,
           "constraint_index": 8,
           "route": "LLM",
           "score": 1,
@@ -1451,10 +2827,10 @@ window.FINIF_MODULE_B = {
           "method": "judge:openai-gpt-4o",
           "family": "Decision and Boundary",
           "tag": "DB8",
-          "constraint": "The response must not convert hypothetical, projected, target, testimonial, endorsement, ranking, or sales-claim language into a current, certain, approved, or substantiated performance claim unless the packet supports that boundary."
+          "constraint": "The response must not convert hypothetical, projected, target, testimonial, endorsement, ranking, or sales-claim language into a current, certain, approved, or substantiated performance claim unless the packet supports that boundary.",
+          "global_no": 205
         },
         {
-          "global_no": 108,
           "constraint_index": 9,
           "route": "rule",
           "score": 1,
@@ -1463,10 +2839,10 @@ window.FINIF_MODULE_B = {
           "method": "rule_aided:decimal_places",
           "family": "Format and Presentation",
           "tag": "FP3",
-          "constraint": "Every percentage value in the response, including values written with percent or percentage points, must use exactly two decimal places."
+          "constraint": "Every percentage value in the response, including values written with percent or percentage points, must use exactly two decimal places.",
+          "global_no": 206
         },
         {
-          "global_no": 109,
           "constraint_index": 10,
           "route": "rule",
           "score": 1,
@@ -1475,10 +2851,10 @@ window.FINIF_MODULE_B = {
           "method": "rule_aided:first_line_format",
           "family": "Format and Presentation",
           "tag": "FP6",
-          "constraint": "The first non-empty line must be a Markdown bold title."
+          "constraint": "The first non-empty line must be a Markdown bold title.",
+          "global_no": 207
         },
         {
-          "global_no": 110,
           "constraint_index": 11,
           "route": "rule",
           "score": 1,
@@ -1487,10 +2863,10 @@ window.FINIF_MODULE_B = {
           "method": "rule_aided:required_keyword",
           "family": "Format and Presentation",
           "tag": "FP4",
-          "constraint": "The response must include the exact label Next action:."
+          "constraint": "The response must include the exact label Next action:.",
+          "global_no": 208
         },
         {
-          "global_no": 111,
           "constraint_index": 12,
           "route": "rule",
           "score": 1,
@@ -1499,10 +2875,197 @@ window.FINIF_MODULE_B = {
           "method": "rule_aided:blockquote_count",
           "family": "Format and Presentation",
           "tag": "FP2",
-          "constraint": "The response must include at least two Markdown blockquote lines."
+          "constraint": "The response must include at least two Markdown blockquote lines.",
+          "global_no": 209
         },
         {
-          "global_no": 112,
+          "constraint_index": 13,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Response has 19 sentence(s).",
+          "method": "rule_aided:sentence_count",
+          "family": "Format and Presentation",
+          "tag": "FP3",
+          "constraint": "The response must contain at least eight complete sentences.",
+          "global_no": 210
+        }
+      ]
+    },
+    {
+      "pair_id": "tonight_hard_swapin_049__ds-v4-flash",
+      "prompt_index": 10,
+      "response_variant": "B",
+      "item_id": "tonight_hard_swapin_049",
+      "workflow": "Intake and Profiling",
+      "task": "Service scope explanation",
+      "work_product": "client wording conversion",
+      "full_prompt": "Case file 654: Client wording conversion\n\nReviewer request\nPlease complete this request: Rewrite the internal draft into client-appropriate wording for Greenline Studio LLC. use only the provided materials. Remove internal jargon and threatening language, accurately list the missing authority and ownership information, and explain that review cannot continue until required information is received. Do not say KYC failed, legal will reject the account, or that a final decision has been made.\n\nEvidence in the file\nfinra rule (FINRA Rule 2090 Know Your Customer)\nFINRA Rule 2090 says a member must use reasonable diligence, when opening and maintaining an account, to know and retain the essential facts concerning every customer and the authority of each person acting on behalf of the customer. Essential facts include facts needed to service the account, follow special handling instructions, understand authority, and comply with applicable laws, regulations, and rules.\n\ninternal -- Internal draft says: 'Account is blocked because KYC failed. Client has not proven authority and BO file is deficient. Tell them legal will reject it unless they send the missing papers today.' File facts: Greenline Studio LLC provided articles of organization and W-9. Missing: manager consent authorizing account opening; beneficial-owner percentages for two members; residential address for control person Nia Patel. Screening is not complete. No legal review has occurred.\n\nName for this material: client wording policy. Content: Client communications must avoid internal jargon such as KYC failed, BO file, blocked, deficient, and legal will reject. Staff may say the file is not yet complete, specify the missing items, and explain that review cannot continue until required information is received. Staff must not threaten rejection, state a legal conclusion, or imply a final decision before review is complete.\n\nWhen the answer uses evidence, cite the material labels shown above.\n\nFinal work-product request\nRewrite the internal draft into client-appropriate wording for Greenline Studio LLC. use only the provided materials. Remove internal jargon and threatening language, accurately list the missing authority and ownership information, and explain that review cannot continue until required information is received. Do not say KYC failed, legal will reject the account, or that a final decision has been made. Produce the client wording conversion under an audit-ready diligence challenge posture: connect each final action to the active evidence and the governing rule, policy, task standard, or active-case trigger; keep active source labels beside the material facts, figures, thresholds, missing-evidence triggers, and decision points where they are used; for any approval, rejection, hold, escalation, exception, classification, recommendation, or boundary, name the controlling trigger and why a softer or opposite outcome is not supported; name any required approver, authority evidence, authorization, or review prerequisite that controls the outcome; keep hypothetical, projected, target, testimonial, endorsement, ranking, sales-claim, and performance language inside the boundary supported by the packet; write every percentage value, including percent or percentage-point values, with exactly two decimal places. Open the client wording conversion with a Markdown bold title on the first non-empty line. Near the end, include the exact handoff label Next action:; if the packet supports no next action, write Next action: none supported by the packet. Include at least two short Markdown blockquote lines beginning with > for source or rule excerpts that anchor the decision. Use at least eight complete sentences in the full response. Treat the layout as part of the requested finance work product, but do not omit required evidence, calculations, boundaries, or decisions just to satisfy presentation.\n",
+      "model": "deepseek-v4-flash",
+      "run_label": "ds-v4-flash",
+      "response": "**Client Communication Regarding Account Opening Documentation – Greenline Studio LLC**\n\nThank you for submitting the articles of organization and W-9 for Greenline Studio LLC. We have reviewed the documents you provided.\n\nAs part of our standard onboarding process, we are required to obtain certain essential facts to know our customers and the authority of each person acting on behalf of the entity. This obligation is based on FINRA Rule 2090 (Know Your Customer), which states that \"a member must use reasonable diligence, when opening and maintaining an account, to know and retain the essential facts concerning every customer and the authority of each person acting on behalf of the customer.\"\n\n> *Source: finra rule (FINRA Rule 2090 Know Your Customer)*\n\nAt this time, your file is not yet complete. The following information is still missing:\n\n1. A manager consent document authorizing the opening of the account – this is needed to confirm the authority of the person(s) acting on behalf of Greenline Studio LLC.\n2. The beneficial-owner percentages for two members – these ownership details are required to understand the ownership structure of the entity.\n3. The residential address for the control person, Nia Patel – this is needed to complete the essential facts about the individual who controls or manages the account.\n\n> *Source: client wording policy – \"Staff may say the file is not yet complete, specify the missing items, and explain that review cannot continue until required information is received.\"*\n\nBecause these items are essential to meeting our Know Your Customer obligations under FINRA Rule 2090, we cannot continue the review of your account application until the missing information is received. No legal review has occurred, and no final decision has been made regarding your account. Once you provide the required documents, we will proceed with the remaining steps of our review process.\n\nPlease send the manager consent, the ownership percentages for the two members, and Nia Patel’s residential address at your earliest convenience. If you have any questions about the required items, do not hesitate to contact us.\n\n**Next action:** Await receipt of missing documentation from Greenline Studio LLC: manager consent, beneficial-owner percentages for two members, and residential address for Nia Patel.",
+      "auto_quality_score": 3,
+      "auto_quality_reason": "Fails key grounding and decision constraints, missing source labels, and controlling triggers.",
+      "item_pass": false,
+      "item_csr": 0.7857142857142857,
+      "constraints": [
+        {
+          "constraint_index": 0,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Only provided context is used.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Evidence and Grounding",
+          "tag": "EG1",
+          "constraint": "The rewritten wording must use only the provided context.",
+          "global_no": 211
+        },
+        {
+          "constraint_index": 1,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Explains review cannot continue until information is received.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Decision and Boundary",
+          "tag": "DB2",
+          "constraint": "The wording must explain that review cannot continue until required information is received.",
+          "global_no": 212
+        },
+        {
+          "constraint_index": 2,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Does not use prohibited terms like KYC failed or legal will reject.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Format and Presentation",
+          "tag": "FP4",
+          "constraint": "The wording must not say KYC failed, BO file, blocked, deficient, or legal will reject.",
+          "global_no": 213
+        },
+        {
+          "constraint_index": 3,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Does not state or imply a final decision has been made.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Decision and Boundary",
+          "tag": "DB4",
+          "constraint": "The wording must not state or imply that a final decision has been made.",
+          "global_no": 214
+        },
+        {
+          "constraint_index": 4,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Connects evidence, rule, and action in a reasoning chain.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Decision and Boundary",
+          "tag": "DB9",
+          "constraint": "The response must connect active evidence, governing rule or task standard, and final action in a single reasoning chain; it must not present facts, calculations, and recommendations as disconnected checklist fragments.",
+          "global_no": 215
+        },
+        {
+          "constraint_index": 5,
+          "route": "LLM",
+          "score": 0,
+          "label": "FAIL",
+          "reason": "Missing source labels next to some material facts and decision points.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Evidence and Grounding",
+          "tag": "EG2",
+          "constraint": "Material facts, numeric inputs, thresholds, calculation results, missing-evidence triggers, and decision points must have active source labels next to the sentence, row, or bullet where they are used; collected end-only citations are not sufficient.",
+          "global_no": 216
+        },
+        {
+          "constraint_index": 6,
+          "route": "LLM",
+          "score": 0,
+          "label": "FAIL",
+          "reason": "Does not name the controlling trigger for the hold on review.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Decision and Boundary",
+          "tag": "DB7",
+          "constraint": "Every approval, rejection, hold, escalation, exception, classification, recommendation, or boundary must name the controlling active-case trigger and state why a softer or opposite outcome is not supported.",
+          "global_no": 217
+        },
+        {
+          "constraint_index": 7,
+          "route": "LLM",
+          "score": 0,
+          "label": "FAIL",
+          "reason": "Does not name the required approver or prerequisite for the missing information.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Decision and Boundary",
+          "tag": "DB7",
+          "constraint": "If approval, authorization, authority evidence, or a review prerequisite controls the outcome, the response must name the required approver or prerequisite and must not imply approval while that prerequisite is missing.",
+          "global_no": 218
+        },
+        {
+          "constraint_index": 8,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Does not convert hypothetical or projected language into substantiated claims.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Decision and Boundary",
+          "tag": "DB8",
+          "constraint": "The response must not convert hypothetical, projected, target, testimonial, endorsement, ranking, or sales-claim language into a current, certain, approved, or substantiated performance claim unless the packet supports that boundary.",
+          "global_no": 219
+        },
+        {
+          "constraint_index": 9,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "No percentage values were found, so the percentage decimal-place constraint is vacuously satisfied.",
+          "method": "rule_aided:decimal_places",
+          "family": "Format and Presentation",
+          "tag": "FP3",
+          "constraint": "Every percentage value in the response, including values written with percent or percentage points, must use exactly two decimal places.",
+          "global_no": 220
+        },
+        {
+          "constraint_index": 10,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "First non-empty line uses Markdown bold format.",
+          "method": "rule_aided:first_line_format",
+          "family": "Format and Presentation",
+          "tag": "FP6",
+          "constraint": "The first non-empty line must be a Markdown bold title.",
+          "global_no": 221
+        },
+        {
+          "constraint_index": 11,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "All required keyword(s) were found.",
+          "method": "rule_aided:required_keyword",
+          "family": "Format and Presentation",
+          "tag": "FP4",
+          "constraint": "The response must include the exact label Next action:.",
+          "global_no": 222
+        },
+        {
+          "constraint_index": 12,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Response has 2 blockquote line(s).",
+          "method": "rule_aided:blockquote_count",
+          "family": "Format and Presentation",
+          "tag": "FP2",
+          "constraint": "The response must include at least two Markdown blockquote lines.",
+          "global_no": 223
+        },
+        {
           "constraint_index": 13,
           "route": "rule",
           "score": 1,
@@ -1511,25 +3074,29 @@ window.FINIF_MODULE_B = {
           "method": "rule_aided:sentence_count",
           "family": "Format and Presentation",
           "tag": "FP3",
-          "constraint": "The response must contain at least eight complete sentences."
+          "constraint": "The response must contain at least eight complete sentences.",
+          "global_no": 224
         }
       ]
     },
     {
+      "pair_id": "tonight_hard_swapin_057__ds-v4-flash",
+      "prompt_index": 11,
+      "response_variant": "A",
       "item_id": "tonight_hard_swapin_057",
       "workflow": "Intake and Profiling",
       "task": "Client risk profiling",
       "work_product": "onboarding hold note for profile authority gap",
       "full_prompt": "Case file 514: Onboarding hold note for profile authority gap\n\nReviewer request\nPlease complete this request: Create a short onboarding hold note for Victor Chen's profile, focused on whether missing trusted-contact and authority information affects use of the profile. Separate servicing facts from recommendation-use blockers and identify the single fastest document request.\n\nEvidence in the file\nfinra rule -- FINRA Rule 2090 states that every member shall use reasonable diligence, in regard to the opening and maintenance of every account, to know and retain the essential facts concerning every customer and concerning the authority of each person acting on behalf of such customer. Essential facts are those required to service the customer's account, act in accordance with any special handling instructions, understand the authority of each person acting on behalf of the customer, and comply with applicable laws, regulations, and rules.\n\nName for this material: profile file. Content: Client: Victor Chen. Individual account. Profile date: 2026-05-19. Objective: capital preservation with income. Risk tolerance: conservative. Liquidity need: 20% within one year. Time horizon: 3 years. Investment experience: bank CDs and bond funds. Trusted contact: blank. Durable power of attorney: client mentioned daughter may have POA, but no document is on file. Account authority field: client only. Advisor wants to use the profile for a new income recommendation tomorrow.\n\ncontact intake procedure (Synthetic Authority and Trusted Contact Intake Procedure)\nA missing trusted contact does not by itself block profile completion. An unresolved third-party authority statement blocks use of the profile for new recommendations until the authority status is documented or the client confirms no third-party authority. Servicing may continue under the current profile if the client-only authority field is on file and no third party attempts to act. Intake hold notes must separate servicing status from recommendation-use status.\n\nWhen the answer uses evidence, cite the material labels shown above.\n\nFinal work-product request\nCreate a short onboarding hold note for Victor Chen's profile, focused on whether missing trusted-contact and authority information affects use of the profile. Separate servicing facts from recommendation-use blockers and identify the single fastest document request. Produce the onboarding hold note for profile authority gap under an audit-ready credit committee posture: connect each final action to the active evidence and the governing rule, policy, task standard, or active-case trigger; keep active source labels beside the material facts, figures, thresholds, missing-evidence triggers, and decision points where they are used; for any approval, rejection, hold, escalation, exception, classification, recommendation, or boundary, name the controlling trigger and why a softer or opposite outcome is not supported; identify any active breach, exception, waiver need, deficiency, unresolved inconsistency, control gap, or non-compliance indicator rather than treating the workflow as cleared; name any required approver, authority evidence, authorization, or review prerequisite that controls the outcome; write every percentage value, including percent or percentage-point values, with exactly two decimal places. Open the onboarding hold note for profile authority gap with a Markdown bold title on the first non-empty line. Near the end, include the exact handoff label Next action:; if the packet supports no next action, write Next action: none supported by the packet. Include at least two short Markdown blockquote lines beginning with > for source or rule excerpts that anchor the decision. Use at least eight complete sentences in the full response. Treat the layout as part of the requested finance work product, but do not omit required evidence, calculations, boundaries, or decisions just to satisfy presentation.\n",
       "model": "deepseek-v4-flash",
+      "run_label": "ds-v4-flash",
       "response": "**Onboarding Hold Note – Profile Authority Gap: Victor Chen**\n\nThe profile file for Victor Chen (dated 2026-05-19) shows a client objective of capital preservation with income, conservative risk tolerance, and a 3-year time horizon. Under servicing facts, the missing trusted-contact field does not block profile completion or ongoing servicing per the contact intake procedure, and the current account authority field is listed as \"client only,\" which permits servicing as long as no third party attempts to act. However, a recommendation-use blocker exists because the client stated that \"daughter may have POA\" but no durable power of attorney document is on file; this unresolved third-party authority statement prohibits use of the profile for new recommendations until the authority status is documented or the client confirms no third-party authority. The single fastest document request is for the client to provide a signed written confirmation that no third-party authority exists, as this can be obtained immediately without locating a legal document (alternative: if the client confirms a POA, request the actual POA document, but that is slower). The governing rule is FINRA Rule 2090, which requires every member to know and retain essential facts concerning the authority of each person acting on behalf of the customer. The contact intake procedure explicitly states: \"A missing trusted contact does not by itself block profile completion. An unresolved third-party authority statement blocks use of the profile for new recommendations until the authority status is documented or the client confirms no third-party authority.\" A softer outcome (e.g., proceeding with the recommendation based on the client-only field alone) is not supported because the procedure imposes a clear block absent resolution of the stated authority gap. No breach has occurred yet because no recommendation has been made, but proceeding without resolution would constitute a compliance deficiency. The required approver for lifting this hold is the advisor or compliance officer after receipt of the client’s written confirmation or valid POA document.\n\n> FINRA Rule 2090: \"Every member shall use reasonable diligence … to know and retain the essential facts concerning every customer and concerning the authority of each person acting on behalf of such customer.\"\n> Contact intake procedure: \"An unresolved third-party authority statement blocks use of the profile for new recommendations until the authority status is documented or the client confirms no third-party authority.\"\n\nNext action: Request client's written confirmation regarding third-party authority (or provide durable power of attorney document) before using profile for new recommendations.",
+      "auto_quality_score": 3,
+      "auto_quality_reason": "The response is generally coherent and follows the task requirements, but it fails to provide active source labels next to material facts and decision points, which is crucial for audit readiness. Quality capped to 3/10 due to 1 central IF failure(s); severe authority/route/trigger failure.",
       "item_pass": false,
       "item_csr": 0.9,
-      "passed_constraints": 9,
-      "total_constraints": 10,
       "constraints": [
         {
-          "global_no": 113,
           "constraint_index": 0,
           "route": "LLM",
           "score": 1,
@@ -1538,10 +3105,10 @@ window.FINIF_MODULE_B = {
           "method": "judge:openai-gpt-4o",
           "family": "Decision and Boundary",
           "tag": "DB2",
-          "constraint": "The response must not treat a missing trusted contact alone as a profile-completion blocker."
+          "constraint": "The response must not treat a missing trusted contact alone as a profile-completion blocker.",
+          "global_no": 225
         },
         {
-          "global_no": 114,
           "constraint_index": 1,
           "route": "LLM",
           "score": 1,
@@ -1550,10 +3117,10 @@ window.FINIF_MODULE_B = {
           "method": "judge:openai-gpt-4o",
           "family": "Decision and Boundary",
           "tag": "DB9",
-          "constraint": "The response must connect active evidence, governing rule or task standard, and final action in a single reasoning chain; it must not present facts, calculations, and recommendations as disconnected checklist fragments."
+          "constraint": "The response must connect active evidence, governing rule or task standard, and final action in a single reasoning chain; it must not present facts, calculations, and recommendations as disconnected checklist fragments.",
+          "global_no": 226
         },
         {
-          "global_no": 115,
           "constraint_index": 2,
           "route": "LLM",
           "score": 0,
@@ -1562,10 +3129,10 @@ window.FINIF_MODULE_B = {
           "method": "judge:openai-gpt-4o",
           "family": "Evidence and Grounding",
           "tag": "EG2",
-          "constraint": "Material facts, numeric inputs, thresholds, calculation results, missing-evidence triggers, and decision points must have active source labels next to the sentence, row, or bullet where they are used; collected end-only citations are not sufficient."
+          "constraint": "Material facts, numeric inputs, thresholds, calculation results, missing-evidence triggers, and decision points must have active source labels next to the sentence, row, or bullet where they are used; collected end-only citations are not sufficient.",
+          "global_no": 227
         },
         {
-          "global_no": 116,
           "constraint_index": 3,
           "route": "LLM",
           "score": 1,
@@ -1574,10 +3141,10 @@ window.FINIF_MODULE_B = {
           "method": "judge:openai-gpt-4o",
           "family": "Decision and Boundary",
           "tag": "DB7",
-          "constraint": "Every approval, rejection, hold, escalation, exception, classification, recommendation, or boundary must name the controlling active-case trigger and state why a softer or opposite outcome is not supported."
+          "constraint": "Every approval, rejection, hold, escalation, exception, classification, recommendation, or boundary must name the controlling active-case trigger and state why a softer or opposite outcome is not supported.",
+          "global_no": 228
         },
         {
-          "global_no": 117,
           "constraint_index": 4,
           "route": "LLM",
           "score": 1,
@@ -1586,10 +3153,10 @@ window.FINIF_MODULE_B = {
           "method": "judge:openai-gpt-4o",
           "family": "Decision and Boundary",
           "tag": "DB7",
-          "constraint": "If approval, authorization, authority evidence, or a review prerequisite controls the outcome, the response must name the required approver or prerequisite and must not imply approval while that prerequisite is missing."
+          "constraint": "If approval, authorization, authority evidence, or a review prerequisite controls the outcome, the response must name the required approver or prerequisite and must not imply approval while that prerequisite is missing.",
+          "global_no": 229
         },
         {
-          "global_no": 118,
           "constraint_index": 5,
           "route": "rule",
           "score": 1,
@@ -1598,10 +3165,10 @@ window.FINIF_MODULE_B = {
           "method": "rule_aided:decimal_places",
           "family": "Format and Presentation",
           "tag": "FP3",
-          "constraint": "Every percentage value in the response, including values written with percent or percentage points, must use exactly two decimal places."
+          "constraint": "Every percentage value in the response, including values written with percent or percentage points, must use exactly two decimal places.",
+          "global_no": 230
         },
         {
-          "global_no": 119,
           "constraint_index": 6,
           "route": "rule",
           "score": 1,
@@ -1610,10 +3177,10 @@ window.FINIF_MODULE_B = {
           "method": "rule_aided:first_line_format",
           "family": "Format and Presentation",
           "tag": "FP6",
-          "constraint": "The first non-empty line must be a Markdown bold title."
+          "constraint": "The first non-empty line must be a Markdown bold title.",
+          "global_no": 231
         },
         {
-          "global_no": 120,
           "constraint_index": 7,
           "route": "rule",
           "score": 1,
@@ -1622,10 +3189,10 @@ window.FINIF_MODULE_B = {
           "method": "rule_aided:required_keyword",
           "family": "Format and Presentation",
           "tag": "FP4",
-          "constraint": "The response must include the exact label Next action:."
+          "constraint": "The response must include the exact label Next action:.",
+          "global_no": 232
         },
         {
-          "global_no": 121,
           "constraint_index": 8,
           "route": "rule",
           "score": 1,
@@ -1634,10 +3201,10 @@ window.FINIF_MODULE_B = {
           "method": "rule_aided:blockquote_count",
           "family": "Format and Presentation",
           "tag": "FP2",
-          "constraint": "The response must include at least two Markdown blockquote lines."
+          "constraint": "The response must include at least two Markdown blockquote lines.",
+          "global_no": 233
         },
         {
-          "global_no": 122,
           "constraint_index": 9,
           "route": "rule",
           "score": 1,
@@ -1646,49 +3213,192 @@ window.FINIF_MODULE_B = {
           "method": "rule_aided:sentence_count",
           "family": "Format and Presentation",
           "tag": "FP3",
-          "constraint": "The response must contain at least eight complete sentences."
+          "constraint": "The response must contain at least eight complete sentences.",
+          "global_no": 234
         }
       ]
     },
     {
+      "pair_id": "tonight_hard_swapin_057__gpt-5.5",
+      "prompt_index": 11,
+      "response_variant": "B",
+      "item_id": "tonight_hard_swapin_057",
+      "workflow": "Intake and Profiling",
+      "task": "Client risk profiling",
+      "work_product": "onboarding hold note for profile authority gap",
+      "full_prompt": "Case file 514: Onboarding hold note for profile authority gap\n\nReviewer request\nPlease complete this request: Create a short onboarding hold note for Victor Chen's profile, focused on whether missing trusted-contact and authority information affects use of the profile. Separate servicing facts from recommendation-use blockers and identify the single fastest document request.\n\nEvidence in the file\nfinra rule -- FINRA Rule 2090 states that every member shall use reasonable diligence, in regard to the opening and maintenance of every account, to know and retain the essential facts concerning every customer and concerning the authority of each person acting on behalf of such customer. Essential facts are those required to service the customer's account, act in accordance with any special handling instructions, understand the authority of each person acting on behalf of the customer, and comply with applicable laws, regulations, and rules.\n\nName for this material: profile file. Content: Client: Victor Chen. Individual account. Profile date: 2026-05-19. Objective: capital preservation with income. Risk tolerance: conservative. Liquidity need: 20% within one year. Time horizon: 3 years. Investment experience: bank CDs and bond funds. Trusted contact: blank. Durable power of attorney: client mentioned daughter may have POA, but no document is on file. Account authority field: client only. Advisor wants to use the profile for a new income recommendation tomorrow.\n\ncontact intake procedure (Synthetic Authority and Trusted Contact Intake Procedure)\nA missing trusted contact does not by itself block profile completion. An unresolved third-party authority statement blocks use of the profile for new recommendations until the authority status is documented or the client confirms no third-party authority. Servicing may continue under the current profile if the client-only authority field is on file and no third party attempts to act. Intake hold notes must separate servicing status from recommendation-use status.\n\nWhen the answer uses evidence, cite the material labels shown above.\n\nFinal work-product request\nCreate a short onboarding hold note for Victor Chen's profile, focused on whether missing trusted-contact and authority information affects use of the profile. Separate servicing facts from recommendation-use blockers and identify the single fastest document request. Produce the onboarding hold note for profile authority gap under an audit-ready credit committee posture: connect each final action to the active evidence and the governing rule, policy, task standard, or active-case trigger; keep active source labels beside the material facts, figures, thresholds, missing-evidence triggers, and decision points where they are used; for any approval, rejection, hold, escalation, exception, classification, recommendation, or boundary, name the controlling trigger and why a softer or opposite outcome is not supported; identify any active breach, exception, waiver need, deficiency, unresolved inconsistency, control gap, or non-compliance indicator rather than treating the workflow as cleared; name any required approver, authority evidence, authorization, or review prerequisite that controls the outcome; write every percentage value, including percent or percentage-point values, with exactly two decimal places. Open the onboarding hold note for profile authority gap with a Markdown bold title on the first non-empty line. Near the end, include the exact handoff label Next action:; if the packet supports no next action, write Next action: none supported by the packet. Include at least two short Markdown blockquote lines beginning with > for source or rule excerpts that anchor the decision. Use at least eight complete sentences in the full response. Treat the layout as part of the requested finance work product, but do not omit required evidence, calculations, boundaries, or decisions just to satisfy presentation.\n",
+      "model": "gpt-5.5-2026-04-23",
+      "run_label": "gpt-5.5",
+      "response": "**Onboarding Hold Note — Victor Chen Profile Authority Gap**\n\n> FINRA Rule 2090 requires reasonable diligence to know and retain essential facts concerning the customer and “the authority of each person acting on behalf of such customer.” [finra rule]  \n> A missing trusted contact does not by itself block profile completion, but an unresolved third-party authority statement blocks use of the profile for new recommendations until authority status is documented or the client confirms no third-party authority. [contact intake procedure]\n\nVictor Chen’s profile is an individual account dated 2026-05-19, with objective listed as capital preservation with income, conservative risk tolerance, liquidity need of 20.00% within one year, three-year time horizon, and investment experience in bank CDs and bond funds. [profile file]  \nThe servicing record currently lists “client only” in the account authority field, and no third party has attempted to act in the file materials provided. [profile file]  \nUnder the intake procedure, servicing may continue on the current profile because the client-only authority field is on file and no third party is acting; a softer servicing freeze is not supported by the procedure on these facts. [contact intake procedure]  \nThe trusted-contact field is blank, which is a profile deficiency to complete, but it is not a recommendation-use blocker by itself because the procedure expressly says a missing trusted contact does not by itself block profile completion. [profile file; contact intake procedure]  \n\nThe recommendation-use blocker is the unresolved authority statement: the client mentioned that his daughter may have durable power of attorney, but no POA document is on file. [profile file]  \nBecause the advisor wants to use this profile for a new income recommendation tomorrow, the active-case trigger is proposed new recommendation use before authority status is resolved. [profile file]  \nUnder FINRA Rule 2090 and the intake procedure, the profile should be placed on hold for new recommendation use until the authority status is documented or Victor Chen confirms that no third-party authority exists; an approval to proceed tomorrow is not supported because the firm has not yet retained the essential authority facts for any person who may act on the customer’s behalf. [finra rule; contact intake procedure]  \nNo waiver, exception, or committee override is supported by the packet because the controlling procedure gives a clear prerequisite rather than a discretionary approval path. [contact intake procedure]  \n\nRequired review prerequisite: authority evidence must be resolved before the profile is used for the new income recommendation. [contact intake procedure]  \nAcceptable authority evidence is either the durable POA document if the daughter has authority, or Victor Chen’s documented confirmation that no third-party authority exists. [profile file; contact intake procedure]  \nSingle fastest document request: request a same-day signed authority-status confirmation from Victor Chen stating whether any third party, including his daughter, has authority to act on the account; if the answer is yes, the POA document must be provided and reviewed before recommendation use. [contact intake procedure; finra rule]  \nThis is faster and more directly tied to the blocker than requesting only a trusted-contact update, because the blank trusted-contact field is not the controlling hold trigger. [contact intake procedure]  \n\nHold classification: servicing permitted; new recommendation use blocked pending authority-status documentation. [contact intake procedure]  \nIdentified open items are the blank trusted-contact field, unresolved daughter-POA statement, missing authority evidence if POA exists, and the control gap between “client only” authority coding and the client’s statement that a daughter may have POA. [profile file; finra rule]  \n\nNext action: obtain Victor Chen’s same-day signed authority-status confirmation, and if any third-party authority exists, obtain and review the durable power of attorney before the advisor uses the profile for the new income recommendation.",
+      "auto_quality_score": 10,
+      "auto_quality_reason": "The response is excellent, fully compliant with all constraints, and provides a complete, well-grounded, and decision-useful work product.",
+      "item_pass": false,
+      "item_csr": null,
+      "constraints": [
+        {
+          "constraint_index": 0,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "The response correctly states that a missing trusted contact does not block profile completion.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Decision and Boundary",
+          "tag": "DB2",
+          "constraint": "The response must not treat a missing trusted contact alone as a profile-completion blocker.",
+          "global_no": 235
+        },
+        {
+          "constraint_index": 1,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "The response connects evidence, rules, and actions in a coherent reasoning chain.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Decision and Boundary",
+          "tag": "DB9",
+          "constraint": "The response must connect active evidence, governing rule or task standard, and final action in a single reasoning chain; it must not present facts, calculations, and recommendations as disconnected checklist fragments.",
+          "global_no": 236
+        },
+        {
+          "constraint_index": 2,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Material facts and decision points have active source labels next to them.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Evidence and Grounding",
+          "tag": "EG2",
+          "constraint": "Material facts, numeric inputs, thresholds, calculation results, missing-evidence triggers, and decision points must have active source labels next to the sentence, row, or bullet where they are used; collected end-only citations are not sufficient.",
+          "global_no": 237
+        },
+        {
+          "constraint_index": 3,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "The response names controlling triggers and explains why softer outcomes are not supported.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Decision and Boundary",
+          "tag": "DB7",
+          "constraint": "Every approval, rejection, hold, escalation, exception, classification, recommendation, or boundary must name the controlling active-case trigger and state why a softer or opposite outcome is not supported.",
+          "global_no": 238
+        },
+        {
+          "constraint_index": 4,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "The response names the required authority evidence and does not imply approval without it.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Decision and Boundary",
+          "tag": "DB7",
+          "constraint": "If approval, authorization, authority evidence, or a review prerequisite controls the outcome, the response must name the required approver or prerequisite and must not imply approval while that prerequisite is missing.",
+          "global_no": 239
+        },
+        {
+          "constraint_index": 5,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "All decimal numeric values use 2 decimal place(s).",
+          "method": "rule_aided:decimal_places",
+          "family": "Format and Presentation",
+          "tag": "FP3",
+          "constraint": "Every percentage value in the response, including values written with percent or percentage points, must use exactly two decimal places.",
+          "global_no": 240
+        },
+        {
+          "constraint_index": 6,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "First non-empty line uses Markdown bold format.",
+          "method": "rule_aided:first_line_format",
+          "family": "Format and Presentation",
+          "tag": "FP6",
+          "constraint": "The first non-empty line must be a Markdown bold title.",
+          "global_no": 241
+        },
+        {
+          "constraint_index": 7,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "All required keyword(s) were found.",
+          "method": "rule_aided:required_keyword",
+          "family": "Format and Presentation",
+          "tag": "FP4",
+          "constraint": "The response must include the exact label Next action:.",
+          "global_no": 242
+        },
+        {
+          "constraint_index": 8,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Response has 2 blockquote line(s).",
+          "method": "rule_aided:blockquote_count",
+          "family": "Format and Presentation",
+          "tag": "FP2",
+          "constraint": "The response must include at least two Markdown blockquote lines.",
+          "global_no": 243
+        },
+        {
+          "constraint_index": 9,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Response has 16 sentence(s).",
+          "method": "rule_aided:sentence_count",
+          "family": "Format and Presentation",
+          "tag": "FP3",
+          "constraint": "The response must contain at least eight complete sentences.",
+          "global_no": 244
+        }
+      ]
+    },
+    {
+      "pair_id": "tonight_hard_swapin_065__gpt-5.5",
+      "prompt_index": 12,
+      "response_variant": "A",
       "item_id": "tonight_hard_swapin_065",
       "workflow": "Intake and Profiling",
       "task": "Counterparty / issuer profile construction",
       "work_product": "commodity hedging counterparty profile",
       "full_prompt": "Assignment 551: Commodity hedging counterparty profile\n\nCompletion instructions\nFor the final response, handle this assignment: Profile Moss River Dairy Cooperative for commodity hedging intake using only the supplied context. Summarize commodity exposure, hedge purpose, expected notional, collateral terms, financial capacity, operational contacts, and documentation gaps. Compute expected notional as a percentage of annual commodity purchases, flag Treasury review triggers and documentation gaps, cite visible material labels for concerns, and do not authorize hedge execution.\n\nMaterials supplied\nName for this material: counterparty intake standard. Content: A commodity hedging counterparty profile must cover legal identity, commodity exposure, hedge purpose, expected notional, collateral terms, margin threshold, financial capacity, operational contacts, and documentation gaps. If expected notional exceeds 25% of annual commodity purchases or collateral threshold exceeds $2 million, the profile must flag a Treasury review trigger. Missing operational contacts or unsigned collateral support annex must be listed as gaps. The profile must not authorize hedge execution.\n\nhedge counterparty file (Synthetic Hedge Counterparty File - Moss River Dairy Cooperative)\nCounterparty: Moss River Dairy Cooperative. Commodity exposure: purchases milk feed inputs and natural gas for processing. Hedge purpose: lock in natural gas costs for winter season. Annual commodity purchases: $64 million. Expected hedge notional: $18 million. Collateral terms: $3 million unsecured threshold proposed; daily margin after threshold. Financial capacity: FY2025 EBITDA $9.4 million, cash $5.8 million. Operational contacts: treasury contact listed; back-office settlement contact missing. Documentation: ISDA signed, collateral support annex in draft and unsigned.\n\nWhen the answer uses evidence, cite the material labels shown above.\n\nFinal work-product request\nProfile Moss River Dairy Cooperative for commodity hedging intake using only the supplied context. Summarize commodity exposure, hedge purpose, expected notional, collateral terms, financial capacity, operational contacts, and documentation gaps. Compute expected notional as a percentage of annual commodity purchases, flag Treasury review triggers and documentation gaps, cite visible material labels for concerns, and do not authorize hedge execution. Produce the commodity hedging counterparty profile under an audit-ready operations handoff posture: connect each final action to the active evidence and the governing rule, policy, task standard, or active-case trigger; keep active source labels beside the material facts, figures, thresholds, missing-evidence triggers, and decision points where they are used; for any calculation or reconciliation, show the source inputs, formula or comparison, result, and business implication; preserve exact source figures, dates, thresholds, names, and rule references when they control the decision; identify any active breach, exception, waiver need, deficiency, unresolved inconsistency, control gap, or non-compliance indicator rather than treating the workflow as cleared; write every percentage value, including percent or percentage-point values, with exactly two decimal places. Open the commodity hedging counterparty profile with a Markdown bold title on the first non-empty line. Near the end, include the exact handoff label Next action:; if the packet supports no next action, write Next action: none supported by the packet. Include one Markdown table for the audit trail whose header contains the columns Evidence, Test, Result, and Action. Keep the full response between 180 and 430 words. Treat the layout as part of the requested finance work product, but do not omit required evidence, calculations, boundaries, or decisions just to satisfy presentation.\n",
-      "model": "deepseek-v4-flash",
-      "response": "**Commodity Hedging Counterparty Profile: Moss River Dairy Cooperative**\n\n**Commodity Exposure**  \nPurchases milk feed inputs and natural gas for processing (*hedge counterparty file*).\n\n**Hedge Purpose**  \nLock in natural gas costs for the winter season (*hedge counterparty file*).\n\n**Expected Notional**  \n$18 million (*hedge counterparty file*).  \nAnnual commodity purchases: $64 million (*hedge counterparty file*).  \nCalculation: \\( \\frac{18}{64} = 0.28125 = 28.13\\% \\) (two decimal places).  \n*Business implication*: 28.13% exceeds the 25% threshold in the *counterparty intake standard* → Treasury review trigger flagged.\n\n**Collateral Terms**  \n$3 million unsecured threshold proposed; daily margin after threshold (*hedge counterparty file*).  \nThreshold $3M > $2M per *counterparty intake standard* → second Treasury review trigger flagged.\n\n**Financial Capacity**  \nFY2025 EBITDA $9.4M, cash $5.8M (*hedge counterparty file*). No specific threshold breach identified from supplied context.\n\n**Operational Contacts**  \nTreasury contact listed; back-office settlement contact missing (*hedge counterparty file*). This is a documentation gap per *counterparty intake standard*.\n\n**Documentation Gaps**  \nISDA signed; collateral support annex (CSA) in draft and unsigned (*hedge counterparty file*). Unsigned CSA is a gap per *counterparty intake standard*.\n\n**Treasury Review Triggers & Gaps Summary**  \n- Trigger 1: Expected notional 28.13% > 25% (source: *counterparty intake standard*).  \n- Trigger 2: Collateral threshold $3M > $2M (source: *counterparty intake standard*).  \n- Gap 1: Missing back-office settlement contact (source: *hedge counterparty file*).  \n- Gap 2: Unsigned CSA (source: *hedge counterparty file*).  \n\n**Audit Trail**\n\n| Evidence | Test | Result | Action |\n|----------|------|--------|--------|\n| *hedge counterparty file* (notional $18M, purchases $64M) | Expected notional / annual purchases = 28.13% | 28.13% > 25% threshold | Flag Treasury review trigger |\n| *hedge counterparty file* (collateral threshold $3M) | Compare to $2M threshold per *counterparty intake standard* | $3M > $2M | Flag second Treasury review trigger |\n| *hedge counterparty file* (back-office contact missing) | Check operational contacts per *counterparty intake standard* | Missing | Document as gap |\n| *hedge counterparty file* (CSA unsigned) | Check documentation per *counterparty intake standard* | Unsigned | Document as gap |\n\n**Next action:** Notify Treasury of both review",
+      "model": "gpt-5.5-2026-04-23",
+      "run_label": "gpt-5.5",
+      "response": "**Commodity Hedging Counterparty Profile — Moss River Dairy Cooperative**\n\n**Legal identity / counterparty:** Moss River Dairy Cooperative [hedge counterparty file]. Profile prepared under the required commodity hedging intake fields: legal identity, commodity exposure, hedge purpose, expected notional, collateral terms, margin threshold, financial capacity, operational contacts, and documentation gaps [counterparty intake standard].\n\n**Commodity exposure and hedge purpose:** The cooperative purchases milk feed inputs and natural gas for processing; the stated hedge purpose is to lock in natural gas costs for the winter season [hedge counterparty file].\n\n**Expected notional and purchase coverage calculation:** Annual commodity purchases are **$64 million** and expected hedge notional is **$18 million** [hedge counterparty file]. Formula: $18 million ÷ $64 million = **28.13%**. Business implication: expected notional exceeds the **25.00%** annual commodity purchases trigger, requiring Treasury review [counterparty intake standard].\n\n**Collateral / margin terms:** Proposed collateral terms are a **$3 million unsecured threshold** with daily margin after threshold [hedge counterparty file]. Business implication: collateral threshold exceeds the **$2 million** Treasury review trigger [counterparty intake standard].\n\n**Financial capacity:** FY2025 EBITDA is **$9.4 million** and cash is **$5.8 million** [hedge counterparty file]. These figures support capacity assessment but do not cure the Treasury review triggers or documentation gaps.\n\n**Operational contacts and documentation gaps:** Treasury contact is listed, but back-office settlement contact is missing [hedge counterparty file]. ISDA is signed, but collateral support annex is in draft and unsigned [hedge counterparty file]. Missing operational contacts and unsigned collateral support annex must be listed as gaps [counterparty intake standard].\n\n| Evidence | Test | Result | Action |\n|---|---|---|---|\n| $18 million expected notional; $64 million annual purchases [hedge counterparty file] | Compare notional / purchases to **25.00%** trigger [counterparty intake standard] | $18 million ÷ $64 million = **28.13%**; trigger breached | Treasury review required before any execution step |\n| $3 million unsecured threshold [hedge counterparty file] | Compare collateral threshold to $2 million trigger [counterparty intake standard] | $3 million exceeds $2 million | Treasury review required; collateral exception/control concern |\n| Back-office settlement contact missing [hedge counterparty file] | Missing operational contacts must be listed as gaps [counterparty intake standard] | Documentation/control gap | Obtain settlement contact |\n| Collateral support annex draft and unsigned [hedge counterparty file] | Unsigned CSA must be listed as gap [counterparty intake standard] | Documentation gap; execution not cleared | Finalize and execute CSA |\n\n**Execution status:** Hedge execution is **not authorized** by this profile.\n\nNext action: route to Treasury review and remediate missing back-office settlement contact and unsigned collateral support annex before any hedge execution consideration.",
+      "auto_quality_score": 6,
+      "auto_quality_reason": "The response is generally well-grounded and follows instructions, but the presentation of facts and actions as checklist fragments affects the reasoning chain.",
       "item_pass": false,
-      "item_csr": 0.8181818181818182,
-      "passed_constraints": 9,
-      "total_constraints": 11,
+      "item_csr": null,
       "constraints": [
         {
-          "global_no": 123,
           "constraint_index": 0,
           "route": "LLM",
           "score": 1,
           "label": "PASS",
-          "reason": "Only provided materials were used.",
+          "reason": "Only provided materials are used.",
           "method": "judge:openai-gpt-4o",
           "family": "Evidence and Grounding",
           "tag": "EG1",
-          "constraint": "The response must use only the provided materials."
+          "constraint": "The response must use only the provided materials.",
+          "global_no": 245
         },
         {
-          "global_no": 124,
           "constraint_index": 1,
           "route": "LLM",
           "score": 1,
           "label": "PASS",
-          "reason": "Hedge execution was not authorized.",
+          "reason": "Hedge execution is not authorized.",
           "method": "judge:openai-gpt-4o",
           "family": "Decision and Boundary",
           "tag": "DB4",
-          "constraint": "The response must not provide hedge execution."
+          "constraint": "The response must not provide hedge execution.",
+          "global_no": 246
         },
         {
-          "global_no": 125,
           "constraint_index": 2,
           "route": "LLM",
           "score": 0,
@@ -1697,10 +3407,10 @@ window.FINIF_MODULE_B = {
           "method": "judge:openai-gpt-4o",
           "family": "Decision and Boundary",
           "tag": "DB9",
-          "constraint": "The response must connect active evidence, governing rule or task standard, and final action in a single reasoning chain; it must not present facts, calculations, and recommendations as disconnected checklist fragments."
+          "constraint": "The response must connect active evidence, governing rule or task standard, and final action in a single reasoning chain; it must not present facts, calculations, and recommendations as disconnected checklist fragments.",
+          "global_no": 247
         },
         {
-          "global_no": 126,
           "constraint_index": 3,
           "route": "LLM",
           "score": 1,
@@ -1709,22 +3419,22 @@ window.FINIF_MODULE_B = {
           "method": "judge:openai-gpt-4o",
           "family": "Evidence and Grounding",
           "tag": "EG2",
-          "constraint": "Material facts, numeric inputs, thresholds, calculation results, missing-evidence triggers, and decision points must have active source labels next to the sentence, row, or bullet where they are used; collected end-only citations are not sufficient."
+          "constraint": "Material facts, numeric inputs, thresholds, calculation results, missing-evidence triggers, and decision points must have active source labels next to the sentence, row, or bullet where they are used; collected end-only citations are not sufficient.",
+          "global_no": 248
         },
         {
-          "global_no": 127,
           "constraint_index": 4,
           "route": "LLM",
           "score": 1,
           "label": "PASS",
-          "reason": "Calculation includes source inputs, formula, result, and business implication.",
+          "reason": "Calculation shows source inputs, formula, result, and implication.",
           "method": "judge:openai-gpt-4o",
           "family": "Quantitative Verification",
           "tag": "QV2",
-          "constraint": "For every requested calculation, reconciliation, variance, threshold test, date count, headroom, or shortfall, the response must show source inputs, formula or comparison, final result, and business implication; a bare computed number does not satisfy this requirement."
+          "constraint": "For every requested calculation, reconciliation, variance, threshold test, date count, headroom, or shortfall, the response must show source inputs, formula or comparison, final result, and business implication; a bare computed number does not satisfy this requirement.",
+          "global_no": 249
         },
         {
-          "global_no": 128,
           "constraint_index": 5,
           "route": "LLM",
           "score": 1,
@@ -1733,10 +3443,161 @@ window.FINIF_MODULE_B = {
           "method": "judge:openai-gpt-4o",
           "family": "Evidence and Grounding",
           "tag": "EG5",
-          "constraint": "The response must preserve exact source figures, dates, thresholds, names, and rule references when they control the decision; it must not round, rename, or paraphrase them in a way that changes the controlling source meaning."
+          "constraint": "The response must preserve exact source figures, dates, thresholds, names, and rule references when they control the decision; it must not round, rename, or paraphrase them in a way that changes the controlling source meaning.",
+          "global_no": 250
         },
         {
-          "global_no": 129,
+          "constraint_index": 6,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "All decimal numeric values use 2 decimal place(s).",
+          "method": "rule_aided:decimal_places",
+          "family": "Format and Presentation",
+          "tag": "FP3",
+          "constraint": "Every percentage value in the response, including values written with percent or percentage points, must use exactly two decimal places.",
+          "global_no": 251
+        },
+        {
+          "constraint_index": 7,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "First non-empty line uses Markdown bold format.",
+          "method": "rule_aided:first_line_format",
+          "family": "Format and Presentation",
+          "tag": "FP6",
+          "constraint": "The first non-empty line must be a Markdown bold title.",
+          "global_no": 252
+        },
+        {
+          "constraint_index": 8,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "All required keyword(s) were found.",
+          "method": "rule_aided:required_keyword",
+          "family": "Format and Presentation",
+          "tag": "FP4",
+          "constraint": "The response must include the exact label Next action:.",
+          "global_no": 253
+        },
+        {
+          "constraint_index": 9,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "All required table column(s) were found.",
+          "method": "rule_aided:table_columns",
+          "family": "Format and Presentation",
+          "tag": "FP2",
+          "constraint": "The response must include a Markdown table with columns Evidence, Test, Result, and Action.",
+          "global_no": 254
+        },
+        {
+          "constraint_index": 10,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Response has 391 mixed word/character unit(s).",
+          "method": "rule_aided:word_range",
+          "family": "Format and Presentation",
+          "tag": "FP3",
+          "constraint": "The response must be between 180 and 430 words.",
+          "global_no": 255
+        }
+      ]
+    },
+    {
+      "pair_id": "tonight_hard_swapin_065__ds-v4-flash",
+      "prompt_index": 12,
+      "response_variant": "B",
+      "item_id": "tonight_hard_swapin_065",
+      "workflow": "Intake and Profiling",
+      "task": "Counterparty / issuer profile construction",
+      "work_product": "commodity hedging counterparty profile",
+      "full_prompt": "Assignment 551: Commodity hedging counterparty profile\n\nCompletion instructions\nFor the final response, handle this assignment: Profile Moss River Dairy Cooperative for commodity hedging intake using only the supplied context. Summarize commodity exposure, hedge purpose, expected notional, collateral terms, financial capacity, operational contacts, and documentation gaps. Compute expected notional as a percentage of annual commodity purchases, flag Treasury review triggers and documentation gaps, cite visible material labels for concerns, and do not authorize hedge execution.\n\nMaterials supplied\nName for this material: counterparty intake standard. Content: A commodity hedging counterparty profile must cover legal identity, commodity exposure, hedge purpose, expected notional, collateral terms, margin threshold, financial capacity, operational contacts, and documentation gaps. If expected notional exceeds 25% of annual commodity purchases or collateral threshold exceeds $2 million, the profile must flag a Treasury review trigger. Missing operational contacts or unsigned collateral support annex must be listed as gaps. The profile must not authorize hedge execution.\n\nhedge counterparty file (Synthetic Hedge Counterparty File - Moss River Dairy Cooperative)\nCounterparty: Moss River Dairy Cooperative. Commodity exposure: purchases milk feed inputs and natural gas for processing. Hedge purpose: lock in natural gas costs for winter season. Annual commodity purchases: $64 million. Expected hedge notional: $18 million. Collateral terms: $3 million unsecured threshold proposed; daily margin after threshold. Financial capacity: FY2025 EBITDA $9.4 million, cash $5.8 million. Operational contacts: treasury contact listed; back-office settlement contact missing. Documentation: ISDA signed, collateral support annex in draft and unsigned.\n\nWhen the answer uses evidence, cite the material labels shown above.\n\nFinal work-product request\nProfile Moss River Dairy Cooperative for commodity hedging intake using only the supplied context. Summarize commodity exposure, hedge purpose, expected notional, collateral terms, financial capacity, operational contacts, and documentation gaps. Compute expected notional as a percentage of annual commodity purchases, flag Treasury review triggers and documentation gaps, cite visible material labels for concerns, and do not authorize hedge execution. Produce the commodity hedging counterparty profile under an audit-ready operations handoff posture: connect each final action to the active evidence and the governing rule, policy, task standard, or active-case trigger; keep active source labels beside the material facts, figures, thresholds, missing-evidence triggers, and decision points where they are used; for any calculation or reconciliation, show the source inputs, formula or comparison, result, and business implication; preserve exact source figures, dates, thresholds, names, and rule references when they control the decision; identify any active breach, exception, waiver need, deficiency, unresolved inconsistency, control gap, or non-compliance indicator rather than treating the workflow as cleared; write every percentage value, including percent or percentage-point values, with exactly two decimal places. Open the commodity hedging counterparty profile with a Markdown bold title on the first non-empty line. Near the end, include the exact handoff label Next action:; if the packet supports no next action, write Next action: none supported by the packet. Include one Markdown table for the audit trail whose header contains the columns Evidence, Test, Result, and Action. Keep the full response between 180 and 430 words. Treat the layout as part of the requested finance work product, but do not omit required evidence, calculations, boundaries, or decisions just to satisfy presentation.\n",
+      "model": "deepseek-v4-flash",
+      "run_label": "ds-v4-flash",
+      "response": "**Commodity Hedging Counterparty Profile: Moss River Dairy Cooperative**\n\n**Commodity Exposure**  \nPurchases milk feed inputs and natural gas for processing (*hedge counterparty file*).\n\n**Hedge Purpose**  \nLock in natural gas costs for the winter season (*hedge counterparty file*).\n\n**Expected Notional**  \n$18 million (*hedge counterparty file*).  \nAnnual commodity purchases: $64 million (*hedge counterparty file*).  \nCalculation: \\( \\frac{18}{64} = 0.28125 = 28.13\\% \\) (two decimal places).  \n*Business implication*: 28.13% exceeds the 25% threshold in the *counterparty intake standard* → Treasury review trigger flagged.\n\n**Collateral Terms**  \n$3 million unsecured threshold proposed; daily margin after threshold (*hedge counterparty file*).  \nThreshold $3M > $2M per *counterparty intake standard* → second Treasury review trigger flagged.\n\n**Financial Capacity**  \nFY2025 EBITDA $9.4M, cash $5.8M (*hedge counterparty file*). No specific threshold breach identified from supplied context.\n\n**Operational Contacts**  \nTreasury contact listed; back-office settlement contact missing (*hedge counterparty file*). This is a documentation gap per *counterparty intake standard*.\n\n**Documentation Gaps**  \nISDA signed; collateral support annex (CSA) in draft and unsigned (*hedge counterparty file*). Unsigned CSA is a gap per *counterparty intake standard*.\n\n**Treasury Review Triggers & Gaps Summary**  \n- Trigger 1: Expected notional 28.13% > 25% (source: *counterparty intake standard*).  \n- Trigger 2: Collateral threshold $3M > $2M (source: *counterparty intake standard*).  \n- Gap 1: Missing back-office settlement contact (source: *hedge counterparty file*).  \n- Gap 2: Unsigned CSA (source: *hedge counterparty file*).  \n\n**Audit Trail**\n\n| Evidence | Test | Result | Action |\n|----------|------|--------|--------|\n| *hedge counterparty file* (notional $18M, purchases $64M) | Expected notional / annual purchases = 28.13% | 28.13% > 25% threshold | Flag Treasury review trigger |\n| *hedge counterparty file* (collateral threshold $3M) | Compare to $2M threshold per *counterparty intake standard* | $3M > $2M | Flag second Treasury review trigger |\n| *hedge counterparty file* (back-office contact missing) | Check operational contacts per *counterparty intake standard* | Missing | Document as gap |\n| *hedge counterparty file* (CSA unsigned) | Check documentation per *counterparty intake standard* | Unsigned | Document as gap |\n\n**Next action:** Notify Treasury of both review",
+      "auto_quality_score": 6,
+      "auto_quality_reason": "The response is generally accurate and well-cited, but the presentation as checklist fragments rather than a reasoning chain affects the decision-usefulness.",
+      "item_pass": false,
+      "item_csr": 0.8181818181818182,
+      "constraints": [
+        {
+          "constraint_index": 0,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Only provided materials were used.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Evidence and Grounding",
+          "tag": "EG1",
+          "constraint": "The response must use only the provided materials.",
+          "global_no": 256
+        },
+        {
+          "constraint_index": 1,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Hedge execution was not authorized.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Decision and Boundary",
+          "tag": "DB4",
+          "constraint": "The response must not provide hedge execution.",
+          "global_no": 257
+        },
+        {
+          "constraint_index": 2,
+          "route": "LLM",
+          "score": 0,
+          "label": "FAIL",
+          "reason": "Facts and actions are presented in checklist form, not a single reasoning chain.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Decision and Boundary",
+          "tag": "DB9",
+          "constraint": "The response must connect active evidence, governing rule or task standard, and final action in a single reasoning chain; it must not present facts, calculations, and recommendations as disconnected checklist fragments.",
+          "global_no": 258
+        },
+        {
+          "constraint_index": 3,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Active source labels are used next to material facts and decisions.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Evidence and Grounding",
+          "tag": "EG2",
+          "constraint": "Material facts, numeric inputs, thresholds, calculation results, missing-evidence triggers, and decision points must have active source labels next to the sentence, row, or bullet where they are used; collected end-only citations are not sufficient.",
+          "global_no": 259
+        },
+        {
+          "constraint_index": 4,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Calculation includes source inputs, formula, result, and business implication.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Quantitative Verification",
+          "tag": "QV2",
+          "constraint": "For every requested calculation, reconciliation, variance, threshold test, date count, headroom, or shortfall, the response must show source inputs, formula or comparison, final result, and business implication; a bare computed number does not satisfy this requirement.",
+          "global_no": 260
+        },
+        {
+          "constraint_index": 5,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Exact source figures and thresholds are preserved.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Evidence and Grounding",
+          "tag": "EG5",
+          "constraint": "The response must preserve exact source figures, dates, thresholds, names, and rule references when they control the decision; it must not round, rename, or paraphrase them in a way that changes the controlling source meaning.",
+          "global_no": 261
+        },
+        {
           "constraint_index": 6,
           "route": "rule",
           "score": 0,
@@ -1745,10 +3606,10 @@ window.FINIF_MODULE_B = {
           "method": "rule_aided:decimal_places",
           "family": "Format and Presentation",
           "tag": "FP3",
-          "constraint": "Every percentage value in the response, including values written with percent or percentage points, must use exactly two decimal places."
+          "constraint": "Every percentage value in the response, including values written with percent or percentage points, must use exactly two decimal places.",
+          "global_no": 262
         },
         {
-          "global_no": 130,
           "constraint_index": 7,
           "route": "rule",
           "score": 1,
@@ -1757,10 +3618,10 @@ window.FINIF_MODULE_B = {
           "method": "rule_aided:first_line_format",
           "family": "Format and Presentation",
           "tag": "FP6",
-          "constraint": "The first non-empty line must be a Markdown bold title."
+          "constraint": "The first non-empty line must be a Markdown bold title.",
+          "global_no": 263
         },
         {
-          "global_no": 131,
           "constraint_index": 8,
           "route": "rule",
           "score": 1,
@@ -1769,10 +3630,10 @@ window.FINIF_MODULE_B = {
           "method": "rule_aided:required_keyword",
           "family": "Format and Presentation",
           "tag": "FP4",
-          "constraint": "The response must include the exact label Next action:."
+          "constraint": "The response must include the exact label Next action:.",
+          "global_no": 264
         },
         {
-          "global_no": 132,
           "constraint_index": 9,
           "route": "rule",
           "score": 1,
@@ -1781,10 +3642,10 @@ window.FINIF_MODULE_B = {
           "method": "rule_aided:table_columns",
           "family": "Format and Presentation",
           "tag": "FP2",
-          "constraint": "The response must include a Markdown table with columns Evidence, Test, Result, and Action."
+          "constraint": "The response must include a Markdown table with columns Evidence, Test, Result, and Action.",
+          "global_no": 265
         },
         {
-          "global_no": 133,
           "constraint_index": 10,
           "route": "rule",
           "score": 1,
@@ -1793,25 +3654,29 @@ window.FINIF_MODULE_B = {
           "method": "rule_aided:word_range",
           "family": "Format and Presentation",
           "tag": "FP3",
-          "constraint": "The response must be between 180 and 430 words."
+          "constraint": "The response must be between 180 and 430 words.",
+          "global_no": 266
         }
       ]
     },
     {
+      "pair_id": "tonight_hard_line_231__ds-v4-flash",
+      "prompt_index": 13,
+      "response_variant": "A",
       "item_id": "tonight_hard_line_231",
       "workflow": "Research and Due Diligence",
       "task": "Background screening",
       "work_product": "adverse media recency screen",
       "full_prompt": "Review request 231 - Background screening\n\nReview packet contents\nrepo collateral file; Pinecrest Data Centers is a fictional counterparty, issuer, vendor, or project party used for a synthetic background screening benchmark item. Screening scope covers entity-level and role-title-level only. The pack intentionally excludes dates of birth, residential addresses, government identifiers, account numbers, and other private personal identifiers.\n\ncounterparty accepted value\nSynthetic screening findings: Timeline as of 2026-05-30: 2024-03-11 cooling outage article with customer credits; 2025-08-09 cybersecurity audit-delay article with no breach allegation; 2026-04-30 pending customer claim for service-level penalties of USD 2.4 million. Sanctions, PEP, and regulatory screens show no hits.\n\ncollateral procedure: Media within 12 months is Current; older than 12 months and up to 36 months is Historical. Current adverse media with a pending monetary claim above USD 1.0 million is High-review. Historical items are retained as context but do not alone drive High-review.\n\nCompletion instructions: Use the file contents to address this: an adverse media recency screen for Pinecrest Data Centers. Put each media item into Current, Historical, or Outside review window, apply the High-review or Medium-review severity rule where applicable, cite the date and visible material labels, and state whether the pending claim alone is enough for High-review. Keep older items as context.\n\nFinal work-product request\nMake an adverse media recency screen for Pinecrest Data Centers. Put each media item into Current, Historical, or Outside review window, apply the High-review or Medium-review severity rule where applicable, cite the date and visible material labels, and state whether the pending claim alone is enough for High-review. Keep older items as context. Produce the adverse media recency screen under an audit-ready operations handoff posture: connect each final action to the active evidence and the governing rule, policy, task standard, or active-case trigger; keep active source labels beside the material facts, figures, thresholds, missing-evidence triggers, and decision points where they are used; for any calculation or reconciliation, show the source inputs, formula or comparison, result, and business implication; identify any active breach, exception, waiver need, deficiency, unresolved inconsistency, control gap, or non-compliance indicator rather than treating the workflow as cleared. Open the adverse media recency screen with a Markdown bold title on the first non-empty line. Near the end, include the exact handoff label Next action:; if the packet supports no next action, write Next action: none supported by the packet. Include one Markdown table for the audit trail whose header contains the columns Evidence, Test, Result, and Action. Keep the full response between 180 and 430 words. Treat the layout as part of the requested finance work product, but do not omit required evidence, calculations, boundaries, or decisions just to satisfy presentation.\n",
       "model": "deepseek-v4-flash",
+      "run_label": "ds-v4-flash",
       "response": "**Adverse Media Recency Screen – Pinecrest Data Centers**  \n\n**Media Item Classification & Severity**  \n- **2024-03-11**: *Cooling outage article with customer credits* – Historical ( >12 months, ≤36 months from 2026-05-30). Retained as context; no severity applied per procedure (Historical items do not drive High/Medium).  \n- **2025-08-09**: *Cybersecurity audit‑delay article (no breach allegation)* – Current (≤12 months from 2026-05-30). No pending monetary claim, so does **not** meet High-review threshold. No Medium-review rule defined; retained as Current context without severity assignment.  \n- **2026-04-30**: *Pending customer claim for service‑level penalties of USD 2.4 million* – Current. Meets High-review condition: Current adverse media **and** claim > USD 1.0 million. **High-review required**.  \n\n**Pending Claim Sufficiency**  \nThe pending claim alone (USD 2.4M) is enough to drive High-review because it satisfies both criteria (Current + monetary claim > USD 1.0M) per the collateral procedure.  \n\n**Audit Trail Table**  \n\n| Evidence | Test | Result | Action |\n|----------|------|--------|--------|\n| 2026-04-30 pending claim (USD 2.",
+      "auto_quality_score": 3,
+      "auto_quality_reason": "Fails to connect evidence, lacks source labels, and omits calculation details.",
       "item_pass": false,
       "item_csr": 0.375,
-      "passed_constraints": 3,
-      "total_constraints": 8,
       "constraints": [
         {
-          "global_no": 134,
           "constraint_index": 0,
           "route": "LLM",
           "score": 1,
@@ -1820,10 +3685,10 @@ window.FINIF_MODULE_B = {
           "method": "judge:openai-gpt-4o",
           "family": "Evidence and Grounding",
           "tag": "EG1",
-          "constraint": "The response must use only the supplied documents."
+          "constraint": "The response must use only the supplied documents.",
+          "global_no": 267
         },
         {
-          "global_no": 135,
           "constraint_index": 1,
           "route": "LLM",
           "score": 0,
@@ -1832,10 +3697,10 @@ window.FINIF_MODULE_B = {
           "method": "judge:openai-gpt-4o",
           "family": "Decision and Boundary",
           "tag": "DB9",
-          "constraint": "The response must connect active evidence, governing rule or task standard, and final action in a single reasoning chain; it must not present facts, calculations, and recommendations as disconnected checklist fragments."
+          "constraint": "The response must connect active evidence, governing rule or task standard, and final action in a single reasoning chain; it must not present facts, calculations, and recommendations as disconnected checklist fragments.",
+          "global_no": 268
         },
         {
-          "global_no": 136,
           "constraint_index": 2,
           "route": "LLM",
           "score": 0,
@@ -1844,10 +3709,10 @@ window.FINIF_MODULE_B = {
           "method": "judge:openai-gpt-4o",
           "family": "Evidence and Grounding",
           "tag": "EG2",
-          "constraint": "Material facts, numeric inputs, thresholds, calculation results, missing-evidence triggers, and decision points must have active source labels next to the sentence, row, or bullet where they are used; collected end-only citations are not sufficient."
+          "constraint": "Material facts, numeric inputs, thresholds, calculation results, missing-evidence triggers, and decision points must have active source labels next to the sentence, row, or bullet where they are used; collected end-only citations are not sufficient.",
+          "global_no": 269
         },
         {
-          "global_no": 137,
           "constraint_index": 3,
           "route": "LLM",
           "score": 0,
@@ -1856,10 +3721,10 @@ window.FINIF_MODULE_B = {
           "method": "judge:openai-gpt-4o",
           "family": "Quantitative Verification",
           "tag": "QV2",
-          "constraint": "For every requested calculation, reconciliation, variance, threshold test, date count, headroom, or shortfall, the response must show source inputs, formula or comparison, final result, and business implication; a bare computed number does not satisfy this requirement."
+          "constraint": "For every requested calculation, reconciliation, variance, threshold test, date count, headroom, or shortfall, the response must show source inputs, formula or comparison, final result, and business implication; a bare computed number does not satisfy this requirement.",
+          "global_no": 270
         },
         {
-          "global_no": 138,
           "constraint_index": 4,
           "route": "rule",
           "score": 1,
@@ -1868,10 +3733,10 @@ window.FINIF_MODULE_B = {
           "method": "rule_aided:first_line_format",
           "family": "Format and Presentation",
           "tag": "FP6",
-          "constraint": "The first non-empty line must be a Markdown bold title."
+          "constraint": "The first non-empty line must be a Markdown bold title.",
+          "global_no": 271
         },
         {
-          "global_no": 139,
           "constraint_index": 5,
           "route": "rule",
           "score": 0,
@@ -1880,10 +3745,10 @@ window.FINIF_MODULE_B = {
           "method": "rule_aided:required_keyword",
           "family": "Format and Presentation",
           "tag": "FP4",
-          "constraint": "The response must include the exact label Next action:."
+          "constraint": "The response must include the exact label Next action:.",
+          "global_no": 272
         },
         {
-          "global_no": 140,
           "constraint_index": 6,
           "route": "rule",
           "score": 1,
@@ -1892,10 +3757,10 @@ window.FINIF_MODULE_B = {
           "method": "rule_aided:table_columns",
           "family": "Format and Presentation",
           "tag": "FP2",
-          "constraint": "The response must include a Markdown table with columns Evidence, Test, Result, and Action."
+          "constraint": "The response must include a Markdown table with columns Evidence, Test, Result, and Action.",
+          "global_no": 273
         },
         {
-          "global_no": 141,
           "constraint_index": 7,
           "route": "rule",
           "score": 0,
@@ -1904,25 +3769,144 @@ window.FINIF_MODULE_B = {
           "method": "rule_aided:word_range",
           "family": "Format and Presentation",
           "tag": "FP3",
-          "constraint": "The response must be between 180 and 430 words."
+          "constraint": "The response must be between 180 and 430 words.",
+          "global_no": 274
         }
       ]
     },
     {
+      "pair_id": "tonight_hard_line_231__gpt-5.5",
+      "prompt_index": 13,
+      "response_variant": "B",
+      "item_id": "tonight_hard_line_231",
+      "workflow": "Research and Due Diligence",
+      "task": "Background screening",
+      "work_product": "adverse media recency screen",
+      "full_prompt": "Review request 231 - Background screening\n\nReview packet contents\nrepo collateral file; Pinecrest Data Centers is a fictional counterparty, issuer, vendor, or project party used for a synthetic background screening benchmark item. Screening scope covers entity-level and role-title-level only. The pack intentionally excludes dates of birth, residential addresses, government identifiers, account numbers, and other private personal identifiers.\n\ncounterparty accepted value\nSynthetic screening findings: Timeline as of 2026-05-30: 2024-03-11 cooling outage article with customer credits; 2025-08-09 cybersecurity audit-delay article with no breach allegation; 2026-04-30 pending customer claim for service-level penalties of USD 2.4 million. Sanctions, PEP, and regulatory screens show no hits.\n\ncollateral procedure: Media within 12 months is Current; older than 12 months and up to 36 months is Historical. Current adverse media with a pending monetary claim above USD 1.0 million is High-review. Historical items are retained as context but do not alone drive High-review.\n\nCompletion instructions: Use the file contents to address this: an adverse media recency screen for Pinecrest Data Centers. Put each media item into Current, Historical, or Outside review window, apply the High-review or Medium-review severity rule where applicable, cite the date and visible material labels, and state whether the pending claim alone is enough for High-review. Keep older items as context.\n\nFinal work-product request\nMake an adverse media recency screen for Pinecrest Data Centers. Put each media item into Current, Historical, or Outside review window, apply the High-review or Medium-review severity rule where applicable, cite the date and visible material labels, and state whether the pending claim alone is enough for High-review. Keep older items as context. Produce the adverse media recency screen under an audit-ready operations handoff posture: connect each final action to the active evidence and the governing rule, policy, task standard, or active-case trigger; keep active source labels beside the material facts, figures, thresholds, missing-evidence triggers, and decision points where they are used; for any calculation or reconciliation, show the source inputs, formula or comparison, result, and business implication; identify any active breach, exception, waiver need, deficiency, unresolved inconsistency, control gap, or non-compliance indicator rather than treating the workflow as cleared. Open the adverse media recency screen with a Markdown bold title on the first non-empty line. Near the end, include the exact handoff label Next action:; if the packet supports no next action, write Next action: none supported by the packet. Include one Markdown table for the audit trail whose header contains the columns Evidence, Test, Result, and Action. Keep the full response between 180 and 430 words. Treat the layout as part of the requested finance work product, but do not omit required evidence, calculations, boundaries, or decisions just to satisfy presentation.\n",
+      "model": "gpt-5.5-2026-04-23",
+      "run_label": "gpt-5.5",
+      "response": "**Adverse Media Recency Screen — Pinecrest Data Centers**\n\nScreen date: 2026-05-30. Scope is entity-level and role-title-level only; private personal identifiers are intentionally excluded [repo collateral file]. Governing recency rule: media within 12 months is **Current**; older than 12 months and up to 36 months is **Historical**; Current adverse media with a pending monetary claim above **USD 1.0 million** is **High-review**; Historical items are context only and do not alone drive High-review [collateral procedure].\n\n| Evidence | Test | Result | Action |\n|---|---|---|---|\n| 2024-03-11 “cooling outage article with customer credits” [counterparty accepted value] | Recency comparison: 2026-05-30 minus 2024-03-11 = over 12 months and under 36 months [collateral procedure] | **Historical** adverse-media context. No current High-review trigger because it is outside the 12-month Current window [collateral procedure]. | Retain as context for operational resilience history; do not use alone to escalate to High-review. |\n| 2025-08-09 “cybersecurity audit-delay article with no breach allegation” [counterparty accepted value] | Recency comparison: 2025-08-09 is within 12 months of 2026-05-30 [collateral procedure] | **Current** media. No breach allegation and no pending monetary claim stated [counterparty accepted value]. Severity: **Medium-review**, because Current adverse/process-risk media is present but the High-review monetary-claim trigger is not met. | Keep in current-media file; no High-review from this item alone. Monitor for breach allegation or regulatory development. |\n| 2026-04-30 “pending customer claim for service-level penalties of USD 2.4 million” [counterparty accepted value] | Recency comparison: 2026-04-30 is within 12 months of 2026-05-30. Claim threshold comparison: USD 2.4m > USD 1.0m [counterparty accepted value; collateral procedure]. | **Current** adverse media and **High-review**. Calculation: 2.4m / 1.0m = 2.4x threshold; exceeds policy trigger. | Escalate for High-review based on active pending monetary claim. Do not mark workflow cleared while claim remains pending. |\n| Sanctions, PEP, regulatory screens show no hits [counterparty accepted value] | Screen-result reconciliation to task scope | No sanctions/PEP/regulatory hit identified in packet. | Record as no-hit support; does not offset the adverse-media High-review trigger. |\n\nDecision: The pending customer claim alone is enough for **High-review** because it is Current and the stated amount, **USD 2.4 million**, exceeds the **USD 1.0 million** High-review threshold [counterparty accepted value; collateral procedure]. No waiver or exception is supported by the packet. Active unresolved indicator: pending service-level penalty claim remains open.\n\nNext action: escalate Pinecrest Data Centers for High-review based on the 2026-04-30 pending USD 2.4 million customer claim.",
+      "auto_quality_score": 3,
+      "auto_quality_reason": "Fails to provide active source labels and detailed calculations, which are central to the task. Quality capped to 3/10 due to 2 central IF failure(s); multiple central failures; severe authority/route/trigger failure.",
+      "item_pass": false,
+      "item_csr": null,
+      "constraints": [
+        {
+          "constraint_index": 0,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Only supplied documents are used.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Evidence and Grounding",
+          "tag": "EG1",
+          "constraint": "The response must use only the supplied documents.",
+          "global_no": 275
+        },
+        {
+          "constraint_index": 1,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Response connects evidence, rules, and actions in a reasoning chain.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Decision and Boundary",
+          "tag": "DB9",
+          "constraint": "The response must connect active evidence, governing rule or task standard, and final action in a single reasoning chain; it must not present facts, calculations, and recommendations as disconnected checklist fragments.",
+          "global_no": 276
+        },
+        {
+          "constraint_index": 2,
+          "route": "LLM",
+          "score": 0,
+          "label": "FAIL",
+          "reason": "Not all material facts and decision points have active source labels next to them.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Evidence and Grounding",
+          "tag": "EG2",
+          "constraint": "Material facts, numeric inputs, thresholds, calculation results, missing-evidence triggers, and decision points must have active source labels next to the sentence, row, or bullet where they are used; collected end-only citations are not sufficient.",
+          "global_no": 277
+        },
+        {
+          "constraint_index": 3,
+          "route": "LLM",
+          "score": 0,
+          "label": "FAIL",
+          "reason": "Response lacks detailed calculation steps and business implications for each calculation.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Quantitative Verification",
+          "tag": "QV2",
+          "constraint": "For every requested calculation, reconciliation, variance, threshold test, date count, headroom, or shortfall, the response must show source inputs, formula or comparison, final result, and business implication; a bare computed number does not satisfy this requirement.",
+          "global_no": 278
+        },
+        {
+          "constraint_index": 4,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "First non-empty line uses Markdown bold format.",
+          "method": "rule_aided:first_line_format",
+          "family": "Format and Presentation",
+          "tag": "FP6",
+          "constraint": "The first non-empty line must be a Markdown bold title.",
+          "global_no": 279
+        },
+        {
+          "constraint_index": 5,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "All required keyword(s) were found.",
+          "method": "rule_aided:required_keyword",
+          "family": "Format and Presentation",
+          "tag": "FP4",
+          "constraint": "The response must include the exact label Next action:.",
+          "global_no": 280
+        },
+        {
+          "constraint_index": 6,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "All required table column(s) were found.",
+          "method": "rule_aided:table_columns",
+          "family": "Format and Presentation",
+          "tag": "FP2",
+          "constraint": "The response must include a Markdown table with columns Evidence, Test, Result, and Action.",
+          "global_no": 281
+        },
+        {
+          "constraint_index": 7,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Response has 368 mixed word/character unit(s).",
+          "method": "rule_aided:word_range",
+          "family": "Format and Presentation",
+          "tag": "FP3",
+          "constraint": "The response must be between 180 and 430 words.",
+          "global_no": 282
+        }
+      ]
+    },
+    {
+      "pair_id": "tonight_hard_line_339__gpt-5.5",
+      "prompt_index": 14,
+      "response_variant": "A",
       "item_id": "tonight_hard_line_339",
       "workflow": "Research and Due Diligence",
       "task": "Earnings review",
       "work_product": "forecast revision note",
       "full_prompt": "Control ticket 339: Earnings review\n\nAvailable materials\nmedia screen packet (Apple Inc. Q1 2025 Form 10-Q Benchmark Excerpt)\nSECURITIES AND EXCHANGE COMMISSION ☒ QUARTERLY REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the quarterly period ended December 28, 2024 ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the transition period from to . Commission File Number: 001-36743 (Exact name of Registrant as specified in its charter) California 94-2404110 (State or other jurisdiction of incorporation or organization) (I.R.S. Employer Identification No.) Cupertino , California (Address of principal executive offices) (Zip Code) (Registrant’s telephone number, including area code) Securities registered pursuant to Section 12(b) of the Act: Title of each class Trading symbol(s) Name of each exchange on which registered Common Stock, $0.00001 par value per share AAPL The Nasdaq Stock Market LLC 0.000% Notes due 2025 — The Nasdaq Stock Market LLC 0.875% Notes due 2025 — The Nasdaq Stock Market LLC 1.625% Notes due 2026 — The Nasdaq Stock Market LLC 2.000% Notes due 2027 — The Nasdaq Stock Market LLC 1.375% Notes due 2029 — The Nasdaq Stock Market LLC 3.050% Notes due 2029 — The Nasdaq Stock Market LLC 0.500% Notes due 2031 — The Nasdaq Stock Market LLC 3.600% Notes due 2042 — The Nasdaq Stock Market LLC Indicate by check mark whether the Registrant (1) has filed all reports required to be filed by Section 13 or 15(d) of the Securities Exchange Act of 1934 during the preceding 12 months (or for such shorter period that the Registrant was required to file such reports), and (2) has been subject to such filing requirements for the past 90 days. Indicate by check mark whether the Registrant has submitted electronically every Interactive Data File required to be submitted pursuant to Rule 405 of Regulation S-T (§232.405 of this chapter) during the preceding 12 months (or for such shorter period that the Registrant was required to submit such files). Indicate by check mark whether the Registrant is a large accelerated filer, an accelerated filer, a non-accelerated filer, a smaller reporting company, or an emerging growth company. See the definitions of “large accelerated filer,” “accelerated filer,” “smaller reporting company,” and “emerging growth company” in Rule 12b-2 of the Exchange Act. Large accelerated filer ☒ Accelerated filer ☐ Non-accelerated filer ☐ Smaller reporting company ☐ Emerging growth company ☐ If an emerging growth company, indicate by check mark if the Registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act. ☐ Indicate by check mark whether the Registrant is a shell company (as defined in Rule 12b-2 of the Exchange Act). 15,022,073,000 shares of common stock were issued and outstanding as of January 17, 2025 . For the Fiscal Quarter Ended December 28, 2024 Management’s Discussion and Analysis of Financial Condition and Results of Operations Quantitative and Qualitative Disclosures About Market Risk Controls and Procedures Unregistered Sales of Equity Securities and Use of Proceeds Defaults Upon Senior Securities Mine Safety Disclosures PART I — FINANCIAL INFORMATION CONDENSED CONSOLIDATED STATEMENTS OF OPERATIONS (Unaudited) (In millions, except number of shares, which are reflected in thousands, and per-share amounts) Products $ 97,960 $ 96,458 Services 26,340 23,117 Total net sales 124,300 119,575 Products 59,447 58,440 Total cost of sales 66,025 64,720 Gross margin 58,275 54,855 Research and development 8,268 7,696 Selling, general and administrative 7,175 6,786 Total operating expenses 15,443 14,482 Operating income 42,832 40,373 Other income/(expense), net ( 248 ) ( 50 ) Income before provision for income taxes 42,584 40,323 Provision for income taxes 6,254 6,407 Net income $ 36,330 $ 33,916 Diluted $ 2.40 $ 2.18 Shares used in computing earnings per share: Basic 15,081,724 15,509,763 Diluted 15,150,865 15,576,641 See accompanying Notes to Condensed Consolidated Financial Statements. Apple Inc. | Q1 2025 Form 10-Q | 1\n\nrecency rule -- Synthetic earnings release for Lattice Health Software, a fictional healthcare SaaS vendor. Quarter ended March 31, 2026. Revenue was $52.5 million versus $49.0 million in the prior-year quarter. Gross margin was 67.8% versus 69.1%, and diluted EPS was $0.16 versus $0.20. Management lowered full-year revenue guidance from $224.0 million to $216.0 million at the midpoint, citing a $5.5 million customer onboarding slip and $2.0 million of lower professional services demand.\n\nName for this material: severity matrix. Content: Internal instruction: a guidance bridge should start from the reported quarter, bridge to the next-period or full-year midpoint, identify the largest bridge item, and mark unsupported bridge amounts as open questions.\n\nRequested output: The answer needs to cover this request: a forecast revision note for Lattice Health Software. reference Apple material labeled media screen packet only as a comparable benchmark for the difference between target growth and a large public-company growth profile. Rely only on the materials above, cite the source labels for figures and management statements, and Use sections called Reported quarter, Guidance cut bridge, Apple comparison, and Questions for management. Calculate current-quarter revenue growth, gross-margin basis-point change, EPS growth, the full-year guidance midpoint reduction, and how much of the cut is explained by the two cited items. State whether the guidance cut is fully explained by cited items. Do not call the guidance cut fully explained if a residual remains.\n\nFinal work-product request\nPrepare a forecast revision note for Lattice Health Software. reference Apple material labeled media screen packet only as a comparable benchmark for the difference between target growth and a large public-company growth profile. Use only the provided documents, cite visible material labels for figures and management statements, and Use sections called Reported quarter, Guidance cut bridge, Apple comparison, and Questions for management. Calculate current-quarter revenue growth, gross-margin basis-point change, EPS growth, the full-year guidance midpoint reduction, and how much of the cut is explained by the two cited items. State whether the guidance cut is fully explained by cited items. Do not call the guidance cut fully explained if a residual remains. Produce the forecast revision note under an audit-ready compliance escalation posture: connect each final action to the active evidence and the governing rule, policy, task standard, or active-case trigger; keep active source labels beside the material facts, figures, thresholds, missing-evidence triggers, and decision points where they are used; for any calculation or reconciliation, show the source inputs, formula or comparison, result, and business implication; preserve exact source figures, dates, thresholds, names, and rule references when they control the decision; for any comparison, ranking, alternative, scenario, or trade-off, state the comparison basis, source inputs, result, and decision implication; write every percentage value, including percent or percentage-point values, with exactly two decimal places. Open the forecast revision note with a Markdown bold title on the first non-empty line. Near the end, include the exact handoff label Next action:; if the packet supports no next action, write Next action: none supported by the packet. Include at least two short Markdown blockquote lines beginning with > for source or rule excerpts that anchor the decision. Use at least eight complete sentences in the full response. Treat the layout as part of the requested finance work product, but do not omit required evidence, calculations, boundaries, or decisions just to satisfy presentation.\n",
-      "model": "deepseek-v4-flash",
-      "response": "**Lattice Health Software – Forecast Revision Note (Q1 FY2026 Earnings Review)**\n\n**Reported quarter**  \nFor the quarter ended March 31, 2026, Lattice Health Software reported revenue of $52.5 million, up from $49.0 million in the prior‑year quarter (source: *synthetic earnings release*). This represents **current‑quarter revenue growth of 7.14%** (($52.5 M – $49.0 M) ÷ $49.0 M). Gross margin declined to 67.8% from 69.1%, a **‑130.00 basis‑point change** (67.8% – 69.1% = -1.30 pp). Diluted EPS fell to $0.16 from $0.20, an **EPS decline of ‑20.00%** (($0.16 – $0.20) ÷ $0.20). These results reflect margin compression and lower profitability despite top‑line growth.\n\n**Guidance cut bridge**  \nManagement reduced full‑year revenue guidance from a midpoint of $224.0 million to $216.0 million, a **midpoint reduction of $8.0 million** (source: *synthetic earnings release*). The two cited items are a $5.5 million customer onboarding slip and $2.0 million of lower professional services demand, totalling **$7.5 million** of the cut. The residual is $0.5 million ($8.0 M – $7.5 M). Because a residual remains, **the guidance cut is not fully explained by the cited items**.  \n> *“a guidance bridge should start from the reported quarter, bridge to the next‑period or full‑year midpoint, identify the largest bridge item, and mark unsupported bridge amounts as open questions”* (source: *severity matrix*).  \n\nThe largest bridge item is the customer onboarding slip ($5.5 M). The unsupported $0.5 M residual should be treated as an open question.\n\n**Apple comparison**  \nFor context on growth profiles, Apple Inc. reported Q1 FY2025 (ended December 28, 2024) total net sales of $124,300 million versus $119,575 million in the prior‑year quarter, a growth rate of approximately **3.95%** (source: *media screen packet*). Lattice’s 7.14% revenue growth is approximately **3.19 percentage points higher** than Apple’s large‑public‑company growth rate. This differential illustrates that Lattice, as a smaller healthcare SaaS vendor, is targeting a higher growth trajectory than a mature mega‑cap, but the guidance cut signals a deceleration that warrants scrutiny.\n\n**Questions for management**  \n1. What is the nature of the $0.5 million residual shortfall not covered by the customer onboarding and professional services items?  \n2. Are there additional headwinds in the subscription/contracted revenue pipeline beyond the identified $5.5 M slip?  \n3. How does the 130 bps gross‑margin erosion relate to the cited service‑mix shift or onboarding costs?  \n4. Given the EPS decline of 20%, what cost‑control measures or operational leverage targets are being revised for the remainder of FY2026?\n\n> *“Management lowered full‑year revenue guidance from $224.0 million to $216.0 million at the midpoint, citing a $5.5 million customer onboarding slip and $2.0 million",
+      "model": "gpt-5.5-2026-04-23",
+      "run_label": "gpt-5.5",
+      "response": "**Forecast Revision Note: Lattice Health Software**\n\n> “Revenue was $52.5 million versus $49.0 million in the prior-year quarter.” [recency rule]  \n> “A guidance bridge should start from the reported quarter, bridge to the next-period or full-year midpoint, identify the largest bridge item, and mark unsupported bridge amounts as open questions.” [severity matrix]\n\n## Reported quarter\n\nLattice Health Software reported quarter-ended March 31, 2026 revenue of $52.5 million versus $49.0 million in the prior-year quarter. [recency rule]  \nCalculation: current-quarter revenue growth = ($52.5 million − $49.0 million) / $49.0 million = 7.14%. Business implication: the reported quarter still showed positive top-line growth, but the subsequent full-year guidance cut indicates management expects a weaker forward revenue path than previously guided.\n\nGross margin was 67.80% versus 69.10% in the prior-year quarter. [recency rule]  \nCalculation: gross-margin change = 67.80% − 69.10% = -1.30 percentage points, or -130 basis points. Business implication: growth came with margin compression, which weakens earnings quality and should be tested against mix, implementation burden, and services-demand commentary.\n\nDiluted EPS was $0.16 versus $0.20 in the prior-year quarter. [recency rule]  \nCalculation: diluted EPS growth = ($0.16 − $0.20) / $0.20 = -20.00%. Business implication: earnings declined despite revenue growth, consistent with the lower gross margin and potentially weaker operating leverage.\n\n## Guidance cut bridge\n\nManagement lowered full-year revenue guidance from $224.0 million to $216.0 million at the midpoint, citing a $5.5 million customer onboarding slip and $2.0 million of lower professional services demand. [recency rule]  \nGoverning bridge standard: start from the reported quarter, bridge to the full-year midpoint, identify the largest bridge item, and mark unsupported bridge amounts as open questions. [severity matrix]\n\nCalculation: full-year guidance midpoint reduction = $224.0 million − $216.0 million = $8.0 million. [recency rule]  \nCalculation: cited items explained = $5.5 million customer onboarding slip + $2.0 million lower professional services demand = $7.5 million. [recency rule]  \nCalculation: explained share of cut = $7.5 million / $8.0 million = 93.75%.  \nCalculation: residual unexplained cut = $8.0 million − $7.5 million = $0.5 million, equal to 6.25% of the total reduction.\n\nThe largest cited bridge item is the $5.5 million customer onboarding slip, which represents 68.75% of the $8.0 million midpoint reduction. [recency rule; severity matrix] The guidance cut is not fully explained by the cited items because a $0.5 million residual remains unsupported by the provided management statement. [recency rule; severity matrix] Under the bridge rule, that residual is an open question rather than a confirmed driver. [severity matrix]\n\n## Apple comparison\n\nApple Inc.’s Q1 fiscal 2025 Form 10-Q benchmark excerpt reported total net sales of $124,300 million versus $119,575 million in the prior-year period. [media screen packet]  \nCalculation: Apple total net sales growth = ($124,300 million − $119,575 million) / $119,575 million = 3.95%. [media screen packet]  \n\nComparison basis: Lattice’s reported current-quarter revenue growth of 7.14% is compared with Apple’s large public-company total net sales growth of 3.95%, using reported period-over-period revenue figures from the provided materials. [recency rule; media screen packet]  \nResult: Lattice’s reported revenue growth was 3.19 percentage points higher than Apple’s benchmark growth rate. Business implication: Lattice is still growing faster than the Apple large public-company benchmark, but Lattice’s lowered full-year midpoint and unexplained $0.5 million residual make the forward growth profile less certain than the reported-quarter growth rate alone suggests.\n\nApple also reported diluted EPS of $2.40 versus $2.18, implying diluted EPS growth of 10.09%. [media screen packet]  \nComparison basis: Lattice’s diluted EPS growth of -20.00% is compared with Apple’s diluted EPS growth of 10.09%. [recency rule; media screen packet]  \nResult: Lattice’s EPS growth was 30.09 percentage points below Apple’s EPS growth benchmark. Decision implication: the Apple comparison should be used only as a scale and public-company growth-profile benchmark, not as a direct peer valuation or operating-model proxy, because the packet provides no industry comparability evidence beyond the requested benchmark use.\n\n## Questions for management\n\n1. What explains the remaining $0.5 million, or 6.25%, of the full-year revenue guidance midpoint reduction that is not covered by the $5.5 million onboarding slip and $2.0 million lower professional services demand? [recency rule; severity matrix]  \n2. Is the $5.5 million customer onboarding slip expected to shift into a later quarter of the same fiscal year, into the next fiscal year, or be permanently lost? [recency rule]  \n3. What caused gross margin to decline by -130 basis points from 69.10% to 67.80%, and how much of the change was due to customer onboarding, services mix, pricing, or support costs? [recency rule]  \n4. Why did diluted EPS decline -20.00% despite revenue growth of 7.14%, and should investors expect continued EPS pressure under the revised $216.0 million full-year revenue midpoint? [recency rule]  \n5. Does the $2.0 million lower professional services demand indicate customer budget pressure, implementation delays, lower attach rates, or a deliberate shift away from services revenue? [recency rule]\n\nNext action: request management reconciliation for the unsupported $0.5 million guidance-cut residual and timing detail for the $5.5 million customer onboarding slip.",
+      "auto_quality_score": 10,
+      "auto_quality_reason": "The response is excellent, accurate, grounded, complete, and decision-useful, meeting all constraints.",
       "item_pass": false,
-      "item_csr": 0.6923076923076923,
-      "passed_constraints": 9,
-      "total_constraints": 13,
+      "item_csr": null,
       "constraints": [
         {
-          "global_no": 142,
           "constraint_index": 0,
           "route": "LLM",
           "score": 1,
@@ -1931,10 +3915,10 @@ window.FINIF_MODULE_B = {
           "method": "judge:openai-gpt-4o",
           "family": "Format and Presentation",
           "tag": "FP1",
-          "constraint": "Use sections called Reported quarter, Guidance cut bridge, Apple comparison, and Questions for management."
+          "constraint": "Use sections called Reported quarter, Guidance cut bridge, Apple comparison, and Questions for management.",
+          "global_no": 283
         },
         {
-          "global_no": 143,
           "constraint_index": 1,
           "route": "LLM",
           "score": 1,
@@ -1943,58 +3927,58 @@ window.FINIF_MODULE_B = {
           "method": "judge:openai-gpt-4o",
           "family": "Evidence and Grounding",
           "tag": "EG1",
-          "constraint": "The output must use only the provided documents."
+          "constraint": "The output must use only the provided documents.",
+          "global_no": 284
         },
         {
-          "global_no": 144,
           "constraint_index": 2,
           "route": "LLM",
           "score": 1,
           "label": "PASS",
-          "reason": "Residual is identified, guidance cut not called fully explained.",
+          "reason": "Guidance cut is not called fully explained due to residual.",
           "method": "judge:openai-gpt-4o",
           "family": "Decision and Boundary",
           "tag": "DB4",
-          "constraint": "Do not call the guidance cut fully explained if a residual remains."
+          "constraint": "Do not call the guidance cut fully explained if a residual remains.",
+          "global_no": 285
         },
         {
-          "global_no": 145,
           "constraint_index": 3,
           "route": "LLM",
           "score": 1,
           "label": "PASS",
-          "reason": "Reasoning chain connects evidence, rule, and action.",
+          "reason": "Response connects evidence, rule, and action in reasoning chain.",
           "method": "judge:openai-gpt-4o",
           "family": "Decision and Boundary",
           "tag": "DB9",
-          "constraint": "The response must connect active evidence, governing rule or task standard, and final action in a single reasoning chain; it must not present facts, calculations, and recommendations as disconnected checklist fragments."
+          "constraint": "The response must connect active evidence, governing rule or task standard, and final action in a single reasoning chain; it must not present facts, calculations, and recommendations as disconnected checklist fragments.",
+          "global_no": 286
         },
         {
-          "global_no": 146,
           "constraint_index": 4,
           "route": "LLM",
-          "score": 0,
-          "label": "FAIL",
-          "reason": "Not all material facts have active source labels next to them.",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Active source labels are used next to material facts and figures.",
           "method": "judge:openai-gpt-4o",
           "family": "Evidence and Grounding",
           "tag": "EG2",
-          "constraint": "Material facts, numeric inputs, thresholds, calculation results, missing-evidence triggers, and decision points must have active source labels next to the sentence, row, or bullet where they are used; collected end-only citations are not sufficient."
+          "constraint": "Material facts, numeric inputs, thresholds, calculation results, missing-evidence triggers, and decision points must have active source labels next to the sentence, row, or bullet where they are used; collected end-only citations are not sufficient.",
+          "global_no": 287
         },
         {
-          "global_no": 147,
           "constraint_index": 5,
           "route": "LLM",
-          "score": 0,
-          "label": "FAIL",
-          "reason": "Some calculations lack full source inputs and business implications.",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Calculations show inputs, formula, result, and implication.",
           "method": "judge:openai-gpt-4o",
           "family": "Quantitative Verification",
           "tag": "QV2",
-          "constraint": "For every requested calculation, reconciliation, variance, threshold test, date count, headroom, or shortfall, the response must show source inputs, formula or comparison, final result, and business implication; a bare computed number does not satisfy this requirement."
+          "constraint": "For every requested calculation, reconciliation, variance, threshold test, date count, headroom, or shortfall, the response must show source inputs, formula or comparison, final result, and business implication; a bare computed number does not satisfy this requirement.",
+          "global_no": 288
         },
         {
-          "global_no": 148,
           "constraint_index": 6,
           "route": "LLM",
           "score": 1,
@@ -2003,10 +3987,10 @@ window.FINIF_MODULE_B = {
           "method": "judge:openai-gpt-4o",
           "family": "Evidence and Grounding",
           "tag": "EG5",
-          "constraint": "The response must preserve exact source figures, dates, thresholds, names, and rule references when they control the decision; it must not round, rename, or paraphrase them in a way that changes the controlling source meaning."
+          "constraint": "The response must preserve exact source figures, dates, thresholds, names, and rule references when they control the decision; it must not round, rename, or paraphrase them in a way that changes the controlling source meaning.",
+          "global_no": 289
         },
         {
-          "global_no": 149,
           "constraint_index": 7,
           "route": "LLM",
           "score": 1,
@@ -2015,10 +3999,185 @@ window.FINIF_MODULE_B = {
           "method": "judge:openai-gpt-4o",
           "family": "Quantitative Verification",
           "tag": "QV6",
-          "constraint": "For every requested comparison, ranking, alternative, scenario, or trade-off, the response must state the comparison basis, source inputs, result, and decision implication rather than listing options without a supported ordering or boundary."
+          "constraint": "For every requested comparison, ranking, alternative, scenario, or trade-off, the response must state the comparison basis, source inputs, result, and decision implication rather than listing options without a supported ordering or boundary.",
+          "global_no": 290
         },
         {
-          "global_no": 150,
+          "constraint_index": 8,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "All decimal numeric values use 2 decimal place(s).",
+          "method": "rule_aided:decimal_places",
+          "family": "Format and Presentation",
+          "tag": "FP3",
+          "constraint": "Every percentage value in the response, including values written with percent or percentage points, must use exactly two decimal places.",
+          "global_no": 291
+        },
+        {
+          "constraint_index": 9,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "First non-empty line uses Markdown bold format.",
+          "method": "rule_aided:first_line_format",
+          "family": "Format and Presentation",
+          "tag": "FP6",
+          "constraint": "The first non-empty line must be a Markdown bold title.",
+          "global_no": 292
+        },
+        {
+          "constraint_index": 10,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "All required keyword(s) were found.",
+          "method": "rule_aided:required_keyword",
+          "family": "Format and Presentation",
+          "tag": "FP4",
+          "constraint": "The response must include the exact label Next action:.",
+          "global_no": 293
+        },
+        {
+          "constraint_index": 11,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Response has 2 blockquote line(s).",
+          "method": "rule_aided:blockquote_count",
+          "family": "Format and Presentation",
+          "tag": "FP2",
+          "constraint": "The response must include at least two Markdown blockquote lines.",
+          "global_no": 294
+        },
+        {
+          "constraint_index": 12,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Response has 32 sentence(s).",
+          "method": "rule_aided:sentence_count",
+          "family": "Format and Presentation",
+          "tag": "FP3",
+          "constraint": "The response must contain at least eight complete sentences.",
+          "global_no": 295
+        }
+      ]
+    },
+    {
+      "pair_id": "tonight_hard_line_339__ds-v4-flash",
+      "prompt_index": 14,
+      "response_variant": "B",
+      "item_id": "tonight_hard_line_339",
+      "workflow": "Research and Due Diligence",
+      "task": "Earnings review",
+      "work_product": "forecast revision note",
+      "full_prompt": "Control ticket 339: Earnings review\n\nAvailable materials\nmedia screen packet (Apple Inc. Q1 2025 Form 10-Q Benchmark Excerpt)\nSECURITIES AND EXCHANGE COMMISSION ☒ QUARTERLY REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the quarterly period ended December 28, 2024 ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the transition period from to . Commission File Number: 001-36743 (Exact name of Registrant as specified in its charter) California 94-2404110 (State or other jurisdiction of incorporation or organization) (I.R.S. Employer Identification No.) Cupertino , California (Address of principal executive offices) (Zip Code) (Registrant’s telephone number, including area code) Securities registered pursuant to Section 12(b) of the Act: Title of each class Trading symbol(s) Name of each exchange on which registered Common Stock, $0.00001 par value per share AAPL The Nasdaq Stock Market LLC 0.000% Notes due 2025 — The Nasdaq Stock Market LLC 0.875% Notes due 2025 — The Nasdaq Stock Market LLC 1.625% Notes due 2026 — The Nasdaq Stock Market LLC 2.000% Notes due 2027 — The Nasdaq Stock Market LLC 1.375% Notes due 2029 — The Nasdaq Stock Market LLC 3.050% Notes due 2029 — The Nasdaq Stock Market LLC 0.500% Notes due 2031 — The Nasdaq Stock Market LLC 3.600% Notes due 2042 — The Nasdaq Stock Market LLC Indicate by check mark whether the Registrant (1) has filed all reports required to be filed by Section 13 or 15(d) of the Securities Exchange Act of 1934 during the preceding 12 months (or for such shorter period that the Registrant was required to file such reports), and (2) has been subject to such filing requirements for the past 90 days. Indicate by check mark whether the Registrant has submitted electronically every Interactive Data File required to be submitted pursuant to Rule 405 of Regulation S-T (§232.405 of this chapter) during the preceding 12 months (or for such shorter period that the Registrant was required to submit such files). Indicate by check mark whether the Registrant is a large accelerated filer, an accelerated filer, a non-accelerated filer, a smaller reporting company, or an emerging growth company. See the definitions of “large accelerated filer,” “accelerated filer,” “smaller reporting company,” and “emerging growth company” in Rule 12b-2 of the Exchange Act. Large accelerated filer ☒ Accelerated filer ☐ Non-accelerated filer ☐ Smaller reporting company ☐ Emerging growth company ☐ If an emerging growth company, indicate by check mark if the Registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act. ☐ Indicate by check mark whether the Registrant is a shell company (as defined in Rule 12b-2 of the Exchange Act). 15,022,073,000 shares of common stock were issued and outstanding as of January 17, 2025 . For the Fiscal Quarter Ended December 28, 2024 Management’s Discussion and Analysis of Financial Condition and Results of Operations Quantitative and Qualitative Disclosures About Market Risk Controls and Procedures Unregistered Sales of Equity Securities and Use of Proceeds Defaults Upon Senior Securities Mine Safety Disclosures PART I — FINANCIAL INFORMATION CONDENSED CONSOLIDATED STATEMENTS OF OPERATIONS (Unaudited) (In millions, except number of shares, which are reflected in thousands, and per-share amounts) Products $ 97,960 $ 96,458 Services 26,340 23,117 Total net sales 124,300 119,575 Products 59,447 58,440 Total cost of sales 66,025 64,720 Gross margin 58,275 54,855 Research and development 8,268 7,696 Selling, general and administrative 7,175 6,786 Total operating expenses 15,443 14,482 Operating income 42,832 40,373 Other income/(expense), net ( 248 ) ( 50 ) Income before provision for income taxes 42,584 40,323 Provision for income taxes 6,254 6,407 Net income $ 36,330 $ 33,916 Diluted $ 2.40 $ 2.18 Shares used in computing earnings per share: Basic 15,081,724 15,509,763 Diluted 15,150,865 15,576,641 See accompanying Notes to Condensed Consolidated Financial Statements. Apple Inc. | Q1 2025 Form 10-Q | 1\n\nrecency rule -- Synthetic earnings release for Lattice Health Software, a fictional healthcare SaaS vendor. Quarter ended March 31, 2026. Revenue was $52.5 million versus $49.0 million in the prior-year quarter. Gross margin was 67.8% versus 69.1%, and diluted EPS was $0.16 versus $0.20. Management lowered full-year revenue guidance from $224.0 million to $216.0 million at the midpoint, citing a $5.5 million customer onboarding slip and $2.0 million of lower professional services demand.\n\nName for this material: severity matrix. Content: Internal instruction: a guidance bridge should start from the reported quarter, bridge to the next-period or full-year midpoint, identify the largest bridge item, and mark unsupported bridge amounts as open questions.\n\nRequested output: The answer needs to cover this request: a forecast revision note for Lattice Health Software. reference Apple material labeled media screen packet only as a comparable benchmark for the difference between target growth and a large public-company growth profile. Rely only on the materials above, cite the source labels for figures and management statements, and Use sections called Reported quarter, Guidance cut bridge, Apple comparison, and Questions for management. Calculate current-quarter revenue growth, gross-margin basis-point change, EPS growth, the full-year guidance midpoint reduction, and how much of the cut is explained by the two cited items. State whether the guidance cut is fully explained by cited items. Do not call the guidance cut fully explained if a residual remains.\n\nFinal work-product request\nPrepare a forecast revision note for Lattice Health Software. reference Apple material labeled media screen packet only as a comparable benchmark for the difference between target growth and a large public-company growth profile. Use only the provided documents, cite visible material labels for figures and management statements, and Use sections called Reported quarter, Guidance cut bridge, Apple comparison, and Questions for management. Calculate current-quarter revenue growth, gross-margin basis-point change, EPS growth, the full-year guidance midpoint reduction, and how much of the cut is explained by the two cited items. State whether the guidance cut is fully explained by cited items. Do not call the guidance cut fully explained if a residual remains. Produce the forecast revision note under an audit-ready compliance escalation posture: connect each final action to the active evidence and the governing rule, policy, task standard, or active-case trigger; keep active source labels beside the material facts, figures, thresholds, missing-evidence triggers, and decision points where they are used; for any calculation or reconciliation, show the source inputs, formula or comparison, result, and business implication; preserve exact source figures, dates, thresholds, names, and rule references when they control the decision; for any comparison, ranking, alternative, scenario, or trade-off, state the comparison basis, source inputs, result, and decision implication; write every percentage value, including percent or percentage-point values, with exactly two decimal places. Open the forecast revision note with a Markdown bold title on the first non-empty line. Near the end, include the exact handoff label Next action:; if the packet supports no next action, write Next action: none supported by the packet. Include at least two short Markdown blockquote lines beginning with > for source or rule excerpts that anchor the decision. Use at least eight complete sentences in the full response. Treat the layout as part of the requested finance work product, but do not omit required evidence, calculations, boundaries, or decisions just to satisfy presentation.\n",
+      "model": "deepseek-v4-flash",
+      "run_label": "ds-v4-flash",
+      "response": "**Lattice Health Software – Forecast Revision Note (Q1 FY2026 Earnings Review)**\n\n**Reported quarter**  \nFor the quarter ended March 31, 2026, Lattice Health Software reported revenue of $52.5 million, up from $49.0 million in the prior‑year quarter (source: *synthetic earnings release*). This represents **current‑quarter revenue growth of 7.14%** (($52.5 M – $49.0 M) ÷ $49.0 M). Gross margin declined to 67.8% from 69.1%, a **‑130.00 basis‑point change** (67.8% – 69.1% = -1.30 pp). Diluted EPS fell to $0.16 from $0.20, an **EPS decline of ‑20.00%** (($0.16 – $0.20) ÷ $0.20). These results reflect margin compression and lower profitability despite top‑line growth.\n\n**Guidance cut bridge**  \nManagement reduced full‑year revenue guidance from a midpoint of $224.0 million to $216.0 million, a **midpoint reduction of $8.0 million** (source: *synthetic earnings release*). The two cited items are a $5.5 million customer onboarding slip and $2.0 million of lower professional services demand, totalling **$7.5 million** of the cut. The residual is $0.5 million ($8.0 M – $7.5 M). Because a residual remains, **the guidance cut is not fully explained by the cited items**.  \n> *“a guidance bridge should start from the reported quarter, bridge to the next‑period or full‑year midpoint, identify the largest bridge item, and mark unsupported bridge amounts as open questions”* (source: *severity matrix*).  \n\nThe largest bridge item is the customer onboarding slip ($5.5 M). The unsupported $0.5 M residual should be treated as an open question.\n\n**Apple comparison**  \nFor context on growth profiles, Apple Inc. reported Q1 FY2025 (ended December 28, 2024) total net sales of $124,300 million versus $119,575 million in the prior‑year quarter, a growth rate of approximately **3.95%** (source: *media screen packet*). Lattice’s 7.14% revenue growth is approximately **3.19 percentage points higher** than Apple’s large‑public‑company growth rate. This differential illustrates that Lattice, as a smaller healthcare SaaS vendor, is targeting a higher growth trajectory than a mature mega‑cap, but the guidance cut signals a deceleration that warrants scrutiny.\n\n**Questions for management**  \n1. What is the nature of the $0.5 million residual shortfall not covered by the customer onboarding and professional services items?  \n2. Are there additional headwinds in the subscription/contracted revenue pipeline beyond the identified $5.5 M slip?  \n3. How does the 130 bps gross‑margin erosion relate to the cited service‑mix shift or onboarding costs?  \n4. Given the EPS decline of 20%, what cost‑control measures or operational leverage targets are being revised for the remainder of FY2026?\n\n> *“Management lowered full‑year revenue guidance from $224.0 million to $216.0 million at the midpoint, citing a $5.5 million customer onboarding slip and $2.0 million",
+      "auto_quality_score": 3,
+      "auto_quality_reason": "Fails on active source labeling and calculation detail, central to finance work. Quality capped to 3/10 due to 2 central IF failure(s); multiple central failures; severe authority/route/trigger failure.",
+      "item_pass": false,
+      "item_csr": 0.6923076923076923,
+      "constraints": [
+        {
+          "constraint_index": 0,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "All required sections are present.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Format and Presentation",
+          "tag": "FP1",
+          "constraint": "Use sections called Reported quarter, Guidance cut bridge, Apple comparison, and Questions for management.",
+          "global_no": 296
+        },
+        {
+          "constraint_index": 1,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Only provided documents are used.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Evidence and Grounding",
+          "tag": "EG1",
+          "constraint": "The output must use only the provided documents.",
+          "global_no": 297
+        },
+        {
+          "constraint_index": 2,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Residual is identified, guidance cut not called fully explained.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Decision and Boundary",
+          "tag": "DB4",
+          "constraint": "Do not call the guidance cut fully explained if a residual remains.",
+          "global_no": 298
+        },
+        {
+          "constraint_index": 3,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Reasoning chain connects evidence, rule, and action.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Decision and Boundary",
+          "tag": "DB9",
+          "constraint": "The response must connect active evidence, governing rule or task standard, and final action in a single reasoning chain; it must not present facts, calculations, and recommendations as disconnected checklist fragments.",
+          "global_no": 299
+        },
+        {
+          "constraint_index": 4,
+          "route": "LLM",
+          "score": 0,
+          "label": "FAIL",
+          "reason": "Not all material facts have active source labels next to them.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Evidence and Grounding",
+          "tag": "EG2",
+          "constraint": "Material facts, numeric inputs, thresholds, calculation results, missing-evidence triggers, and decision points must have active source labels next to the sentence, row, or bullet where they are used; collected end-only citations are not sufficient.",
+          "global_no": 300
+        },
+        {
+          "constraint_index": 5,
+          "route": "LLM",
+          "score": 0,
+          "label": "FAIL",
+          "reason": "Some calculations lack full source inputs and business implications.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Quantitative Verification",
+          "tag": "QV2",
+          "constraint": "For every requested calculation, reconciliation, variance, threshold test, date count, headroom, or shortfall, the response must show source inputs, formula or comparison, final result, and business implication; a bare computed number does not satisfy this requirement.",
+          "global_no": 301
+        },
+        {
+          "constraint_index": 6,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Exact source figures and names are preserved.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Evidence and Grounding",
+          "tag": "EG5",
+          "constraint": "The response must preserve exact source figures, dates, thresholds, names, and rule references when they control the decision; it must not round, rename, or paraphrase them in a way that changes the controlling source meaning.",
+          "global_no": 302
+        },
+        {
+          "constraint_index": 7,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Comparisons state basis, inputs, result, and implication.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Quantitative Verification",
+          "tag": "QV6",
+          "constraint": "For every requested comparison, ranking, alternative, scenario, or trade-off, the response must state the comparison basis, source inputs, result, and decision implication rather than listing options without a supported ordering or boundary.",
+          "global_no": 303
+        },
+        {
           "constraint_index": 8,
           "route": "rule",
           "score": 0,
@@ -2027,10 +4186,10 @@ window.FINIF_MODULE_B = {
           "method": "rule_aided:decimal_places",
           "family": "Format and Presentation",
           "tag": "FP3",
-          "constraint": "Every percentage value in the response, including values written with percent or percentage points, must use exactly two decimal places."
+          "constraint": "Every percentage value in the response, including values written with percent or percentage points, must use exactly two decimal places.",
+          "global_no": 304
         },
         {
-          "global_no": 151,
           "constraint_index": 9,
           "route": "rule",
           "score": 1,
@@ -2039,10 +4198,10 @@ window.FINIF_MODULE_B = {
           "method": "rule_aided:first_line_format",
           "family": "Format and Presentation",
           "tag": "FP6",
-          "constraint": "The first non-empty line must be a Markdown bold title."
+          "constraint": "The first non-empty line must be a Markdown bold title.",
+          "global_no": 305
         },
         {
-          "global_no": 152,
           "constraint_index": 10,
           "route": "rule",
           "score": 0,
@@ -2051,10 +4210,10 @@ window.FINIF_MODULE_B = {
           "method": "rule_aided:required_keyword",
           "family": "Format and Presentation",
           "tag": "FP4",
-          "constraint": "The response must include the exact label Next action:."
+          "constraint": "The response must include the exact label Next action:.",
+          "global_no": 306
         },
         {
-          "global_no": 153,
           "constraint_index": 11,
           "route": "rule",
           "score": 1,
@@ -2063,10 +4222,10 @@ window.FINIF_MODULE_B = {
           "method": "rule_aided:blockquote_count",
           "family": "Format and Presentation",
           "tag": "FP2",
-          "constraint": "The response must include at least two Markdown blockquote lines."
+          "constraint": "The response must include at least two Markdown blockquote lines.",
+          "global_no": 307
         },
         {
-          "global_no": 154,
           "constraint_index": 12,
           "route": "rule",
           "score": 1,
@@ -2075,25 +4234,29 @@ window.FINIF_MODULE_B = {
           "method": "rule_aided:sentence_count",
           "family": "Format and Presentation",
           "tag": "FP3",
-          "constraint": "The response must contain at least eight complete sentences."
+          "constraint": "The response must contain at least eight complete sentences.",
+          "global_no": 308
         }
       ]
     },
     {
+      "pair_id": "tonight_hard_line_356__ds-v4-flash",
+      "prompt_index": 15,
+      "response_variant": "A",
       "item_id": "tonight_hard_line_356",
       "workflow": "Research and Due Diligence",
       "task": "Investment due diligence",
       "work_product": "diligence closeout decision grid",
       "full_prompt": "Desk note 356: diligence closeout decision grid\nAvailable materials\nrepo collateral file -- Atlas Senior Living is a fictional assisted-living facility operator. Proposed investment is $55 million preferred equity. Closeout log: audited 2025 financials received; quality-of-earnings report received with a $3.6 million EBITDA add-back dispute; state license renewals received for 11 of 13 facilities; employee litigation schedule not received; insurance certificate received; lender consent for change of control pending. Base-case EBITDA is $22 million before the disputed add-back.\n\nName for this material: counterparty accepted value. Content: A diligence closeout decision grid must classify each item as Closed, Open, Disputed, or Waiver required. Missing facility licenses and pending lender consent are closing blockers. A disputed EBITDA add-back must be shown separately from base EBITDA. The grid must not state that diligence is complete while blockers remain.\n\nWhen the answer uses evidence, cite the material labels shown above.\n\nWork product needed\nComplete the work product as follows: a diligence closeout decision grid for Atlas Senior Living. Rely only on the materials above, cite the source labels, and classify each closeout item as Closed, Open, Disputed, or Waiver required. Include audited financials, quality-of-earnings add-back dispute, facility license renewals, employee litigation schedule, insurance certificate, and lender consent. Calculate disputed add-back as a percentage of base-case EBITDA before the add-back, identify the missing licenses and pending lender consent as closing blockers, and do not state that diligence is complete while blockers remain.\n\nFinal work-product request\nProduce a diligence closeout decision grid for Atlas Senior Living. Use only the supplied documents, cite visible material labels, and classify each closeout item as Closed, Open, Disputed, or Waiver required. Include audited financials, quality-of-earnings add-back dispute, facility license renewals, employee litigation schedule, insurance certificate, and lender consent. Calculate disputed add-back as a percentage of base-case EBITDA before the add-back, identify the missing licenses and pending lender consent as closing blockers, and do not state that diligence is complete while blockers remain. Produce the diligence closeout decision grid under an audit-ready reconciliation posture: connect each final action to the active evidence and the governing rule, policy, task standard, or active-case trigger; keep active source labels beside the material facts, figures, thresholds, missing-evidence triggers, and decision points where they are used; for any calculation or reconciliation, show the source inputs, formula or comparison, result, and business implication; identify any active breach, exception, waiver need, deficiency, unresolved inconsistency, control gap, or non-compliance indicator rather than treating the workflow as cleared; use only packet-supported category, status, classification, or risk-level labels; write every percentage value, including percent or percentage-point values, with exactly two decimal places. Open the diligence closeout decision grid with a Markdown bold title on the first non-empty line. Near the end, include the exact handoff label Next action:; if the packet supports no next action, write Next action: none supported by the packet. Include one Markdown table for the audit trail whose header contains the columns Evidence, Test, Result, and Action. Keep the full response between 180 and 430 words. Treat the layout as part of the requested finance work product, but do not omit required evidence, calculations, boundaries, or decisions just to satisfy presentation.\n",
       "model": "deepseek-v4-flash",
+      "run_label": "ds-v4-flash",
       "response": "**Diligence Closeout Decision Grid – Atlas Senior Living**  \n| Item | Status | Evidence & Notes |\n|------|--------|------------------|\n| Audited 2025 financials | **Closed** | Received per closeout log. |\n| Quality-of-earnings add-back dispute ($3.6M) | **Disputed** | Reported in closeout log; $3.6M add-back contested. |\n| State license renewals (11 of 13 facilities) | **Open** (blocker) | Two licenses missing; renewals for 11 received. Closeout log: “state license renewals received for 11 of 13 facilities.” |\n| Employee litigation schedule | **Open** | Not received per closeout log. |\n| Insurance certificate | **Closed** | Received per closeout log. |\n| Lender consent for change of control | **Open** (blocker) | Pending per closeout log. |\n\n**Disputed add-back calculation**  \nSource inputs: Base-case EBITDA = $22.00M; disputed add-back = $3.60M.  \nFormula: ($3.60M ÷ $22.00M) × 100 = 16.36% (exactly two decimal places).  \nBusiness implication: 16.36% of base EBITDA is contested; if denied, EBITDA would fall to $18.40M, affecting valuation and debt covenant headroom.\n\n**Closers identified**: Missing facility licenses (2) and pending lender consent. Diligence cannot be stated complete while blockers remain.\n\n**Audit Trail**  \n| Evidence | Test | Result | Action |\n|----------|------|--------|--------|\n| Closeout log: audited 2025 financials received | Confirm receipt | Received | Closed; no breach. |\n| Closeout log: quality-of-earnings $3.6M add-back dispute | Verify dispute status | Disputed | Track as separate line; require resolution or waiver. |\n| Closeout log: 11 of 13 license renewals received | Count missing vs. total | 2 missing licenses | **Open blocker**; waive or delay closing until received. |\n| Closeout log: employee litigation schedule not received | Confirm receipt | Not received | **Open**; request or accept waiver. |\n| Closeout log: insurance certificate received | Confirm receipt | Received | Closed; no breach. |\n| Closeout log: lender consent pending | Confirm status | Pending | **Open blocker**; obtain consent before closing. |\n\n**Next action:** none supported by the packet – further evidence required to clear open blockers and resolve dispute.",
+      "auto_quality_score": 3,
+      "auto_quality_reason": "The response is mostly complete and well-structured, but it lacks active source labels for all material facts and calculations. Quality capped to 3/10 due to 1 central IF failure(s); severe authority/route/trigger failure.",
       "item_pass": false,
       "item_csr": 0.8333333333333334,
-      "passed_constraints": 10,
-      "total_constraints": 12,
       "constraints": [
         {
-          "global_no": 155,
           "constraint_index": 0,
           "route": "LLM",
           "score": 1,
@@ -2102,10 +4265,10 @@ window.FINIF_MODULE_B = {
           "method": "judge:openai-gpt-4o",
           "family": "Evidence and Grounding",
           "tag": "EG1",
-          "constraint": "The output must use only the supplied documents."
+          "constraint": "The output must use only the supplied documents.",
+          "global_no": 309
         },
         {
-          "global_no": 156,
           "constraint_index": 1,
           "route": "LLM",
           "score": 1,
@@ -2114,10 +4277,10 @@ window.FINIF_MODULE_B = {
           "method": "judge:openai-gpt-4o",
           "family": "Decision and Boundary",
           "tag": "DB5",
-          "constraint": "The missing licenses and pending lender consent must be identified as closing blockers."
+          "constraint": "The missing licenses and pending lender consent must be identified as closing blockers.",
+          "global_no": 310
         },
         {
-          "global_no": 157,
           "constraint_index": 2,
           "route": "LLM",
           "score": 1,
@@ -2126,10 +4289,10 @@ window.FINIF_MODULE_B = {
           "method": "judge:openai-gpt-4o",
           "family": "Decision and Boundary",
           "tag": "DB4",
-          "constraint": "The grid must not state that diligence is complete while blockers remain."
+          "constraint": "The grid must not state that diligence is complete while blockers remain.",
+          "global_no": 311
         },
         {
-          "global_no": 158,
           "constraint_index": 3,
           "route": "LLM",
           "score": 1,
@@ -2138,10 +4301,10 @@ window.FINIF_MODULE_B = {
           "method": "judge:openai-gpt-4o",
           "family": "Decision and Boundary",
           "tag": "DB9",
-          "constraint": "The response must connect active evidence, governing rule or task standard, and final action in a single reasoning chain; it must not present facts, calculations, and recommendations as disconnected checklist fragments."
+          "constraint": "The response must connect active evidence, governing rule or task standard, and final action in a single reasoning chain; it must not present facts, calculations, and recommendations as disconnected checklist fragments.",
+          "global_no": 312
         },
         {
-          "global_no": 159,
           "constraint_index": 4,
           "route": "LLM",
           "score": 0,
@@ -2150,10 +4313,10 @@ window.FINIF_MODULE_B = {
           "method": "judge:openai-gpt-4o",
           "family": "Evidence and Grounding",
           "tag": "EG2",
-          "constraint": "Material facts, numeric inputs, thresholds, calculation results, missing-evidence triggers, and decision points must have active source labels next to the sentence, row, or bullet where they are used; collected end-only citations are not sufficient."
+          "constraint": "Material facts, numeric inputs, thresholds, calculation results, missing-evidence triggers, and decision points must have active source labels next to the sentence, row, or bullet where they are used; collected end-only citations are not sufficient.",
+          "global_no": 313
         },
         {
-          "global_no": 160,
           "constraint_index": 5,
           "route": "LLM",
           "score": 1,
@@ -2162,10 +4325,10 @@ window.FINIF_MODULE_B = {
           "method": "judge:openai-gpt-4o",
           "family": "Quantitative Verification",
           "tag": "QV2",
-          "constraint": "For every requested calculation, reconciliation, variance, threshold test, date count, headroom, or shortfall, the response must show source inputs, formula or comparison, final result, and business implication; a bare computed number does not satisfy this requirement."
+          "constraint": "For every requested calculation, reconciliation, variance, threshold test, date count, headroom, or shortfall, the response must show source inputs, formula or comparison, final result, and business implication; a bare computed number does not satisfy this requirement.",
+          "global_no": 314
         },
         {
-          "global_no": 161,
           "constraint_index": 6,
           "route": "LLM",
           "score": 1,
@@ -2174,10 +4337,10 @@ window.FINIF_MODULE_B = {
           "method": "judge:openai-gpt-4o",
           "family": "Decision and Boundary",
           "tag": "DB6",
-          "constraint": "When the task requires classification, status, or risk-level labeling, the response must use the explicit category labels supported by the packet and must not substitute a softer or unlisted label."
+          "constraint": "When the task requires classification, status, or risk-level labeling, the response must use the explicit category labels supported by the packet and must not substitute a softer or unlisted label.",
+          "global_no": 315
         },
         {
-          "global_no": 162,
           "constraint_index": 7,
           "route": "rule",
           "score": 1,
@@ -2186,10 +4349,10 @@ window.FINIF_MODULE_B = {
           "method": "rule_aided:decimal_places",
           "family": "Format and Presentation",
           "tag": "FP3",
-          "constraint": "Every percentage value in the response, including values written with percent or percentage points, must use exactly two decimal places."
+          "constraint": "Every percentage value in the response, including values written with percent or percentage points, must use exactly two decimal places.",
+          "global_no": 316
         },
         {
-          "global_no": 163,
           "constraint_index": 8,
           "route": "rule",
           "score": 1,
@@ -2198,10 +4361,10 @@ window.FINIF_MODULE_B = {
           "method": "rule_aided:first_line_format",
           "family": "Format and Presentation",
           "tag": "FP6",
-          "constraint": "The first non-empty line must be a Markdown bold title."
+          "constraint": "The first non-empty line must be a Markdown bold title.",
+          "global_no": 317
         },
         {
-          "global_no": 164,
           "constraint_index": 9,
           "route": "rule",
           "score": 1,
@@ -2210,10 +4373,10 @@ window.FINIF_MODULE_B = {
           "method": "rule_aided:required_keyword",
           "family": "Format and Presentation",
           "tag": "FP4",
-          "constraint": "The response must include the exact label Next action:."
+          "constraint": "The response must include the exact label Next action:.",
+          "global_no": 318
         },
         {
-          "global_no": 165,
           "constraint_index": 10,
           "route": "rule",
           "score": 0,
@@ -2222,10 +4385,10 @@ window.FINIF_MODULE_B = {
           "method": "rule_aided:table_columns",
           "family": "Format and Presentation",
           "tag": "FP2",
-          "constraint": "The response must include a Markdown table with columns Evidence, Test, Result, and Action."
+          "constraint": "The response must include a Markdown table with columns Evidence, Test, Result, and Action.",
+          "global_no": 319
         },
         {
-          "global_no": 166,
           "constraint_index": 11,
           "route": "rule",
           "score": 1,
@@ -2234,25 +4397,29 @@ window.FINIF_MODULE_B = {
           "method": "rule_aided:word_range",
           "family": "Format and Presentation",
           "tag": "FP3",
-          "constraint": "The response must be between 180 and 430 words."
+          "constraint": "The response must be between 180 and 430 words.",
+          "global_no": 320
         }
       ]
     },
     {
-      "item_id": "tonight_hard_swapin_076",
+      "pair_id": "tonight_hard_line_356__gpt-5.5",
+      "prompt_index": 15,
+      "response_variant": "B",
+      "item_id": "tonight_hard_line_356",
       "workflow": "Research and Due Diligence",
       "task": "Investment due diligence",
-      "work_product": "investment thesis diligence note",
-      "full_prompt": "Review file 841: Investment thesis diligence note\n\nAnalyst instructions\nThe answer needs to cover this request: Prepare a thesis diligence note for HarborGrid Storage. Use only the supplied documents, cite visible material labels for material facts, and divide the note into Thesis, Supporting evidence, Contradictory or incomplete evidence, Scenario math, Gating assumptions, and Provisional view. Recalculate the enterprise value implied by the preferred equity stake, compare base/downside/upside EBITDA, and treat pending permits, missing consents, and the non-binding tax-credit buyer as unresolved diligence. Do not describe the investment as approved or guaranteed.\n\nMaterials supplied\nstorage investment snapshot -- HarborGrid Storage is a fictional grid-scale battery developer. Proposed investment: $48.0 million preferred equity for a 22% fully diluted stake. Signed offtake covers 310 MW of a planned 520 MW portfolio. Base-case next-year EBITDA is $18.0 million; downside EBITDA is $10.5 million if two permits slip; upside EBITDA is $24.0 million if all projects reach commercial operation before peak summer demand.\n\nName for this material: harborgrid risk register. Content: Open risks: Eastfield and Mesa permits are pending; interconnection deposits lack letters of credit; tax-credit transfer buyer has provided a non-binding indication only; two leases require landlord consent. CFO expects permit approval by Q3 but provided no written agency correspondence.\n\ncommittee diligence standard (Investment Committee Diligence Standard)\nA thesis diligence note must identify thesis, supporting and weakening evidence, gating assumptions, and scenario math. Pending permits, missing consents, and non-binding indications must be unresolved diligence. Do not state guaranteed returns or final investment approval.\n\nWhen the answer uses evidence, cite the material labels shown above.\n\nFinal work-product request\nPrepare a thesis diligence note for HarborGrid Storage. Use only the supplied documents, cite visible material labels for material facts, and divide the note into Thesis, Supporting evidence, Contradictory or incomplete evidence, Scenario math, Gating assumptions, and Provisional view. Recalculate the enterprise value implied by the preferred equity stake, compare base/downside/upside EBITDA, and treat pending permits, missing consents, and the non-binding tax-credit buyer as unresolved diligence. Do not describe the investment as approved or guaranteed. Produce the investment thesis diligence note under an audit-ready controller review posture: connect each final action to the active evidence and the governing rule, policy, task standard, or active-case trigger; keep active source labels beside the material facts, figures, thresholds, missing-evidence triggers, and decision points where they are used; for any calculation or reconciliation, show the source inputs, formula or comparison, result, and business implication; separate source-stated facts from reviewer inferences, assumptions, customer statements, or management assertions; name any required approver, authority evidence, authorization, or review prerequisite that controls the outcome; write every percentage value, including percent or percentage-point values, with exactly two decimal places. Open the investment thesis diligence note with a Markdown bold title on the first non-empty line. Near the end, include the exact handoff label Next action:; if the packet supports no next action, write Next action: none supported by the packet. Include one Markdown table for the audit trail whose header contains the columns Evidence, Test, Result, and Action. Keep the full response between 180 and 430 words. Treat the layout as part of the requested finance work product, but do not omit required evidence, calculations, boundaries, or decisions just to satisfy presentation.\n",
-      "model": "deepseek-v4-flash",
-      "response": "**HarborGrid Storage – Thesis Diligence Note**\n\n**Thesis**  \nInvest $48.00% preferred equity for a 22.00% fully diluted stake in a grid‑scale battery developer. Partial offtake (310 MW of 520 MW) supports base‑case EBITDA, but unresolved permits, missing consents, and a non‑binding tax‑credit buyer prevent a conclusive view.\n\n**Supporting evidence**  \n- Signed offtake covers 310 MW (harborgrid risk register).  \n- Base‑case next‑year EBITDA: $18.0 M; upside EBITDA (all projects COD before peak summer): $24.0 M (storage investment snapshot).  \n- CFO expects permit approval by Q3 (harborgrid risk register, management assertion – no written agency correspondence).\n\n**Contradictory or incomplete evidence**  \n- Eastfield and Mesa permits are pending (harborgrid risk register).  \n- Interconnection deposits lack letters of credit (harborgrid risk register).  \n- Tax‑credit transfer buyer has provided only a non‑binding indication (harborgrid risk register).  \n- Two leases require landlord consent; consent not yet obtained (harborgrid risk register).  \n- Downside EBITDA of $10.5 M triggered if *two* permits slip (storage investment snapshot) – permit status is unresolved.\n\n**Scenario math**  \nEnterprise value implied by $48.0 M for 22.00%: $48.0 M ÷ 0.22 = **$218.18 M** (source inputs: storage investment snapshot).  \n\n| Scenario | EBITDA ($M) | Implied EV / EBITDA (x) |\n|----------|-------------|--------------------------|\n| Base     | 18.0        | 12.12                    |\n| Downside | 10.5        | 20.78                    |\n| Upside   | 24.0        | 9.09                     |\n\n*Reviewer inference:* Downside multiple (20.78x) is elevated, indicating substantive risk from permit delay.\n\n**Gating assumptions**  \n- Eastfield and Mesa permits are approved by Q3 (harborgrid risk register; no written agency evidence – missing evidence trigger).  \n- Landlord consents are secured (harborgrid risk register).  \n- Tax‑credit buyer converts non‑binding indication to binding commitment (harborgrid risk register).  \n- Interconnection LCs are posted (harborgrid risk register).  \n*Required approver for permit status: Agency authorization not provided (harborgrid risk register).*\n\n**Provisional view**  \nPending permits, missing consents, and non‑binding tax‑credit buyer remain unresolved diligence (Committee Diligence Standard). The implied EV of $218.18 M is based on a 22.00% stake, but downside EBITDA of $10.5 M would produce a 20.78x multiple – unattractive without permit clarity. No investment approval is warranted until gating assumptions are satisfied.\n\n**Audit trail table**  \n\n| Evidence | Test | Result | Action |\n|----------|------|--------|--------|\n| storage investment snapshot | Implied EV = 48.0 / 0.22 | $218.18 M | Use in scenario math |\n| harborgrid risk register | Permits pending, missing LCs, non‑binding buyer, missing consents | All unresolved | Classify as incomplete evidence |\n| Committee Diligence Standard | Rule: treat these as unresolved | Unresolved diligence identified | Require resolution before decision |\n\n**Next action:** Obtain written permit approvals, landlord consents, binding tax‑credit buyer commitment, and posted LCs.",
+      "work_product": "diligence closeout decision grid",
+      "full_prompt": "Desk note 356: diligence closeout decision grid\nAvailable materials\nrepo collateral file -- Atlas Senior Living is a fictional assisted-living facility operator. Proposed investment is $55 million preferred equity. Closeout log: audited 2025 financials received; quality-of-earnings report received with a $3.6 million EBITDA add-back dispute; state license renewals received for 11 of 13 facilities; employee litigation schedule not received; insurance certificate received; lender consent for change of control pending. Base-case EBITDA is $22 million before the disputed add-back.\n\nName for this material: counterparty accepted value. Content: A diligence closeout decision grid must classify each item as Closed, Open, Disputed, or Waiver required. Missing facility licenses and pending lender consent are closing blockers. A disputed EBITDA add-back must be shown separately from base EBITDA. The grid must not state that diligence is complete while blockers remain.\n\nWhen the answer uses evidence, cite the material labels shown above.\n\nWork product needed\nComplete the work product as follows: a diligence closeout decision grid for Atlas Senior Living. Rely only on the materials above, cite the source labels, and classify each closeout item as Closed, Open, Disputed, or Waiver required. Include audited financials, quality-of-earnings add-back dispute, facility license renewals, employee litigation schedule, insurance certificate, and lender consent. Calculate disputed add-back as a percentage of base-case EBITDA before the add-back, identify the missing licenses and pending lender consent as closing blockers, and do not state that diligence is complete while blockers remain.\n\nFinal work-product request\nProduce a diligence closeout decision grid for Atlas Senior Living. Use only the supplied documents, cite visible material labels, and classify each closeout item as Closed, Open, Disputed, or Waiver required. Include audited financials, quality-of-earnings add-back dispute, facility license renewals, employee litigation schedule, insurance certificate, and lender consent. Calculate disputed add-back as a percentage of base-case EBITDA before the add-back, identify the missing licenses and pending lender consent as closing blockers, and do not state that diligence is complete while blockers remain. Produce the diligence closeout decision grid under an audit-ready reconciliation posture: connect each final action to the active evidence and the governing rule, policy, task standard, or active-case trigger; keep active source labels beside the material facts, figures, thresholds, missing-evidence triggers, and decision points where they are used; for any calculation or reconciliation, show the source inputs, formula or comparison, result, and business implication; identify any active breach, exception, waiver need, deficiency, unresolved inconsistency, control gap, or non-compliance indicator rather than treating the workflow as cleared; use only packet-supported category, status, classification, or risk-level labels; write every percentage value, including percent or percentage-point values, with exactly two decimal places. Open the diligence closeout decision grid with a Markdown bold title on the first non-empty line. Near the end, include the exact handoff label Next action:; if the packet supports no next action, write Next action: none supported by the packet. Include one Markdown table for the audit trail whose header contains the columns Evidence, Test, Result, and Action. Keep the full response between 180 and 430 words. Treat the layout as part of the requested finance work product, but do not omit required evidence, calculations, boundaries, or decisions just to satisfy presentation.\n",
+      "model": "gpt-5.5-2026-04-23",
+      "run_label": "gpt-5.5",
+      "response": "**Atlas Senior Living — Diligence Closeout Decision Grid**\n\nScope: proposed $55 million preferred equity investment in Atlas Senior Living, based only on supplied packet materials.\n\n| Evidence | Test | Result | Action |\n|---|---|---|---|\n| Audited 2025 financials received [repo collateral file]. Rule: classify each item as Closed, Open, Disputed, or Waiver required [counterparty accepted value]. | Confirm whether required audited financials were received. | **Closed** — audited 2025 financials are in hand [repo collateral file]. | No closeout action indicated by packet. |\n| Quality-of-earnings report received with $3.6 million EBITDA add-back dispute; base-case EBITDA is $22 million before disputed add-back [repo collateral file]. Rule: disputed EBITDA add-back must be shown separately from base EBITDA [counterparty accepted value]. | Reconcile disputed add-back separately: $3.6 million ÷ $22 million = **16.36%**. | **Disputed** — base-case EBITDA remains $22 million before add-back; disputed add-back is $3.6 million, equal to **16.36%** of base-case EBITDA [repo collateral file; counterparty accepted value]. | Maintain add-back outside base EBITDA until dispute is resolved or separately approved. |\n| State license renewals received for 11 of 13 facilities [repo collateral file]. Rule: missing facility licenses are closing blockers [counterparty accepted value]. | Compare received renewals to required facility count: 11 received vs. 13 facilities. | **Open** — 2 of 13 facility license renewals are missing; this is a closing blocker [repo collateral file; counterparty accepted value]. | Obtain the 2 missing facility license renewals before closing; no packet support to treat as cleared. |\n| Employee litigation schedule not received [repo collateral file]. Rule: classify item and identify deficiencies rather than treating workflow as cleared [counterparty accepted value]. | Confirm receipt of employee litigation schedule. | **Open** — schedule is missing; deficiency remains unresolved [repo collateral file; counterparty accepted value]. | Obtain employee litigation schedule or document an approved closeout path supported by packet evidence. |\n| Insurance certificate received [repo collateral file]. Rule: classify each closeout item [counterparty accepted value]. | Confirm whether insurance certificate was received. | **Closed** — insurance certificate is in hand [repo collateral file]. | No closeout action indicated by packet. |\n| Lender consent for change of control pending [repo collateral file]. Rule: pending lender consent is a closing blocker [counterparty accepted value]. | Confirm lender consent status. | **Open** — lender consent remains pending and is a closing blocker [repo collateral file; counterparty accepted value]. | Obtain lender consent before closing; no packet support to waive or close. |\n\nCloseout posture: diligence cannot be stated as complete because closing blockers remain.\n\nNext action: obtain the 2 missing facility license renewals and pending lender consent, and resolve or separately approve the disputed EBITDA add-back and missing employee litigation schedule.",
+      "auto_quality_score": 10,
+      "auto_quality_reason": "The response is complete, accurate, and well-grounded, meeting all constraints and providing a clear, audit-ready decision grid.",
       "item_pass": false,
-      "item_csr": 0.6666666666666666,
-      "passed_constraints": 8,
-      "total_constraints": 12,
+      "item_csr": null,
       "constraints": [
         {
-          "global_no": 167,
           "constraint_index": 0,
           "route": "LLM",
           "score": 1,
@@ -2261,10 +4428,336 @@ window.FINIF_MODULE_B = {
           "method": "judge:openai-gpt-4o",
           "family": "Evidence and Grounding",
           "tag": "EG1",
-          "constraint": "The output must use only the supplied documents."
+          "constraint": "The output must use only the supplied documents.",
+          "global_no": 321
         },
         {
-          "global_no": 168,
+          "constraint_index": 1,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Missing licenses and pending lender consent are identified as closing blockers.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Decision and Boundary",
+          "tag": "DB5",
+          "constraint": "The missing licenses and pending lender consent must be identified as closing blockers.",
+          "global_no": 322
+        },
+        {
+          "constraint_index": 2,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "The grid does not state that diligence is complete while blockers remain.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Decision and Boundary",
+          "tag": "DB4",
+          "constraint": "The grid must not state that diligence is complete while blockers remain.",
+          "global_no": 323
+        },
+        {
+          "constraint_index": 3,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "The response connects evidence, rules, and actions in a reasoning chain.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Decision and Boundary",
+          "tag": "DB9",
+          "constraint": "The response must connect active evidence, governing rule or task standard, and final action in a single reasoning chain; it must not present facts, calculations, and recommendations as disconnected checklist fragments.",
+          "global_no": 324
+        },
+        {
+          "constraint_index": 4,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Source labels are placed next to relevant facts and decisions.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Evidence and Grounding",
+          "tag": "EG2",
+          "constraint": "Material facts, numeric inputs, thresholds, calculation results, missing-evidence triggers, and decision points must have active source labels next to the sentence, row, or bullet where they are used; collected end-only citations are not sufficient.",
+          "global_no": 325
+        },
+        {
+          "constraint_index": 5,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "The calculation shows inputs, formula, result, and implication.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Quantitative Verification",
+          "tag": "QV2",
+          "constraint": "For every requested calculation, reconciliation, variance, threshold test, date count, headroom, or shortfall, the response must show source inputs, formula or comparison, final result, and business implication; a bare computed number does not satisfy this requirement.",
+          "global_no": 326
+        },
+        {
+          "constraint_index": 6,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Explicit category labels from the packet are used.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Decision and Boundary",
+          "tag": "DB6",
+          "constraint": "When the task requires classification, status, or risk-level labeling, the response must use the explicit category labels supported by the packet and must not substitute a softer or unlisted label.",
+          "global_no": 327
+        },
+        {
+          "constraint_index": 7,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "All decimal numeric values use 2 decimal place(s).",
+          "method": "rule_aided:decimal_places",
+          "family": "Format and Presentation",
+          "tag": "FP3",
+          "constraint": "Every percentage value in the response, including values written with percent or percentage points, must use exactly two decimal places.",
+          "global_no": 328
+        },
+        {
+          "constraint_index": 8,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "First non-empty line uses Markdown bold format.",
+          "method": "rule_aided:first_line_format",
+          "family": "Format and Presentation",
+          "tag": "FP6",
+          "constraint": "The first non-empty line must be a Markdown bold title.",
+          "global_no": 329
+        },
+        {
+          "constraint_index": 9,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "All required keyword(s) were found.",
+          "method": "rule_aided:required_keyword",
+          "family": "Format and Presentation",
+          "tag": "FP4",
+          "constraint": "The response must include the exact label Next action:.",
+          "global_no": 330
+        },
+        {
+          "constraint_index": 10,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "All required table column(s) were found.",
+          "method": "rule_aided:table_columns",
+          "family": "Format and Presentation",
+          "tag": "FP2",
+          "constraint": "The response must include a Markdown table with columns Evidence, Test, Result, and Action.",
+          "global_no": 331
+        },
+        {
+          "constraint_index": 11,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Response has 405 mixed word/character unit(s).",
+          "method": "rule_aided:word_range",
+          "family": "Format and Presentation",
+          "tag": "FP3",
+          "constraint": "The response must be between 180 and 430 words.",
+          "global_no": 332
+        }
+      ]
+    },
+    {
+      "pair_id": "tonight_hard_swapin_076__gpt-5.5",
+      "prompt_index": 16,
+      "response_variant": "A",
+      "item_id": "tonight_hard_swapin_076",
+      "workflow": "Research and Due Diligence",
+      "task": "Investment due diligence",
+      "work_product": "investment thesis diligence note",
+      "full_prompt": "Review file 841: Investment thesis diligence note\n\nAnalyst instructions\nThe answer needs to cover this request: Prepare a thesis diligence note for HarborGrid Storage. Use only the supplied documents, cite visible material labels for material facts, and divide the note into Thesis, Supporting evidence, Contradictory or incomplete evidence, Scenario math, Gating assumptions, and Provisional view. Recalculate the enterprise value implied by the preferred equity stake, compare base/downside/upside EBITDA, and treat pending permits, missing consents, and the non-binding tax-credit buyer as unresolved diligence. Do not describe the investment as approved or guaranteed.\n\nMaterials supplied\nstorage investment snapshot -- HarborGrid Storage is a fictional grid-scale battery developer. Proposed investment: $48.0 million preferred equity for a 22% fully diluted stake. Signed offtake covers 310 MW of a planned 520 MW portfolio. Base-case next-year EBITDA is $18.0 million; downside EBITDA is $10.5 million if two permits slip; upside EBITDA is $24.0 million if all projects reach commercial operation before peak summer demand.\n\nName for this material: harborgrid risk register. Content: Open risks: Eastfield and Mesa permits are pending; interconnection deposits lack letters of credit; tax-credit transfer buyer has provided a non-binding indication only; two leases require landlord consent. CFO expects permit approval by Q3 but provided no written agency correspondence.\n\ncommittee diligence standard (Investment Committee Diligence Standard)\nA thesis diligence note must identify thesis, supporting and weakening evidence, gating assumptions, and scenario math. Pending permits, missing consents, and non-binding indications must be unresolved diligence. Do not state guaranteed returns or final investment approval.\n\nWhen the answer uses evidence, cite the material labels shown above.\n\nFinal work-product request\nPrepare a thesis diligence note for HarborGrid Storage. Use only the supplied documents, cite visible material labels for material facts, and divide the note into Thesis, Supporting evidence, Contradictory or incomplete evidence, Scenario math, Gating assumptions, and Provisional view. Recalculate the enterprise value implied by the preferred equity stake, compare base/downside/upside EBITDA, and treat pending permits, missing consents, and the non-binding tax-credit buyer as unresolved diligence. Do not describe the investment as approved or guaranteed. Produce the investment thesis diligence note under an audit-ready controller review posture: connect each final action to the active evidence and the governing rule, policy, task standard, or active-case trigger; keep active source labels beside the material facts, figures, thresholds, missing-evidence triggers, and decision points where they are used; for any calculation or reconciliation, show the source inputs, formula or comparison, result, and business implication; separate source-stated facts from reviewer inferences, assumptions, customer statements, or management assertions; name any required approver, authority evidence, authorization, or review prerequisite that controls the outcome; write every percentage value, including percent or percentage-point values, with exactly two decimal places. Open the investment thesis diligence note with a Markdown bold title on the first non-empty line. Near the end, include the exact handoff label Next action:; if the packet supports no next action, write Next action: none supported by the packet. Include one Markdown table for the audit trail whose header contains the columns Evidence, Test, Result, and Action. Keep the full response between 180 and 430 words. Treat the layout as part of the requested finance work product, but do not omit required evidence, calculations, boundaries, or decisions just to satisfy presentation.\n",
+      "model": "gpt-5.5-2026-04-23",
+      "run_label": "gpt-5.5",
+      "response": "**HarborGrid Storage — Investment Thesis Diligence Note**\n\n## Thesis\nHarborGrid Storage offers exposure to a grid-scale battery portfolio with partial contracted revenue support: $48.0 million preferred equity is proposed for a 22.00% fully diluted stake, and signed offtake covers 310 MW of a planned 520 MW portfolio [storage investment snapshot]. The thesis depends on timely permit approvals, lease consents, interconnection credit support, and binding tax-credit monetization; these remain unresolved diligence under the Investment Committee diligence rule [harborgrid risk register; committee diligence standard (Investment Committee Diligence Standard)].\n\n## Supporting evidence\nSource-stated facts: signed offtake covers 310 MW, equal to 59.62% of the 520 MW planned portfolio [storage investment snapshot]. Base-case next-year EBITDA is $18.0 million [storage investment snapshot]. Upside EBITDA is $24.0 million if all projects reach commercial operation before peak summer demand [storage investment snapshot].\n\nReviewer inference: contracted offtake supports—but does not fully de-risk—the portfolio because 40.38% of MW remain outside the stated signed offtake base.\n\n## Contradictory or incomplete evidence\nUnresolved diligence items: Eastfield and Mesa permits are pending; two leases require landlord consent; interconnection deposits lack letters of credit; the tax-credit transfer buyer has provided only a non-binding indication [harborgrid risk register]. Governing rule: pending permits, missing consents, and non-binding indications must be treated as unresolved diligence, and final approval or guaranteed returns must not be stated [committee diligence standard (Investment Committee Diligence Standard)].\n\nManagement assertion: CFO expects permit approval by Q3, but provided no written agency correspondence [harborgrid risk register]. Reviewer treatment: expectation is not authority evidence.\n\n## Scenario math\nInputs: $48.0 million preferred equity / 22.00% fully diluted stake [storage investment snapshot]. Formula: $48.0 million ÷ 22.00% = $218.2 million implied enterprise value / fully diluted equity value, absent supplied net debt or cash data. Business implication: valuation sensitivity is high to EBITDA delivery.\n\nBase EBITDA: $18.0 million; implied multiple = $218.2 million ÷ $18.0 million = 12.12x [storage investment snapshot].  \nDownside EBITDA: $10.5 million if two permits slip; implied multiple = 20.78x [storage investment snapshot].  \nUpside EBITDA: $24.0 million if all projects reach commercial operation before peak summer demand; implied multiple = 9.09x [storage investment snapshot].\n\n## Gating assumptions\nRequired authority/review prerequisite: Investment Committee review under the committee diligence standard; controller posture requires written evidence resolving permits, lease consents, letters of credit, and binding tax-credit transfer documentation before treating conditions as cleared [committee diligence standard (Investment Committee Diligence Standard); harborgrid risk register].\n\n| Evidence | Test | Result | Action |\n|---|---|---|---|\n| [harborgrid risk register]; [committee diligence standard (Investment Committee Diligence Standard)] | Are pending permits, missing consents, and non-binding indications resolved? | No; Eastfield/Mesa permits pending, two landlord consents missing, tax-credit buyer non-binding. | Keep as unresolved diligence; require written approvals/consents/binding buyer evidence before Investment Committee reliance. |\n\n## Provisional view\nPotentially diligence-worthy but not approval-ready on the supplied packet. The base case supports a 12.12x implied EBITDA entry multiple, but downside expands to 20.78x if permitting slips.  \nNext action: obtain written agency permit correspondence, landlord consents, interconnection letters of credit, and binding tax-credit transfer documentation before any final Investment Committee decision.",
+      "auto_quality_score": 10,
+      "auto_quality_reason": "The response is accurate, complete, well-grounded, and follows all instructions precisely.",
+      "item_pass": false,
+      "item_csr": null,
+      "constraints": [
+        {
+          "constraint_index": 0,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Only supplied documents are used.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Evidence and Grounding",
+          "tag": "EG1",
+          "constraint": "The output must use only the supplied documents.",
+          "global_no": 333
+        },
+        {
+          "constraint_index": 1,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "The note does not describe the investment as approved or guaranteed.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Decision and Boundary",
+          "tag": "DB4",
+          "constraint": "The note must not describe the investment as approved or guaranteed.",
+          "global_no": 334
+        },
+        {
+          "constraint_index": 2,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "The response connects evidence, rules, and actions in a reasoning chain.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Decision and Boundary",
+          "tag": "DB9",
+          "constraint": "The response must connect active evidence, governing rule or task standard, and final action in a single reasoning chain; it must not present facts, calculations, and recommendations as disconnected checklist fragments.",
+          "global_no": 335
+        },
+        {
+          "constraint_index": 3,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Material facts and calculations have active source labels next to them.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Evidence and Grounding",
+          "tag": "EG2",
+          "constraint": "Material facts, numeric inputs, thresholds, calculation results, missing-evidence triggers, and decision points must have active source labels next to the sentence, row, or bullet where they are used; collected end-only citations are not sufficient.",
+          "global_no": 336
+        },
+        {
+          "constraint_index": 4,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Calculations show inputs, formulas, results, and implications.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Quantitative Verification",
+          "tag": "QV2",
+          "constraint": "For every requested calculation, reconciliation, variance, threshold test, date count, headroom, or shortfall, the response must show source inputs, formula or comparison, final result, and business implication; a bare computed number does not satisfy this requirement.",
+          "global_no": 337
+        },
+        {
+          "constraint_index": 5,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Source-stated facts are separated from inferences and assertions.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Evidence and Grounding",
+          "tag": "EG3",
+          "constraint": "The response must separate source-stated facts from reviewer inferences, assumptions, customer statements, or management assertions; it must not present inferred conclusions as source facts.",
+          "global_no": 338
+        },
+        {
+          "constraint_index": 6,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "The response names required approvers and does not imply approval.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Decision and Boundary",
+          "tag": "DB7",
+          "constraint": "If approval, authorization, authority evidence, or a review prerequisite controls the outcome, the response must name the required approver or prerequisite and must not imply approval while that prerequisite is missing.",
+          "global_no": 339
+        },
+        {
+          "constraint_index": 7,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "All decimal numeric values use 2 decimal place(s).",
+          "method": "rule_aided:decimal_places",
+          "family": "Format and Presentation",
+          "tag": "FP3",
+          "constraint": "Every percentage value in the response, including values written with percent or percentage points, must use exactly two decimal places.",
+          "global_no": 340
+        },
+        {
+          "constraint_index": 8,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "First non-empty line uses Markdown bold format.",
+          "method": "rule_aided:first_line_format",
+          "family": "Format and Presentation",
+          "tag": "FP6",
+          "constraint": "The first non-empty line must be a Markdown bold title.",
+          "global_no": 341
+        },
+        {
+          "constraint_index": 9,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "All required keyword(s) were found.",
+          "method": "rule_aided:required_keyword",
+          "family": "Format and Presentation",
+          "tag": "FP4",
+          "constraint": "The response must include the exact label Next action:.",
+          "global_no": 342
+        },
+        {
+          "constraint_index": 10,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "All required table column(s) were found.",
+          "method": "rule_aided:table_columns",
+          "family": "Format and Presentation",
+          "tag": "FP2",
+          "constraint": "The response must include a Markdown table with columns Evidence, Test, Result, and Action.",
+          "global_no": 343
+        },
+        {
+          "constraint_index": 11,
+          "route": "rule",
+          "score": 0,
+          "label": "FAIL",
+          "reason": "Response has 484 mixed word/character unit(s); expected at most 430.",
+          "method": "rule_aided:word_range",
+          "family": "Format and Presentation",
+          "tag": "FP3",
+          "constraint": "The response must be between 180 and 430 words.",
+          "global_no": 344
+        }
+      ]
+    },
+    {
+      "pair_id": "tonight_hard_swapin_076__ds-v4-flash",
+      "prompt_index": 16,
+      "response_variant": "B",
+      "item_id": "tonight_hard_swapin_076",
+      "workflow": "Research and Due Diligence",
+      "task": "Investment due diligence",
+      "work_product": "investment thesis diligence note",
+      "full_prompt": "Review file 841: Investment thesis diligence note\n\nAnalyst instructions\nThe answer needs to cover this request: Prepare a thesis diligence note for HarborGrid Storage. Use only the supplied documents, cite visible material labels for material facts, and divide the note into Thesis, Supporting evidence, Contradictory or incomplete evidence, Scenario math, Gating assumptions, and Provisional view. Recalculate the enterprise value implied by the preferred equity stake, compare base/downside/upside EBITDA, and treat pending permits, missing consents, and the non-binding tax-credit buyer as unresolved diligence. Do not describe the investment as approved or guaranteed.\n\nMaterials supplied\nstorage investment snapshot -- HarborGrid Storage is a fictional grid-scale battery developer. Proposed investment: $48.0 million preferred equity for a 22% fully diluted stake. Signed offtake covers 310 MW of a planned 520 MW portfolio. Base-case next-year EBITDA is $18.0 million; downside EBITDA is $10.5 million if two permits slip; upside EBITDA is $24.0 million if all projects reach commercial operation before peak summer demand.\n\nName for this material: harborgrid risk register. Content: Open risks: Eastfield and Mesa permits are pending; interconnection deposits lack letters of credit; tax-credit transfer buyer has provided a non-binding indication only; two leases require landlord consent. CFO expects permit approval by Q3 but provided no written agency correspondence.\n\ncommittee diligence standard (Investment Committee Diligence Standard)\nA thesis diligence note must identify thesis, supporting and weakening evidence, gating assumptions, and scenario math. Pending permits, missing consents, and non-binding indications must be unresolved diligence. Do not state guaranteed returns or final investment approval.\n\nWhen the answer uses evidence, cite the material labels shown above.\n\nFinal work-product request\nPrepare a thesis diligence note for HarborGrid Storage. Use only the supplied documents, cite visible material labels for material facts, and divide the note into Thesis, Supporting evidence, Contradictory or incomplete evidence, Scenario math, Gating assumptions, and Provisional view. Recalculate the enterprise value implied by the preferred equity stake, compare base/downside/upside EBITDA, and treat pending permits, missing consents, and the non-binding tax-credit buyer as unresolved diligence. Do not describe the investment as approved or guaranteed. Produce the investment thesis diligence note under an audit-ready controller review posture: connect each final action to the active evidence and the governing rule, policy, task standard, or active-case trigger; keep active source labels beside the material facts, figures, thresholds, missing-evidence triggers, and decision points where they are used; for any calculation or reconciliation, show the source inputs, formula or comparison, result, and business implication; separate source-stated facts from reviewer inferences, assumptions, customer statements, or management assertions; name any required approver, authority evidence, authorization, or review prerequisite that controls the outcome; write every percentage value, including percent or percentage-point values, with exactly two decimal places. Open the investment thesis diligence note with a Markdown bold title on the first non-empty line. Near the end, include the exact handoff label Next action:; if the packet supports no next action, write Next action: none supported by the packet. Include one Markdown table for the audit trail whose header contains the columns Evidence, Test, Result, and Action. Keep the full response between 180 and 430 words. Treat the layout as part of the requested finance work product, but do not omit required evidence, calculations, boundaries, or decisions just to satisfy presentation.\n",
+      "model": "deepseek-v4-flash",
+      "run_label": "ds-v4-flash",
+      "response": "**HarborGrid Storage – Thesis Diligence Note**\n\n**Thesis**  \nInvest $48.00% preferred equity for a 22.00% fully diluted stake in a grid‑scale battery developer. Partial offtake (310 MW of 520 MW) supports base‑case EBITDA, but unresolved permits, missing consents, and a non‑binding tax‑credit buyer prevent a conclusive view.\n\n**Supporting evidence**  \n- Signed offtake covers 310 MW (harborgrid risk register).  \n- Base‑case next‑year EBITDA: $18.0 M; upside EBITDA (all projects COD before peak summer): $24.0 M (storage investment snapshot).  \n- CFO expects permit approval by Q3 (harborgrid risk register, management assertion – no written agency correspondence).\n\n**Contradictory or incomplete evidence**  \n- Eastfield and Mesa permits are pending (harborgrid risk register).  \n- Interconnection deposits lack letters of credit (harborgrid risk register).  \n- Tax‑credit transfer buyer has provided only a non‑binding indication (harborgrid risk register).  \n- Two leases require landlord consent; consent not yet obtained (harborgrid risk register).  \n- Downside EBITDA of $10.5 M triggered if *two* permits slip (storage investment snapshot) – permit status is unresolved.\n\n**Scenario math**  \nEnterprise value implied by $48.0 M for 22.00%: $48.0 M ÷ 0.22 = **$218.18 M** (source inputs: storage investment snapshot).  \n\n| Scenario | EBITDA ($M) | Implied EV / EBITDA (x) |\n|----------|-------------|--------------------------|\n| Base     | 18.0        | 12.12                    |\n| Downside | 10.5        | 20.78                    |\n| Upside   | 24.0        | 9.09                     |\n\n*Reviewer inference:* Downside multiple (20.78x) is elevated, indicating substantive risk from permit delay.\n\n**Gating assumptions**  \n- Eastfield and Mesa permits are approved by Q3 (harborgrid risk register; no written agency evidence – missing evidence trigger).  \n- Landlord consents are secured (harborgrid risk register).  \n- Tax‑credit buyer converts non‑binding indication to binding commitment (harborgrid risk register).  \n- Interconnection LCs are posted (harborgrid risk register).  \n*Required approver for permit status: Agency authorization not provided (harborgrid risk register).*\n\n**Provisional view**  \nPending permits, missing consents, and non‑binding tax‑credit buyer remain unresolved diligence (Committee Diligence Standard). The implied EV of $218.18 M is based on a 22.00% stake, but downside EBITDA of $10.5 M would produce a 20.78x multiple – unattractive without permit clarity. No investment approval is warranted until gating assumptions are satisfied.\n\n**Audit trail table**  \n\n| Evidence | Test | Result | Action |\n|----------|------|--------|--------|\n| storage investment snapshot | Implied EV = 48.0 / 0.22 | $218.18 M | Use in scenario math |\n| harborgrid risk register | Permits pending, missing LCs, non‑binding buyer, missing consents | All unresolved | Classify as incomplete evidence |\n| Committee Diligence Standard | Rule: treat these as unresolved | Unresolved diligence identified | Require resolution before decision |\n\n**Next action:** Obtain written permit approvals, landlord consents, binding tax‑credit buyer commitment, and posted LCs.",
+      "auto_quality_score": 3,
+      "auto_quality_reason": "The response fails to connect evidence, calculations, and decisions in a coherent reasoning chain, lacks detailed calculation steps, and does not consistently cite sources next to material facts.",
+      "item_pass": false,
+      "item_csr": 0.6666666666666666,
+      "constraints": [
+        {
+          "constraint_index": 0,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Only supplied documents are used.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Evidence and Grounding",
+          "tag": "EG1",
+          "constraint": "The output must use only the supplied documents.",
+          "global_no": 345
+        },
+        {
           "constraint_index": 1,
           "route": "LLM",
           "score": 1,
@@ -2273,10 +4766,10 @@ window.FINIF_MODULE_B = {
           "method": "judge:openai-gpt-4o",
           "family": "Decision and Boundary",
           "tag": "DB4",
-          "constraint": "The note must not describe the investment as approved or guaranteed."
+          "constraint": "The note must not describe the investment as approved or guaranteed.",
+          "global_no": 346
         },
         {
-          "global_no": 169,
           "constraint_index": 2,
           "route": "LLM",
           "score": 0,
@@ -2285,10 +4778,10 @@ window.FINIF_MODULE_B = {
           "method": "judge:openai-gpt-4o",
           "family": "Decision and Boundary",
           "tag": "DB9",
-          "constraint": "The response must connect active evidence, governing rule or task standard, and final action in a single reasoning chain; it must not present facts, calculations, and recommendations as disconnected checklist fragments."
+          "constraint": "The response must connect active evidence, governing rule or task standard, and final action in a single reasoning chain; it must not present facts, calculations, and recommendations as disconnected checklist fragments.",
+          "global_no": 347
         },
         {
-          "global_no": 170,
           "constraint_index": 3,
           "route": "LLM",
           "score": 0,
@@ -2297,10 +4790,10 @@ window.FINIF_MODULE_B = {
           "method": "judge:openai-gpt-4o",
           "family": "Evidence and Grounding",
           "tag": "EG2",
-          "constraint": "Material facts, numeric inputs, thresholds, calculation results, missing-evidence triggers, and decision points must have active source labels next to the sentence, row, or bullet where they are used; collected end-only citations are not sufficient."
+          "constraint": "Material facts, numeric inputs, thresholds, calculation results, missing-evidence triggers, and decision points must have active source labels next to the sentence, row, or bullet where they are used; collected end-only citations are not sufficient.",
+          "global_no": 348
         },
         {
-          "global_no": 171,
           "constraint_index": 4,
           "route": "LLM",
           "score": 0,
@@ -2309,10 +4802,10 @@ window.FINIF_MODULE_B = {
           "method": "judge:openai-gpt-4o",
           "family": "Quantitative Verification",
           "tag": "QV2",
-          "constraint": "For every requested calculation, reconciliation, variance, threshold test, date count, headroom, or shortfall, the response must show source inputs, formula or comparison, final result, and business implication; a bare computed number does not satisfy this requirement."
+          "constraint": "For every requested calculation, reconciliation, variance, threshold test, date count, headroom, or shortfall, the response must show source inputs, formula or comparison, final result, and business implication; a bare computed number does not satisfy this requirement.",
+          "global_no": 349
         },
         {
-          "global_no": 172,
           "constraint_index": 5,
           "route": "LLM",
           "score": 1,
@@ -2321,10 +4814,10 @@ window.FINIF_MODULE_B = {
           "method": "judge:openai-gpt-4o",
           "family": "Evidence and Grounding",
           "tag": "EG3",
-          "constraint": "The response must separate source-stated facts from reviewer inferences, assumptions, customer statements, or management assertions; it must not present inferred conclusions as source facts."
+          "constraint": "The response must separate source-stated facts from reviewer inferences, assumptions, customer statements, or management assertions; it must not present inferred conclusions as source facts.",
+          "global_no": 350
         },
         {
-          "global_no": 173,
           "constraint_index": 6,
           "route": "LLM",
           "score": 1,
@@ -2333,10 +4826,10 @@ window.FINIF_MODULE_B = {
           "method": "judge:openai-gpt-4o",
           "family": "Decision and Boundary",
           "tag": "DB7",
-          "constraint": "If approval, authorization, authority evidence, or a review prerequisite controls the outcome, the response must name the required approver or prerequisite and must not imply approval while that prerequisite is missing."
+          "constraint": "If approval, authorization, authority evidence, or a review prerequisite controls the outcome, the response must name the required approver or prerequisite and must not imply approval while that prerequisite is missing.",
+          "global_no": 351
         },
         {
-          "global_no": 174,
           "constraint_index": 7,
           "route": "rule",
           "score": 1,
@@ -2345,10 +4838,10 @@ window.FINIF_MODULE_B = {
           "method": "rule_aided:decimal_places",
           "family": "Format and Presentation",
           "tag": "FP3",
-          "constraint": "Every percentage value in the response, including values written with percent or percentage points, must use exactly two decimal places."
+          "constraint": "Every percentage value in the response, including values written with percent or percentage points, must use exactly two decimal places.",
+          "global_no": 352
         },
         {
-          "global_no": 175,
           "constraint_index": 8,
           "route": "rule",
           "score": 1,
@@ -2357,10 +4850,10 @@ window.FINIF_MODULE_B = {
           "method": "rule_aided:first_line_format",
           "family": "Format and Presentation",
           "tag": "FP6",
-          "constraint": "The first non-empty line must be a Markdown bold title."
+          "constraint": "The first non-empty line must be a Markdown bold title.",
+          "global_no": 353
         },
         {
-          "global_no": 176,
           "constraint_index": 9,
           "route": "rule",
           "score": 1,
@@ -2369,10 +4862,10 @@ window.FINIF_MODULE_B = {
           "method": "rule_aided:required_keyword",
           "family": "Format and Presentation",
           "tag": "FP4",
-          "constraint": "The response must include the exact label Next action:."
+          "constraint": "The response must include the exact label Next action:.",
+          "global_no": 354
         },
         {
-          "global_no": 177,
           "constraint_index": 10,
           "route": "rule",
           "score": 0,
@@ -2381,10 +4874,10 @@ window.FINIF_MODULE_B = {
           "method": "rule_aided:table_columns",
           "family": "Format and Presentation",
           "tag": "FP2",
-          "constraint": "The response must include a Markdown table with columns Evidence, Test, Result, and Action."
+          "constraint": "The response must include a Markdown table with columns Evidence, Test, Result, and Action.",
+          "global_no": 355
         },
         {
-          "global_no": 178,
           "constraint_index": 11,
           "route": "rule",
           "score": 1,
@@ -2393,25 +4886,29 @@ window.FINIF_MODULE_B = {
           "method": "rule_aided:word_range",
           "family": "Format and Presentation",
           "tag": "FP3",
-          "constraint": "The response must be between 180 and 430 words."
+          "constraint": "The response must be between 180 and 430 words.",
+          "global_no": 356
         }
       ]
     },
     {
+      "pair_id": "tonight_hard_line_124__ds-v4-flash",
+      "prompt_index": 17,
+      "response_variant": "A",
       "item_id": "tonight_hard_line_124",
       "workflow": "Risk and Compliance Review",
       "task": "Regulatory issue escalation",
       "work_product": "exam-finding escalation response outline",
       "full_prompt": "Queue item 124: exam-finding escalation response outline\n\nWhen the answer uses evidence, cite the material labels shown above.\n\nWorking file contents\npricing request file -- Rule 206(4)-7 requires registered investment advisers to adopt and implement written policies and procedures reasonably designed to prevent violations of the Advisers Act, review those policies and procedures at least annually for adequacy and effectiveness, and designate a chief compliance officer responsible for administering them. A compliance escalation packet should distinguish a policy deficiency from a concluded legal violation unless the materials state that management has reached that conclusion.\n\nName for this material: market input procedure. Content: Issue type: regulatory exam fee finding. Intake facts: sample review identified 22 client accounts with advisory fee billing errors from 2025 Q4 through 2026 Q1. Estimated excess fees: $38,900. Management agrees the calculation is directionally correct but has not completed account-by-account validation. Response due date in exam letter: 2026-06-15. Missing facts: final restitution amount, root cause, whether similar accounts outside the sample are affected, and draft response owner.\n\nhold/proceed rule\nTitle: Beacon Vale Advisors Escalation Policy Excerpt\nRegulatory examination findings with client fee impact must be escalated to the CCO, CFO, and Legal. The response outline must include finding summary, client impact, validation plan, response deadline, owner, and open issues. Do not promise a final restitution amount before validation is complete.\n\nDecision support request\nComplete the work product as follows: an exam-finding escalation response outline for ESC-2016 with headings Finding summary, Client impact, Validation plan, Response deadline, Owner, and Open issues. Cite the source labels, decide whether CCO, CFO, and Legal escalation is required, preserve the June 15 2026 response deadline, identify validation gaps, and do not promise a final restitution amount.\n\nFinal work-product request\nPrepare an exam-finding escalation response outline for ESC-2016 with headings Finding summary, Client impact, Validation plan, Response deadline, Owner, and Open issues. cite visible material labels, decide whether CCO, CFO, and Legal escalation is required, preserve the June 15 2026 response deadline, identify validation gaps, and do not promise a final restitution amount. Produce the exam-finding escalation response outline under an audit-ready reconciliation posture: connect each final action to the active evidence and the governing rule, policy, task standard, or active-case trigger; keep active source labels beside the material facts, figures, thresholds, missing-evidence triggers, and decision points where they are used; for any calculation or reconciliation, show the source inputs, formula or comparison, result, and business implication; preserve exact source figures, dates, thresholds, names, and rule references when they control the decision; identify any active breach, exception, waiver need, deficiency, unresolved inconsistency, control gap, or non-compliance indicator rather than treating the workflow as cleared. Open the exam-finding escalation response outline with a Markdown bold title on the first non-empty line. Near the end, include the exact handoff label Next action:; if the packet supports no next action, write Next action: none supported by the packet. Include at least two short Markdown blockquote lines beginning with > for source or rule excerpts that anchor the decision. Use at least eight complete sentences in the full response. Treat the layout as part of the requested finance work product, but do not omit required evidence, calculations, boundaries, or decisions just to satisfy presentation.\n",
       "model": "deepseek-v4-flash",
+      "run_label": "ds-v4-flash",
       "response": "**Exam-Finding Escalation Response Outline for ESC-2016**\n\n> *Rule 206(4)-7 requires registered investment advisers to adopt and implement written policies and procedures reasonably designed to prevent violations of the Advisers Act, review those policies and procedures at least annually for adequacy and effectiveness, and designate a chief compliance officer responsible for administering them.*  \n> *Beacon Vale Advisors Escalation Policy: “Regulatory examination findings with client fee impact must be escalated to the CCO, CFO, and Legal.”*\n\n**Escalation Decision:** Required to CCO, CFO, and Legal – the finding involves client fee impact (22 accounts, $38,900 estimated excess fees) as confirmed by the [market input procedure] and triggers the mandatory escalation threshold in the [hold/proceed rule]. The [pricing request file] further notes that a compliance escalation packet must distinguish a policy deficiency from a concluded legal violation; here management has not concluded a violation, so the finding is treated as a policy deficiency pending validation.\n\n**Finding summary** – A regulatory exam fee finding (ESC-2016) identified 22 client accounts with advisory fee billing errors occurring from Q4 2025 through Q1 2026. The estimated total excess fees are $38,900, sourced from the [market input procedure] intake facts. Management agrees the calculation is directionally correct but has not yet completed account-by-account validation.\n\n**Client impact** – At least 22 accounts were overcharged; the aggregate excess of $38,900 represents the preliminary estimate. The final restitution amount cannot be stated because validation is incomplete, consistent with the [hold/proceed rule] prohibition on promising a final restitution amount before validation is complete. The potential impact on other accounts outside the sample is an open issue.\n\n**Validation plan** – The plan must include account-by-account reconciliation of all 22 sampled accounts, confirmation of the root cause of the billing errors, and a review of whether similar accounts outside the sample are affected. The [market input procedure] explicitly lists these missing facts (final restitution amount, root cause, similar accounts, and draft response owner) as validation gaps. The plan must be designed to close these gaps before the response deadline.\n\n**Response deadline** – The exam letter due date is 2026-06-15, preserved from the [market input procedure]. All validation activities and the final response must be completed by that date. Because the deadline is fixed, any delays in assigning ownership or commencing validation risk non-compliance with the regulatory deadline.\n\n**Owner** – Currently unassigned; the [market input procedure] identifies “draft response owner” as a missing fact. A named owner must be designated immediately to manage the validation plan and coordinate with CCO, CFO, and Legal as required by the [hold/proceed rule].\n\n**Open issues** – (1) Final restitution figure is not yet determinable; (2) root cause of the billing errors is unknown; (3) extent of impact on accounts outside the 22 sampled is unassessed; (4) no owner has been appointed; (5) the distinction between a policy deficiency and a concluded legal violation remains unresolved – management has not yet stated that a violation occurred, per the [pricing request file] guidance. These open issues constitute active validation gaps that must be addressed prior to submitting the exam response.\n\n**Next action:** Assign response owner and initiate account-by-account validation; complete root-cause analysis and scope assessment for similar accounts; do not include a final restitution amount in the response until validation is finished.",
+      "auto_quality_score": 4,
+      "auto_quality_reason": "Fails to show detailed calculation or reconciliation, affecting completeness.",
       "item_pass": false,
       "item_csr": 0.9090909090909091,
-      "passed_constraints": 10,
-      "total_constraints": 11,
       "constraints": [
         {
-          "global_no": 179,
           "constraint_index": 0,
           "route": "LLM",
           "score": 1,
@@ -2420,10 +4917,10 @@ window.FINIF_MODULE_B = {
           "method": "judge:openai-gpt-4o",
           "family": "Evidence and Grounding",
           "tag": "EG1",
-          "constraint": "The response must use only the supplied documents."
+          "constraint": "The response must use only the supplied documents.",
+          "global_no": 357
         },
         {
-          "global_no": 180,
           "constraint_index": 1,
           "route": "LLM",
           "score": 1,
@@ -2432,10 +4929,10 @@ window.FINIF_MODULE_B = {
           "method": "judge:openai-gpt-4o",
           "family": "Format and Presentation",
           "tag": "FP1",
-          "constraint": "The outline must use headings Finding summary, Client impact, Validation plan, Response deadline, Owner, and Open issues."
+          "constraint": "The outline must use headings Finding summary, Client impact, Validation plan, Response deadline, Owner, and Open issues.",
+          "global_no": 358
         },
         {
-          "global_no": 181,
           "constraint_index": 2,
           "route": "LLM",
           "score": 1,
@@ -2444,10 +4941,10 @@ window.FINIF_MODULE_B = {
           "method": "judge:openai-gpt-4o",
           "family": "Decision and Boundary",
           "tag": "DB4",
-          "constraint": "The response must not promise a final restitution amount."
+          "constraint": "The response must not promise a final restitution amount.",
+          "global_no": 359
         },
         {
-          "global_no": 182,
           "constraint_index": 3,
           "route": "LLM",
           "score": 1,
@@ -2456,10 +4953,10 @@ window.FINIF_MODULE_B = {
           "method": "judge:openai-gpt-4o",
           "family": "Decision and Boundary",
           "tag": "DB9",
-          "constraint": "The response must connect active evidence, governing rule or task standard, and final action in a single reasoning chain; it must not present facts, calculations, and recommendations as disconnected checklist fragments."
+          "constraint": "The response must connect active evidence, governing rule or task standard, and final action in a single reasoning chain; it must not present facts, calculations, and recommendations as disconnected checklist fragments.",
+          "global_no": 360
         },
         {
-          "global_no": 183,
           "constraint_index": 4,
           "route": "LLM",
           "score": 1,
@@ -2468,10 +4965,10 @@ window.FINIF_MODULE_B = {
           "method": "judge:openai-gpt-4o",
           "family": "Evidence and Grounding",
           "tag": "EG2",
-          "constraint": "Material facts, numeric inputs, thresholds, calculation results, missing-evidence triggers, and decision points must have active source labels next to the sentence, row, or bullet where they are used; collected end-only citations are not sufficient."
+          "constraint": "Material facts, numeric inputs, thresholds, calculation results, missing-evidence triggers, and decision points must have active source labels next to the sentence, row, or bullet where they are used; collected end-only citations are not sufficient.",
+          "global_no": 361
         },
         {
-          "global_no": 184,
           "constraint_index": 5,
           "route": "LLM",
           "score": 0,
@@ -2480,10 +4977,10 @@ window.FINIF_MODULE_B = {
           "method": "judge:openai-gpt-4o",
           "family": "Quantitative Verification",
           "tag": "QV2",
-          "constraint": "For every requested calculation, reconciliation, variance, threshold test, date count, headroom, or shortfall, the response must show source inputs, formula or comparison, final result, and business implication; a bare computed number does not satisfy this requirement."
+          "constraint": "For every requested calculation, reconciliation, variance, threshold test, date count, headroom, or shortfall, the response must show source inputs, formula or comparison, final result, and business implication; a bare computed number does not satisfy this requirement.",
+          "global_no": 362
         },
         {
-          "global_no": 185,
           "constraint_index": 6,
           "route": "LLM",
           "score": 1,
@@ -2492,10 +4989,10 @@ window.FINIF_MODULE_B = {
           "method": "judge:openai-gpt-4o",
           "family": "Evidence and Grounding",
           "tag": "EG5",
-          "constraint": "The response must preserve exact source figures, dates, thresholds, names, and rule references when they control the decision; it must not round, rename, or paraphrase them in a way that changes the controlling source meaning."
+          "constraint": "The response must preserve exact source figures, dates, thresholds, names, and rule references when they control the decision; it must not round, rename, or paraphrase them in a way that changes the controlling source meaning.",
+          "global_no": 363
         },
         {
-          "global_no": 186,
           "constraint_index": 7,
           "route": "rule",
           "score": 1,
@@ -2504,10 +5001,10 @@ window.FINIF_MODULE_B = {
           "method": "rule_aided:first_line_format",
           "family": "Format and Presentation",
           "tag": "FP6",
-          "constraint": "The first non-empty line must be a Markdown bold title."
+          "constraint": "The first non-empty line must be a Markdown bold title.",
+          "global_no": 364
         },
         {
-          "global_no": 187,
           "constraint_index": 8,
           "route": "rule",
           "score": 1,
@@ -2516,10 +5013,10 @@ window.FINIF_MODULE_B = {
           "method": "rule_aided:required_keyword",
           "family": "Format and Presentation",
           "tag": "FP4",
-          "constraint": "The response must include the exact label Next action:."
+          "constraint": "The response must include the exact label Next action:.",
+          "global_no": 365
         },
         {
-          "global_no": 188,
           "constraint_index": 9,
           "route": "rule",
           "score": 1,
@@ -2528,10 +5025,10 @@ window.FINIF_MODULE_B = {
           "method": "rule_aided:blockquote_count",
           "family": "Format and Presentation",
           "tag": "FP2",
-          "constraint": "The response must include at least two Markdown blockquote lines."
+          "constraint": "The response must include at least two Markdown blockquote lines.",
+          "global_no": 366
         },
         {
-          "global_no": 189,
           "constraint_index": 10,
           "route": "rule",
           "score": 1,
@@ -2540,307 +5037,29 @@ window.FINIF_MODULE_B = {
           "method": "rule_aided:sentence_count",
           "family": "Format and Presentation",
           "tag": "FP3",
-          "constraint": "The response must contain at least eight complete sentences."
+          "constraint": "The response must contain at least eight complete sentences.",
+          "global_no": 367
         }
       ]
     },
     {
-      "item_id": "tonight_hard_line_205",
+      "pair_id": "tonight_hard_line_124__gpt-5.5",
+      "prompt_index": 17,
+      "response_variant": "B",
+      "item_id": "tonight_hard_line_124",
       "workflow": "Risk and Compliance Review",
-      "task": "AML red-flag review",
-      "work_product": "rapid round-dollar transfer alert",
-      "full_prompt": "Matter 205 - AML red-flag review\n\nWork product needed\nFor the final response, handle this assignment: aML-RF-021 as a rapid round-dollar transfer alert. Count incoming and outgoing transfers, calculate total funds in and out, identify same-beneficiary concentration, cite profile mismatches, decide whether escalation is warranted, and list invoice or relationship documents still needed.\n\nReference materials\nName for this material: wrap-fee conversion file. Content: implement AML programs and suspicious activity monitoring and reporting requirements for broker- 3 Rule 17a-8 under the Securities Exchange Act of 1934 (“Exchange Act”) requires broker- The views expressed herein are those of the staff of the Division of Examinations. This Risk Alert is not a rule, regulation, or statement of the Securities and Exchange Commission (the “SEC” or the “Commission”). Commission has neither approved nor disapproved the content of this Risk Alert. This Risk Alert has no legal force or effect: it does not alter or amend applicable law, and it creates no new or additional obligations for any This document was prepared by EXAMS staff and is not legal advice. This Risk Alert discusses certain issues identified in select examinations of a number of broker-dealers completed during the past several years. This Risk Alert does not discuss all types of deficiencies or weaknesses that have been identified by staff. §§ 1829b, 1951-1959; 31 U.S.C. §§ 5311-5314, 5316-5332. AML regulations, which are located at Chapter X, impose a number of additional requirements, such as with respect to customer identification programs, beneficial ownership and customer due diligence, and wire transfer recordkeeping, that this Risk Alert does not discuss. The AML Program Rule and SAR Rule, now codified at 31 C.F.R. § 1023.210 and § 1023.320, respectively, were adopted in 2002 and have since been amended. See, e.g., Financial Crimes Enforcement Network, Confidentiality of Suspicious Activity Reports, 75 Fed. 3, 2010) (amending 31 C.F.R. § 1023.320); Financial Crimes Enforcement Network, Customer Due Diligence Requirements for Financial Institutions, 81 Fed. 29398 (May 11, 2016) (amending 31 C.F.R. organizations’ rules also contain AML requirements. See, e.g., FINRA Rule 3310. dealers to comply with the reporting, recordkeeping, and record retention requirements of the BSA, including those regarding Suspicious Activity Reports (“SARs”). AML Policies and Procedures and Internal Controls Under the AML Program Rule, a broker-dealer is required to establish and implement policies, procedures, and internal controls reasonably designed to, among other things, identify and report suspicious transactions as required by the BSA and its implementing regulations. should be tailored to address the risks associated with a firm’s particular business, taking into account factors such as size, location, activities, customers, and other risks of (or vulnerabilities to) money Moreover, in order to be able to identify suspicious transactions, a broker-dealer should look for indicators of illicit activities (generally referred to as “red flags”) and incorporate those red flags into its policies and procedures. Awareness by firm personnel of red flags and how to respond to those red flags, including escalating awareness of the red flags to appropriate firm personnel, will help ensure that a firm is in a position to identify the circumstances that warrant further due diligence and possible Suspicious Activity Reporting The SAR Rule requires broker-dealers to file with FinCEN a report of any suspicious transaction relevant to a possible violation of law or regulation. Generally, a broker-dealer must file a SAR for any transaction involving funds or other assets of at least $5,000 that are conducted or attempted by, at, or through the broker-dealer and for which the broker-dealer knows, suspects, or has reason to suspect that, among other things, the transaction (or pattern of transactions of which the transaction is a part): (1) involves funds derived from illegal activity or is intended or conducted to hide or disguise funds or assets derived from illegal activity as part of a plan to violate or evade any federal law or (2) is designed to evade any requirements set forth in regulations implementing the BSA; (3) has no business purpose or apparent lawful purpose or is not the sort in which the particular customer would normally be expected to engage, and the broker-dealer knows of no reasonable explanation for the transaction after examining the available facts, including the background and possible purpose of the transaction; or (4) involves use of the broker-dealer to facilitate criminal activity. A broker-dealer is expected to conduct due diligence in determining whether to file a SAR on particular transactions based on the facts existing at the time. Under the SAR Rule’s objective “knows, suspects, or has reason to suspect” standard, a SAR is required if, on the facts existing at the time, a reasonable broker-dealer in similar circumstances would have suspected the transaction was subject to SAR The failure to file a SAR or maintain records as required by the SAR Rule would be a violation of Section 17(a) of the Exchange Act and Rule 17a-8. Alpine Securities Corp., 982 F.3d 68 (2d Cir. broker-dealer’s failure to follow its own AML procedures could also constitute a failure to “document accurately” its AML compliance program in violation of Section 17(a) and Rule 17a-8. 5 A broker-dealer must file a SAR “no later than 30 calendar days after the date of the initial detection … of facts that may constitute a basis for filing a SAR.” 6 In its SAR filing instructions (and various advisories), FinCEN has provided guidance that filers include a clear, complete, and concise narrative of the activity, including what was unusual or irregular that caused\n\ntransaction-cost history\nTitle: Round-Dollar Alert AML-RF-021\nCustomer: Zinc Harbor LLC. Over five business days, the account received four round-dollar incoming wires of $75,000 each from unrelated senders and sent four outgoing wires of $74,500 each to the same foreign beneficiary. KYC expected domestic revenue under $50,000 monthly. No invoices or beneficiary relationship documents are in the file.\n\nservice expectation note; The reviewer must count incoming and outgoing transfers, calculate total in and total out, identify same-beneficiary concentration, and decide whether rapid round-dollar movement should be escalated.\n\nWhen the answer uses evidence, cite the material labels shown above.\n\nFinal work-product request\nAnalyze AML-RF-021 as a rapid round-dollar transfer alert. Count incoming and outgoing transfers, calculate total funds in and out, identify same-beneficiary concentration, cite profile mismatches, decide whether escalation is warranted, and list invoice or relationship documents still needed. Produce the rapid round-dollar transfer alert under an audit-ready disclosure-review posture: connect each final action to the active evidence and the governing rule, policy, task standard, or active-case trigger; keep active source labels beside the material facts, figures, thresholds, missing-evidence triggers, and decision points where they are used; for any calculation or reconciliation, show the source inputs, formula or comparison, result, and business implication; for any deadline, review window, date count, aging bucket, retention period, or as-of-date test, show source dates, formula or comparison, timing status, and business implication; write every percentage value, including percent or percentage-point values, with exactly two decimal places. Open the rapid round-dollar transfer alert with a Markdown bold title on the first non-empty line. Near the end, include the exact handoff label Next action:; if the packet supports no next action, write Next action: none supported by the packet. Keep the rapid round-dollar transfer alert to between four and nine non-empty paragraphs, counting any table or list as part of the paragraph where it appears. Treat the layout as part of the requested finance work product, but do not omit required evidence, calculations, boundaries, or decisions just to satisfy presentation.\n",
-      "model": "deepseek-v4-flash",
-      "response": "**Matter 205 – AML-RF-021 Rapid Round-Dollar Transfer Alert**\n\n**Incoming and Outgoing Transfer Counts, Totals, and Same-Beneficiary Concentration**  \nOver five consecutive business days, Zinc Harbor LLC received four incoming wires of exactly $75,000 each from four distinct, unrelated senders. Four outgoing wires of exactly $74,500 each were sent to the same foreign beneficiary. Total funds in: $300,000 (4 × $75,000). Total funds out: $298,000 (4 × $74,500). The $2,000 aggregate spread ($500 per leg) is consistent with a service fee or commission, but the outflows are wholly concentrated on a single foreign beneficiary—100.00% of outward value goes to that one party. This concentration, combined with the identical round-dollar amounts, triggers a classic structuring and layering pattern (see *wrap-fee conversion file*: “indicators of illicit activities … red flags” under 31 C.F.R. § 1023.210).\n\n**Profile Mismatch and Suspicious Indicators**  \nKYC documentation for Zinc Harbor LLC projects monthly domestic revenue under $50,000. The total inflow of $300,000 in five days exceeds that expected monthly revenue by 600.00% ($300,000 vs. $50,000). The customer’s business profile (domestic, low-revenue) does not align with rapid cross-border round-dollar transfers. The *wrap-fee conversion file* notes that a broker-dealer should “look for indicators … such as transactions that have no business purpose or are not the sort in which the particular customer would normally be expected to engage” (citing the SAR Rule, 31 C.F.R. § 1023.320). No invoices, contracts, or beneficial-ownership documentation exist to explain the purpose or lawful commercial rationale for these transfers.\n\n**Escalation Decision**  \nEscalation is warranted. The facts present multiple red flags: (a) four round-dollar incoming wires totaling $300,000, (b) four near-identical outgoing wires to a single foreign beneficiary, (c) a 600.00% deviation from expected revenue, and (d) complete absence of supporting documentation. Under the SAR Rule’s “knows, suspects, or has reason to suspect” standard (31 C.F.R. § 1023.320; *Alpine Securities Corp.*), a reasonable broker-dealer would suspect that these transactions are designed to evade BSA requirements or involve funds from illegal activity. The 30-calendar-day SAR filing clock began at initial detection of these facts; the firm must file a SAR if not already done.\n\n**Missing Documents Required for Further Review**  \nTo resolve the red flags or to support a decision not to file a SAR, the following documentation is still needed per AML program requirements (*wrap-fee conversion file*: “customer due diligence … beneficial ownership”): (1) invoices or contracts evidencing the business purpose of each $75,000 incoming wire; (2) a written relationship agreement or beneficial-ownership confirmation for the foreign beneficiary receiving $298,000; and (3) a reasonable explanation for the $2,000 fee structure and the concentration of outflows.\n\n**Next action:** Immediately escalate to AML compliance officer; prepare and file a SAR within the remaining window of the 30-day detection deadline; issue a document request to Zinc Harbor LLC for the missing invoices and beneficiary relationship records; place a hold on any further transactions pending review.",
+      "task": "Regulatory issue escalation",
+      "work_product": "exam-finding escalation response outline",
+      "full_prompt": "Queue item 124: exam-finding escalation response outline\n\nWhen the answer uses evidence, cite the material labels shown above.\n\nWorking file contents\npricing request file -- Rule 206(4)-7 requires registered investment advisers to adopt and implement written policies and procedures reasonably designed to prevent violations of the Advisers Act, review those policies and procedures at least annually for adequacy and effectiveness, and designate a chief compliance officer responsible for administering them. A compliance escalation packet should distinguish a policy deficiency from a concluded legal violation unless the materials state that management has reached that conclusion.\n\nName for this material: market input procedure. Content: Issue type: regulatory exam fee finding. Intake facts: sample review identified 22 client accounts with advisory fee billing errors from 2025 Q4 through 2026 Q1. Estimated excess fees: $38,900. Management agrees the calculation is directionally correct but has not completed account-by-account validation. Response due date in exam letter: 2026-06-15. Missing facts: final restitution amount, root cause, whether similar accounts outside the sample are affected, and draft response owner.\n\nhold/proceed rule\nTitle: Beacon Vale Advisors Escalation Policy Excerpt\nRegulatory examination findings with client fee impact must be escalated to the CCO, CFO, and Legal. The response outline must include finding summary, client impact, validation plan, response deadline, owner, and open issues. Do not promise a final restitution amount before validation is complete.\n\nDecision support request\nComplete the work product as follows: an exam-finding escalation response outline for ESC-2016 with headings Finding summary, Client impact, Validation plan, Response deadline, Owner, and Open issues. Cite the source labels, decide whether CCO, CFO, and Legal escalation is required, preserve the June 15 2026 response deadline, identify validation gaps, and do not promise a final restitution amount.\n\nFinal work-product request\nPrepare an exam-finding escalation response outline for ESC-2016 with headings Finding summary, Client impact, Validation plan, Response deadline, Owner, and Open issues. cite visible material labels, decide whether CCO, CFO, and Legal escalation is required, preserve the June 15 2026 response deadline, identify validation gaps, and do not promise a final restitution amount. Produce the exam-finding escalation response outline under an audit-ready reconciliation posture: connect each final action to the active evidence and the governing rule, policy, task standard, or active-case trigger; keep active source labels beside the material facts, figures, thresholds, missing-evidence triggers, and decision points where they are used; for any calculation or reconciliation, show the source inputs, formula or comparison, result, and business implication; preserve exact source figures, dates, thresholds, names, and rule references when they control the decision; identify any active breach, exception, waiver need, deficiency, unresolved inconsistency, control gap, or non-compliance indicator rather than treating the workflow as cleared. Open the exam-finding escalation response outline with a Markdown bold title on the first non-empty line. Near the end, include the exact handoff label Next action:; if the packet supports no next action, write Next action: none supported by the packet. Include at least two short Markdown blockquote lines beginning with > for source or rule excerpts that anchor the decision. Use at least eight complete sentences in the full response. Treat the layout as part of the requested finance work product, but do not omit required evidence, calculations, boundaries, or decisions just to satisfy presentation.\n",
+      "model": "gpt-5.5-2026-04-23",
+      "run_label": "gpt-5.5",
+      "response": "**ESC-2016 Exam-Finding Escalation Response Outline**\n\n> “Regulatory examination findings with client fee impact must be escalated to the CCO, CFO, and Legal.” [hold/proceed rule]  \n> “Do not promise a final restitution amount before validation is complete.” [hold/proceed rule]  \n> “Rule 206(4)-7 requires registered investment advisers to adopt and implement written policies and procedures reasonably designed to prevent violations of the Advisers Act…” [pricing request file]\n\n## Finding summary\n\nESC-2016 concerns a regulatory exam fee finding in which a sample review identified advisory fee billing errors in 22 client accounts for the period 2025 Q4 through 2026 Q1. [market input procedure] The estimated excess fees identified in the sample are $38,900, but this figure is not a final restitution amount because management has agreed only that the calculation is directionally correct and has not completed account-by-account validation. [market input procedure]; [hold/proceed rule]  \n\nEscalation to the CCO, CFO, and Legal is required because the active trigger is a regulatory examination finding with client fee impact. [hold/proceed rule] The governing compliance context is Rule 206(4)-7, which requires registered investment advisers to maintain and administer written compliance policies and procedures reasonably designed to prevent Advisers Act violations, conduct at least annual adequacy and effectiveness reviews, and designate a chief compliance officer to administer the program. [pricing request file] At this stage, the packet supports treating the matter as a fee-billing control issue and potential policy/procedure deficiency, not as a concluded legal violation, because the materials do not state that management has reached a final legal conclusion. [pricing request file]; [market input procedure]\n\n**Escalation decision reconciliation:** regulatory exam finding + client fee impact = escalation required to CCO, CFO, and Legal. [hold/proceed rule]  \n**Business implication:** ESC-2016 should proceed through formal compliance escalation and should not be closed or treated as remediated until validation, root-cause review, scope review, and response ownership are resolved. [hold/proceed rule]; [market input procedure]\n\n## Client impact\n\nThe known client-impact population from the sample is 22 client accounts with advisory fee billing errors during 2025 Q4 through 2026 Q1. [market input procedure] The current estimated excess-fee exposure is $38,900, but that amount is expressly preliminary and should be described only as an estimate pending validation. [market input procedure]; [hold/proceed rule]  \n\n**Calculation / reconciliation:**  \n- Source input: estimated excess fees = $38,900. [market input procedure]  \n- Source input: identified affected sample accounts = 22. [market input procedure]  \n- Comparison to governing policy trigger: regulatory examination finding with client fee impact → mandatory escalation to CCO, CFO, and Legal. [hold/proceed rule]  \n- Result: escalation required; restitution amount not final. [hold/proceed rule]; [market input procedure]  \n- Business implication: client remediation planning may be needed, but final reimbursement amounts must not be promised until account-by-account validation and any expanded-scope testing are complete. [hold/proceed rule]; [market input procedure]\n\n## Validation plan\n\nThe validation plan should first complete account-by-account validation for the 22 sample accounts identified in the exam finding. [market input procedure] It should reconcile billed advisory fees against the applicable billing methodology for 2025 Q4 and 2026 Q1, quantify any confirmed overcharges, and document whether each account is affected, unaffected, or unresolved. [market input procedure]; [pricing request file]  \n\nThe validation plan should also determine the root cause of the billing errors, because root cause is currently listed as a missing fact. [market input procedure] The review should test whether similar accounts outside the sample are affected, because the current materials do not establish whether the issue is limited to the 22 sampled accounts or broader. [market input procedure] Legal and Compliance should preserve the distinction between a control or policy deficiency and a concluded Advisers Act violation unless further validated facts support a legal conclusion. [pricing request file]  \n\n**Validation gaps / unresolved items:**  \n- Final restitution amount is not yet known. [market input procedure]  \n- Account-by-account validation has not been completed. [market input procedure]  \n- Root cause has not been identified. [market input procedure]  \n- Whether similar accounts outside the sample are affected is unresolved. [market input procedure]  \n- Draft response owner has not been identified. [market input procedure]  \n- No waiver, closure, or cleared-status treatment is supported by the packet at this time. [hold/proceed rule]; [market input procedure]\n\n## Response deadline\n\nThe exam-letter response deadline is **2026-06-15**, and the escalation packet must preserve that date. [market input procedure] The response outline should be built to meet the June 15, 2026 deadline while clearly stating which facts remain under validation. [market input procedure]; [hold/proceed rule] The response should not include a final restitution commitment unless validation is completed before the response is submitted. [hold/proceed rule]\n\n## Owner\n\nA draft response owner has not yet been assigned, which is an open workflow control gap for ESC-2016. [market input procedure] Because escalation is required, the matter should be routed to the CCO, CFO, and Legal for assignment of a response owner and coordination of validation, remediation analysis, and exam response drafting. [hold/proceed rule] The CCO should remain involved because Rule 206(4)-7 requires a designated chief compliance officer responsible for administering the adviser’s compliance policies and procedures. [pricing request file]\n\n## Open issues\n\nThe packet contains an active regulatory exam fee finding with client impact and therefore cannot be treated as cleared. [market input procedure]; [hold/proceed rule] The principal open issues are the final restitution amount, root cause, whether the population extends beyond the 22 sampled accounts, completion of account-level validation, and assignment of the draft response owner. [market input procedure] There is also a potential compliance control gap or policy deficiency requiring assessment under the Rule 206(4)-7 compliance framework, but the materials do not establish a concluded legal violation. [pricing request file]  \n\nNext action: escalate ESC-2016 to the CCO, CFO, and Legal; assign a draft response owner; complete account-by-account validation and scope testing before stating any final restitution amount; and preserve the 2026-06-15 exam response deadline. [hold/proceed rule]; [market input procedure]",
+      "auto_quality_score": 10,
+      "auto_quality_reason": "The response is excellent, fully compliant with all constraints, and provides a complete, accurate, and well-grounded work product.",
       "item_pass": false,
-      "item_csr": 0.625,
-      "passed_constraints": 5,
-      "total_constraints": 8,
+      "item_csr": null,
       "constraints": [
         {
-          "global_no": 190,
-          "constraint_index": 0,
-          "route": "LLM",
-          "score": 1,
-          "label": "PASS",
-          "reason": "The response connects evidence, rules, and actions in a reasoning chain.",
-          "method": "judge:openai-gpt-4o",
-          "family": "Decision and Boundary",
-          "tag": "DB9",
-          "constraint": "The response must connect active evidence, governing rule or task standard, and final action in a single reasoning chain; it must not present facts, calculations, and recommendations as disconnected checklist fragments."
-        },
-        {
-          "global_no": 191,
-          "constraint_index": 1,
-          "route": "LLM",
-          "score": 0,
-          "label": "FAIL",
-          "reason": "Active source labels are not consistently next to material facts and decisions.",
-          "method": "judge:openai-gpt-4o",
-          "family": "Evidence and Grounding",
-          "tag": "EG2",
-          "constraint": "Material facts, numeric inputs, thresholds, calculation results, missing-evidence triggers, and decision points must have active source labels next to the sentence, row, or bullet where they are used; collected end-only citations are not sufficient."
-        },
-        {
-          "global_no": 192,
-          "constraint_index": 2,
-          "route": "LLM",
-          "score": 0,
-          "label": "FAIL",
-          "reason": "Calculations lack explicit source inputs and formulas.",
-          "method": "judge:openai-gpt-4o",
-          "family": "Quantitative Verification",
-          "tag": "QV2",
-          "constraint": "For every requested calculation, reconciliation, variance, threshold test, date count, headroom, or shortfall, the response must show source inputs, formula or comparison, final result, and business implication; a bare computed number does not satisfy this requirement."
-        },
-        {
-          "global_no": 193,
-          "constraint_index": 3,
-          "route": "LLM",
-          "score": 0,
-          "label": "FAIL",
-          "reason": "The response does not show source dates or timing status for the SAR deadline.",
-          "method": "judge:openai-gpt-4o",
-          "family": "Quantitative Verification",
-          "tag": "QV5",
-          "constraint": "For every requested deadline, review window, date count, aging bucket, retention period, or as-of-date test, the response must show source dates, formula or comparison, final timing status, and business implication."
-        },
-        {
-          "global_no": 194,
-          "constraint_index": 4,
-          "route": "rule",
-          "score": 1,
-          "label": "PASS",
-          "reason": "All decimal numeric values use 2 decimal place(s).",
-          "method": "rule_aided:decimal_places",
-          "family": "Format and Presentation",
-          "tag": "FP3",
-          "constraint": "Every percentage value in the response, including values written with percent or percentage points, must use exactly two decimal places."
-        },
-        {
-          "global_no": 195,
-          "constraint_index": 5,
-          "route": "rule",
-          "score": 1,
-          "label": "PASS",
-          "reason": "First non-empty line uses Markdown bold format.",
-          "method": "rule_aided:first_line_format",
-          "family": "Format and Presentation",
-          "tag": "FP6",
-          "constraint": "The first non-empty line must be a Markdown bold title."
-        },
-        {
-          "global_no": 196,
-          "constraint_index": 6,
-          "route": "rule",
-          "score": 1,
-          "label": "PASS",
-          "reason": "All required keyword(s) were found.",
-          "method": "rule_aided:required_keyword",
-          "family": "Format and Presentation",
-          "tag": "FP4",
-          "constraint": "The response must include the exact label Next action:."
-        },
-        {
-          "global_no": 197,
-          "constraint_index": 7,
-          "route": "rule",
-          "score": 1,
-          "label": "PASS",
-          "reason": "Response has 5 paragraph(s).",
-          "method": "rule_aided:paragraph_count",
-          "family": "Format and Presentation",
-          "tag": "FP3",
-          "constraint": "The response must use between four and nine non-empty paragraphs."
-        }
-      ]
-    },
-    {
-      "item_id": "tonight_hard_swapin_097",
-      "workflow": "Risk and Compliance Review",
-      "task": "Stress testing",
-      "work_product": "CRE severe-loss worksheet",
-      "full_prompt": "Review file 1009: CRE severe-loss worksheet\n\nAnalyst instructions\nThe answer needs to cover this request: Prepare the CRE severe-loss worksheet for stress run STR-900. Use only the supplied documents, keep the 39.0% CRE shock unchanged, calculate loss for each asset pool and the total loss with the methodology formula, rank the pools from largest to smallest calculated loss, compare the total with the $9,000,000 board limit, and state whether Risk Committee escalation is required with two mitigation actions.\n\nEvidence in the file\nadverse cre shock -- Stress run STR-900 for Aster Ridge Capital uses the following scenario: commercial real estate prices fall 39.0%, vacancy rises, and refinancing spreads widen by 240 bps. The operative stress assumption is 39.0% CRE price decline. The scenario is for internal risk review and does not override product terms or customer disclosures.\n\nName for this material: exposure pack str-900. Content: The exposure pack lists the following inputs. Downtown office loan pool: amount or value $12,000,000; stress input 0.62. Suburban retail loan pool: amount or value $8,000,000; stress input 0.37. Hotel bridge loan: amount or value $6,500,000; stress input 0.55. The applicable limit, reserve, tolerance, or trigger amount is $9,000,000.\n\nescalation standard (Aster Ridge Capital Stress Methodology and Escalation Standard)\nFor STR-900, stress loss = exposure amount x 39.0% x internal loss multiplier. Required presentation: table with columns Asset pool, Exposure, Shock, Multiplier, Calculated loss, Limit status, Action. Escalation rule: escalate to the Risk Committee if total calculated loss exceeds the board-approved loss limit. Calculations must use only documented inputs, unsupported recoveries or offsets must be identified as unavailable, and the reviewer must cite document IDs when the query asks for source support.\n\nWhen the answer uses evidence, cite the material labels shown above.\n\nFinal work-product request\nPrepare the CRE severe-loss worksheet for stress run STR-900. Use only the supplied documents, keep the 39.0% CRE shock unchanged, calculate loss for each asset pool and the total loss with the methodology formula, rank the pools from largest to smallest calculated loss, compare the total with the $9,000,000 board limit, and state whether Risk Committee escalation is required with two mitigation actions. Produce the CRE severe-loss worksheet under an audit-ready controller review posture: connect each final action to the active evidence and the governing rule, policy, task standard, or active-case trigger; keep active source labels beside the material facts, figures, thresholds, missing-evidence triggers, and decision points where they are used; for any calculation or reconciliation, show the source inputs, formula or comparison, result, and business implication; separate source-stated facts from reviewer inferences, assumptions, customer statements, or management assertions; for any comparison, ranking, alternative, scenario, or trade-off, state the comparison basis, source inputs, result, and decision implication; write every percentage value, including percent or percentage-point values, with exactly two decimal places. Open the CRE severe-loss worksheet with a Markdown bold title on the first non-empty line. Near the end, include the exact handoff label Next action:; if the packet supports no next action, write Next action: none supported by the packet. Include at least two short Markdown blockquote lines beginning with > for source or rule excerpts that anchor the decision. Use at least eight complete sentences in the full response. Treat the layout as part of the requested finance work product, but do not omit required evidence, calculations, boundaries, or decisions just to satisfy presentation.\n",
-      "model": "deepseek-v4-flash",
-      "response": "**CRE severe-loss worksheet – Stress run STR-900**  \n\n| Asset pool | Exposure ($) | Shock (39.00%) | Multiplier (internal loss multiplier) | Calculated loss ($) | Limit status | Action |\n|------------|--------------|----------------|---------------------------------------|---------------------|--------------|--------|\n| Downtown office loan pool | 12,000,000.00 | 39.00% | 0.62 | 2,901,600.00 | Within limit | Monitor vacancy and refinancing exposure |\n| Hotel bridge loan | 6,500,000.00 | 39.00% | 0.55 | 1,394,250.00 | Within limit | Review covenant compliance |\n| Suburban retail loan pool | 8,000,000.00 | 39.00% | 0.37 | 1,154,400.00 | Within limit | Assess tenant credit quality |\n| **Total** | **26,500,000.00** | **39.00%** | – | **5,450,250.00** | **Under limit** | **No escalation to Risk Committee** |\n\n**Ranking of pools by calculated loss (largest to smallest)**  \n1. Downtown office loan pool – $2,901,600.00  \n2. Hotel bridge loan – $1,394,250.00  \n3. Suburban retail loan pool – $1,154,400.00  \n\n**Comparison with board limit**  \nTotal calculated loss of $5,450,250.00 is below the board‑approved loss limit of $9,000,000.00 (source: exposure pack str‑900). Therefore the escalation rule from the Aster Ridge Capital Stress Methodology and Escalation Standard is not triggered: “escalate to the Risk Committee if total calculated loss exceeds the board-approved loss limit.”  \n\n**Mitigation actions (proactive, even though no escalation required)**  \n1. Increase loss reserve coverage for the Downtown office pool, which has the highest multiplier (0.62) and exposure, given the scenario of 39.00% CRE price decline and widening refinancing spreads.  \n2. Initiate early dialogue with hotel bridge loan borrowers to confirm debt‑service coverage plans, as vacancy rises may pressure cash flows.  \n\n> “stress loss = exposure amount x 39.0% x internal loss multiplier” – Aster Ridge Capital Stress Methodology and Escalation Standard  \n> “The applicable limit … is $9,000,000.” – exposure pack str‑900  \n\n**Next action:** none supported by the packet – total loss is below the board limit, so no mandatory escalation; continue routine portfolio monitoring.  \n\nAll calculations use only the documented inputs: exposure amounts and multipliers from exposure pack str‑900, shock of 39.00% (unchanged), and the formula from the methodology standard. No unsupported recoveries or offsets are applied. The worksheet is presented under an audit‑ready controller review posture with source evidence cited for each material figure, threshold, and decision point.",
-      "item_pass": false,
-      "item_csr": 0.7692307692307693,
-      "passed_constraints": 10,
-      "total_constraints": 13,
-      "constraints": [
-        {
-          "global_no": 198,
-          "constraint_index": 0,
-          "route": "LLM",
-          "score": 1,
-          "label": "PASS",
-          "reason": "Only supplied documents are used.",
-          "method": "judge:openai-gpt-4o",
-          "family": "Evidence and Grounding",
-          "tag": "EG1",
-          "constraint": "The response must use only the supplied documents."
-        },
-        {
-          "global_no": 199,
-          "constraint_index": 1,
-          "route": "LLM",
-          "score": 1,
-          "label": "PASS",
-          "reason": "Correct formula used for stress loss calculation.",
-          "method": "judge:openai-gpt-4o",
-          "family": "Quantitative Verification",
-          "tag": "QV1",
-          "constraint": "The response must calculate stressed impact using the methodology formula: stress loss = exposure amount x 39.0% x internal loss multiplier."
-        },
-        {
-          "global_no": 200,
-          "constraint_index": 2,
-          "route": "LLM",
-          "score": 1,
-          "label": "PASS",
-          "reason": "Table format matches required columns.",
-          "method": "judge:openai-gpt-4o",
-          "family": "Format and Presentation",
-          "tag": "FP2",
-          "constraint": "The response must follow the required presentation: table with columns Asset pool, Exposure, Shock, Multiplier, Calculated loss, Limit status, Action."
-        },
-        {
-          "global_no": 201,
-          "constraint_index": 3,
-          "route": "LLM",
-          "score": 1,
-          "label": "PASS",
-          "reason": "Reasoning chain connects evidence, rule, and action.",
-          "method": "judge:openai-gpt-4o",
-          "family": "Decision and Boundary",
-          "tag": "DB9",
-          "constraint": "The response must connect active evidence, governing rule or task standard, and final action in a single reasoning chain; it must not present facts, calculations, and recommendations as disconnected checklist fragments."
-        },
-        {
-          "global_no": 202,
-          "constraint_index": 4,
-          "route": "LLM",
-          "score": 0,
-          "label": "FAIL",
-          "reason": "Not all material facts have active source labels.",
-          "method": "judge:openai-gpt-4o",
-          "family": "Evidence and Grounding",
-          "tag": "EG2",
-          "constraint": "Material facts, numeric inputs, thresholds, calculation results, missing-evidence triggers, and decision points must have active source labels next to the sentence, row, or bullet where they are used; collected end-only citations are not sufficient."
-        },
-        {
-          "global_no": 203,
-          "constraint_index": 5,
-          "route": "LLM",
-          "score": 0,
-          "label": "FAIL",
-          "reason": "Some calculations lack business implications.",
-          "method": "judge:openai-gpt-4o",
-          "family": "Quantitative Verification",
-          "tag": "QV2",
-          "constraint": "For every requested calculation, reconciliation, variance, threshold test, date count, headroom, or shortfall, the response must show source inputs, formula or comparison, final result, and business implication; a bare computed number does not satisfy this requirement."
-        },
-        {
-          "global_no": 204,
-          "constraint_index": 6,
-          "route": "LLM",
-          "score": 1,
-          "label": "PASS",
-          "reason": "Source facts are separated from inferences.",
-          "method": "judge:openai-gpt-4o",
-          "family": "Evidence and Grounding",
-          "tag": "EG3",
-          "constraint": "The response must separate source-stated facts from reviewer inferences, assumptions, customer statements, or management assertions; it must not present inferred conclusions as source facts."
-        },
-        {
-          "global_no": 205,
-          "constraint_index": 7,
-          "route": "LLM",
-          "score": 1,
-          "label": "PASS",
-          "reason": "Comparison basis and decision implications are stated.",
-          "method": "judge:openai-gpt-4o",
-          "family": "Quantitative Verification",
-          "tag": "QV6",
-          "constraint": "For every requested comparison, ranking, alternative, scenario, or trade-off, the response must state the comparison basis, source inputs, result, and decision implication rather than listing options without a supported ordering or boundary."
-        },
-        {
-          "global_no": 206,
-          "constraint_index": 8,
-          "route": "rule",
-          "score": 0,
-          "label": "FAIL",
-          "reason": "Number(s) do not use exactly 2 decimal place(s): 39.0%.",
-          "method": "rule_aided:decimal_places",
-          "family": "Format and Presentation",
-          "tag": "FP3",
-          "constraint": "Every percentage value in the response, including values written with percent or percentage points, must use exactly two decimal places."
-        },
-        {
-          "global_no": 207,
-          "constraint_index": 9,
-          "route": "rule",
-          "score": 1,
-          "label": "PASS",
-          "reason": "First non-empty line uses Markdown bold format.",
-          "method": "rule_aided:first_line_format",
-          "family": "Format and Presentation",
-          "tag": "FP6",
-          "constraint": "The first non-empty line must be a Markdown bold title."
-        },
-        {
-          "global_no": 208,
-          "constraint_index": 10,
-          "route": "rule",
-          "score": 1,
-          "label": "PASS",
-          "reason": "All required keyword(s) were found.",
-          "method": "rule_aided:required_keyword",
-          "family": "Format and Presentation",
-          "tag": "FP4",
-          "constraint": "The response must include the exact label Next action:."
-        },
-        {
-          "global_no": 209,
-          "constraint_index": 11,
-          "route": "rule",
-          "score": 1,
-          "label": "PASS",
-          "reason": "Response has 2 blockquote line(s).",
-          "method": "rule_aided:blockquote_count",
-          "family": "Format and Presentation",
-          "tag": "FP2",
-          "constraint": "The response must include at least two Markdown blockquote lines."
-        },
-        {
-          "global_no": 210,
-          "constraint_index": 12,
-          "route": "rule",
-          "score": 1,
-          "label": "PASS",
-          "reason": "Response has 10 sentence(s).",
-          "method": "rule_aided:sentence_count",
-          "family": "Format and Presentation",
-          "tag": "FP3",
-          "constraint": "The response must contain at least eight complete sentences."
-        }
-      ]
-    },
-    {
-      "item_id": "tonight_hard_swapin_111",
-      "workflow": "Risk and Compliance Review",
-      "task": "Internal control review",
-      "work_product": "pricing-override supervision review",
-      "full_prompt": "Assignment 939: Pricing-override supervision review\n\nCompletion instructions\nFor the final response, handle this assignment: Create a pricing-override supervision review for the Cobalt Ridge 2029 bond. Use only the documents supplied. Calculate the percentage override versus vendor price, compare it with the 3% threshold, evaluate whether valuation committee approval and Fund Accounting disclosure timing met policy, and state whether NAV finalization should have been held.\n\nEvidence in the file\npricing override policy (Investment Product Pricing Override Policy)\nManual price overrides above 3% of independent vendor price require portfolio manager rationale, valuation committee approval, and disclosure to Fund Accounting before NAV finalization.\n\nprice override register -- Security: Cobalt Ridge 2029 bond. Vendor price: 84.20. Manual price used: 88.10. Portfolio manager rationale: liquidity improved after tender announcement. Valuation committee approval: pending. Fund Accounting disclosure: email sent after NAV finalization.\n\nName for this material: supervision review. Content: Reviewers must calculate override percentage, determine whether approval timing met policy, and state whether NAV finalization should have been held.\n\nWhen the answer uses evidence, cite the material labels shown above.\n\nFinal work-product request\nCreate a pricing-override supervision review for the Cobalt Ridge 2029 bond. Use only the documents supplied. Calculate the percentage override versus vendor price, compare it with the 3% threshold, evaluate whether valuation committee approval and Fund Accounting disclosure timing met policy, and state whether NAV finalization should have been held. Produce the pricing-override supervision review under an audit-ready compliance escalation posture: connect each final action to the active evidence and the governing rule, policy, task standard, or active-case trigger; keep active source labels beside the material facts, figures, thresholds, missing-evidence triggers, and decision points where they are used; for any calculation or reconciliation, show the source inputs, formula or comparison, result, and business implication; preserve exact source figures, dates, thresholds, names, and rule references when they control the decision; name any required approver, authority evidence, authorization, or review prerequisite that controls the outcome; write every percentage value, including percent or percentage-point values, with exactly two decimal places. Open the pricing-override supervision review with a Markdown bold title on the first non-empty line. Near the end, include the exact handoff label Next action:; if the packet supports no next action, write Next action: none supported by the packet. Include at least two short Markdown blockquote lines beginning with > for source or rule excerpts that anchor the decision. Use at least eight complete sentences in the full response. Treat the layout as part of the requested finance work product, but do not omit required evidence, calculations, boundaries, or decisions just to satisfy presentation.\n",
-      "model": "deepseek-v4-flash",
-      "response": "**Pricing-Override Supervision Review – Cobalt Ridge 2029 Bond**  \n\n**Override Calculation and Threshold Comparison**  \nThe manual price override for the Cobalt Ridge 2029 bond is calculated using figures from the **price override register**: vendor price = 84.20, manual price used = 88.10. The percentage override is (88.10 – 84.20) / 84.20 = 3.90 / 84.20 = 4.63% (rounded to two decimal places). This exceeds the 3% threshold established in the **pricing override policy**, which states:  \n\n> Manual price overrides above 3% of independent vendor price require portfolio manager rationale, valuation committee approval, and disclosure to Fund Accounting before NAV finalization.  \n\nBecause 4.63% > 3.00%, all three policy conditions—rationale, approval, and pre‑finalization disclosure—must be satisfied.  \n\n**Portfolio Manager Rationale**  \nThe **price override register** records the portfolio manager rationale: “liquidity improved after tender announcement.” This rationale is documented, satisfying the first policy condition.  \n\n**Valuation Committee Approval Timing**  \nThe register shows valuation committee approval status: “pending.” Per policy, approval must be obtained **before NAV finalization**. At the time of NAV finalization, approval had not been granted. Therefore, the valuation committee approval timing **did not meet** the policy requirement.  \n\n**Fund Accounting Disclosure Timing**  \nThe register states: “email sent after NAV finalization.” Policy mandates disclosure to Fund Accounting **before NAV finalization**. Sending the email after NAV finalization violates this timing condition.  \n\n**Whether NAV Finalization Should Have Been Held**  \nGiven that both valuation committee approval and Fund Accounting disclosure were not completed prior to NAV finalization, and the override exceeds 3%, NAV finalization should have been **held** until both conditions were met. The policy explicitly conditions NAV finalization on these prerequisites.  \n\n**Required Approvals and Missing Evidence**  \nThe **pricing override policy** identifies the valuation committee as the required approver for overrides above 3%. No evidence of committee authorization appears in the supplied documents; the register explicitly marks approval as “pending.” This absence of approval authority evidence is a critical compliance gap.  \n\n**Next action: Escalate to valuation committee for retrospective approval, and require Fund Accounting to re‑disclose with correct timing. Additionally, review the override process to ensure future NAV finalizations are never executed before policy conditions are satisfied.**  \n\nNo further evidence is provided to support a next action beyond escalation and process review. The packet supports this handoff.",
-      "item_pass": false,
-      "item_csr": 0.7272727272727273,
-      "passed_constraints": 8,
-      "total_constraints": 11,
-      "constraints": [
-        {
-          "global_no": 211,
           "constraint_index": 0,
           "route": "LLM",
           "score": 1,
@@ -2849,82 +5068,82 @@ window.FINIF_MODULE_B = {
           "method": "judge:openai-gpt-4o",
           "family": "Evidence and Grounding",
           "tag": "EG1",
-          "constraint": "The review must use only the documents supplied."
+          "constraint": "The response must use only the supplied documents.",
+          "global_no": 368
         },
         {
-          "global_no": 212,
           "constraint_index": 1,
           "route": "LLM",
           "score": 1,
           "label": "PASS",
-          "reason": "Connected evidence, rules, and actions in reasoning chain.",
+          "reason": "All required headings are present.",
           "method": "judge:openai-gpt-4o",
-          "family": "Decision and Boundary",
-          "tag": "DB9",
-          "constraint": "The response must connect active evidence, governing rule or task standard, and final action in a single reasoning chain; it must not present facts, calculations, and recommendations as disconnected checklist fragments."
+          "family": "Format and Presentation",
+          "tag": "FP1",
+          "constraint": "The outline must use headings Finding summary, Client impact, Validation plan, Response deadline, Owner, and Open issues.",
+          "global_no": 369
         },
         {
-          "global_no": 213,
           "constraint_index": 2,
           "route": "LLM",
-          "score": 0,
-          "label": "FAIL",
-          "reason": "Some facts lack active source labels next to them.",
+          "score": 1,
+          "label": "PASS",
+          "reason": "No final restitution amount was promised.",
           "method": "judge:openai-gpt-4o",
-          "family": "Evidence and Grounding",
-          "tag": "EG2",
-          "constraint": "Material facts, numeric inputs, thresholds, calculation results, missing-evidence triggers, and decision points must have active source labels next to the sentence, row, or bullet where they are used; collected end-only citations are not sufficient."
+          "family": "Decision and Boundary",
+          "tag": "DB4",
+          "constraint": "The response must not promise a final restitution amount.",
+          "global_no": 370
         },
         {
-          "global_no": 214,
           "constraint_index": 3,
           "route": "LLM",
           "score": 1,
           "label": "PASS",
-          "reason": "Calculations show inputs, formula, result, and implication.",
+          "reason": "Active evidence, rules, and actions are connected in reasoning chains.",
           "method": "judge:openai-gpt-4o",
-          "family": "Quantitative Verification",
-          "tag": "QV2",
-          "constraint": "For every requested calculation, reconciliation, variance, threshold test, date count, headroom, or shortfall, the response must show source inputs, formula or comparison, final result, and business implication; a bare computed number does not satisfy this requirement."
+          "family": "Decision and Boundary",
+          "tag": "DB9",
+          "constraint": "The response must connect active evidence, governing rule or task standard, and final action in a single reasoning chain; it must not present facts, calculations, and recommendations as disconnected checklist fragments.",
+          "global_no": 371
         },
         {
-          "global_no": 215,
           "constraint_index": 4,
           "route": "LLM",
           "score": 1,
           "label": "PASS",
-          "reason": "Preserved exact source figures, dates, and rules.",
+          "reason": "Active source labels are used next to material facts and decisions.",
           "method": "judge:openai-gpt-4o",
           "family": "Evidence and Grounding",
-          "tag": "EG5",
-          "constraint": "The response must preserve exact source figures, dates, thresholds, names, and rule references when they control the decision; it must not round, rename, or paraphrase them in a way that changes the controlling source meaning."
+          "tag": "EG2",
+          "constraint": "Material facts, numeric inputs, thresholds, calculation results, missing-evidence triggers, and decision points must have active source labels next to the sentence, row, or bullet where they are used; collected end-only citations are not sufficient.",
+          "global_no": 372
         },
         {
-          "global_no": 216,
           "constraint_index": 5,
           "route": "LLM",
           "score": 1,
           "label": "PASS",
-          "reason": "Named required approver and noted missing approval.",
+          "reason": "Calculations and reconciliations show inputs, results, and implications.",
           "method": "judge:openai-gpt-4o",
-          "family": "Decision and Boundary",
-          "tag": "DB7",
-          "constraint": "If approval, authorization, authority evidence, or a review prerequisite controls the outcome, the response must name the required approver or prerequisite and must not imply approval while that prerequisite is missing."
+          "family": "Quantitative Verification",
+          "tag": "QV2",
+          "constraint": "For every requested calculation, reconciliation, variance, threshold test, date count, headroom, or shortfall, the response must show source inputs, formula or comparison, final result, and business implication; a bare computed number does not satisfy this requirement.",
+          "global_no": 373
         },
         {
-          "global_no": 217,
           "constraint_index": 6,
-          "route": "rule",
-          "score": 0,
-          "label": "FAIL",
-          "reason": "Number(s) do not use exactly 2 decimal place(s): 3%, 3%, 3%, 3%.",
-          "method": "rule_aided:decimal_places",
-          "family": "Format and Presentation",
-          "tag": "FP3",
-          "constraint": "Every percentage value in the response, including values written with percent or percentage points, must use exactly two decimal places."
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Exact source figures, dates, and rules are preserved.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Evidence and Grounding",
+          "tag": "EG5",
+          "constraint": "The response must preserve exact source figures, dates, thresholds, names, and rule references when they control the decision; it must not round, rename, or paraphrase them in a way that changes the controlling source meaning.",
+          "global_no": 374
         },
         {
-          "global_no": 218,
           "constraint_index": 7,
           "route": "rule",
           "score": 1,
@@ -2933,10 +5152,10 @@ window.FINIF_MODULE_B = {
           "method": "rule_aided:first_line_format",
           "family": "Format and Presentation",
           "tag": "FP6",
-          "constraint": "The first non-empty line must be a Markdown bold title."
+          "constraint": "The first non-empty line must be a Markdown bold title.",
+          "global_no": 375
         },
         {
-          "global_no": 219,
           "constraint_index": 8,
           "route": "rule",
           "score": 1,
@@ -2945,10 +5164,892 @@ window.FINIF_MODULE_B = {
           "method": "rule_aided:required_keyword",
           "family": "Format and Presentation",
           "tag": "FP4",
-          "constraint": "The response must include the exact label Next action:."
+          "constraint": "The response must include the exact label Next action:.",
+          "global_no": 376
         },
         {
-          "global_no": 220,
+          "constraint_index": 9,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Response has 3 blockquote line(s).",
+          "method": "rule_aided:blockquote_count",
+          "family": "Format and Presentation",
+          "tag": "FP2",
+          "constraint": "The response must include at least two Markdown blockquote lines.",
+          "global_no": 377
+        },
+        {
+          "constraint_index": 10,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Response has 36 sentence(s).",
+          "method": "rule_aided:sentence_count",
+          "family": "Format and Presentation",
+          "tag": "FP3",
+          "constraint": "The response must contain at least eight complete sentences.",
+          "global_no": 378
+        }
+      ]
+    },
+    {
+      "pair_id": "tonight_hard_line_205__gpt-5.5",
+      "prompt_index": 18,
+      "response_variant": "A",
+      "item_id": "tonight_hard_line_205",
+      "workflow": "Risk and Compliance Review",
+      "task": "AML red-flag review",
+      "work_product": "rapid round-dollar transfer alert",
+      "full_prompt": "Matter 205 - AML red-flag review\n\nWork product needed\nFor the final response, handle this assignment: aML-RF-021 as a rapid round-dollar transfer alert. Count incoming and outgoing transfers, calculate total funds in and out, identify same-beneficiary concentration, cite profile mismatches, decide whether escalation is warranted, and list invoice or relationship documents still needed.\n\nReference materials\nName for this material: wrap-fee conversion file. Content: implement AML programs and suspicious activity monitoring and reporting requirements for broker- 3 Rule 17a-8 under the Securities Exchange Act of 1934 (“Exchange Act”) requires broker- The views expressed herein are those of the staff of the Division of Examinations. This Risk Alert is not a rule, regulation, or statement of the Securities and Exchange Commission (the “SEC” or the “Commission”). Commission has neither approved nor disapproved the content of this Risk Alert. This Risk Alert has no legal force or effect: it does not alter or amend applicable law, and it creates no new or additional obligations for any This document was prepared by EXAMS staff and is not legal advice. This Risk Alert discusses certain issues identified in select examinations of a number of broker-dealers completed during the past several years. This Risk Alert does not discuss all types of deficiencies or weaknesses that have been identified by staff. §§ 1829b, 1951-1959; 31 U.S.C. §§ 5311-5314, 5316-5332. AML regulations, which are located at Chapter X, impose a number of additional requirements, such as with respect to customer identification programs, beneficial ownership and customer due diligence, and wire transfer recordkeeping, that this Risk Alert does not discuss. The AML Program Rule and SAR Rule, now codified at 31 C.F.R. § 1023.210 and § 1023.320, respectively, were adopted in 2002 and have since been amended. See, e.g., Financial Crimes Enforcement Network, Confidentiality of Suspicious Activity Reports, 75 Fed. 3, 2010) (amending 31 C.F.R. § 1023.320); Financial Crimes Enforcement Network, Customer Due Diligence Requirements for Financial Institutions, 81 Fed. 29398 (May 11, 2016) (amending 31 C.F.R. organizations’ rules also contain AML requirements. See, e.g., FINRA Rule 3310. dealers to comply with the reporting, recordkeeping, and record retention requirements of the BSA, including those regarding Suspicious Activity Reports (“SARs”). AML Policies and Procedures and Internal Controls Under the AML Program Rule, a broker-dealer is required to establish and implement policies, procedures, and internal controls reasonably designed to, among other things, identify and report suspicious transactions as required by the BSA and its implementing regulations. should be tailored to address the risks associated with a firm’s particular business, taking into account factors such as size, location, activities, customers, and other risks of (or vulnerabilities to) money Moreover, in order to be able to identify suspicious transactions, a broker-dealer should look for indicators of illicit activities (generally referred to as “red flags”) and incorporate those red flags into its policies and procedures. Awareness by firm personnel of red flags and how to respond to those red flags, including escalating awareness of the red flags to appropriate firm personnel, will help ensure that a firm is in a position to identify the circumstances that warrant further due diligence and possible Suspicious Activity Reporting The SAR Rule requires broker-dealers to file with FinCEN a report of any suspicious transaction relevant to a possible violation of law or regulation. Generally, a broker-dealer must file a SAR for any transaction involving funds or other assets of at least $5,000 that are conducted or attempted by, at, or through the broker-dealer and for which the broker-dealer knows, suspects, or has reason to suspect that, among other things, the transaction (or pattern of transactions of which the transaction is a part): (1) involves funds derived from illegal activity or is intended or conducted to hide or disguise funds or assets derived from illegal activity as part of a plan to violate or evade any federal law or (2) is designed to evade any requirements set forth in regulations implementing the BSA; (3) has no business purpose or apparent lawful purpose or is not the sort in which the particular customer would normally be expected to engage, and the broker-dealer knows of no reasonable explanation for the transaction after examining the available facts, including the background and possible purpose of the transaction; or (4) involves use of the broker-dealer to facilitate criminal activity. A broker-dealer is expected to conduct due diligence in determining whether to file a SAR on particular transactions based on the facts existing at the time. Under the SAR Rule’s objective “knows, suspects, or has reason to suspect” standard, a SAR is required if, on the facts existing at the time, a reasonable broker-dealer in similar circumstances would have suspected the transaction was subject to SAR The failure to file a SAR or maintain records as required by the SAR Rule would be a violation of Section 17(a) of the Exchange Act and Rule 17a-8. Alpine Securities Corp., 982 F.3d 68 (2d Cir. broker-dealer’s failure to follow its own AML procedures could also constitute a failure to “document accurately” its AML compliance program in violation of Section 17(a) and Rule 17a-8. 5 A broker-dealer must file a SAR “no later than 30 calendar days after the date of the initial detection … of facts that may constitute a basis for filing a SAR.” 6 In its SAR filing instructions (and various advisories), FinCEN has provided guidance that filers include a clear, complete, and concise narrative of the activity, including what was unusual or irregular that caused\n\ntransaction-cost history\nTitle: Round-Dollar Alert AML-RF-021\nCustomer: Zinc Harbor LLC. Over five business days, the account received four round-dollar incoming wires of $75,000 each from unrelated senders and sent four outgoing wires of $74,500 each to the same foreign beneficiary. KYC expected domestic revenue under $50,000 monthly. No invoices or beneficiary relationship documents are in the file.\n\nservice expectation note; The reviewer must count incoming and outgoing transfers, calculate total in and total out, identify same-beneficiary concentration, and decide whether rapid round-dollar movement should be escalated.\n\nWhen the answer uses evidence, cite the material labels shown above.\n\nFinal work-product request\nAnalyze AML-RF-021 as a rapid round-dollar transfer alert. Count incoming and outgoing transfers, calculate total funds in and out, identify same-beneficiary concentration, cite profile mismatches, decide whether escalation is warranted, and list invoice or relationship documents still needed. Produce the rapid round-dollar transfer alert under an audit-ready disclosure-review posture: connect each final action to the active evidence and the governing rule, policy, task standard, or active-case trigger; keep active source labels beside the material facts, figures, thresholds, missing-evidence triggers, and decision points where they are used; for any calculation or reconciliation, show the source inputs, formula or comparison, result, and business implication; for any deadline, review window, date count, aging bucket, retention period, or as-of-date test, show source dates, formula or comparison, timing status, and business implication; write every percentage value, including percent or percentage-point values, with exactly two decimal places. Open the rapid round-dollar transfer alert with a Markdown bold title on the first non-empty line. Near the end, include the exact handoff label Next action:; if the packet supports no next action, write Next action: none supported by the packet. Keep the rapid round-dollar transfer alert to between four and nine non-empty paragraphs, counting any table or list as part of the paragraph where it appears. Treat the layout as part of the requested finance work product, but do not omit required evidence, calculations, boundaries, or decisions just to satisfy presentation.\n",
+      "model": "gpt-5.5-2026-04-23",
+      "run_label": "gpt-5.5",
+      "response": "**Rapid Round-Dollar Transfer Alert — AML-RF-021**\n\nAlert scope and governing standard: AML-RF-021 concerns Zinc Harbor LLC and was triggered as a rapid round-dollar transfer alert because, over five business days, the account received four round-dollar incoming wires and sent four outgoing wires shortly thereafter to one foreign beneficiary [transaction-cost history]. The required review tasks are to count incoming and outgoing transfers, calculate funds in and out, identify same-beneficiary concentration, and decide whether rapid round-dollar movement should be escalated [service expectation note]. The governing AML standard requires broker-dealers to implement controls designed to identify and report suspicious transactions, including red flags, and to escalate activity warranting further due diligence or possible suspicious activity reporting [wrap-fee conversion file].\n\nTransfer count and funds-flow reconciliation: Inputs: 4 incoming wires × $75,000.00 each from unrelated senders = $300,000.00 total funds in [transaction-cost history]. Inputs: 4 outgoing wires × $74,500.00 each to the same foreign beneficiary = $298,000.00 total funds out [transaction-cost history]. Net retained amount formula: $300,000.00 in − $298,000.00 out = $2,000.00 retained. Pass-through ratio formula: $298,000.00 out ÷ $300,000.00 in = 99.33%. Business implication: the account functioned primarily as a short-window pass-through account, retaining only $2,000.00, or 0.67% of incoming funds, which is inconsistent with ordinary operating-account behavior absent supporting invoices or documented payment purpose [transaction-cost history].\n\nSame-beneficiary concentration: all four outgoing transfers were sent to the same foreign beneficiary [transaction-cost history]. Concentration formula: 4 same-beneficiary outgoing wires ÷ 4 total outgoing wires = 100.00%; dollar concentration formula: $298,000.00 to same foreign beneficiary ÷ $298,000.00 total outgoing wires = 100.00%. Business implication: the complete concentration of outbound funds to one foreign beneficiary, after incoming wires from unrelated senders, increases layering/funneling concern and requires documented business rationale, beneficiary relationship evidence, and invoices before the activity can be treated as expected or adequately explained [transaction-cost history; service expectation note].\n\nProfile mismatch and red flags: KYC expected domestic revenue is under $50,000.00 monthly [transaction-cost history]. Comparison using the stated monthly revenue ceiling: $300,000.00 incoming over five business days ÷ $50,000.00 expected monthly domestic revenue ceiling = 600.00%; because the profile states “under $50,000.00,” the actual variance is greater than or equal to that ceiling-based comparison. The outgoing amount comparison is $298,000.00 ÷ $50,000.00 = 596.00%. Business implication: five-business-day wire activity materially exceeds the customer’s expected domestic revenue profile, involves foreign outbound payments despite a domestic-revenue profile, uses round-dollar incoming amounts, and lacks invoices or beneficiary relationship documents [transaction-cost history]. These are red flags requiring further due diligence under AML controls designed to detect activity with no apparent lawful purpose or not the sort in which the customer would normally be expected to engage [wrap-fee conversion file].\n\nEscalation decision: escalation is warranted to AML investigations/SAR decisioning. The SAR rule standard cited in the reference material applies where a broker-dealer knows, suspects, or has reason to suspect that a transaction or pattern of transactions of at least $5,000.00 may involve illicit funds, BSA evasion, no apparent lawful purpose, activity not normally expected for the customer, or use of the broker-dealer to facilitate criminal activity [wrap-fee conversion file]. Here, the activity totals $300,000.00 in and $298,000.00 out, exceeds the $5,000.00 SAR threshold, is rapid over five business days, is 99.33% pass-through, is 100.00% concentrated to one foreign beneficiary, materially exceeds the KYC profile, and lacks invoices or relationship documentation [transaction-cost history]. This supports escalation for enhanced due diligence and SAR analysis; the packet supports escalation, but final SAR filing should depend on the investigation’s documented assessment of any customer explanation and supporting evidence [wrap-fee conversion file].\n\nDocuments still needed: invoices for each of the four $75,000.00 incoming wires from unrelated senders; invoices, contracts, purchase orders, or statements of work supporting each of the four $74,500.00 outgoing wires; documentation explaining the relationship between Zinc Harbor LLC and the same foreign beneficiary; documentation explaining the relationship between Zinc Harbor LLC and each unrelated incoming sender; payment-purpose memos or wire instructions showing the business rationale for the near-matched inbound/outbound amounts; evidence of goods delivered or services performed; and any updated KYC showing why foreign outbound payments and five-business-day activity of this size are consistent with the customer’s expected activity [transaction-cost history; service expectation note].\n\nNext action: escalate AML-RF-021 to AML investigations for enhanced due diligence and SAR decisioning, request the missing invoice and relationship documentation listed above, and document any customer explanation against the profile mismatch and pass-through indicators. If SAR filing is determined to be required, the reference material states that a SAR must be filed no later than 30 calendar days after the date of initial detection of facts that may constitute a basis for filing; no initial-detection date is provided in the packet, so the precise SAR deadline cannot be calculated from the available evidence [wrap-fee conversion file].",
+      "auto_quality_score": 3,
+      "auto_quality_reason": "The response fails to provide active source labels for material facts and calculations, and it lacks timing details for the SAR deadline, affecting its audit readiness. Quality capped to 3/10 due to 2 central IF failure(s); multiple central failures; severe authority/route/trigger failure.",
+      "item_pass": false,
+      "item_csr": null,
+      "constraints": [
+        {
+          "constraint_index": 0,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "The response connects active evidence, governing rule, and final action in a single reasoning chain.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Decision and Boundary",
+          "tag": "DB9",
+          "constraint": "The response must connect active evidence, governing rule or task standard, and final action in a single reasoning chain; it must not present facts, calculations, and recommendations as disconnected checklist fragments.",
+          "global_no": 379
+        },
+        {
+          "constraint_index": 1,
+          "route": "LLM",
+          "score": 0,
+          "label": "FAIL",
+          "reason": "Material facts and calculations lack active source labels next to each use; some are only cited at the end of sections.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Evidence and Grounding",
+          "tag": "EG2",
+          "constraint": "Material facts, numeric inputs, thresholds, calculation results, missing-evidence triggers, and decision points must have active source labels next to the sentence, row, or bullet where they are used; collected end-only citations are not sufficient.",
+          "global_no": 380
+        },
+        {
+          "constraint_index": 2,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "The response shows source inputs, formula, result, and business implication for calculations.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Quantitative Verification",
+          "tag": "QV2",
+          "constraint": "For every requested calculation, reconciliation, variance, threshold test, date count, headroom, or shortfall, the response must show source inputs, formula or comparison, final result, and business implication; a bare computed number does not satisfy this requirement.",
+          "global_no": 381
+        },
+        {
+          "constraint_index": 3,
+          "route": "LLM",
+          "score": 0,
+          "label": "FAIL",
+          "reason": "The response does not show source dates, formula, timing status, and business implication for the SAR deadline.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Quantitative Verification",
+          "tag": "QV5",
+          "constraint": "For every requested deadline, review window, date count, aging bucket, retention period, or as-of-date test, the response must show source dates, formula or comparison, final timing status, and business implication.",
+          "global_no": 382
+        },
+        {
+          "constraint_index": 4,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "All decimal numeric values use 2 decimal place(s).",
+          "method": "rule_aided:decimal_places",
+          "family": "Format and Presentation",
+          "tag": "FP3",
+          "constraint": "Every percentage value in the response, including values written with percent or percentage points, must use exactly two decimal places.",
+          "global_no": 383
+        },
+        {
+          "constraint_index": 5,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "First non-empty line uses Markdown bold format.",
+          "method": "rule_aided:first_line_format",
+          "family": "Format and Presentation",
+          "tag": "FP6",
+          "constraint": "The first non-empty line must be a Markdown bold title.",
+          "global_no": 384
+        },
+        {
+          "constraint_index": 6,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "All required keyword(s) were found.",
+          "method": "rule_aided:required_keyword",
+          "family": "Format and Presentation",
+          "tag": "FP4",
+          "constraint": "The response must include the exact label Next action:.",
+          "global_no": 385
+        },
+        {
+          "constraint_index": 7,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Response has 7 paragraph(s).",
+          "method": "rule_aided:paragraph_count",
+          "family": "Format and Presentation",
+          "tag": "FP3",
+          "constraint": "The response must use between four and nine non-empty paragraphs.",
+          "global_no": 386
+        }
+      ]
+    },
+    {
+      "pair_id": "tonight_hard_line_205__ds-v4-flash",
+      "prompt_index": 18,
+      "response_variant": "B",
+      "item_id": "tonight_hard_line_205",
+      "workflow": "Risk and Compliance Review",
+      "task": "AML red-flag review",
+      "work_product": "rapid round-dollar transfer alert",
+      "full_prompt": "Matter 205 - AML red-flag review\n\nWork product needed\nFor the final response, handle this assignment: aML-RF-021 as a rapid round-dollar transfer alert. Count incoming and outgoing transfers, calculate total funds in and out, identify same-beneficiary concentration, cite profile mismatches, decide whether escalation is warranted, and list invoice or relationship documents still needed.\n\nReference materials\nName for this material: wrap-fee conversion file. Content: implement AML programs and suspicious activity monitoring and reporting requirements for broker- 3 Rule 17a-8 under the Securities Exchange Act of 1934 (“Exchange Act”) requires broker- The views expressed herein are those of the staff of the Division of Examinations. This Risk Alert is not a rule, regulation, or statement of the Securities and Exchange Commission (the “SEC” or the “Commission”). Commission has neither approved nor disapproved the content of this Risk Alert. This Risk Alert has no legal force or effect: it does not alter or amend applicable law, and it creates no new or additional obligations for any This document was prepared by EXAMS staff and is not legal advice. This Risk Alert discusses certain issues identified in select examinations of a number of broker-dealers completed during the past several years. This Risk Alert does not discuss all types of deficiencies or weaknesses that have been identified by staff. §§ 1829b, 1951-1959; 31 U.S.C. §§ 5311-5314, 5316-5332. AML regulations, which are located at Chapter X, impose a number of additional requirements, such as with respect to customer identification programs, beneficial ownership and customer due diligence, and wire transfer recordkeeping, that this Risk Alert does not discuss. The AML Program Rule and SAR Rule, now codified at 31 C.F.R. § 1023.210 and § 1023.320, respectively, were adopted in 2002 and have since been amended. See, e.g., Financial Crimes Enforcement Network, Confidentiality of Suspicious Activity Reports, 75 Fed. 3, 2010) (amending 31 C.F.R. § 1023.320); Financial Crimes Enforcement Network, Customer Due Diligence Requirements for Financial Institutions, 81 Fed. 29398 (May 11, 2016) (amending 31 C.F.R. organizations’ rules also contain AML requirements. See, e.g., FINRA Rule 3310. dealers to comply with the reporting, recordkeeping, and record retention requirements of the BSA, including those regarding Suspicious Activity Reports (“SARs”). AML Policies and Procedures and Internal Controls Under the AML Program Rule, a broker-dealer is required to establish and implement policies, procedures, and internal controls reasonably designed to, among other things, identify and report suspicious transactions as required by the BSA and its implementing regulations. should be tailored to address the risks associated with a firm’s particular business, taking into account factors such as size, location, activities, customers, and other risks of (or vulnerabilities to) money Moreover, in order to be able to identify suspicious transactions, a broker-dealer should look for indicators of illicit activities (generally referred to as “red flags”) and incorporate those red flags into its policies and procedures. Awareness by firm personnel of red flags and how to respond to those red flags, including escalating awareness of the red flags to appropriate firm personnel, will help ensure that a firm is in a position to identify the circumstances that warrant further due diligence and possible Suspicious Activity Reporting The SAR Rule requires broker-dealers to file with FinCEN a report of any suspicious transaction relevant to a possible violation of law or regulation. Generally, a broker-dealer must file a SAR for any transaction involving funds or other assets of at least $5,000 that are conducted or attempted by, at, or through the broker-dealer and for which the broker-dealer knows, suspects, or has reason to suspect that, among other things, the transaction (or pattern of transactions of which the transaction is a part): (1) involves funds derived from illegal activity or is intended or conducted to hide or disguise funds or assets derived from illegal activity as part of a plan to violate or evade any federal law or (2) is designed to evade any requirements set forth in regulations implementing the BSA; (3) has no business purpose or apparent lawful purpose or is not the sort in which the particular customer would normally be expected to engage, and the broker-dealer knows of no reasonable explanation for the transaction after examining the available facts, including the background and possible purpose of the transaction; or (4) involves use of the broker-dealer to facilitate criminal activity. A broker-dealer is expected to conduct due diligence in determining whether to file a SAR on particular transactions based on the facts existing at the time. Under the SAR Rule’s objective “knows, suspects, or has reason to suspect” standard, a SAR is required if, on the facts existing at the time, a reasonable broker-dealer in similar circumstances would have suspected the transaction was subject to SAR The failure to file a SAR or maintain records as required by the SAR Rule would be a violation of Section 17(a) of the Exchange Act and Rule 17a-8. Alpine Securities Corp., 982 F.3d 68 (2d Cir. broker-dealer’s failure to follow its own AML procedures could also constitute a failure to “document accurately” its AML compliance program in violation of Section 17(a) and Rule 17a-8. 5 A broker-dealer must file a SAR “no later than 30 calendar days after the date of the initial detection … of facts that may constitute a basis for filing a SAR.” 6 In its SAR filing instructions (and various advisories), FinCEN has provided guidance that filers include a clear, complete, and concise narrative of the activity, including what was unusual or irregular that caused\n\ntransaction-cost history\nTitle: Round-Dollar Alert AML-RF-021\nCustomer: Zinc Harbor LLC. Over five business days, the account received four round-dollar incoming wires of $75,000 each from unrelated senders and sent four outgoing wires of $74,500 each to the same foreign beneficiary. KYC expected domestic revenue under $50,000 monthly. No invoices or beneficiary relationship documents are in the file.\n\nservice expectation note; The reviewer must count incoming and outgoing transfers, calculate total in and total out, identify same-beneficiary concentration, and decide whether rapid round-dollar movement should be escalated.\n\nWhen the answer uses evidence, cite the material labels shown above.\n\nFinal work-product request\nAnalyze AML-RF-021 as a rapid round-dollar transfer alert. Count incoming and outgoing transfers, calculate total funds in and out, identify same-beneficiary concentration, cite profile mismatches, decide whether escalation is warranted, and list invoice or relationship documents still needed. Produce the rapid round-dollar transfer alert under an audit-ready disclosure-review posture: connect each final action to the active evidence and the governing rule, policy, task standard, or active-case trigger; keep active source labels beside the material facts, figures, thresholds, missing-evidence triggers, and decision points where they are used; for any calculation or reconciliation, show the source inputs, formula or comparison, result, and business implication; for any deadline, review window, date count, aging bucket, retention period, or as-of-date test, show source dates, formula or comparison, timing status, and business implication; write every percentage value, including percent or percentage-point values, with exactly two decimal places. Open the rapid round-dollar transfer alert with a Markdown bold title on the first non-empty line. Near the end, include the exact handoff label Next action:; if the packet supports no next action, write Next action: none supported by the packet. Keep the rapid round-dollar transfer alert to between four and nine non-empty paragraphs, counting any table or list as part of the paragraph where it appears. Treat the layout as part of the requested finance work product, but do not omit required evidence, calculations, boundaries, or decisions just to satisfy presentation.\n",
+      "model": "deepseek-v4-flash",
+      "run_label": "ds-v4-flash",
+      "response": "**Matter 205 – AML-RF-021 Rapid Round-Dollar Transfer Alert**\n\n**Incoming and Outgoing Transfer Counts, Totals, and Same-Beneficiary Concentration**  \nOver five consecutive business days, Zinc Harbor LLC received four incoming wires of exactly $75,000 each from four distinct, unrelated senders. Four outgoing wires of exactly $74,500 each were sent to the same foreign beneficiary. Total funds in: $300,000 (4 × $75,000). Total funds out: $298,000 (4 × $74,500). The $2,000 aggregate spread ($500 per leg) is consistent with a service fee or commission, but the outflows are wholly concentrated on a single foreign beneficiary—100.00% of outward value goes to that one party. This concentration, combined with the identical round-dollar amounts, triggers a classic structuring and layering pattern (see *wrap-fee conversion file*: “indicators of illicit activities … red flags” under 31 C.F.R. § 1023.210).\n\n**Profile Mismatch and Suspicious Indicators**  \nKYC documentation for Zinc Harbor LLC projects monthly domestic revenue under $50,000. The total inflow of $300,000 in five days exceeds that expected monthly revenue by 600.00% ($300,000 vs. $50,000). The customer’s business profile (domestic, low-revenue) does not align with rapid cross-border round-dollar transfers. The *wrap-fee conversion file* notes that a broker-dealer should “look for indicators … such as transactions that have no business purpose or are not the sort in which the particular customer would normally be expected to engage” (citing the SAR Rule, 31 C.F.R. § 1023.320). No invoices, contracts, or beneficial-ownership documentation exist to explain the purpose or lawful commercial rationale for these transfers.\n\n**Escalation Decision**  \nEscalation is warranted. The facts present multiple red flags: (a) four round-dollar incoming wires totaling $300,000, (b) four near-identical outgoing wires to a single foreign beneficiary, (c) a 600.00% deviation from expected revenue, and (d) complete absence of supporting documentation. Under the SAR Rule’s “knows, suspects, or has reason to suspect” standard (31 C.F.R. § 1023.320; *Alpine Securities Corp.*), a reasonable broker-dealer would suspect that these transactions are designed to evade BSA requirements or involve funds from illegal activity. The 30-calendar-day SAR filing clock began at initial detection of these facts; the firm must file a SAR if not already done.\n\n**Missing Documents Required for Further Review**  \nTo resolve the red flags or to support a decision not to file a SAR, the following documentation is still needed per AML program requirements (*wrap-fee conversion file*: “customer due diligence … beneficial ownership”): (1) invoices or contracts evidencing the business purpose of each $75,000 incoming wire; (2) a written relationship agreement or beneficial-ownership confirmation for the foreign beneficiary receiving $298,000; and (3) a reasonable explanation for the $2,000 fee structure and the concentration of outflows.\n\n**Next action:** Immediately escalate to AML compliance officer; prepare and file a SAR within the remaining window of the 30-day detection deadline; issue a document request to Zinc Harbor LLC for the missing invoices and beneficiary relationship records; place a hold on any further transactions pending review.",
+      "auto_quality_score": 3,
+      "auto_quality_reason": "Fails key grounding, calculation, and timing constraints; lacks source labels and explicit formulas.",
+      "item_pass": false,
+      "item_csr": 0.625,
+      "constraints": [
+        {
+          "constraint_index": 0,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "The response connects evidence, rules, and actions in a reasoning chain.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Decision and Boundary",
+          "tag": "DB9",
+          "constraint": "The response must connect active evidence, governing rule or task standard, and final action in a single reasoning chain; it must not present facts, calculations, and recommendations as disconnected checklist fragments.",
+          "global_no": 387
+        },
+        {
+          "constraint_index": 1,
+          "route": "LLM",
+          "score": 0,
+          "label": "FAIL",
+          "reason": "Active source labels are not consistently next to material facts and decisions.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Evidence and Grounding",
+          "tag": "EG2",
+          "constraint": "Material facts, numeric inputs, thresholds, calculation results, missing-evidence triggers, and decision points must have active source labels next to the sentence, row, or bullet where they are used; collected end-only citations are not sufficient.",
+          "global_no": 388
+        },
+        {
+          "constraint_index": 2,
+          "route": "LLM",
+          "score": 0,
+          "label": "FAIL",
+          "reason": "Calculations lack explicit source inputs and formulas.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Quantitative Verification",
+          "tag": "QV2",
+          "constraint": "For every requested calculation, reconciliation, variance, threshold test, date count, headroom, or shortfall, the response must show source inputs, formula or comparison, final result, and business implication; a bare computed number does not satisfy this requirement.",
+          "global_no": 389
+        },
+        {
+          "constraint_index": 3,
+          "route": "LLM",
+          "score": 0,
+          "label": "FAIL",
+          "reason": "The response does not show source dates or timing status for the SAR deadline.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Quantitative Verification",
+          "tag": "QV5",
+          "constraint": "For every requested deadline, review window, date count, aging bucket, retention period, or as-of-date test, the response must show source dates, formula or comparison, final timing status, and business implication.",
+          "global_no": 390
+        },
+        {
+          "constraint_index": 4,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "All decimal numeric values use 2 decimal place(s).",
+          "method": "rule_aided:decimal_places",
+          "family": "Format and Presentation",
+          "tag": "FP3",
+          "constraint": "Every percentage value in the response, including values written with percent or percentage points, must use exactly two decimal places.",
+          "global_no": 391
+        },
+        {
+          "constraint_index": 5,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "First non-empty line uses Markdown bold format.",
+          "method": "rule_aided:first_line_format",
+          "family": "Format and Presentation",
+          "tag": "FP6",
+          "constraint": "The first non-empty line must be a Markdown bold title.",
+          "global_no": 392
+        },
+        {
+          "constraint_index": 6,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "All required keyword(s) were found.",
+          "method": "rule_aided:required_keyword",
+          "family": "Format and Presentation",
+          "tag": "FP4",
+          "constraint": "The response must include the exact label Next action:.",
+          "global_no": 393
+        },
+        {
+          "constraint_index": 7,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Response has 5 paragraph(s).",
+          "method": "rule_aided:paragraph_count",
+          "family": "Format and Presentation",
+          "tag": "FP3",
+          "constraint": "The response must use between four and nine non-empty paragraphs.",
+          "global_no": 394
+        }
+      ]
+    },
+    {
+      "pair_id": "tonight_hard_swapin_097__ds-v4-flash",
+      "prompt_index": 19,
+      "response_variant": "A",
+      "item_id": "tonight_hard_swapin_097",
+      "workflow": "Risk and Compliance Review",
+      "task": "Stress testing",
+      "work_product": "CRE severe-loss worksheet",
+      "full_prompt": "Review file 1009: CRE severe-loss worksheet\n\nAnalyst instructions\nThe answer needs to cover this request: Prepare the CRE severe-loss worksheet for stress run STR-900. Use only the supplied documents, keep the 39.0% CRE shock unchanged, calculate loss for each asset pool and the total loss with the methodology formula, rank the pools from largest to smallest calculated loss, compare the total with the $9,000,000 board limit, and state whether Risk Committee escalation is required with two mitigation actions.\n\nEvidence in the file\nadverse cre shock -- Stress run STR-900 for Aster Ridge Capital uses the following scenario: commercial real estate prices fall 39.0%, vacancy rises, and refinancing spreads widen by 240 bps. The operative stress assumption is 39.0% CRE price decline. The scenario is for internal risk review and does not override product terms or customer disclosures.\n\nName for this material: exposure pack str-900. Content: The exposure pack lists the following inputs. Downtown office loan pool: amount or value $12,000,000; stress input 0.62. Suburban retail loan pool: amount or value $8,000,000; stress input 0.37. Hotel bridge loan: amount or value $6,500,000; stress input 0.55. The applicable limit, reserve, tolerance, or trigger amount is $9,000,000.\n\nescalation standard (Aster Ridge Capital Stress Methodology and Escalation Standard)\nFor STR-900, stress loss = exposure amount x 39.0% x internal loss multiplier. Required presentation: table with columns Asset pool, Exposure, Shock, Multiplier, Calculated loss, Limit status, Action. Escalation rule: escalate to the Risk Committee if total calculated loss exceeds the board-approved loss limit. Calculations must use only documented inputs, unsupported recoveries or offsets must be identified as unavailable, and the reviewer must cite document IDs when the query asks for source support.\n\nWhen the answer uses evidence, cite the material labels shown above.\n\nFinal work-product request\nPrepare the CRE severe-loss worksheet for stress run STR-900. Use only the supplied documents, keep the 39.0% CRE shock unchanged, calculate loss for each asset pool and the total loss with the methodology formula, rank the pools from largest to smallest calculated loss, compare the total with the $9,000,000 board limit, and state whether Risk Committee escalation is required with two mitigation actions. Produce the CRE severe-loss worksheet under an audit-ready controller review posture: connect each final action to the active evidence and the governing rule, policy, task standard, or active-case trigger; keep active source labels beside the material facts, figures, thresholds, missing-evidence triggers, and decision points where they are used; for any calculation or reconciliation, show the source inputs, formula or comparison, result, and business implication; separate source-stated facts from reviewer inferences, assumptions, customer statements, or management assertions; for any comparison, ranking, alternative, scenario, or trade-off, state the comparison basis, source inputs, result, and decision implication; write every percentage value, including percent or percentage-point values, with exactly two decimal places. Open the CRE severe-loss worksheet with a Markdown bold title on the first non-empty line. Near the end, include the exact handoff label Next action:; if the packet supports no next action, write Next action: none supported by the packet. Include at least two short Markdown blockquote lines beginning with > for source or rule excerpts that anchor the decision. Use at least eight complete sentences in the full response. Treat the layout as part of the requested finance work product, but do not omit required evidence, calculations, boundaries, or decisions just to satisfy presentation.\n",
+      "model": "deepseek-v4-flash",
+      "run_label": "ds-v4-flash",
+      "response": "**CRE severe-loss worksheet – Stress run STR-900**  \n\n| Asset pool | Exposure ($) | Shock (39.00%) | Multiplier (internal loss multiplier) | Calculated loss ($) | Limit status | Action |\n|------------|--------------|----------------|---------------------------------------|---------------------|--------------|--------|\n| Downtown office loan pool | 12,000,000.00 | 39.00% | 0.62 | 2,901,600.00 | Within limit | Monitor vacancy and refinancing exposure |\n| Hotel bridge loan | 6,500,000.00 | 39.00% | 0.55 | 1,394,250.00 | Within limit | Review covenant compliance |\n| Suburban retail loan pool | 8,000,000.00 | 39.00% | 0.37 | 1,154,400.00 | Within limit | Assess tenant credit quality |\n| **Total** | **26,500,000.00** | **39.00%** | – | **5,450,250.00** | **Under limit** | **No escalation to Risk Committee** |\n\n**Ranking of pools by calculated loss (largest to smallest)**  \n1. Downtown office loan pool – $2,901,600.00  \n2. Hotel bridge loan – $1,394,250.00  \n3. Suburban retail loan pool – $1,154,400.00  \n\n**Comparison with board limit**  \nTotal calculated loss of $5,450,250.00 is below the board‑approved loss limit of $9,000,000.00 (source: exposure pack str‑900). Therefore the escalation rule from the Aster Ridge Capital Stress Methodology and Escalation Standard is not triggered: “escalate to the Risk Committee if total calculated loss exceeds the board-approved loss limit.”  \n\n**Mitigation actions (proactive, even though no escalation required)**  \n1. Increase loss reserve coverage for the Downtown office pool, which has the highest multiplier (0.62) and exposure, given the scenario of 39.00% CRE price decline and widening refinancing spreads.  \n2. Initiate early dialogue with hotel bridge loan borrowers to confirm debt‑service coverage plans, as vacancy rises may pressure cash flows.  \n\n> “stress loss = exposure amount x 39.0% x internal loss multiplier” – Aster Ridge Capital Stress Methodology and Escalation Standard  \n> “The applicable limit … is $9,000,000.” – exposure pack str‑900  \n\n**Next action:** none supported by the packet – total loss is below the board limit, so no mandatory escalation; continue routine portfolio monitoring.  \n\nAll calculations use only the documented inputs: exposure amounts and multipliers from exposure pack str‑900, shock of 39.00% (unchanged), and the formula from the methodology standard. No unsupported recoveries or offsets are applied. The worksheet is presented under an audit‑ready controller review posture with source evidence cited for each material figure, threshold, and decision point.",
+      "auto_quality_score": 3,
+      "auto_quality_reason": "Fails to provide active source labels for all material facts and lacks business implications for some calculations. Quality capped to 3/10 due to 2 central IF failure(s); multiple central failures; severe authority/route/trigger failure.",
+      "item_pass": false,
+      "item_csr": 0.7692307692307693,
+      "constraints": [
+        {
+          "constraint_index": 0,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Only supplied documents are used.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Evidence and Grounding",
+          "tag": "EG1",
+          "constraint": "The response must use only the supplied documents.",
+          "global_no": 395
+        },
+        {
+          "constraint_index": 1,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Correct formula used for stress loss calculation.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Quantitative Verification",
+          "tag": "QV1",
+          "constraint": "The response must calculate stressed impact using the methodology formula: stress loss = exposure amount x 39.0% x internal loss multiplier.",
+          "global_no": 396
+        },
+        {
+          "constraint_index": 2,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Table format matches required columns.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Format and Presentation",
+          "tag": "FP2",
+          "constraint": "The response must follow the required presentation: table with columns Asset pool, Exposure, Shock, Multiplier, Calculated loss, Limit status, Action.",
+          "global_no": 397
+        },
+        {
+          "constraint_index": 3,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Reasoning chain connects evidence, rule, and action.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Decision and Boundary",
+          "tag": "DB9",
+          "constraint": "The response must connect active evidence, governing rule or task standard, and final action in a single reasoning chain; it must not present facts, calculations, and recommendations as disconnected checklist fragments.",
+          "global_no": 398
+        },
+        {
+          "constraint_index": 4,
+          "route": "LLM",
+          "score": 0,
+          "label": "FAIL",
+          "reason": "Not all material facts have active source labels.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Evidence and Grounding",
+          "tag": "EG2",
+          "constraint": "Material facts, numeric inputs, thresholds, calculation results, missing-evidence triggers, and decision points must have active source labels next to the sentence, row, or bullet where they are used; collected end-only citations are not sufficient.",
+          "global_no": 399
+        },
+        {
+          "constraint_index": 5,
+          "route": "LLM",
+          "score": 0,
+          "label": "FAIL",
+          "reason": "Some calculations lack business implications.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Quantitative Verification",
+          "tag": "QV2",
+          "constraint": "For every requested calculation, reconciliation, variance, threshold test, date count, headroom, or shortfall, the response must show source inputs, formula or comparison, final result, and business implication; a bare computed number does not satisfy this requirement.",
+          "global_no": 400
+        },
+        {
+          "constraint_index": 6,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Source facts are separated from inferences.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Evidence and Grounding",
+          "tag": "EG3",
+          "constraint": "The response must separate source-stated facts from reviewer inferences, assumptions, customer statements, or management assertions; it must not present inferred conclusions as source facts.",
+          "global_no": 401
+        },
+        {
+          "constraint_index": 7,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Comparison basis and decision implications are stated.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Quantitative Verification",
+          "tag": "QV6",
+          "constraint": "For every requested comparison, ranking, alternative, scenario, or trade-off, the response must state the comparison basis, source inputs, result, and decision implication rather than listing options without a supported ordering or boundary.",
+          "global_no": 402
+        },
+        {
+          "constraint_index": 8,
+          "route": "rule",
+          "score": 0,
+          "label": "FAIL",
+          "reason": "Number(s) do not use exactly 2 decimal place(s): 39.0%.",
+          "method": "rule_aided:decimal_places",
+          "family": "Format and Presentation",
+          "tag": "FP3",
+          "constraint": "Every percentage value in the response, including values written with percent or percentage points, must use exactly two decimal places.",
+          "global_no": 403
+        },
+        {
+          "constraint_index": 9,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "First non-empty line uses Markdown bold format.",
+          "method": "rule_aided:first_line_format",
+          "family": "Format and Presentation",
+          "tag": "FP6",
+          "constraint": "The first non-empty line must be a Markdown bold title.",
+          "global_no": 404
+        },
+        {
+          "constraint_index": 10,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "All required keyword(s) were found.",
+          "method": "rule_aided:required_keyword",
+          "family": "Format and Presentation",
+          "tag": "FP4",
+          "constraint": "The response must include the exact label Next action:.",
+          "global_no": 405
+        },
+        {
+          "constraint_index": 11,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Response has 2 blockquote line(s).",
+          "method": "rule_aided:blockquote_count",
+          "family": "Format and Presentation",
+          "tag": "FP2",
+          "constraint": "The response must include at least two Markdown blockquote lines.",
+          "global_no": 406
+        },
+        {
+          "constraint_index": 12,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Response has 10 sentence(s).",
+          "method": "rule_aided:sentence_count",
+          "family": "Format and Presentation",
+          "tag": "FP3",
+          "constraint": "The response must contain at least eight complete sentences.",
+          "global_no": 407
+        }
+      ]
+    },
+    {
+      "pair_id": "tonight_hard_swapin_097__gpt-5.5",
+      "prompt_index": 19,
+      "response_variant": "B",
+      "item_id": "tonight_hard_swapin_097",
+      "workflow": "Risk and Compliance Review",
+      "task": "Stress testing",
+      "work_product": "CRE severe-loss worksheet",
+      "full_prompt": "Review file 1009: CRE severe-loss worksheet\n\nAnalyst instructions\nThe answer needs to cover this request: Prepare the CRE severe-loss worksheet for stress run STR-900. Use only the supplied documents, keep the 39.0% CRE shock unchanged, calculate loss for each asset pool and the total loss with the methodology formula, rank the pools from largest to smallest calculated loss, compare the total with the $9,000,000 board limit, and state whether Risk Committee escalation is required with two mitigation actions.\n\nEvidence in the file\nadverse cre shock -- Stress run STR-900 for Aster Ridge Capital uses the following scenario: commercial real estate prices fall 39.0%, vacancy rises, and refinancing spreads widen by 240 bps. The operative stress assumption is 39.0% CRE price decline. The scenario is for internal risk review and does not override product terms or customer disclosures.\n\nName for this material: exposure pack str-900. Content: The exposure pack lists the following inputs. Downtown office loan pool: amount or value $12,000,000; stress input 0.62. Suburban retail loan pool: amount or value $8,000,000; stress input 0.37. Hotel bridge loan: amount or value $6,500,000; stress input 0.55. The applicable limit, reserve, tolerance, or trigger amount is $9,000,000.\n\nescalation standard (Aster Ridge Capital Stress Methodology and Escalation Standard)\nFor STR-900, stress loss = exposure amount x 39.0% x internal loss multiplier. Required presentation: table with columns Asset pool, Exposure, Shock, Multiplier, Calculated loss, Limit status, Action. Escalation rule: escalate to the Risk Committee if total calculated loss exceeds the board-approved loss limit. Calculations must use only documented inputs, unsupported recoveries or offsets must be identified as unavailable, and the reviewer must cite document IDs when the query asks for source support.\n\nWhen the answer uses evidence, cite the material labels shown above.\n\nFinal work-product request\nPrepare the CRE severe-loss worksheet for stress run STR-900. Use only the supplied documents, keep the 39.0% CRE shock unchanged, calculate loss for each asset pool and the total loss with the methodology formula, rank the pools from largest to smallest calculated loss, compare the total with the $9,000,000 board limit, and state whether Risk Committee escalation is required with two mitigation actions. Produce the CRE severe-loss worksheet under an audit-ready controller review posture: connect each final action to the active evidence and the governing rule, policy, task standard, or active-case trigger; keep active source labels beside the material facts, figures, thresholds, missing-evidence triggers, and decision points where they are used; for any calculation or reconciliation, show the source inputs, formula or comparison, result, and business implication; separate source-stated facts from reviewer inferences, assumptions, customer statements, or management assertions; for any comparison, ranking, alternative, scenario, or trade-off, state the comparison basis, source inputs, result, and decision implication; write every percentage value, including percent or percentage-point values, with exactly two decimal places. Open the CRE severe-loss worksheet with a Markdown bold title on the first non-empty line. Near the end, include the exact handoff label Next action:; if the packet supports no next action, write Next action: none supported by the packet. Include at least two short Markdown blockquote lines beginning with > for source or rule excerpts that anchor the decision. Use at least eight complete sentences in the full response. Treat the layout as part of the requested finance work product, but do not omit required evidence, calculations, boundaries, or decisions just to satisfy presentation.\n",
+      "model": "gpt-5.5-2026-04-23",
+      "run_label": "gpt-5.5",
+      "response": "**CRE Severe-Loss Worksheet — Stress Run STR-900**\n\n> “The operative stress assumption is 39.00% CRE price decline.” — [adverse cre shock]  \n> “For STR-900, stress loss = exposure amount x 39.00% x internal loss multiplier.” — [escalation standard]\n\n### 1. Source-stated facts used\n\n1. The active scenario is stress run STR-900 for Aster Ridge Capital, and the operative CRE price-decline shock is **39.00%**; the packet also states vacancy rises and refinancing spreads widen by 240 bps, but the documented loss formula uses the CRE shock and multiplier only. [adverse cre shock] [escalation standard]  \n2. The exposure pack provides three asset pools and their documented exposure amounts and internal loss multipliers: Downtown office loan pool at **$12,000,000** with multiplier **0.62**, Suburban retail loan pool at **$8,000,000** with multiplier **0.37**, and Hotel bridge loan at **$6,500,000** with multiplier **0.55**. [exposure pack str-900]  \n3. The board-approved loss limit, described as the applicable limit, reserve, tolerance, or trigger amount, is **$9,000,000**. [exposure pack str-900]  \n4. The governing escalation rule requires escalation to the Risk Committee if total calculated loss exceeds the board-approved loss limit. [escalation standard]  \n5. Unsupported recoveries or offsets are not documented in the supplied packet, so none are applied in this worksheet. [escalation standard]\n\n### 2. Methodology and calculation basis\n\nThe calculation basis is the governing STR-900 methodology formula: **stress loss = exposure amount × 39.00% × internal loss multiplier**. [escalation standard] The CRE shock is kept unchanged at **39.00%** as required by the scenario and by the user request. [adverse cre shock] No recoveries, hedges, collateral offsets, or management overlays are included because the supplied documents do not provide documented inputs for them, and the methodology requires unsupported offsets to be identified as unavailable. [escalation standard]\n\n### 3. Ranked CRE severe-loss worksheet\n\n| Rank | Asset pool | Exposure | Shock | Multiplier | Calculated loss | Limit status | Action |\n|---:|---|---:|---:|---:|---:|---|---|\n| 1 | Downtown office loan pool [exposure pack str-900] | $12,000,000 | 39.00% [adverse cre shock] | 0.62 [exposure pack str-900] | $2,901,600 | Included in total loss; total remains below $9,000,000 board limit. [exposure pack str-900] | Mitigation action 1: prioritize enhanced monitoring of the largest loss contributor, including updated rent-roll, vacancy, and refinancing-risk review, because office is the largest calculated loss under the STR-900 formula. [adverse cre shock] [escalation standard] |\n| 2 | Hotel bridge loan [exposure pack str-900] | $6,500,000 | 39.00% [adverse cre shock] | 0.55 [exposure pack str-900] | $1,394,250 | Included in total loss; total remains below $9,000,000 board limit. [exposure pack str-900] | Mitigation action 2: restrict or require senior risk approval for incremental exposure increases or refinancings in this pool until the STR-900 review is refreshed, because the scenario includes widened refinancing spreads and hotel is the second-largest calculated loss. [adverse cre shock] [escalation standard] |\n| 3 | Suburban retail loan pool [exposure pack str-900] | $8,000,000 | 39.00% [adverse cre shock] | 0.37 [exposure pack str-900] | $1,154,400 | Included in total loss; total remains below $9,000,000 board limit. [exposure pack str-900] | Continue documented surveillance under the same STR-900 assumptions; no unsupported offset is applied. [escalation standard] |\n\n### 4. Calculation support and business implication\n\n- Downtown office loan pool calculation: **$12,000,000 × 39.00% × 0.62 = $2,901,600**. This is the largest calculated pool loss, so it receives the highest mitigation priority. [exposure pack str-900] [adverse cre shock] [escalation standard]  \n- Hotel bridge loan calculation: **$6,500,000 × 39.00% × 0.55 = $1,394,250**. This is the second-largest calculated pool loss, so it is the next monitoring and exposure-control priority. [exposure pack str-900] [adverse cre shock] [escalation standard]  \n- Suburban retail loan pool calculation: **$8,000,000 × 39.00% × 0.37 = $1,154,400**. This is the smallest calculated pool loss among the three pools, although it remains part of the aggregate STR-900 loss. [exposure pack str-900] [adverse cre shock] [escalation standard]  \n- Total calculated loss: **$2,901,600 + $1,394,250 + $1,154,400 = $5,450,250**. The business implication is that the documented STR-900 loss estimate is material but remains below the board-approved limit. [exposure pack str-900] [escalation standard]\n\n### 5. Limit comparison and escalation conclusion\n\n> “Escalate to the Risk Committee if total calculated loss exceeds the board-approved loss limit.” — [escalation standard]  \n> “The applicable limit, reserve, tolerance, or trigger amount is $9,000,000.” — [exposure pack str-900]\n\nThe comparison basis is total calculated STR-900 loss versus the board-approved loss limit. The source inputs are total calculated loss of **$5,450,250** from the methodology calculation and the documented board limit of **$9,000,000**. [exposure pack str-900] [escalation standard] The comparison result is **$5,450,250 − $9,000,000 = $(3,549,750)**, meaning the calculated loss is **$3,549,750** below the board limit. The utilization of the board limit is **60.56%**, calculated as **$5,450,250 ÷ $9,000,000**. Because the total calculated loss does not exceed the board-approved loss limit, Risk Committee escalation is **not required** under the governing escalation rule. [escalation standard]\n\n### 6. Reviewer boundaries and assumptions\n\nThe worksheet uses only the supplied documents and does not change the CRE shock from **39.00%**. [adverse cre shock] The ranking is a reviewer calculation based only on the documented exposure amounts, the documented multipliers, and the governing STR-900 loss formula. [exposure pack str-900] [escalation standard] No customer statements, management assertions, recoveries, hedges, collateral offsets, or alternative scenarios are relied upon because none are supported in the provided packet. The scenario is for internal risk review and does not override product terms or customer disclosures. [adverse cre shock]\n\n### 7. Final decision\n\nRisk Committee escalation is **not required** because the total calculated STR-900 CRE loss of **$5,450,250** is below the **$9,000,000** board-approved loss limit. [exposure pack str-900] [escalation standard] The two supported mitigation actions are to enhance monitoring for the Downtown office loan pool as the largest calculated loss contributor and to restrict or require senior risk approval for incremental exposure increases or refinancings in the Hotel bridge loan pool as the second-largest calculated loss contributor under a scenario that includes widened refinancing spreads. [adverse cre shock] [escalation standard]\n\nNext action: implement enhanced monitoring for the Downtown office loan pool and incremental-exposure/refinancing controls for the Hotel bridge loan pool; no Risk Committee escalation is required by the packet.",
+      "auto_quality_score": 10,
+      "auto_quality_reason": "The response is excellent, accurate, grounded, complete, and decision-useful, meeting all constraints.",
+      "item_pass": false,
+      "item_csr": null,
+      "constraints": [
+        {
+          "constraint_index": 0,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Only supplied documents are used.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Evidence and Grounding",
+          "tag": "EG1",
+          "constraint": "The response must use only the supplied documents.",
+          "global_no": 408
+        },
+        {
+          "constraint_index": 1,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Correct formula used for stress loss calculation.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Quantitative Verification",
+          "tag": "QV1",
+          "constraint": "The response must calculate stressed impact using the methodology formula: stress loss = exposure amount x 39.0% x internal loss multiplier.",
+          "global_no": 409
+        },
+        {
+          "constraint_index": 2,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Table format with required columns is used.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Format and Presentation",
+          "tag": "FP2",
+          "constraint": "The response must follow the required presentation: table with columns Asset pool, Exposure, Shock, Multiplier, Calculated loss, Limit status, Action.",
+          "global_no": 410
+        },
+        {
+          "constraint_index": 3,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Reasoning chain connects evidence, rule, and action.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Decision and Boundary",
+          "tag": "DB9",
+          "constraint": "The response must connect active evidence, governing rule or task standard, and final action in a single reasoning chain; it must not present facts, calculations, and recommendations as disconnected checklist fragments.",
+          "global_no": 411
+        },
+        {
+          "constraint_index": 4,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Active source labels are used next to material facts.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Evidence and Grounding",
+          "tag": "EG2",
+          "constraint": "Material facts, numeric inputs, thresholds, calculation results, missing-evidence triggers, and decision points must have active source labels next to the sentence, row, or bullet where they are used; collected end-only citations are not sufficient.",
+          "global_no": 412
+        },
+        {
+          "constraint_index": 5,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Calculations show inputs, formula, result, and implication.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Quantitative Verification",
+          "tag": "QV2",
+          "constraint": "For every requested calculation, reconciliation, variance, threshold test, date count, headroom, or shortfall, the response must show source inputs, formula or comparison, final result, and business implication; a bare computed number does not satisfy this requirement.",
+          "global_no": 413
+        },
+        {
+          "constraint_index": 6,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Source-stated facts are separated from inferences.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Evidence and Grounding",
+          "tag": "EG3",
+          "constraint": "The response must separate source-stated facts from reviewer inferences, assumptions, customer statements, or management assertions; it must not present inferred conclusions as source facts.",
+          "global_no": 414
+        },
+        {
+          "constraint_index": 7,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Comparison basis, inputs, result, and implication are stated.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Quantitative Verification",
+          "tag": "QV6",
+          "constraint": "For every requested comparison, ranking, alternative, scenario, or trade-off, the response must state the comparison basis, source inputs, result, and decision implication rather than listing options without a supported ordering or boundary.",
+          "global_no": 415
+        },
+        {
+          "constraint_index": 8,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "All decimal numeric values use 2 decimal place(s).",
+          "method": "rule_aided:decimal_places",
+          "family": "Format and Presentation",
+          "tag": "FP3",
+          "constraint": "Every percentage value in the response, including values written with percent or percentage points, must use exactly two decimal places.",
+          "global_no": 416
+        },
+        {
+          "constraint_index": 9,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "First non-empty line uses Markdown bold format.",
+          "method": "rule_aided:first_line_format",
+          "family": "Format and Presentation",
+          "tag": "FP6",
+          "constraint": "The first non-empty line must be a Markdown bold title.",
+          "global_no": 417
+        },
+        {
+          "constraint_index": 10,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "All required keyword(s) were found.",
+          "method": "rule_aided:required_keyword",
+          "family": "Format and Presentation",
+          "tag": "FP4",
+          "constraint": "The response must include the exact label Next action:.",
+          "global_no": 418
+        },
+        {
+          "constraint_index": 11,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Response has 4 blockquote line(s).",
+          "method": "rule_aided:blockquote_count",
+          "family": "Format and Presentation",
+          "tag": "FP2",
+          "constraint": "The response must include at least two Markdown blockquote lines.",
+          "global_no": 419
+        },
+        {
+          "constraint_index": 12,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Response has 36 sentence(s).",
+          "method": "rule_aided:sentence_count",
+          "family": "Format and Presentation",
+          "tag": "FP3",
+          "constraint": "The response must contain at least eight complete sentences.",
+          "global_no": 420
+        }
+      ]
+    },
+    {
+      "pair_id": "tonight_hard_swapin_111__gpt-5.5",
+      "prompt_index": 20,
+      "response_variant": "A",
+      "item_id": "tonight_hard_swapin_111",
+      "workflow": "Risk and Compliance Review",
+      "task": "Internal control review",
+      "work_product": "pricing-override supervision review",
+      "full_prompt": "Assignment 939: Pricing-override supervision review\n\nCompletion instructions\nFor the final response, handle this assignment: Create a pricing-override supervision review for the Cobalt Ridge 2029 bond. Use only the documents supplied. Calculate the percentage override versus vendor price, compare it with the 3% threshold, evaluate whether valuation committee approval and Fund Accounting disclosure timing met policy, and state whether NAV finalization should have been held.\n\nEvidence in the file\npricing override policy (Investment Product Pricing Override Policy)\nManual price overrides above 3% of independent vendor price require portfolio manager rationale, valuation committee approval, and disclosure to Fund Accounting before NAV finalization.\n\nprice override register -- Security: Cobalt Ridge 2029 bond. Vendor price: 84.20. Manual price used: 88.10. Portfolio manager rationale: liquidity improved after tender announcement. Valuation committee approval: pending. Fund Accounting disclosure: email sent after NAV finalization.\n\nName for this material: supervision review. Content: Reviewers must calculate override percentage, determine whether approval timing met policy, and state whether NAV finalization should have been held.\n\nWhen the answer uses evidence, cite the material labels shown above.\n\nFinal work-product request\nCreate a pricing-override supervision review for the Cobalt Ridge 2029 bond. Use only the documents supplied. Calculate the percentage override versus vendor price, compare it with the 3% threshold, evaluate whether valuation committee approval and Fund Accounting disclosure timing met policy, and state whether NAV finalization should have been held. Produce the pricing-override supervision review under an audit-ready compliance escalation posture: connect each final action to the active evidence and the governing rule, policy, task standard, or active-case trigger; keep active source labels beside the material facts, figures, thresholds, missing-evidence triggers, and decision points where they are used; for any calculation or reconciliation, show the source inputs, formula or comparison, result, and business implication; preserve exact source figures, dates, thresholds, names, and rule references when they control the decision; name any required approver, authority evidence, authorization, or review prerequisite that controls the outcome; write every percentage value, including percent or percentage-point values, with exactly two decimal places. Open the pricing-override supervision review with a Markdown bold title on the first non-empty line. Near the end, include the exact handoff label Next action:; if the packet supports no next action, write Next action: none supported by the packet. Include at least two short Markdown blockquote lines beginning with > for source or rule excerpts that anchor the decision. Use at least eight complete sentences in the full response. Treat the layout as part of the requested finance work product, but do not omit required evidence, calculations, boundaries, or decisions just to satisfy presentation.\n",
+      "model": "gpt-5.5-2026-04-23",
+      "run_label": "gpt-5.5",
+      "response": "**Pricing-Override Supervision Review — Cobalt Ridge 2029 Bond**\n\n> Manual price overrides above 3.00% of independent vendor price require portfolio manager rationale, valuation committee approval, and disclosure to Fund Accounting before NAV finalization. [pricing override policy]  \n> Security: Cobalt Ridge 2029 bond; vendor price: 84.20; manual price used: 88.10; valuation committee approval: pending; Fund Accounting disclosure: email sent after NAV finalization. [price override register]\n\nThis supervision review covers the manual pricing override for the Cobalt Ridge 2029 bond using only the supplied policy and register evidence. The governing threshold is 3.00% of the independent vendor price, and overrides above that level require portfolio manager rationale, valuation committee approval, and disclosure to Fund Accounting before NAV finalization. [pricing override policy] The source price inputs are vendor price 84.20 and manual price used 88.10. [price override register]\n\n**Override calculation and threshold comparison**\n\n| Item | Source / formula | Result | Compliance implication |\n|---|---:|---:|---|\n| Vendor price | 84.20 [price override register] | 84.20 | Independent vendor baseline. |\n| Manual price used | 88.10 [price override register] | 88.10 | Override price applied. |\n| Price difference | 88.10 − 84.20 | 3.90 | Manual price exceeded vendor price. |\n| Override percentage | (88.10 − 84.20) / 84.20 × 100 | 4.63% | Above the 3.00% policy threshold. |\n| Excess over threshold | 4.63% − 3.00% | 1.63 percentage points | Enhanced approval and disclosure requirements were triggered. |\n\nThe calculated override versus vendor price is 4.63%, based on the supplied vendor price of 84.20 and manual price used of 88.10. [price override register] This exceeds the 3.00% threshold by 1.63 percentage points, so the policy requirements for portfolio manager rationale, valuation committee approval, and Fund Accounting disclosure before NAV finalization were triggered. [pricing override policy]\n\n**Policy-condition review**\n\nThe portfolio manager rationale requirement appears to have evidence support because the register states: “liquidity improved after tender announcement.” [price override register] However, the valuation committee approval requirement was not met before NAV finalization because the register states that valuation committee approval was “pending.” [price override register] For an override above 3.00%, pending approval is insufficient because the policy requires valuation committee approval, not merely a pending approval status. [pricing override policy]\n\nThe Fund Accounting disclosure timing also did not meet policy because the register states that the email was sent after NAV finalization. [price override register] The policy requires disclosure to Fund Accounting before NAV finalization for manual overrides above 3.00% of independent vendor price. [pricing override policy] Therefore, the disclosure was late relative to the controlling policy timing requirement.\n\n**Supervision conclusion**\n\nThe Cobalt Ridge 2029 bond override was a policy-triggering override because the manual price of 88.10 exceeded the vendor price of 84.20 by 4.63%. [price override register] Because the override exceeded the 3.00% threshold, valuation committee approval and Fund Accounting disclosure before NAV finalization were required. [pricing override policy] The valuation committee approval condition did not meet policy because approval was still pending. [price override register] The Fund Accounting disclosure condition did not meet policy because the email was sent after NAV finalization. [price override register] NAV finalization should have been held until valuation committee approval was obtained and Fund Accounting disclosure was completed before finalization. [pricing override policy]\n\n**Required escalation posture**\n\nThis item should be treated as a compliance escalation because an above-threshold manual price override was used without completed valuation committee approval and without timely Fund Accounting disclosure before NAV finalization. [pricing override policy; price override register] The required approver controlling the outcome is the valuation committee, and the required review prerequisite is Fund Accounting disclosure before NAV finalization. [pricing override policy] The business implication is that the NAV was finalized despite unmet approval and disclosure prerequisites for a 4.63% override. [pricing override policy; price override register]\n\nNext action: escalate the Cobalt Ridge 2029 bond pricing override as a policy exception; obtain valuation committee disposition, document the portfolio manager rationale already recorded, and notify Fund Accounting that the required disclosure occurred after NAV finalization rather than before it.",
+      "auto_quality_score": 10,
+      "auto_quality_reason": "The response is excellent, accurate, grounded, complete, and decision-useful, meeting all constraints.",
+      "item_pass": false,
+      "item_csr": null,
+      "constraints": [
+        {
+          "constraint_index": 0,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Only supplied documents were used.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Evidence and Grounding",
+          "tag": "EG1",
+          "constraint": "The review must use only the documents supplied.",
+          "global_no": 421
+        },
+        {
+          "constraint_index": 1,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Connected evidence, rules, and actions in a reasoning chain.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Decision and Boundary",
+          "tag": "DB9",
+          "constraint": "The response must connect active evidence, governing rule or task standard, and final action in a single reasoning chain; it must not present facts, calculations, and recommendations as disconnected checklist fragments.",
+          "global_no": 422
+        },
+        {
+          "constraint_index": 2,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Active source labels are used next to material facts and decisions.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Evidence and Grounding",
+          "tag": "EG2",
+          "constraint": "Material facts, numeric inputs, thresholds, calculation results, missing-evidence triggers, and decision points must have active source labels next to the sentence, row, or bullet where they are used; collected end-only citations are not sufficient.",
+          "global_no": 423
+        },
+        {
+          "constraint_index": 3,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Calculations show inputs, formula, result, and implications.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Quantitative Verification",
+          "tag": "QV2",
+          "constraint": "For every requested calculation, reconciliation, variance, threshold test, date count, headroom, or shortfall, the response must show source inputs, formula or comparison, final result, and business implication; a bare computed number does not satisfy this requirement.",
+          "global_no": 424
+        },
+        {
+          "constraint_index": 4,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Preserved exact source figures, dates, thresholds, and names.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Evidence and Grounding",
+          "tag": "EG5",
+          "constraint": "The response must preserve exact source figures, dates, thresholds, names, and rule references when they control the decision; it must not round, rename, or paraphrase them in a way that changes the controlling source meaning.",
+          "global_no": 425
+        },
+        {
+          "constraint_index": 5,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Named required approver and prerequisites controlling the outcome.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Decision and Boundary",
+          "tag": "DB7",
+          "constraint": "If approval, authorization, authority evidence, or a review prerequisite controls the outcome, the response must name the required approver or prerequisite and must not imply approval while that prerequisite is missing.",
+          "global_no": 426
+        },
+        {
+          "constraint_index": 6,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "All decimal numeric values use 2 decimal place(s).",
+          "method": "rule_aided:decimal_places",
+          "family": "Format and Presentation",
+          "tag": "FP3",
+          "constraint": "Every percentage value in the response, including values written with percent or percentage points, must use exactly two decimal places.",
+          "global_no": 427
+        },
+        {
+          "constraint_index": 7,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "First non-empty line uses Markdown bold format.",
+          "method": "rule_aided:first_line_format",
+          "family": "Format and Presentation",
+          "tag": "FP6",
+          "constraint": "The first non-empty line must be a Markdown bold title.",
+          "global_no": 428
+        },
+        {
+          "constraint_index": 8,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "All required keyword(s) were found.",
+          "method": "rule_aided:required_keyword",
+          "family": "Format and Presentation",
+          "tag": "FP4",
+          "constraint": "The response must include the exact label Next action:.",
+          "global_no": 429
+        },
+        {
+          "constraint_index": 9,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Response has 2 blockquote line(s).",
+          "method": "rule_aided:blockquote_count",
+          "family": "Format and Presentation",
+          "tag": "FP2",
+          "constraint": "The response must include at least two Markdown blockquote lines.",
+          "global_no": 430
+        },
+        {
+          "constraint_index": 10,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Response has 24 sentence(s).",
+          "method": "rule_aided:sentence_count",
+          "family": "Format and Presentation",
+          "tag": "FP3",
+          "constraint": "The response must contain at least eight complete sentences.",
+          "global_no": 431
+        }
+      ]
+    },
+    {
+      "pair_id": "tonight_hard_swapin_111__ds-v4-flash",
+      "prompt_index": 20,
+      "response_variant": "B",
+      "item_id": "tonight_hard_swapin_111",
+      "workflow": "Risk and Compliance Review",
+      "task": "Internal control review",
+      "work_product": "pricing-override supervision review",
+      "full_prompt": "Assignment 939: Pricing-override supervision review\n\nCompletion instructions\nFor the final response, handle this assignment: Create a pricing-override supervision review for the Cobalt Ridge 2029 bond. Use only the documents supplied. Calculate the percentage override versus vendor price, compare it with the 3% threshold, evaluate whether valuation committee approval and Fund Accounting disclosure timing met policy, and state whether NAV finalization should have been held.\n\nEvidence in the file\npricing override policy (Investment Product Pricing Override Policy)\nManual price overrides above 3% of independent vendor price require portfolio manager rationale, valuation committee approval, and disclosure to Fund Accounting before NAV finalization.\n\nprice override register -- Security: Cobalt Ridge 2029 bond. Vendor price: 84.20. Manual price used: 88.10. Portfolio manager rationale: liquidity improved after tender announcement. Valuation committee approval: pending. Fund Accounting disclosure: email sent after NAV finalization.\n\nName for this material: supervision review. Content: Reviewers must calculate override percentage, determine whether approval timing met policy, and state whether NAV finalization should have been held.\n\nWhen the answer uses evidence, cite the material labels shown above.\n\nFinal work-product request\nCreate a pricing-override supervision review for the Cobalt Ridge 2029 bond. Use only the documents supplied. Calculate the percentage override versus vendor price, compare it with the 3% threshold, evaluate whether valuation committee approval and Fund Accounting disclosure timing met policy, and state whether NAV finalization should have been held. Produce the pricing-override supervision review under an audit-ready compliance escalation posture: connect each final action to the active evidence and the governing rule, policy, task standard, or active-case trigger; keep active source labels beside the material facts, figures, thresholds, missing-evidence triggers, and decision points where they are used; for any calculation or reconciliation, show the source inputs, formula or comparison, result, and business implication; preserve exact source figures, dates, thresholds, names, and rule references when they control the decision; name any required approver, authority evidence, authorization, or review prerequisite that controls the outcome; write every percentage value, including percent or percentage-point values, with exactly two decimal places. Open the pricing-override supervision review with a Markdown bold title on the first non-empty line. Near the end, include the exact handoff label Next action:; if the packet supports no next action, write Next action: none supported by the packet. Include at least two short Markdown blockquote lines beginning with > for source or rule excerpts that anchor the decision. Use at least eight complete sentences in the full response. Treat the layout as part of the requested finance work product, but do not omit required evidence, calculations, boundaries, or decisions just to satisfy presentation.\n",
+      "model": "deepseek-v4-flash",
+      "run_label": "ds-v4-flash",
+      "response": "**Pricing-Override Supervision Review – Cobalt Ridge 2029 Bond**  \n\n**Override Calculation and Threshold Comparison**  \nThe manual price override for the Cobalt Ridge 2029 bond is calculated using figures from the **price override register**: vendor price = 84.20, manual price used = 88.10. The percentage override is (88.10 – 84.20) / 84.20 = 3.90 / 84.20 = 4.63% (rounded to two decimal places). This exceeds the 3% threshold established in the **pricing override policy**, which states:  \n\n> Manual price overrides above 3% of independent vendor price require portfolio manager rationale, valuation committee approval, and disclosure to Fund Accounting before NAV finalization.  \n\nBecause 4.63% > 3.00%, all three policy conditions—rationale, approval, and pre‑finalization disclosure—must be satisfied.  \n\n**Portfolio Manager Rationale**  \nThe **price override register** records the portfolio manager rationale: “liquidity improved after tender announcement.” This rationale is documented, satisfying the first policy condition.  \n\n**Valuation Committee Approval Timing**  \nThe register shows valuation committee approval status: “pending.” Per policy, approval must be obtained **before NAV finalization**. At the time of NAV finalization, approval had not been granted. Therefore, the valuation committee approval timing **did not meet** the policy requirement.  \n\n**Fund Accounting Disclosure Timing**  \nThe register states: “email sent after NAV finalization.” Policy mandates disclosure to Fund Accounting **before NAV finalization**. Sending the email after NAV finalization violates this timing condition.  \n\n**Whether NAV Finalization Should Have Been Held**  \nGiven that both valuation committee approval and Fund Accounting disclosure were not completed prior to NAV finalization, and the override exceeds 3%, NAV finalization should have been **held** until both conditions were met. The policy explicitly conditions NAV finalization on these prerequisites.  \n\n**Required Approvals and Missing Evidence**  \nThe **pricing override policy** identifies the valuation committee as the required approver for overrides above 3%. No evidence of committee authorization appears in the supplied documents; the register explicitly marks approval as “pending.” This absence of approval authority evidence is a critical compliance gap.  \n\n**Next action: Escalate to valuation committee for retrospective approval, and require Fund Accounting to re‑disclose with correct timing. Additionally, review the override process to ensure future NAV finalizations are never executed before policy conditions are satisfied.**  \n\nNo further evidence is provided to support a next action beyond escalation and process review. The packet supports this handoff.",
+      "auto_quality_score": 3,
+      "auto_quality_reason": "Good reasoning and compliance posture, but some facts lack active source labels. Quality capped to 3/10 due to 1 central IF failure(s); severe authority/route/trigger failure.",
+      "item_pass": false,
+      "item_csr": 0.7272727272727273,
+      "constraints": [
+        {
+          "constraint_index": 0,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Only supplied documents were used.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Evidence and Grounding",
+          "tag": "EG1",
+          "constraint": "The review must use only the documents supplied.",
+          "global_no": 432
+        },
+        {
+          "constraint_index": 1,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Connected evidence, rules, and actions in reasoning chain.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Decision and Boundary",
+          "tag": "DB9",
+          "constraint": "The response must connect active evidence, governing rule or task standard, and final action in a single reasoning chain; it must not present facts, calculations, and recommendations as disconnected checklist fragments.",
+          "global_no": 433
+        },
+        {
+          "constraint_index": 2,
+          "route": "LLM",
+          "score": 0,
+          "label": "FAIL",
+          "reason": "Some facts lack active source labels next to them.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Evidence and Grounding",
+          "tag": "EG2",
+          "constraint": "Material facts, numeric inputs, thresholds, calculation results, missing-evidence triggers, and decision points must have active source labels next to the sentence, row, or bullet where they are used; collected end-only citations are not sufficient.",
+          "global_no": 434
+        },
+        {
+          "constraint_index": 3,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Calculations show inputs, formula, result, and implication.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Quantitative Verification",
+          "tag": "QV2",
+          "constraint": "For every requested calculation, reconciliation, variance, threshold test, date count, headroom, or shortfall, the response must show source inputs, formula or comparison, final result, and business implication; a bare computed number does not satisfy this requirement.",
+          "global_no": 435
+        },
+        {
+          "constraint_index": 4,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Preserved exact source figures, dates, and rules.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Evidence and Grounding",
+          "tag": "EG5",
+          "constraint": "The response must preserve exact source figures, dates, thresholds, names, and rule references when they control the decision; it must not round, rename, or paraphrase them in a way that changes the controlling source meaning.",
+          "global_no": 436
+        },
+        {
+          "constraint_index": 5,
+          "route": "LLM",
+          "score": 1,
+          "label": "PASS",
+          "reason": "Named required approver and noted missing approval.",
+          "method": "judge:openai-gpt-4o",
+          "family": "Decision and Boundary",
+          "tag": "DB7",
+          "constraint": "If approval, authorization, authority evidence, or a review prerequisite controls the outcome, the response must name the required approver or prerequisite and must not imply approval while that prerequisite is missing.",
+          "global_no": 437
+        },
+        {
+          "constraint_index": 6,
+          "route": "rule",
+          "score": 0,
+          "label": "FAIL",
+          "reason": "Number(s) do not use exactly 2 decimal place(s): 3%, 3%, 3%, 3%.",
+          "method": "rule_aided:decimal_places",
+          "family": "Format and Presentation",
+          "tag": "FP3",
+          "constraint": "Every percentage value in the response, including values written with percent or percentage points, must use exactly two decimal places.",
+          "global_no": 438
+        },
+        {
+          "constraint_index": 7,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "First non-empty line uses Markdown bold format.",
+          "method": "rule_aided:first_line_format",
+          "family": "Format and Presentation",
+          "tag": "FP6",
+          "constraint": "The first non-empty line must be a Markdown bold title.",
+          "global_no": 439
+        },
+        {
+          "constraint_index": 8,
+          "route": "rule",
+          "score": 1,
+          "label": "PASS",
+          "reason": "All required keyword(s) were found.",
+          "method": "rule_aided:required_keyword",
+          "family": "Format and Presentation",
+          "tag": "FP4",
+          "constraint": "The response must include the exact label Next action:.",
+          "global_no": 440
+        },
+        {
           "constraint_index": 9,
           "route": "rule",
           "score": 0,
@@ -2957,10 +6058,10 @@ window.FINIF_MODULE_B = {
           "method": "rule_aided:blockquote_count",
           "family": "Format and Presentation",
           "tag": "FP2",
-          "constraint": "The response must include at least two Markdown blockquote lines."
+          "constraint": "The response must include at least two Markdown blockquote lines.",
+          "global_no": 441
         },
         {
-          "global_no": 221,
           "constraint_index": 10,
           "route": "rule",
           "score": 1,
@@ -2969,7 +6070,8 @@ window.FINIF_MODULE_B = {
           "method": "rule_aided:sentence_count",
           "family": "Format and Presentation",
           "tag": "FP3",
-          "constraint": "The response must contain at least eight complete sentences."
+          "constraint": "The response must contain at least eight complete sentences.",
+          "global_no": 442
         }
       ]
     }

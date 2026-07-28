@@ -1,0 +1,78 @@
+﻿<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FinIF 人工质量审核</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <p class="eyebrow">FinIF Human Audit · Module A</p>
+      <h1>Benchmark Item 质量审核</h1>
+    </div>
+    <div class="toolbar">
+      <label class="annotator">
+        标注者
+        <select id="annotatorSelect">
+          <option value="A1">A1</option>
+          <option value="A2">A2</option>
+          <option value="A3">A3</option>
+        </select>
+      </label>
+      <button id="downloadBtn" type="button">导出 CSV</button>
+    </div>
+  </header>
+
+  <main class="app-shell">
+    <aside class="sidebar">
+      <div class="progress-card">
+        <div class="progress-title">审核进度</div>
+        <div id="progressText" class="progress-text">0 / 20</div>
+        <div class="progress-track"><div id="progressBar"></div></div>
+      </div>
+      <div id="itemList" class="item-list"></div>
+    </aside>
+
+    <section class="content">
+      <nav class="item-nav">
+        <button id="prevBtn" type="button">上一题</button>
+        <span id="itemCounter"></span>
+        <button id="nextBtn" type="button">下一题</button>
+      </nav>
+
+      <article class="item-panel">
+        <div class="meta-grid" id="metaGrid"></div>
+
+        <section class="block">
+          <h2>Instruction</h2>
+          <p id="instructionText" class="instruction"></p>
+        </section>
+
+        <section class="block">
+          <h2>Context</h2>
+          <div id="sourcesBox" class="sources"></div>
+        </section>
+
+        <section class="block">
+          <h2>Constraints</h2>
+          <div id="constraintsBox" class="constraints"></div>
+        </section>
+      </article>
+    </section>
+
+    <aside class="rating-panel">
+      <h2>评分</h2>
+      <p class="hint">只评价题目本身，不评价模型回答。所有分数请填 1-5 的整数。</p>
+      <div id="ratingForm" class="rating-form"></div>
+      <label class="comments-label" for="commentsInput">Comments</label>
+      <textarea id="commentsInput" rows="6" placeholder="任一维度给 1-3 分时，请简单写原因。"></textarea>
+      <div class="autosave">自动保存到当前浏览器</div>
+    </aside>
+  </main>
+
+  <script src="items.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

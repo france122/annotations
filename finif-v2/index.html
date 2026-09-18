@@ -10,10 +10,14 @@
   <header class="topbar">
     <div>
       <p class="eyebrow">FinIF 人工审核 · 2026-09-18 · 20 条试批</p>
-      <h1>Query 与约束质量审核</h1>
+      <h1>FinIF 专家审核</h1>
     </div>
     <div class="toolbar">
       <a class="nav-link" href="../">历史审核页面</a>
+      <div class="mode-switch" role="group" aria-label="审核实验">
+        <button id="modeQuality" type="button">实验一：数据质量</button>
+        <button id="modeConstraint" type="button">实验二：Constraint 抽取</button>
+      </div>
       <label class="annotator">
         标注者
         <select id="annotatorSelect">
@@ -29,6 +33,7 @@
   <main class="app-shell">
     <aside class="sidebar">
       <div class="progress-card">
+        <div id="modeSummary" class="mode-summary"></div>
         <div class="progress-title">审核进度</div>
         <div id="progressText" class="progress-text">0 / 20</div>
         <div class="progress-track"><div id="progressBar"></div></div>
@@ -48,21 +53,21 @@
 
         <section class="block">
           <h2>完整 Prompt（标注依据）</h2>
-          <p class="hint">请只根据下面这段完整输入，判断 constraints 是否清晰、合理、且被输入支撑。</p>
+          <p id="promptHint" class="hint"></p>
           <pre id="fullPromptText" class="full-prompt"></pre>
         </section>
 
         <section class="block">
-          <h2>Constraints（生成计划）</h2>
-          <p class="hint">以下是生成时规划的约束，请逐项核对是否在 query 中表达；本批尚未独立抽取最终约束。</p>
+          <h2>Constraints（生成时规划）</h2>
+          <p id="constraintsHint" class="hint"></p>
           <div id="constraintsBox" class="constraints"></div>
         </section>
       </article>
     </section>
 
     <aside class="rating-panel">
-      <h2>评分</h2>
-      <p class="hint">只评价题目本身，不评价模型回答。所有分数请填 1-5 的整数。</p>
+      <h2 id="ratingTitle">评分</h2>
+      <p id="ratingHint" class="hint"></p>
       <div id="ratingForm" class="rating-form"></div>
       <label class="comments-label" for="commentsInput">备注</label>
       <textarea id="commentsInput" rows="6" placeholder="任一维度给 1-3 分时，请简单写原因。"></textarea>
@@ -70,8 +75,8 @@
     </aside>
   </main>
 
-  <script src="items.js?v=471cd39"></script>
-  <script src="app.js?v=471cd39"></script>
+  <script src="items.js?v=exp2-20260918"></script>
+  <script src="app.js?v=exp2-20260918"></script>
 </body>
 </html>
 

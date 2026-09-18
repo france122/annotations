@@ -1,0 +1,229 @@
+﻿const items = window.FINIF_ITEMS || [];
+const batchId = items[0]?.review_batch_id || 'staged20-20260918';
+const dims = [
+  ['instruction_coherence_1to5', 'Context–task 匹配度'],
+  ['operational_plausibility_1to5', '金融工作场景合理性'],
+  ['context_support_1to5', '约束被完整输入支撑的程度'],
+  ['constraint_clarity_1to5', '约束质量（独立、清晰、可检查）'],
+  ['constraint_relevance_1to5', 'Query 自然度']
+];
+const flags = [
+  ['unsupported_regulation_like_context', '完整输入中是否存在“像法规/规则但缺少来源”的内容？'],
+  ['template_like_or_weak_constraint', '是否存在“模板化/弱相关”的 constraint？']
+];
+let current = 0;
+let annotator = localStorage.getItem('finif_annotator') || 'A1';
+
+const itemList = document.getElementById('itemList');
+const metaGrid = document.getElementById('metaGrid');
+const fullPromptText = document.getElementById('fullPromptText');
+const constraintsBox = document.getElementById('constraintsBox');
+const ratingForm = document.getElementById('ratingForm');
+const commentsInput = document.getElementById('commentsInput');
+const progressText = document.getElementById('progressText');
+const progressBar = document.getElementById('progressBar');
+const itemCounter = document.getElementById('itemCounter');
+const annotatorSelect = document.getElementById('annotatorSelect');
+
+annotatorSelect.value = annotator;
+
+function key(id = items[current]?.item_id) {
+  return `finif_${batchId}_${annotator}_${id}`;
+}
+
+function blankRecord(item) {
+  return {
+    annotator_id: annotator,
+    review_batch_id: batchId,
+    decision: '',
+    item_id: item.item_id,
+    instruction_coherence_1to5: '',
+    operational_plausibility_1to5: '',
+    context_support_1to5: '',
+    constraint_clarity_1to5: '',
+    constraint_relevance_1to5: '',
+    unsupported_regulation_like_context: '',
+    template_like_or_weak_constraint: '',
+    comments: ''
+  };
+}
+
+function getRecord(item) {
+  const raw = localStorage.getItem(key(item.item_id));
+  const base = blankRecord(item);
+  return raw ? { ...base, ...JSON.parse(raw) } : base;
+}
+
+function saveRecord(item, record) {
+  record.annotator_id = annotator;
+  record.item_id = item.item_id;
+  localStorage.setItem(key(item.item_id), JSON.stringify(record));
+  renderList();
+  updateProgress();
+}
+
+function escapeHtml(text) {
+  return String(text || '').replace(/[&<>"']/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
+}
+
+function isComplete(item) {
+  const r = getRecord(item);
+  return dims.every(([field]) => String(r[field] || '').trim() !== '') && !!r.decision;
+}
+
+function renderList() {
+  itemList.innerHTML = items.map((item, idx) => `
+    <button class="item-chip ${idx === current ? 'active' : ''} ${isComplete(item) ? 'complete' : ''}" data-idx="${idx}" type="button">
+      <span class="chip-no">${item.sample_no}. ${escapeHtml(item.item_id)}${isComplete(item) ? ' · 已填' : ''}</span>
+      <span class="chip-title">${escapeHtml(item.workflow)}</span>
+    </button>
+  `).join('');
+  itemList.querySelectorAll('button').forEach(btn => {
+    btn.addEventListener('click', () => {
+      current = Number(btn.dataset.idx);
+      render();
+    });
+  });
+}
+
+function updateProgress() {
+  const done = items.filter(isComplete).length;
+  progressText.textContent = `${done} / ${items.length}`;
+  progressBar.style.width = `${items.length ? done / items.length * 100 : 0}%`;
+}
+
+function renderMeta(item) {
+  const pairs = [
+    ['Workflow', item.workflow],
+    ['Task', item.task],
+    ['Work product', item.work_product],
+    ['Item ID', item.item_id],
+    ['约束计划 / 目标', `${item.constraints.length} / ${item.target_constraint_count}`]
+  ];
+  metaGrid.innerHTML = pairs.map(([label, value]) => `
+    <div class="meta"><span>${label}</span><strong>${escapeHtml(value)}</strong></div>
+  `).join('');
+}
+
+function renderConstraints(item) {
+  constraintsBox.innerHTML = item.constraints.map(c => `
+    <div class="constraint">
+      <div class="constraint-head">
+        <span>${c.no}. [${escapeHtml(c.tag)}] ${escapeHtml(c.family)}</span>
+        <span class="badge">${escapeHtml(c.check_type)}</span>
+      </div>
+      <p>${escapeHtml(c.text)}</p>
+    </div>
+  `).join('');
+}
+
+function renderRatings(item) {
+  const record = getRecord(item);
+  ratingForm.innerHTML = dims.map(([field, label]) => `
+    <div class="rating-row">
+      <label>${label}</label>
+      <div class="score-buttons" data-field="${field}">
+        ${[1,2,3,4,5].map(score => `<button type="button" class="${Number(record[field]) === score ? 'selected' : ''}" data-score="${score}">${score}</button>`).join('')}
+      </div>
+    </div>
+  `).join('') + `
+    <div class="flag-group">
+      <div class="flag-row" data-field="decision">
+        <div class="flag-label">审核结论</div>
+        ${[['accept','接受'],['revise','修改'],['re_pair','重新配对']].map(([value,label]) => `<button type="button" class="${record.decision === value ? 'selected' : ''}" data-value="${value}">${label}</button>`).join('')}
+      </div>
+      ${flags.map(([field, label]) => `
+        <div class="flag-row" data-field="${field}">
+          <div class="flag-label">${label}</div>
+          <button type="button" class="${record[field] === 'Yes' ? 'selected' : ''}" data-value="Yes">是</button>
+          <button type="button" class="${record[field] === 'No' ? 'selected' : ''}" data-value="No">否</button>
+        </div>
+      `).join('')}
+    </div>
+  `;
+  commentsInput.value = record.comments || '';
+  ratingForm.querySelectorAll('.score-buttons button').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const field = btn.parentElement.dataset.field;
+      const next = getRecord(item);
+      next[field] = btn.dataset.score;
+      saveRecord(item, next);
+      renderRatings(item);
+    });
+  });
+  ratingForm.querySelectorAll('.flag-row button').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const field = btn.parentElement.dataset.field;
+      const next = getRecord(item);
+      next[field] = btn.dataset.value;
+      saveRecord(item, next);
+      renderRatings(item);
+    });
+  });
+}
+
+function render() {
+  const item = items[current];
+  if (!item) return;
+  itemCounter.textContent = `${current + 1} / ${items.length}`;
+  renderMeta(item);
+  fullPromptText.textContent = item.full_prompt || '';
+  renderConstraints(item);
+  renderRatings(item);
+  renderList();
+  updateProgress();
+}
+
+commentsInput.addEventListener('input', () => {
+  const item = items[current];
+  const record = getRecord(item);
+  record.comments = commentsInput.value;
+  saveRecord(item, record);
+});
+
+document.getElementById('prevBtn').addEventListener('click', () => {
+  current = Math.max(0, current - 1);
+  render();
+});
+
+document.getElementById('nextBtn').addEventListener('click', () => {
+  current = Math.min(items.length - 1, current + 1);
+  render();
+});
+
+annotatorSelect.addEventListener('change', () => {
+  annotator = annotatorSelect.value;
+  localStorage.setItem('finif_annotator', annotator);
+  render();
+});
+
+function csvCell(value) {
+  const text = String(value ?? '');
+  return `"${text.replace(/"/g, '""')}"`;
+}
+
+function downloadCsv() {
+  const header = ['review_batch_id','decision','sample_no','annotator_id','item_id','workflow','task','work_product','constraint_count',...dims.map(d => d[0]),...flags.map(f => f[0]),'comments'];
+  const lines = [header.join(',')];
+  items.forEach(item => {
+    const r = getRecord(item);
+    const row = [
+      batchId, r.decision, item.sample_no, annotator, item.item_id, item.workflow, item.task, item.work_product, item.constraints.length,
+      ...dims.map(([field]) => r[field] || ''), ...flags.map(([field]) => r[field] || ''), r.comments || ''
+    ];
+    lines.push(row.map(csvCell).join(','));
+  });
+  const blob = new Blob([lines.join('\n')], { type: 'text/csv;charset=utf-8' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = `finif_${batchId}_${annotator}.csv`;
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+  URL.revokeObjectURL(url);
+}
+
+document.getElementById('downloadBtn').addEventListener('click', downloadCsv);
+
+render();

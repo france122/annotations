@@ -37,6 +37,24 @@ if (!experiments[mode]) mode = 'quality';
 const itemList = document.getElementById('itemList');
 const metaGrid = document.getElementById('metaGrid');
 const fullPromptText = document.getElementById('fullPromptText');
+const copyPromptBtn = document.getElementById('copyPromptBtn');
+const copyPromptStatus = document.getElementById('copyPromptStatus');
+let copyRequest = 0;
+
+copyPromptBtn.addEventListener('click', async () => {
+  const text = items[current]?.full_prompt || '';
+  const request = ++copyRequest;
+  if (!text) { copyPromptStatus.textContent = '当前没有可复制的 Prompt。'; return; }
+  copyPromptBtn.disabled = true;
+  try {
+    await navigator.clipboard.writeText(text);
+    if (request === copyRequest) copyPromptStatus.textContent = '已复制完整 Prompt';
+  } catch {
+    if (request === copyRequest) copyPromptStatus.textContent = '复制失败，请允许剪贴板权限，或手动选中文本复制。';
+  } finally {
+    if (request === copyRequest) copyPromptBtn.disabled = false;
+  }
+});
 const constraintsBox = document.getElementById('constraintsBox');
 const ratingForm = document.getElementById('ratingForm');
 const commentsInput = document.getElementById('commentsInput');
@@ -126,6 +144,9 @@ function render() {
   renderMode();
   renderMeta(item);
   fullPromptText.textContent = item.full_prompt || '';
+  copyRequest++;
+  copyPromptBtn.disabled = !item.full_prompt;
+  copyPromptStatus.textContent = '';
   renderConstraints(item);
   renderRatings(item);
   renderList();

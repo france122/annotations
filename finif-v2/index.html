@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>FinIF 人工质量审核</title>
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="styles.css?v=copy-20260919" />
 </head>
 <body>
   <header class="topbar">
@@ -52,7 +52,11 @@
         <div class="meta-grid" id="metaGrid"></div>
 
         <section class="block">
-          <h2>完整 Prompt（标注依据）</h2>
+          <div class="prompt-heading">
+            <h2>完整 Prompt（标注依据）</h2>
+            <button id="copyPromptBtn" type="button">一键复制</button>
+          </div>
+          <p id="copyPromptStatus" class="copy-status" role="status" aria-live="polite"></p>
           <p id="promptHint" class="hint"></p>
           <pre id="fullPromptText" class="full-prompt"></pre>
         </section>
@@ -76,7 +80,7 @@
   </main>
 
   <script src="items.js?v=exp2-20260918"></script>
-  <script src="app.js?v=exp2-20260918"></script>
+  <script src="app.js?v=copy-20260919"></script>
 </body>
 </html>
 

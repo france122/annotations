@@ -1,5 +1,6 @@
 const items = window.FINIF_ITEMS || [];
 const batchId = items[0]?.review_batch_id || 'staged20-20260918';
+const exportId = 'expert-review-100-20260920';
 const experiments = {
   quality: {
     label: '实验一：数据质量',
@@ -68,9 +69,13 @@ const modeConstraint = document.getElementById('modeConstraint');
 annotatorSelect.value = annotator;
 
 function config() { return experiments[mode]; }
-function key(id = items[current]?.item_id) { return `finif_${batchId}_${mode}_${annotator}_${id}`; }
+function itemBatch(item) { return item.review_batch_id || batchId; }
+function key(id = items[current]?.item_id) {
+  const item = items.find(row => row.item_id === id);
+  return `finif_${item ? itemBatch(item) : batchId}_${mode}_${annotator}_${id}`;
+}
 function blankRecord(item) {
-  const record = { annotator_id: annotator, review_batch_id: batchId, mode, item_id: item.item_id, comments: '', updated_at: '' };
+  const record = { annotator_id: annotator, review_batch_id: itemBatch(item), mode, item_id: item.item_id, comments: '', updated_at: '' };
   config().dims.forEach(([field]) => { record[field] = ''; });
   if (config().decision) record.decision = '';
   return record;
@@ -83,6 +88,7 @@ function getRecord(item) {
 function saveRecord(item, record) {
   record.annotator_id = annotator;
   record.item_id = item.item_id;
+  record.review_batch_id = itemBatch(item);
   record.mode = mode;
   record.updated_at = new Date().toISOString();
   localStorage.setItem(key(item.item_id), JSON.stringify(record));
@@ -141,6 +147,7 @@ function render() {
   const item = items[current];
   if (!item) return;
   itemCounter.textContent = `${current + 1} / ${items.length}`;
+  document.getElementById('jumpInput').value = current + 1;
   renderMode();
   renderMeta(item);
   fullPromptText.textContent = item.full_prompt || '';
@@ -156,6 +163,12 @@ function render() {
 commentsInput.addEventListener('input', () => { const item = items[current]; const record = getRecord(item); record.comments = commentsInput.value; saveRecord(item, record); });
 document.getElementById('prevBtn').addEventListener('click', () => { current = Math.max(0, current - 1); render(); });
 document.getElementById('nextBtn').addEventListener('click', () => { current = Math.min(items.length - 1, current + 1); render(); });
+document.getElementById('jumpForm').addEventListener('submit', event => {
+  event.preventDefault();
+  const number = Number(document.getElementById('jumpInput').value);
+  if (Number.isInteger(number) && number >= 1 && number <= items.length) { current = number - 1; render(); }
+});
+document.getElementById('newItemsBtn').addEventListener('click', () => { current = Math.min(20, items.length - 1); render(); });
 annotatorSelect.addEventListener('change', () => { annotator = annotatorSelect.value; localStorage.setItem('finif_annotator', annotator); render(); });
 function setMode(nextMode) { mode = nextMode; localStorage.setItem('finif_review_mode', mode); render(); }
 modeQuality.addEventListener('click', () => setMode('quality'));
@@ -171,13 +184,13 @@ function downloadCsv() {
     const record = getRecord(item);
     const scores = currentConfig.dims.map(([field]) => record[field] || '');
     const result = currentConfig.decision ? record.decision : (scores.every(Boolean) ? (scores.reduce((sum, value) => sum + Number(value), 0) / scores.length).toFixed(2) : '');
-    lines.push([batchId, mode, item.sample_no, item.item_id, annotator, item.workflow, item.task, item.work_product, item.constraints.length, ...scores, result, record.comments || '', record.updated_at || ''].map(csvCell).join(','));
+    lines.push([itemBatch(item), mode, item.sample_no, item.item_id, annotator, item.workflow, item.task, item.work_product, item.constraints.length, ...scores, result, record.comments || '', record.updated_at || ''].map(csvCell).join(','));
   });
   const blob = new Blob([lines.join('\n')], { type: 'text/csv;charset=utf-8' });
   const url = URL.createObjectURL(blob);
   const link = document.createElement('a');
   link.href = url;
-  link.download = `finif_${batchId}_${mode}_${annotator}.csv`;
+  link.download = `finif_${exportId}_${mode}_${annotator}.csv`;
   document.body.appendChild(link);
   link.click();
   link.remove();

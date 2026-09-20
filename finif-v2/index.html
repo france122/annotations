@@ -4,12 +4,12 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>FinIF 人工质量审核</title>
-  <link rel="stylesheet" href="styles.css?v=copy-icon-20260919" />
+  <link rel="stylesheet" href="styles.css?v=review100-20260920" />
 </head>
 <body>
   <header class="topbar">
     <div>
-      <p class="eyebrow">FinIF 人工审核 · 2026-09-18 · 20 条试批</p>
+      <p class="eyebrow">FinIF 人工审核 · 100 条（原 20 条 + 新增 80 条）</p>
       <h1>FinIF 专家审核</h1>
     </div>
     <div class="toolbar">
@@ -35,8 +35,15 @@
       <div class="progress-card">
         <div id="modeSummary" class="mode-summary"></div>
         <div class="progress-title">审核进度</div>
-        <div id="progressText" class="progress-text">0 / 20</div>
+        <div id="progressText" class="progress-text">0 / 100</div>
         <div class="progress-track"><div id="progressBar"></div></div>
+        <p class="review-note">1–20 为原样本，21–100 为新增样本。请使用原浏览器和标注者编号继续，原评分会自动恢复。</p>
+        <button id="newItemsBtn" type="button">从新增第 21 条开始</button>
+        <form id="jumpForm" class="jump-form">
+          <label for="jumpInput">跳转到</label>
+          <input id="jumpInput" type="number" min="1" max="100" value="1" required />
+          <button type="submit">前往</button>
+        </form>
       </div>
       <div id="itemList" class="item-list"></div>
     </aside>
@@ -81,8 +88,8 @@
     </aside>
   </main>
 
-  <script src="items.js?v=exp2-20260918"></script>
-  <script src="app.js?v=copy-icon-20260919"></script>
+  <script src="items.js?v=review100-20260920"></script>
+  <script src="app.js?v=review100-20260920"></script>
 </body>
 </html>
 

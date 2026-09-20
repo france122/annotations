@@ -76,6 +76,10 @@ button:hover { border-color: var(--accent); color: var(--accent); }
 .progress-title { font-weight: 800; }
 .progress-text { margin: 4px 0 10px; color: var(--muted); }
 .progress-track { height: 8px; background: var(--soft); overflow: hidden; }
+.review-note { color: var(--muted); font-size: 12px; }
+.jump-form { display: flex; align-items: center; gap: 8px; margin-top: 10px; }
+.jump-form input { width: 64px; min-width: 0; padding: 7px; border: 1px solid var(--line); }
+.meta strong, .chip-no { overflow-wrap: anywhere; }
 #progressBar { height: 100%; width: 0%; background: var(--accent); transition: width .2s ease; }
 .item-list { display: grid; padding: 10px; gap: 8px; }
 .item-chip {
@@ -133,11 +137,12 @@ textarea { width: 100%; resize: vertical; border: 1px solid var(--line); backgro
 }
 @media (max-width: 760px) {
   .topbar { position: static; align-items: stretch; flex-direction: column; }
-  .toolbar { align-items: stretch; }
+  .toolbar { align-items: stretch; flex-wrap: wrap; }
   .mode-switch { flex-wrap: wrap; }
   .mode-switch button { flex: 1 1 180px; }
   .app-shell { grid-template-columns: 1fr; padding: 12px; }
   .sidebar { position: static; height: auto; }
+  .item-list { max-height: 220px; overflow: auto; }
   .meta-grid { grid-template-columns: 1fr; }
   .item-panel { padding: 16px; }
 }

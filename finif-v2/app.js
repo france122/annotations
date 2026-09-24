@@ -1,6 +1,6 @@
 const items = window.FINIF_ITEMS || [];
-const batchId = items[0]?.review_batch_id || 'finif-test305-ds-v4pro-contextualized-v45-20260924';
-const exportId = 'test305-ds-v4pro-contextualized-v45-20260924';
+const batchId = items[0]?.review_batch_id || 'finif-test305-ds-v4pro-contextualized-v45-naturalized-20260924';
+const exportId = 'test305-ds-v4pro-contextualized-v45-naturalized-20260924';
 const experiments = {
   quality: {
     label: '实验一：数据质量',

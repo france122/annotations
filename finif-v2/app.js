@@ -1,11 +1,11 @@
 const items = window.FINIF_ITEMS || [];
-const batchId = items[0]?.review_batch_id || 'staged20-20260918';
-const exportId = 'expert-review-100-20260920';
+const batchId = items[0]?.review_batch_id || 'finif-test305-ds-v4pro-contextualized-v45-20260924';
+const exportId = 'test305-ds-v4pro-contextualized-v45-20260924';
 const experiments = {
   quality: {
     label: '实验一：数据质量',
     promptHint: '请根据完整 prompt、task 和 work product，只评价题目本身，不评价模型回答。',
-    constraintsHint: '以下为生成时规划的 constraints，供理解样本使用；它们不是已经过人类验证的抽取标注。',
+    constraintsHint: '以下为当前数据中的 constraints；它们尚未完成本版的人工语义质量审核。',
     ratingHint: '完成五项 1-5 分评分，并选择 AC 或 RJ。每个维度的 5 分代表完全满足，1 分代表严重不足。',
     dims: [
       ['context_task_fit_1to5', 'Context-task fit', '提供的 context 是否足以支持指定 task 和 work product。'],
@@ -19,7 +19,7 @@ const experiments = {
   constraint: {
     label: '实验二：Constraint 抽取',
     promptHint: '请根据 query 与下方已有清单，评价这份 constraint 清单的整体质量。',
-    constraintsHint: '这是 Stage 1 生成时规划的 constraints。请勿新增、重写或修改任何 constraint，只评价现有清单整体质量。',
+    constraintsHint: '请勿新增、重写或修改任何 constraint，只评价当前清单的整体质量。',
     ratingHint: '完成三项 1-5 分评分即可；本实验没有 AC/RJ，也不要求专家自行编写 constraint。',
     dims: [
       ['faithfulness_1to5', '忠实性', 'constraints 是否准确对应 query，条件、范围、数值和否定是否保持一致。'],
@@ -110,7 +110,8 @@ function updateProgress() {
   progressBar.style.width = `${items.length ? done / items.length * 100 : 0}%`;
 }
 function renderMeta(item) {
-  const pairs = [['Workflow', item.workflow], ['Task', item.task], ['Work product', item.work_product], ['Item ID', item.item_id], ['约束计划 / 目标', `${item.constraints.length} / ${item.target_constraint_count}`]];
+  const status = item.data_status === 'regenerated' ? 'DS-V4-Pro 重生成' : '保护样本';
+  const pairs = [['Workflow', item.workflow], ['Task', item.task], ['Work product', item.work_product], ['Item ID', item.item_id], ['样本状态', status], ['Context 数', item.context_count], ['Constraint 数', item.constraints.length]];
   metaGrid.innerHTML = pairs.map(([label, value]) => `<div class="meta"><span>${label}</span><strong>${escapeHtml(value)}</strong></div>`).join('');
 }
 function renderConstraints(item) {
@@ -168,7 +169,10 @@ document.getElementById('jumpForm').addEventListener('submit', event => {
   const number = Number(document.getElementById('jumpInput').value);
   if (Number.isInteger(number) && number >= 1 && number <= items.length) { current = number - 1; render(); }
 });
-document.getElementById('newItemsBtn').addEventListener('click', () => { current = Math.min(20, items.length - 1); render(); });
+document.getElementById('protectedItemsBtn').addEventListener('click', () => {
+  const index = items.findIndex(item => item.data_status === 'protected');
+  if (index >= 0) { current = index; render(); }
+});
 annotatorSelect.addEventListener('change', () => { annotator = annotatorSelect.value; localStorage.setItem('finif_annotator', annotator); render(); });
 function setMode(nextMode) { mode = nextMode; localStorage.setItem('finif_review_mode', mode); render(); }
 modeQuality.addEventListener('click', () => setMode('quality'));

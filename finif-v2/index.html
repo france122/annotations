@@ -3,13 +3,13 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>FinIF 人工质量审核</title>
-  <link rel="stylesheet" href="styles.css?v=ds-v4pro-v45-naturalized-20260924" />
+  <title>FinIF 专家审核 · Test 100</title>
+  <link rel="stylesheet" href="styles.css?v=finif-test100-qwen35-397b-20261004" />
 </head>
 <body>
   <header class="topbar">
     <div>
-      <p class="eyebrow">FinIF 人工审核 · DS-V4-Pro 自然化版 305 条</p>
+      <p class="eyebrow">FinIF 人工审核 · Test 100 专家实验</p>
       <h1>FinIF 专家审核</h1>
     </div>
     <div class="toolbar">
@@ -35,13 +35,13 @@
       <div class="progress-card">
         <div id="modeSummary" class="mode-summary"></div>
         <div class="progress-title">审核进度</div>
-        <div id="progressText" class="progress-text">0 / 305</div>
+        <div id="progressText" class="progress-text">0 / 100</div>
         <div class="progress-track"><div id="progressBar"></div></div>
-        <p class="review-note">当前数据含 240 条 DS-V4-Pro 重生成样本和 65 条保护样本；context 与 query 已改为自然衔接。已通过结构 QC，语义质量待审核。本版评分记录与旧版隔离。</p>
+        <p class="review-note">本批次共 100 条：30 条 test reference/gold 样本和 70 条非 Prepare 开头的生成样本；已通过结构 QC，语义质量待审核。本版评分记录与历史批次隔离。</p>
         <button id="protectedItemsBtn" type="button">跳到首条保护样本</button>
         <form id="jumpForm" class="jump-form">
           <label for="jumpInput">跳转到</label>
-          <input id="jumpInput" type="number" min="1" max="305" value="1" required />
+          <input id="jumpInput" type="number" min="1" max="100" value="1" required />
           <button type="submit">前往</button>
         </form>
       </div>

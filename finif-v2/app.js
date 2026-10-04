@@ -110,8 +110,7 @@ function updateProgress() {
   progressBar.style.width = `${items.length ? done / items.length * 100 : 0}%`;
 }
 function renderMeta(item) {
-  const status = item.data_status === 'regenerated' ? 'DS-V4-Pro 重生成' : '保护样本';
-  const pairs = [['Workflow', item.workflow], ['Task', item.task], ['Work product', item.work_product], ['Item ID', item.item_id], ['样本状态', status], ['Context 数', item.context_count], ['Constraint 数', item.constraints.length]];
+  const pairs = [['Workflow', item.workflow], ['Task', item.task], ['Work product', item.work_product], ['Item ID', item.item_id]];
   metaGrid.innerHTML = pairs.map(([label, value]) => `<div class="meta"><span>${label}</span><strong>${escapeHtml(value)}</strong></div>`).join('');
 }
 function renderConstraints(item) {

@@ -114,7 +114,7 @@ function renderMeta(item) {
   metaGrid.innerHTML = pairs.map(([label, value]) => `<div class="meta"><span>${label}</span><strong>${escapeHtml(value)}</strong></div>`).join('');
 }
 function renderConstraints(item) {
-  constraintsBox.innerHTML = item.constraints.map(c => `<div class="constraint"><div class="constraint-head"><span>${c.no}. [${escapeHtml(c.tag)}] ${escapeHtml(c.family)}</span><span class="badge">${escapeHtml(c.check_type)}</span></div><p>${escapeHtml(c.text)}</p></div>`).join('');
+  constraintsBox.innerHTML = item.constraints.map(c => `<div class="constraint"><div class="constraint-head"><span>${c.no}. ${c.tag ? `[${escapeHtml(c.tag)}] ` : ''}${escapeHtml(c.family)}</span><span class="badge">${escapeHtml(c.check_type)}</span></div><p>${escapeHtml(c.text)}</p></div>`).join('');
 }
 function renderRatings(item) {
   const record = getRecord(item);

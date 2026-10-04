@@ -20,119 +20,119 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Base the traceability matrix solely on the supplied “Designing the Document” handbook excerpt; do not use other sources."
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Limit the policy to presentation and production controls; do not infer substantive securities-law disclosure obligations or assess an issuer’s actual compliance."
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For every proposed policy provision, include: a brief source quotation with its heading, the passage’s status and applicability conditions, proposed policy wording, a practical acceptance check, and evidence needed to perform that check."
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Clearly separate explanatory design rationale, handbook advice, and statements about possible company or underwriter standards, while allowing overlapping classifications where appropriate."
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Label the policy wording and testing methods as proposed internal controls, not binding requirements established by the excerpt."
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Preserve conditional and typical-practice language; do not convert it into universal duties."
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Connect the excerpt’s communication and readability objective to controls for obtaining internal design assistance, reviewing any company or underwriter style manual, coordinating with a designer, and sequencing text finalization and design handoff."
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Treat the existence of a style manual, its contents, and its suitability for plain-English communication as separate questions."
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Preserve which advice is conditional on using a designer, and distinguish sequencing guidance from a deadline."
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not invent typeface specifications, readability thresholds, approval authorities, or exceptions."
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Keep source passages, the referenced but unsupplied style manual, and analyst-proposed evidence records visibly distinct."
       },
       {
         "no": 12,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use the phrase “Not determinable” where actual applicability or satisfaction requires organizational or document evidence absent from the excerpt."
       },
       {
         "no": 13,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Limit evidence-gap discussion to information needed to resolve applicability conditions and acceptance checks; do not treat absence of implementation evidence as noncompliance."
       },
       {
         "no": 14,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "After the matrix, provide a short conditional design-handoff decision path derived from the matrix rows."
       },
       {
         "no": 15,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explain how style-manual review results and text-finalization readiness affect the proposed next step when a designer is used."
       },
       {
         "no": 16,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "If a style manual’s prescribed look appears inconsistent with readability, distinguish what the handbook supports from any conflict-resolution or escalation step you recommend."
       },
       {
         "no": 17,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not imply that the excerpt establishes a formal override process or that an actual handoff can be approved on the supplied evidence."
@@ -160,119 +160,119 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use SEC rule text as the mandatory compliance standard; treat the SEC Plain English Handbook examples as illustrative guidance only."
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Identify mandatory plain-English design controls from the rule text covering: (a) the scope of sections subject to plain-English principles, (b) the six writing principles, and (c) design-element limitations."
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each identified control, provide the exact rule language and the specific section or page to which it applies."
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Review the handbook’s before/after cover-page examples and, for each presentation item in those examples (including typeface, justification, line length, use of defined terms, use of all capital letters, use of legalese, and placement of key information), classify the item as Compliant, Non-Compliant, or Guidance Only using the plain-English principles in the rule text as the classification standard."
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For every classification, cite the specific SEC rule provision or handbook page example used as the basis and quote the exact sentence or phrase that supports the classification."
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Compare the readability of the handbook’s before and after cover-page treatments on typeface, justification, line length, and use of defined terms."
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Rank each treatment by the number of readability problems identified."
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "State the benefit and limitation of each treatment as a trade-off between visual appeal and the risk of misleading or distracting investors."
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Identify which design elements or wording choices in the handbook examples would be misleading if used in a current prospectus."
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "State that the handbook’s illustrative before pages cannot justify any presentation that violates the rule text’s prohibition on misleading design."
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Present findings in a table with columns: Presentation Item, Source, Classification, Basis, and Revision Required, followed by a separate ranked readability comparison table."
       },
       {
         "no": 12,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use the exact labels Mandatory, Guidance, and Not Determined for each presentation item."
       },
       {
         "no": 13,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use the label Misleading Risk only when the design element itself could mislead, not when it is merely hard to read."
       },
       {
         "no": 14,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "If a presentation item appears outside the front and back cover pages, summary, and risk factors section, mark it Not Determined and state that plain-English treatment is not mandated for that section unless the design would otherwise be misleading."
       },
       {
         "no": 15,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Throughout the brief, state that the SEC rule text is the current mandatory standard and that the handbook examples are illustrative guidance based on rules in effect at the time of the MBNA filing."
       },
       {
         "no": 16,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not present the handbook’s before pages as current compliance failures unless a matching requirement exists in the rule text."
       },
       {
         "no": 17,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Write in neutral diagnostic language that distinguishes mandatory requirements from optional design guidance and avoids implying any illustrative handbook example is itself a rule."
@@ -300,161 +300,161 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Analyze only the supplied Appendix B and Appendix D excerpts together; do not use outside law or institutional facts."
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Provide a prospective regulatory threshold-condition brief oriented to escalation for customer-information safeguarding and consumer-information disposal concerns."
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Specify conditional standards and refrain from making findings about any particular institution or incident."
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Begin the analysis with Appendix B’s scope gate."
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Within the Appendix B scope discussion, separate entity coverage and subsidiary exclusions from the information and activities covered, preserve the ‘by or on behalf of’ reach, and distinguish customer-information safeguards from consumer-information disposal."
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explain whether the supplied material alone establishes Appendix D applicability."
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not treat Appendix B coverage or the Appendix D title as sufficient to establish Appendix D heightened-standards applicability; identify missing applicability text rather than importing an asset threshold or other eligibility rule."
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Present a conditional decision table showing how a concern within Appendix B’s scope would be evaluated under Appendix D once Appendix D applicability is independently established."
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For the distinct communication triggers in Appendix D paragraphs (e) and (f), identify the assessment or conduct at issue and the specified recipients."
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Keep material risks, significant assessment disagreements, and significant framework-nonadherence or accountability failures as distinct triggers."
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not make one trigger depend on another unless the passage itself does so."
       },
       {
         "no": 12,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Allow more than one communication branch to apply and explain how recipient analysis changes when branches overlap."
       },
       {
         "no": 13,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Preserve the qualitative terms ‘material’ and ‘significant’ without adding definitions or quantitative cutoffs."
       },
       {
         "no": 14,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not treat Appendix B coverage alone as establishing that any Appendix D trigger is met."
       },
       {
         "no": 15,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Develop a targeted evidence-request plan limited to unresolved applicability, trigger, and communication-delivery fields drawn from the decision table."
       },
       {
         "no": 16,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Distinguish missing governing text from facts or records an analyst would need to assess a future case."
       },
       {
         "no": 17,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Label suggested evidence artifacts as reviewer proposals rather than documents expressly mandated by the excerpts."
       },
       {
         "no": 18,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Briefly connect Appendix D (g)–(i) staffing and program provisions to implementing the proposed routing while preserving their stated scope."
       },
       {
         "no": 19,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explain which conclusions cannot be drawn from unavailable portions of cross-referenced provisions and do not reconstruct those standards."
       },
       {
         "no": 20,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Conclude with the effect of Appendix B’s preservation-of-authority clause on the decision path, including its relationship to other OCC enforcement action."
       },
       {
         "no": 21,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Distinguish an unresolved or unmet communication condition from a limit on OCC authority."
       },
       {
         "no": 22,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Cite the supplied appendix and paragraph for each operative condition."
       },
       {
         "no": 23,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not add incident-investigation steps or customer/regulator notification duties that are absent from the excerpts."
@@ -482,189 +482,189 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Provide a reported-performance decision brief that tests, without assuming, the proposition that FY2025 financial performance improved relative to FY2024."
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Limit the assessment strictly to the supplied evidence on funding, retirement-related reporting, and audit assurance; do not extend it to program outcomes or overall institutional effectiveness."
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Begin with separate numerical reconciliations of sequestration for the Bureau Fund and the Civil Penalty Fund (CPF)."
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each fund, present the FY2024 and FY2025 sequestered amounts in millions."
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each fund, identify the activity for which the sequestered amounts were unavailable."
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each fund, identify the fiscal year in which each sequestered amount becomes available."
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Calculate the absolute change in sequestration from FY2024 to FY2025 and state the direction of change."
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Calculate the percentage change in sequestration from FY2024 to FY2025, explicitly identifying the denominator and the direction of change."
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Distinguish prior-year sequestered amounts becoming available in FY2025 from FY2025 amounts withheld until FY2026."
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explain what the reconciliation establishes about availability timing, without treating it as a calculation of total available resources, cash received, or amounts actually used."
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Preserve the distinction between obligation and allocation, each fund’s permitted uses, and the condition governing the CPF’s alternative use."
       },
       {
         "no": 12,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use the sequestration reconciliation together with the retirement and audit passages to assess each proposed inference."
       },
       {
         "no": 13,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "If an inference has components that warrant different conclusions, split the inference into components."
       },
       {
         "no": 14,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each inference component, classify it as Supported, Contradicted, or Not determinable."
       },
       {
         "no": 15,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Attach a short quotation or identifiable passage reference to each component assessment."
       },
       {
         "no": 16,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "In each assessment, distinguish reported amounts, reporting policies, general audit language, and your analytical judgments."
       },
       {
         "no": 17,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For the retirement inference, distinguish plan-level assets, benefits, and unfunded liabilities reported by plan administrators from CFPB’s employer-contribution responsibilities."
       },
       {
         "no": 18,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For the retirement inference, distinguish the treatment of administrative-cost reimbursements."
       },
       {
         "no": 19,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Preserve employee-plan qualifications relevant to the conclusion, and do not construct the missing plan-by-plan administrator chart."
       },
       {
         "no": 20,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For the assurance inference, distinguish internal control objectives and inherent limitations, and the auditor’s communication responsibilities, from any actual audit opinion or finding established by the supplied text."
       },
       {
         "no": 21,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Address the limitation on projecting an internal-control effectiveness evaluation into future periods."
       },
       {
         "no": 22,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Conclude with a recommendation to use, narrow, or withhold the proposed improvement characterization."
       },
       {
         "no": 23,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Make the recommendation explicitly dependent on the numerical reconciliation, the retirement reporting boundary, and the assurance assessment, rather than on disconnected summaries."
       },
       {
         "no": 24,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Draft a short replacement leadership statement containing only supportable findings, with unresolved interpretations clearly qualified."
       },
       {
         "no": 25,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each withheld inference, identify additional evidence needed to revisit it, bounded to comparable resource availability and use, CFPB retirement-related expenses or obligations, and period-specific audit conclusions or control findings."
       },
       {
         "no": 26,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Label these follow-ups as analyst-recommended evidence requests, not documents required by the excerpts."
       },
       {
         "no": 27,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not infer missing information from truncated text or from referenced material that was not supplied."
@@ -692,161 +692,161 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use only the supplied Appendix A and Appendix C excerpts as sources."
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not make findings about any actual institution, employee, or loan; keep the purpose to identifying supportable inputs, comparisons, and interpretive evidence."
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Center the matrix on Appendix A compensation safeguards and map the listed excessiveness factors."
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Keep the Appendix A unreasonable-or-disproportionate assessment separate from the prohibition on compensation that could lead to material financial loss."
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Identify aggregation or comparison inputs supported by the text, including how non-cash and postemployment benefits are treated."
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explain the limited evidentiary role of periodic earnings reports without treating them as a prescribed compensation calculation."
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each matrix row, provide: source paragraph; stated person/entity or activity scope; the input or condition; and its role (quantitative ingredient, contextual comparator, qualitative/legal condition), noting that roles can overlap."
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each input, distinguish the intended role from whether its value is available."
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "State any aggregation or comparison supported by the excerpt and identify any specified period, unit, or valuation basis; where none is supplied, explicitly say so."
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not force numerical results from the excerpts."
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Integrate Appendix C through mortgage-related valuation and conduct checks rather than appending a separate lending summary."
       },
       {
         "no": 12,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Cover Appendix C’s predatory-practice discussion, the collateral-based lending condition, and the appraisal-independence passage."
       },
       {
         "no": 13,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Preserve the distinction between conduct described as likely to violate a prohibition and conditions described as involving violations."
       },
       {
         "no": 14,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Retain the complete collateral-versus-repayment condition and each paragraph’s stated scope."
       },
       {
         "no": 15,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not reconstruct the contents of cited statutes, regulations, advisory letters, or appraisal guidelines."
       },
       {
         "no": 16,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Cross-reference the Appendix C mortgage checks to the Appendix A inputs they could reasonably inform."
       },
       {
         "no": 17,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Label any cross-section relevance as analyst judgment unless the excerpts expressly establish it."
       },
       {
         "no": 18,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not treat a mortgage concern as an automatic numerical adjustment or as an established compensation violation."
       },
       {
         "no": 19,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each proposed cross-reference link, identify what additional individual, financial, or valuation evidence would be needed before relying on it."
       },
       {
         "no": 20,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Finish with a short calculation-readiness assessment identifying which input relationships can be specified from the text, which remain conditional, and which judgments cannot be reduced to arithmetic."
       },
       {
         "no": 21,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Tie proposed evidence requests to the blocked rows in the matrix."
       },
       {
         "no": 22,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Distinguish source passages and any expressly described reporting requirements from analyst-proposed records."
       },
       {
         "no": 23,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Limit the gap list to the mapped inputs and comparisons."
@@ -874,112 +874,112 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Produce an evidence-integrated operations exceptions position valuation difference analysis brief for Northbridge Specialty Foods LLC"
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Begin with a one-sentence statement of the total valuation difference across the position snapshot as of 2026-06-24"
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Present the analysis in a table with columns: asset identifier, book value, market value, valuation difference, source record, and verification status"
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use only the labels `Confirmed`, `Unresolved`, and `Missing Evidence` in the verification status field"
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each position, compute valuation difference as market value minus book value"
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Independently verify by recalculating each asset’s book-to-market valuation difference"
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Check the cash reconciliation adjusted break equals bank statement minus internal ledger minus deposit in transit"
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Map every numeric input, valuation difference, exception classification, and remediation action to the exact report section or intake profile field used"
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Classify an exception as `Confirmed` only when supporting evidence is present and the recalculated difference ties to the reported amount; otherwise classify it as `Unresolved` or `Missing Evidence`"
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Flag each exception with a status of confirmed, unresolved, or dependent on missing evidence"
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Identify which valuation differences remain unreconciled after the recalculation"
       },
       {
         "no": 12,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For every unresolved exception or valuation difference, state the corrective action, the owner, and the specific evidence required to close the item"
       },
       {
         "no": 13,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For every unresolved exception or valuation difference, state the affected population, exposure amount, and plausible operational or financial impact, distinguishing quantified exposure from qualitative consequences"
       },
       {
         "no": 14,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Assess reconciliation sign-off controls by identifying who prepared and who reviewed the operations report, and whether open exceptions have assigned owners and attached support"
       },
       {
         "no": 15,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "List the records reviewed and documents to be retained in the workpaper, including the operations reconciliation report, its sign-off timestamps, and the intake profile document checklist"
       },
       {
         "no": 16,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Close with a one-sentence readiness gate identifying the highest-priority unresolved evidence"
@@ -1007,210 +1007,210 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Rely exclusively on the supplied excerpts; do not use external sources."
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Present figures as reported results; do not independently verify outcomes."
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Establish the reporting boundary from the legal-status section, explaining the CFPB’s relationship to the Federal Reserve System and the specific financial-statement nonconsolidation restriction."
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Apply the established reporting boundary consistently throughout the brief."
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not attribute CFPB performance results to the wider Federal Reserve System."
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not infer actual compliance with the consolidation restriction from the rule alone."
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Recalculate target attainment for all measures in Table 1."
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each measure, show the reported target and actual, the favorable variance, and whether the target was met or exceeded, missed, or cannot be determined."
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Treat higher results as favorable for all measures except complaint-routing time, where lower is favorable."
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For educational-resource use and research products, show both absolute variance and percentage variance relative to target."
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For percentage measures, use percentage-point differences (not relative percent changes)."
       },
       {
         "no": 12,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Preserve the complaint-routing time inequality and express improvement as a bound rather than an exact figure."
       },
       {
         "no": 13,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Retain each measure’s stated populations and qualifications, including enforcement exclusions and the definition of successful resolution; do not reconstruct underlying case or response counts."
       },
       {
         "no": 14,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Derive a table-level attainment count from the comparisons and clearly distinguish that denominator from agency-wide goals or statutory objectives."
       },
       {
         "no": 15,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Provide a crosswalk between the Table 1 measures and the consumer-finance objectives in the authorizing section."
       },
       {
         "no": 16,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explain links in the crosswalk as analyst interpretation, not as a mapping supplied by the report."
       },
       {
         "no": 17,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Allow measures to relate to multiple objectives or to none where support is insufficient."
       },
       {
         "no": 18,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Distinguish activity/process measures from evidence that an objective has been achieved."
       },
       {
         "no": 19,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Where achievement cannot be established, state that explicitly without treating missing measures as evidence of failure."
       },
       {
         "no": 20,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Draft a short executive narrative based on the calculations and crosswalk."
       },
       {
         "no": 21,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Include qualifications that prevent target attainment from being represented as comprehensive mission success or financial-statement assurance."
       },
       {
         "no": 22,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explain the significance of the Annual Performance Report being the primary comprehensive performance-reporting document, without assuming any missing contents."
       },
       {
         "no": 23,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Assess whether FY2025 measures can be carried directly into a comparable FY2027 series."
       },
       {
         "no": 24,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Preserve the Future Action passage’s announced release timing and distinguish planned changes from completed changes."
       },
       {
         "no": 25,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Leave identities of retiring measures and definitions of replacements unknown where not supplied."
       },
       {
         "no": 26,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Make the carry-forward recommendation conditional on unresolved comparability issues."
       },
       {
         "no": 27,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Limit follow-up evidence requests to objective achievement and cross-year KPI comparability."
       },
       {
         "no": 28,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Tie each follow-up evidence request to a specific unresolved conclusion."
       },
       {
         "no": 29,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Distinguish the source-named Annual Performance Report from any additional evidence recommended."
       },
       {
         "no": 30,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Cite the relevant supplied passage or table row alongside material conclusions."
@@ -1238,175 +1238,175 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use only the supplied Form 1919 (02/2025) excerpts and the accompanying demographic and legal notices as sources."
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not treat blank template fields in the supplied forms as borrower deficiencies."
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Limit the checklist scope to: business identity and contact information; addresses and conditional identifiers; employee and job figures; loan purposes and amounts; ownership disclosures; tax identification numbers; and owner demographics."
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Present the checklist as a practical table including: the information to collect, a short supporting source passage, requirement status, the validation or follow-up needed, and what remains unassessable without a borrower file."
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explicitly distinguish requirement status categories: expressly mandatory, not stated as mandatory, conditional requests (with their qualifiers), and optional reporting information."
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Keep source-required information and source-required additional sheets separate from any analyst-recommended supporting documents."
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Reconcile the mandatory ownership-identification section with the optional demographic notice within the checklist."
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Preserve the form’s ownership coverage thresholds and the requirement to identify natural persons behind entity owners, without inventing the SOP definition of Beneficial Owners or any denominator for coverage testing."
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explain how to distinguish an ownership-identification gap from an unanswered optional demographic question."
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Identify separately: (a) borrower information needed to assess ownership coverage and (b) the referenced interpretive material not supplied here; do not describe the missing reference as a required borrower attachment."
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For tax identifiers, map the form’s applicant and owner fields to the notice’s obligations for the applicant business and any guarantor."
       },
       {
         "no": 12,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not assume that every owner is a guarantor or that the supplied page identifies who the guarantors are."
       },
       {
         "no": 13,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "State the notice’s expressed consequence of not providing an SSN or TIN without characterizing it as an automatic rejection."
       },
       {
         "no": 14,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explain how the SSN/TIN treatment differs from optional demographic nonresponse, including the stated purpose for collecting demographic data."
       },
       {
         "no": 15,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Make all numeric checks prospective; do not calculate employment counts, ownership coverage, or financing totals from the blank form."
       },
       {
         "no": 16,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Specify how to validate the populations and units used for existing employees versus saved/retained and newly created jobs."
       },
       {
         "no": 17,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Specify what borrower data would be needed to perform an ownership-coverage check."
       },
       {
         "no": 18,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For loan-purpose dollar fields, preserve the applicable purpose categories and distinguish blank amounts from zero amounts and from a disclosed loan total."
       },
       {
         "no": 19,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Provide a short conditional follow-up plan derived from the checklist."
       },
       {
         "no": 20,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "In the follow-up plan, identify which unresolved information requires collection or clarification."
       },
       {
         "no": 21,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Indicate which omissions should not, by themselves, be treated as intake deficiencies."
       },
       {
         "no": 22,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Identify which additional evidence requests are analyst recommendations rather than source requirements."
       },
       {
         "no": 23,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each proposed follow-up, name the checklist field or interpretation it would resolve."
       },
       {
         "no": 24,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "State what can and cannot be concluded at this stage about application completeness and eligibility."
       },
       {
         "no": 25,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Treat legal citations and criminal-history verification authority only as notices of authority, not as supplied eligibility tests or evidence that any check has occurred; leave borrower-specific findings unknown where evidence is absent."
@@ -1434,175 +1434,175 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use only these sources: client intake and financial profile dated 2026-01-15; credit request and financial information; operations reconciliation and exception report as of 2026-06-24."
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Scope the revision to Northbridge Specialty Foods LLC."
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Begin with a one-sentence readiness status of either 'Hold' or 'Ready'."
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use level-2 headings in this exact order: Profile and Relationship; Cross-Record Verification; Open Evidence; Readiness Conclusion."
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Place a short 'Exception Summary' subsection immediately after the Cross-Record Verification table."
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "End with a 'Next action:' line tied to the highest-priority unresolved item from the operations report or the open diligence list."
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Define every abbreviation at first use."
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Label every analytical statement as exactly one of: Source Fact; Management Statement; Assumption; Reviewer Inference."
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not treat management’s downside-case response as verified unless corroborated by another supplied record."
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Under Profile and Relationship, document from the intake record: entity profile; ownership and control; authorized contacts; requested services; expected monthly inflows and outflows; financial profile; objectives; requested liquidity floor; risk tolerance; restricted activities; document checklist status."
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Mark absent fields as 'Missing' and present-but-unverified fields as 'Unverified', including any finance contact authority issue."
       },
       {
         "no": 12,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Preserve record timing: do not imply January intake figures are current as of June unless the June operations report independently supports them."
       },
       {
         "no": 13,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Under Cross-Record Verification, include a table that shows the source label beside each numeric input, threshold, and calculated result."
       },
       {
         "no": 14,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Independently recalculate FY2025 revenue growth from FY2024 revenue $18,640,000.00 and FY2025 revenue $21,180,000.00 from the credit request; show the formula, the resulting percentage, and whether it matches the supplied 13.63% figure."
       },
       {
         "no": 15,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Calculate projected monthly net cash flow as $1,765,000.00 inflows minus $1,606,150.00 outflows from the intake record; show inputs and units."
       },
       {
         "no": 16,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Calculate coverage of the requested liquidity floor as projected monthly net cash flow divided by $618,970.00; show inputs and units and state that this is a profiling metric, not evidence of actual cash availability."
       },
       {
         "no": 17,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Where the same cash amount or related cash information appears in multiple records, identify it as a repeated source fact, a later reconciliation datapoint, or a discrepancy requiring caution."
       },
       {
         "no": 18,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "In Exception Summary, separately identify: the customer concentration risk observation; each open diligence item in the credit request; unresolved cash items in the operations report; open exceptions in the operations report."
       },
       {
         "no": 19,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "In Exception Summary, distinguish risk observations from open diligence items, missing evidence from control gaps, and unresolved cash items from trade-support exceptions, and include the item owner where provided in the operations report."
       },
       {
         "no": 20,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Under Open Evidence, list every missing, unverified, or unresolved item, including: absent secondary contact authority evidence; credit request open diligence items; unverified management downside-case response; unresolved cash items; open exceptions in the operations report."
       },
       {
         "no": 21,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each Open Evidence item, cite the supporting record and exact figure, clause, or reference; classify it as missing evidence, unverified statement, credit diligence, risk observation, cash-control gap, or trade-support gap; and state the specific profiling, readiness, or verification step it blocks."
       },
       {
         "no": 22,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not treat the customer concentration observation itself as a missing document unless the credit request explicitly identifies a diligence need tied to it."
       },
       {
         "no": 23,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Under Readiness Conclusion, if any unresolved cash item or open exception remains in the operations report, assign 'Hold' and identify the specific item, amount, reference, and owner that must be cleared before finalizing the profile."
       },
       {
         "no": 24,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Even if operational items are cleared, do not mark 'Ready' or 'Complete' while secondary contact authority evidence is missing, credit request open diligence items remain unresolved, or the management downside-case response remains unverified."
       },
       {
         "no": 25,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Pair every readiness conclusion with the specific supporting record, figure, clause, or open item, and explain any uncertainty without inventing missing records or resolutions."
@@ -1630,133 +1630,133 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use the matrix headings exactly in this order: Rule Requirements, Guidance Evidence, Deficiency Classification, Source Mapping, Records and Open Items."
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Write for a compliance reviewer preparing the risk factors section."
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Define each plain English principle on first use."
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Phrase every deficiency classification as a testable observation, not a stylistic opinion."
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Extract the mandatory drafting controls from the Entire Prospectus—Design section, including the duty to use plain English for front/back covers, summary, and risk factors; the substantial-compliance requirement; and the enumerated writing principles (definite, concrete, everyday words; active voice; tables/bullets for complex material; no legal jargon or highly technical business terms; no multiple negatives)."
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Cover the design-element conditions: presentation consistent with financial and non-financial information, graphs/charts drawn to scale, and no misleading information."
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Identify every listed deficiency in the guidance examples: abstract terms and legal jargon, passive voice, defined terms on the cover page, long sentences, unnecessary capitalization, centered all-capital text, and legalistic tone."
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each deficiency, test it against the applicable rule principle and classify it as: confirmed violation of a specific plain English principle, potential gap requiring further evidence, or illustration only with no requirement linkage."
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Flag an item as an unresolved gap when the guidance example does not establish the underlying filing facts, and distinguish this from missing evidence."
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not state that a filing satisfies the plain English requirements or that a deficiency is confirmed unless both the rule text and the cited guidance example support it."
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "When guidance is illustrative only, mark the row as not determinable from the supplied materials."
       },
       {
         "no": 12,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Return exactly one matrix row per identified deficiency."
       },
       {
         "no": 13,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Order rows: confirmed rule-principle violations first, then potential gaps, then illustration-only items."
       },
       {
         "no": 14,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Limit each row to a maximum of 60 words."
       },
       {
         "no": 15,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "In each row, map the deficiency to the exact rule provision in the Entire Prospectus—Design section and to the specific guidance example or source-status note used, and place the source label beside each requirement, classification, and gap determination."
       },
       {
         "no": 16,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Separate the rule’s mandatory drafting controls from the guidance’s illustrative design/readability observations."
       },
       {
         "no": 17,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "State which specific rule control each deficiency tests."
       },
       {
         "no": 18,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "List records that support or supplement the traceability work, including the 756-page Plain English Pilot Program book and the proposing and adopting releases."
       },
       {
         "no": 19,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Identify any guidance document that is unavailable or not required to close the matrix."
@@ -1784,119 +1784,119 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use only the supplied Plain English Handbook layout excerpt as the source."
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Prepare a prospective risk‑disclosure policy traceability matrix that supports drafting and review, not a current‑compliance assessment."
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Address the following topics: line length; the relationship between line length and type size; column width and separation; and text alignment."
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each proposed internal standard, include: (a) the supporting quotation or passage locator, (b) the source’s evidentiary status (recommendation, explanatory or descriptive statement, or illustration), (c) relevant qualifications, and (d) a proposed review check."
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Permit a single passage to serve more than one evidentiary role."
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Clearly separate what the source states from the firm’s proposed adoption judgment, and link passages that qualify or explain one another."
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not convert handbook guidance into binding securities‑law requirements."
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Preserve the source’s numeric ranges, units, and described objects, including qualifications about readers, averages, and type size."
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explain how a reviewer should record both the general line‑length guidance and the column‑width guidance when both are relevant, without inventing a precedence rule, an exception, or a combined threshold."
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Where the source provides qualitative advice, retain its qualitative character and do not introduce unsupported spacing thresholds or type‑size formulas."
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Base alignment conclusions only on the available prose, not on assumed visual properties of extracted examples."
       },
       {
         "no": 12,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use the completed mapping to distinguish checks that could flag departures from numeric guidance from checks that require design judgment."
       },
       {
         "no": 13,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each check, specify the measurements or other evidence a reviewer would need and explain what the check could and could not establish."
       },
       {
         "no": 14,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Treat requested evidence as proposed internal review controls rather than documents required by the excerpt, and leave assessment results undetermined absent disclosure evidence."
       },
       {
         "no": 15,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Conclude with a short implementation note derived from the matrix that identifies unresolved drafting decisions and evidence gaps that would prevent the proposed checks from being operational."
       },
       {
         "no": 16,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Limit the gap analysis to the specified layout topics and distinguish missing source specificity from missing evidence about an actual disclosure."
       },
       {
         "no": 17,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not add unsupplied legal obligations, deadlines, or exceptions."
@@ -1924,119 +1924,119 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Prepare a decision evidence sufficiency brief limited to the customer notification provisions in Appendix B to Part 30—Interagency Guidelines Establishing Information Security Standards"
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use the three supplied Appendix B sections together as the controlling evidence"
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Write for an internal compliance reviewer and distinguish source status, evidence coverage, decision basis, and open items in each section"
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Structure the brief with level-2 headings, in order: Evidence Inventory; Sufficiency Assessment; Decision; Open Items"
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "In Evidence Inventory, map every decision element to the exact source provision from the supplied Appendix B sections"
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "In Evidence Inventory, include mappings for: the governing standard requiring protection against unauthorized access to or use of customer information; the trigger condition for conducting a reasonable investigation; the service‑provider notification responsibility clause; and each required customer notice content item"
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Preserve source terms, thresholds, and defined categories exactly as written, including 'sensitive customer information' and 'substantial harm or inconvenience', and the specific notice content items (fraud alerts, credit report recommendations, free credit report explanations, FTC guidance availability, FTC reporting contact information)"
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "In Sufficiency Assessment, classify each decision element as 'Supported', 'Unsupported', or 'Not Determinable' based on whether the supplied Appendix B evidence provides the required provision, trigger, or notice content item"
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use the exact label 'Not Determinable' as the only permitted label when the supplied evidence does not support a substantive decision outcome"
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each required notice content element, state the evidence needed to confirm inclusion and the follow‑up action if that evidence is absent"
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Assess governance responsibility for customer notification when an incident involves customer information systems maintained by a service provider, including the institution’s duty to notify customers and regulator and any permitted delegation to the service provider"
       },
       {
         "no": 12,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "In Decision, apply the conditional trigger: if the institution determines that misuse of customer information has occurred or is reasonably possible, require customer notification as soon as possible"
       },
       {
         "no": 13,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "In Decision, identify the evidence needed to establish the misuse trigger"
       },
       {
         "no": 14,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "In Decision, identify notification and reporting obligations for incidents involving service‑provider‑maintained systems and state the responsible party and recipient for each obligation"
       },
       {
         "no": 15,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not state that customer notification is required or that the institution has fulfilled its duty when the supplied evidence is insufficient to establish the misuse trigger or the notice content elements"
       },
       {
         "no": 16,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "In Open Items, for each evidence gap, state the affected population, plausible impact on customers, and the limitation that prevents measurement from the supplied Appendix B provisions"
       },
       {
         "no": 17,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "In Open Items, distinguish the guidance status of Appendix B provisions from any mandatory rule text and state that the supplied sections do not establish a current obligation unless the governing standard is expressly stated as mandatory"
@@ -2064,147 +2064,147 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Prepare a prospective risk‑disclosure policy traceability matrix."
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use only the supplied plain‑English handbook annotations for Premium Cigars International’s “After” cover page and General Motors Corporation’s “Before” summary as sources."
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Limit policy coverage to cover‑page and summary presentation; exclude substantive risk‑factor content and issuer compliance findings."
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each proposed policy provision, include: applicable disclosure location; the named example and a short supporting quotation; the strength and limits of the source support; a prospective review test; the evidence a reviewer would request; and the recommended policy treatment."
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Distinguish handbook‑expressed mandatory wording from explicitly optional techniques and from illustrative advice, praise, criticism, or editorial questions."
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not present mandatory phrasing in an annotation as proof of a binding securities‑law obligation."
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Split mixed provisions when their source status or scope differs."
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Develop connected controls covering: information prominence and page design; plain‑language drafting; definitions and cross‑references; and decision‑focused summary organization and detail selection."
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "When drafting the cross‑reference control, reconcile the comments across the two examples rather than treating them as a universal prohibition."
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Preserve the handbook’s qualification concerning personal pronouns."
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Assess whether the question about certificate‑of‑incorporation detail supports a firm exclusion or only an editorial review check."
       },
       {
         "no": 12,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Where a provision applies to both cover pages and summaries, either show separate support for each location or identify the broader application as a proposed extension."
       },
       {
         "no": 13,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use the source classification and scope mapping to recommend for each control whether it should be an internal requirement, remain an advisory check, or await a policy decision."
       },
       {
         "no": 14,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explicitly flag any proposed internal requirement that is stronger than the supplied wording."
       },
       {
         "no": 15,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Ensure review tests follow the proposed control’s scope."
       },
       {
         "no": 16,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not introduce unsupported numerical thresholds in review tests."
       },
       {
         "no": 17,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Treat evidence requests as proposed review materials, not as document‑retention requirements from the excerpt."
       },
       {
         "no": 18,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "End with a short adoption note tied to the matrix rows that identifies policy choices needing resolution before affected controls can be used as pass/fail tests."
       },
       {
         "no": 19,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "State that legal applicability and conformity of any current issuer disclosure are not determinable from this excerpt."
       },
       {
         "no": 20,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not treat missing draft evidence as a compliance failure."
       },
       {
         "no": 21,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not import unsupplied rules."
@@ -2232,168 +2232,168 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use only the supplied guideline excerpts as sources for the specification."
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Produce a prospective regulatory monitoring data specification, not an assessment of any institution or incident."
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Begin with a source-to-control matrix that covers: employee/system safeguards, service-provider contractual protections, risk-based response programming, supplied customer-notice content and coordination provisions, and mortgage lending and appraiser-independence conduct."
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each control in the matrix, identify: applicable actor and population, the condition being monitored, the source’s operative wording and qualifications, and a citation (appendix with item number or a short quotation)."
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Distinguish express duties, recommendations, encouragement, conditional possibilities, and statements of legal risk; do not label every passage as an unconditional obligation."
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "From the matrix, design a data dictionary with a shared core record and domain-specific extensions."
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Provide practical field names, meanings, data types or allowed values, linkage keys, and evidence provenance in the data dictionary."
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Include inputs needed to assess scope and applicability, capture relevant conditions, and record the reviewer’s rationale."
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Show how a response-program or access-event record can link to notice-content checks."
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not treat suspected unauthorized access as sufficient evidence of a duty to notify customers."
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Maintain mortgage records as their own population; do not assume borrowers, customers, and service providers are interchangeable."
       },
       {
         "no": 12,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Differentiate contractual or program elements expressly called for by the source from documents proposed for collection as evidence."
       },
       {
         "no": 13,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Label proposed internal ownership and escalation assignments as implementation judgment where the excerpts do not assign them."
       },
       {
         "no": 14,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Derive conditional monitoring tests from the defined fields."
       },
       {
         "no": 15,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each test, specify the required inputs, the criterion supported by the excerpt, and the resulting review or exception state."
       },
       {
         "no": 16,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Allow an Unknown outcome when facts or governing criteria are unavailable."
       },
       {
         "no": 17,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Allow a Not applicable outcome only when supported by recorded scope or condition evidence."
       },
       {
         "no": 18,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Address program proportionality, the qualitative condition for advance consumer-reporting-agency coordination, and the distinction between mortgage conduct described as likely unlawful and conduct described as violating applicable standards."
       },
       {
         "no": 19,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not invent numerical cutoffs, notification deadlines, investigation steps, or an automated legal determination."
       },
       {
         "no": 20,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not treat partial notice lists or references to other rules as supplying missing requirements; preserve listed contact information as source-stated rather than independently verified."
       },
       {
         "no": 21,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Conclude with cross-section validation rules and an evidence-readiness view derived from the matrix and dictionary."
       },
       {
         "no": 22,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explain which fields and status logic can be safely reused and which require appendix-specific validation, including how to avoid confusing the FTC’s consumer-assistance role with references to FTC Act prohibitions."
       },
       {
         "no": 23,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Limit gap checks to the mapped controls and their required inputs."
       },
       {
         "no": 24,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Separate missing institutional evidence from missing source criteria, allow both gaps to coexist, and explain how each changes downstream routing without treating either as a compliance finding or combining incompatible populations into a compliance score."
@@ -2421,84 +2421,84 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use only the two supplied passages: the three-document hierarchy passage and the Drake Capital Corporation offering passage."
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Structure the brief with level-2 headings in this exact order: Precedence Rule, Threshold Test, Maturity Window, Exception Classification, Open Items."
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Under Precedence Rule, state the controlling hierarchy among the prospectus, the prospectus supplement, and the pricing supplement, preserving document names exactly as they appear in the source."
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Under Threshold Test, identify the aggregate principal amount cap from the Drake Capital Corporation passage and preserve the exact figure U.S. $6,428,598,500 (including commas and no decimal places)."
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Under Threshold Test, compare any stated offering amount against the cap and state whether the cap is reached, exceeded, or not reached."
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For original issue discount notes, state the stated basis for calculating the aggregate principal amount."
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Under Maturity Window, state the maturity range from the passage."
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Test whether each stated maturity falls within a 9-month to 60-year window from the date of purchase and classify each as Within Window, Outside Window, or Cannot Determine."
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Under Exception Classification, classify each identified disclosure term as Consistent, Overridden, or Cannot Determine under the three-document precedence hierarchy; if a prospectus or prospectus supplement term differs from the pricing supplement, mark it Overridden and identify the controlling pricing supplement term; if a prospectus term differs from the prospectus supplement, mark it Overridden and identify the controlling prospectus supplement term."
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Map every classification and threshold result to the exact document and specific passage from which it comes, and cite that passage beside each result (not only at the end)."
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Under Open Items, list any term, amount, or maturity that cannot be determined from the supplied passages and state which additional document or passage is needed to resolve each."
       },
       {
         "no": 12,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Keep the full brief between 220 and 320 whitespace-separated words."
@@ -2526,175 +2526,175 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Prepare a risk‑disclosure policy traceability matrix using only the handbook excerpts on page 22 (“Bring abstractions down to earth”) and page 50 (“Check proportions of visuals”)."
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Treat this as policy design; do not assess an issuer’s compliance or the legal completeness of a disclosure."
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Connect the two excerpts into a single drafting‑and‑review process."
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Ensure abstract concepts are made understandable."
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Preserve the substance of any explanatory example used."
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Check proportionality if a supporting graphic is used."
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each matrix row, include: source page and short passage locator; source statement and evidentiary status; applicability and qualifications; proposed internal policy control; and the recommended evidence and acceptance test for reviewing a future draft."
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Keep handbook guidance, illustrations, and reported research distinguishable from requirements proposed as analyst judgment; mixed classifications may be used where a passage serves more than one purpose."
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not turn investor scenarios or question‑and‑answer formats into universally mandatory formats."
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Preserve the qualification in the advice about non‑zero baselines."
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Identify any exception criteria actually supplied by the excerpts; if none are supplied, say so, and distinguish any exception‑review process you propose from the handbook’s own guidance."
       },
       {
         "no": 12,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not infer securities‑law duties or required filings from the excerpts."
       },
       {
         "no": 13,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use the source illustrations to make the proposed controls testable."
       },
       {
         "no": 14,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "In the example‑integrity row, identify the economic terms, exercise period, and conditional outcomes from the call‑option illustration that must be preserved, including the outcome that does not depend on exercise; do not infer a premium amount or add a payoff calculation."
       },
       {
         "no": 15,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For the visual‑proportionality control, use the Q3‑to‑Q4 movement in the 1997 sales charts under “Check proportions of visuals.”"
       },
       {
         "no": 16,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Calculate the percentage change in stated revenue and compare it with the percentage change in baseline‑subtracted values under each illustrated baseline."
       },
       {
         "no": 17,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Treat the baseline‑subtracted values as an analyst‑designed proxy for bar height in revenue‑axis units, not pixel measurements or a handbook‑mandated formula."
       },
       {
         "no": 18,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Show inputs, units, and denominators for the proportionality calculations."
       },
       {
         "no": 19,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explain what the diagnostic would flag without inventing a materiality threshold."
       },
       {
         "no": 20,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Keep the sales and option illustrations separate, and do not treat either as establishing facts about a current issuer."
       },
       {
         "no": 21,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Derive a conditional presentation sign‑off gate from the matrix for a future disclosure that combines an investor example with a quantitative graphic."
       },
       {
         "no": 22,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explain why narrative clarity alone would not resolve a visual‑proportionality concern."
       },
       {
         "no": 23,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explain how the sign‑off gate changes when no graphic is used."
       },
       {
         "no": 24,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Specify which concerns require revision versus which are subject to judgment‑based review."
       },
       {
         "no": 25,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Identify only the draft materials and supporting evidence needed for these controls, label them as proposed review evidence (not source‑required documents), and leave actual‑case readiness undetermined."
@@ -2722,105 +2722,105 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Treat the supplied § 240.10b-10 rule text as the current governing standard, not staff guidance or a proposal."
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Treat the transitional provision in paragraph (2) as a temporary relief provision, not a permanent exemption, throughout the checklist."
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Structure the checklist into exactly four sections in this order: (1) Transitional Provision Scope, (2) Written-Request Condition, (3) Compliance Date Status, (4) Commission Exemption Path."
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Limit each section to no more than three checklist items."
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For every checklist item, include an Evidence Source column citing the specific rule paragraph (e.g., \"(2)(i)\", \"(2)(ii)\", or \"(f)\")."
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Ensure the checklist covers: the transitional provision scope for paragraphs (e)(1)(iii) and (e)(1)(iv); the written-request condition; the June 1, 2003 compliance date; and the Commission exemption procedure for paragraphs (a) and (b)."
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Preserve the exact date \"June 1, 2003\" and the exact paragraph references \"(e)(1)(iii)\" and \"(e)(1)(iv)\" wherever they control compliance status or deadline determination."
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each checklist item subject to the transitional provision, determine compliance status as of the handoff date by testing whether the handoff date is before or on/after June 1, 2003."
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For such items, show the date comparison, the applicable paragraph, and the resulting compliance status."
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "If a customer submitted a written request for information described in paragraph (e)(1)(iii) before June 1, 2003, require that the information be made available to the customer during the transitional non-compliance period as a mandatory action."
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use the phrase \"transitional compliance period\" whenever referring to the period before the June 1, 2003 compliance date."
       },
       {
         "no": 12,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Identify the Commission as the sole authority that may grant exemptions from paragraphs (a) and (b) for specific transactions or classes of transactions."
       },
       {
         "no": 13,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Flag any reliance on such an exemption as subject to Commission approval."
       },
       {
         "no": 14,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "State that an exemption may be granted only if the broker-dealer provides alternative procedures to effect the purposes of this section."
       },
       {
         "no": 15,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "State that any granted exemption is subject to compliance with the alternative procedures and any other terms and conditions the Commission imposes."
@@ -2848,91 +2848,91 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Define a complete table specification covering every column, row grouping, source mapping, calculation, and status rule; do not populate the table or state final results."
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use only the supplied balance sheet and income statement for THE BOEING COMPANY as sources."
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Restrict reporting windows to the fiscal-year endpoints 2021-12-31, 2022-12-31, 2023-12-31, 2024-12-31, and 2025-12-31."
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Preserve the exact entity name, statement labels, concept names, fiscal-year endpoints, USD units, signs, and as-reported values wherever referenced or used in calculations."
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Flag any concept row lacking a value for any required fiscal-year endpoint as missing; do not carry forward or estimate values."
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Independently recalculate each reported income-statement subtotal and derived per-share figure from underlying reported components."
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Include columns for each fiscal year showing the recalculated value, the variance from the as-reported figure, and a tie-out status."
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Provide an Evidence column that maps each input, calculated result, tie-out status, and missing-value flag to the exact statement, concept row, and fiscal-year column."
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Define for each fiscal year a cross-statement ratio using an income-statement flow as numerator and a balance-sheet stock as denominator, and state the exact concept names, units, sign treatment, and rounding or precision rule for each operand."
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Allow only Pass, Fail, or Missing Evidence as tie-out status values."
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Begin with a one-sentence statement of the table's analytical purpose."
       },
       {
         "no": 12,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "End with a 'Next action:' line stating the one unresolved cross-statement item required for completion."
       },
       {
         "no": 13,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Mark any requested field, cross-statement relationship, or derived figure not derivable from the two supplied materials as Not Determinable."
@@ -2960,210 +2960,210 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Revise the brief into an evidence-integrated collateral, diligence, and decision assessment for the proposed $6,500,000.00 revolving credit facility using only the credit request and financial information and the client intake and financial profile."
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Write for a credit committee audience and define all abbreviations on first use."
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Preserve all source names, dates, and dollar figures exactly as provided."
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Pair every recommendation with its controlling evidence."
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Distinguish confirmed facts from unresolved, unverified, pending, missing, or Not Determinable items."
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not import external market data, customary lending practices, legal assumptions, or any facts not present in the packet."
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Begin with a single-sentence Proceed, Hold, or Escalate decision that includes the controlling reason."
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not issue a Proceed decision if any unresolved cross-record financial mismatch or unresolved required diligence item remains."
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use Hold for items that block committee reliance but can be remediated at the packet level."
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use Escalate only if packet evidence shows a conflict or missing item that cannot be resolved through ordinary diligence identified in the records."
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "If evidence does not support choosing between Hold and Escalate, state Not Determinable for that choice and explain the evidence gap without inventing a policy."
       },
       {
         "no": 12,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Reconcile the intake financial profile against the credit request and financial information by matching cash, inventory, annual revenue, annual EBITDA, and senior debt/pro forma debt where comparable, calculating each difference, and retaining every non-zero or non-comparable item as Unresolved."
       },
       {
         "no": 13,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Treat eligible receivables of $3,148,800.00 and accounts receivable of $3,840,000.00 as related but not identical unless the packet proves otherwise; quantify the dollar difference, state why the eligibility basis is Not Determinable from the packet, and tie that limitation to collateral reliance."
       },
       {
         "no": 14,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Separately identify collateral snapshot items with no direct intake counterpart, including equipment value and the 2025-09-30 appraisal date."
       },
       {
         "no": 15,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Independently recalculate the reported 13.63% revenue growth using FY2024 revenue of $18,640,000.00 and FY2025 revenue of $21,180,000.00, showing the formula, inputs, recalculated result, variance from 13.63%, and whether the reported figure ties out."
       },
       {
         "no": 16,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not round source values before completing comparisons."
       },
       {
         "no": 17,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Preserve the $6,500,000.00 revolver amount, SOFR + 3.10% pricing, 2030-06-30 maturity, 2025-09-30 appraisal date, 24.6% customer concentration, 2026-01-15 record date, and all entity names exactly as written."
       },
       {
         "no": 18,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Assess risk and impact for the downside case, customer concentration, unverified management response, collateral evidence, and open diligence; for each finding, state the affected population, quantified exposure where supported, qualitative consequence where not supported, plausible impact, and evidence limitation."
       },
       {
         "no": 19,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Separate downside-case facts (revenue 12.0% below base, gross margin contracting by 2.0 points, estimated EBITDA of $1,749,600.00) from the unverified management response (hiring pause and reduced discretionary capex), and do not treat the response as confirmed mitigation."
       },
       {
         "no": 20,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Compare the base-case forecast and downside case on revenue, EBITDA, leverage, and coverage implications, calculating only ratios with supplied inputs."
       },
       {
         "no": 21,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use full-draw pro forma debt of $11,100,000.00 and FY2025 EBITDA of $2,430,000.00 when evaluating the reported 4.57x leverage, and state whether any forward-looking leverage or coverage measure is calculable from the packet."
       },
       {
         "no": 22,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Label any coverage metric that requires missing inputs as Not Determinable rather than estimating it."
       },
       {
         "no": 23,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "State the benefit, limitation, and decision implication of relying on each scenario."
       },
       {
         "no": 24,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Classify each deficiency as confirmed, unresolved, dependent on missing evidence, or Not Determinable, and explain the classification from the evidence."
       },
       {
         "no": 25,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explicitly address: unconfirmed payoff amount for existing senior debt; unvalidated latest accounts-receivable aging against the general ledger; customer concentration at 24.6% of 2025 revenue; the unverified management response; secondary contact authority evidence marked No for Jordan Blake; and sponsor support evidence showing $0.00 proposed while also requiring evidence for any sponsor support shown in the request, resolving this tension without assuming sponsor support exists."
       },
       {
         "no": 26,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For every open diligence item and unresolved mismatch affecting the decision, state the corrective action, the proposed owner only if identifiable from the packet (else Not Determinable), the deadline only if supplied by the packet (else Not Determinable), and the evidence required for closure."
       },
       {
         "no": 27,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Link each corrective action to the specific finding it resolves and identify whether closure would change collateral reliance, financial reconciliation, scenario reliance, or committee decision readiness."
       },
       {
         "no": 28,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each decision point, present a connected evidence–rule–action chain including active evidence, the applicable task rule or packet-derived standard, the classification, and the resulting action."
       },
       {
         "no": 29,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Ensure the collateral assessment, diligence findings, scenario analysis, and Proceed/Hold/Escalate recommendation depend on the reconciliation results and deficiency classifications."
       },
       {
         "no": 30,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "End with a Next action line tied to the highest-priority unresolved diligence item, explaining why it is highest priority under the same evidence–rule–action logic."
@@ -3191,126 +3191,126 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use only the supplied rule text from 12 CFR Part 30 as the source."
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Produce an applicability condition matrix as a table with columns exactly named: Condition, Source Provision, Trigger or Input, Required Action or Output, Timing, and Conditional Branch."
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Show as distinct rows or sections: covered institutions under § 30.1; OCC determination basis and request mechanism under § 30.3; the deemed-notice timing rule; the filing window and plan contents under § 30.4; and the alternative-plan permission."
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For every row, cite the exact section and paragraph that supplies the condition, timing, or action, and place that citation beside the corresponding matrix entry (not in a single end note)."
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Identify each cited provision as current rule text from 12 CFR Part 30 and do not describe any provision as guidance, proposal, or non-binding commentary."
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each timing condition, state the source date or trigger, the applicable window, and whether the provision imposes a deadline or a deemed-notice period."
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Where the text supplies a period, express the period in days and identify the start event without inventing a calendar date."
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Include that the compliance plan must be filed within 30 days of receiving a request under § 30.3(b) unless the OCC notifies a different period, and that deemed notice occurs three days after mailing of the letter or delivery of the report of examination."
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each applicability condition, populate the Conditional Branch column; use the label Conditional Branch for that column."
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Indicate that if the OCC determines a failure to satisfy a safety and soundness standard, the OCC may request a compliance plan."
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Indicate that if the OCC grants permission, a compliance plan may be submitted as part of another plan, order, agreement, or response, subject to the § 30.4(a) deadline."
       },
       {
         "no": 12,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Indicate that if the OCC notifies a different filing period, the 30-day default does not control."
       },
       {
         "no": 13,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use Not Determinable in the Conditional Branch column whenever the supplied rule text does not specify the outcome for a given input."
       },
       {
         "no": 14,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Cover separately the procedural and control elements: OCC determination basis, request mechanism, deemed-notice mechanism, filing obligation, and plan-content requirement."
       },
       {
         "no": 15,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Distinguish the OCC's discretionary determination from the bank's or savings association's filing obligation."
       },
       {
         "no": 16,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Identify the OCC permission required for submitting a compliance plan as part of another plan, order, agreement, or response as a separate condition from the filing obligation."
       },
       {
         "no": 17,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Begin the matrix with a one-sentence statement of the governing applicability chain from Part 30 scope through determination and request to filing."
       },
       {
         "no": 18,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "End with a one-sentence note identifying which conditions remain conditional on OCC discretion or permission under the supplied text."
@@ -3338,315 +3338,315 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use only the supplied Appendix A and Appendix D extracts as sources."
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Analyze a conditional scenario where both appendices apply; do not infer actual coverage from appendix titles."
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not invent institution-specific findings."
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Present a source-linked decision matrix."
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "In the matrix, cover Appendix A’s opening credit-related provisions."
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "In the matrix, cover interest-rate exposure under section E."
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "In the matrix, cover asset growth under section F."
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "In the matrix, cover independent judgment and independent directors under Appendix D, sections C–D."
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For every covered area, identify the relevant expectation."
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For every covered area, identify the facts needed to evaluate alignment."
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For every covered area, identify a conditional gap trigger."
       },
       {
         "no": 12,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For every covered area, identify a possible response."
       },
       {
         "no": 13,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Preserve any stated timing in the source extracts."
       },
       {
         "no": 14,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Preserve recipients of reporting or communication as stated in the extracts."
       },
       {
         "no": 15,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Preserve proportionality qualifications from the extracts."
       },
       {
         "no": 16,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Preserve the original use of the term “should” from the extracts."
       },
       {
         "no": 17,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Distinguish unknown status from a gap that could be established with evidence."
       },
       {
         "no": 18,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Label suggested records and remediation actions as analyst proposals unless expressly specified in the extracts."
       },
       {
         "no": 19,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "In the board analysis, explain the independent-director test at the individual-director level."
       },
       {
         "no": 20,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "In the board analysis, explain the independent-director test at the board level."
       },
       {
         "no": 21,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Preserve the minimum number of independent directors required, if stated."
       },
       {
         "no": 22,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Preserve any conjunctive criteria for independence."
       },
       {
         "no": 23,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Preserve any lookback periods relevant to independence."
       },
       {
         "no": 24,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Preserve any OCC satisfaction/approval condition relevant to independence."
       },
       {
         "no": 25,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Preserve any federal savings association qualification relevant to independence."
       },
       {
         "no": 26,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Identify what cannot be resolved without referenced definitions, listing standards, or other requirements."
       },
       {
         "no": 27,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not reconstruct the contents of missing definitions, listing standards, other requirements, or the missing active-oversight paragraph."
       },
       {
         "no": 28,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Distinguish independent credit review from each board member’s independent judgment."
       },
       {
         "no": 29,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Distinguish each board member’s independent judgment from qualification as an independent director."
       },
       {
         "no": 30,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use the matrix to compare an operational-control response focused on credit, interest-rate risk, and growth."
       },
       {
         "no": 31,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use the matrix to compare a board-oversight response focused on judgment and composition."
       },
       {
         "no": 32,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use the matrix to compare a coordinated response combining operational and board measures."
       },
       {
         "no": 33,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each response path, explain which potential gaps it addresses."
       },
       {
         "no": 34,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each response path, explain what it leaves unresolved."
       },
       {
         "no": 35,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each response path, explain what must be established before recommending it as sufficient within this limited review scope."
       },
       {
         "no": 36,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Clarify that response paths are not exemptions from other provisions."
       },
       {
         "no": 37,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Connect Appendix A management and board information needs to Appendix D oversight provisions."
       },
       {
         "no": 38,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explain how improved risk information could support board judgment."
       },
       {
         "no": 39,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explain why improved risk information alone does not establish director qualification."
       },
       {
         "no": 40,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explain why board-composition changes alone do not establish adequate operational controls."
       },
       {
         "no": 41,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Identify these implementation connections explicitly as analysis, not additional source requirements."
       },
       {
         "no": 42,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "End with a conditional selection rule derived from the matrix that varies the recommended path when evidence shows operational gaps, governance gaps, both, or leaves either area unresolved."
       },
       {
         "no": 43,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Specify what evidence would permit reassessment or closure of the identified issue."
       },
       {
         "no": 44,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not assert that any option is currently warranted."
       },
       {
         "no": 45,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not assert that this limited analysis establishes overall regulatory compliance."
@@ -3674,168 +3674,168 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Base the matrix solely on the supplied Item 105 provision and the two plain‑English design excerpts."
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Map requirements and review controls without making issuer‑specific compliance findings."
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Cover: applicability and material‑risk content, headings and subcaptions, generic risks, explanations of risk effects, the conditional principal‑risk summary, section placement, and plain‑English presentation."
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For every row, include: a short quotation identifying the supporting subsection or design passage; the source’s precise obligation or advice; its applicability conditions; the proposed policy control; and the evidence a reviewer would inspect."
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Distinguish regulatory duties from the regulation’s recommendations or discouragements, handbook guidance, and analyst‑proposed controls."
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Record conditionality separately so conditional duties are not treated as optional and advisory language is not converted into mandatory legal tests."
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Integrate the design excerpts into the regulatory mapping rather than appending a separate design summary."
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Propose heading‑hierarchy and readability controls based on the typography excerpt’s advice on mixing typefaces, retaining the excerpt’s qualifications."
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use the layout excerpt’s white‑space and section‑separation advice to propose organization and readability controls."
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explain links from design excerpts to controls as analyst judgment and not as Item 105 design specifications."
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Where the excerpts overlap on text alignment, reconcile their advice without creating duplicate regulatory duties."
       },
       {
         "no": 12,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Distinguish disclosure content expressly required by Item 105 from reviewer artifacts recommended for collection."
       },
       {
         "no": 13,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Make conditional review tests operational."
       },
       {
         "no": 14,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Demonstrate how the page‑length trigger behaves at its stated boundary and above, keeping that trigger separate from the permitted summary length."
       },
       {
         "no": 15,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Preserve the summary’s form and location conditions."
       },
       {
         "no": 16,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Map section‑placement alternatives according to filing context, the presence or absence of a summary section, and the qualifying pricing‑information section."
       },
       {
         "no": 17,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Retain and use the supplied pricing‑information definition where it governs the section‑placement analysis."
       },
       {
         "no": 18,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not extend registration‑statement‑specific sequencing requirements to every filing."
       },
       {
         "no": 19,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Record references to Item 503, Rule 430A, and Regulation C’s plain‑English provision, and identify their unsupplied contents as unverified without reconstructing them."
       },
       {
         "no": 20,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "After the matrix, derive a reviewer intake checklist from conditional rows that identifies the facts or draft features needed to activate each branch and the resulting review action."
       },
       {
         "no": 21,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Limit open questions to applicability fields, mapped disclosure tests, and missing referenced text."
       },
       {
         "no": 22,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Where required inputs are absent, allow a conditional or not‑determinable result instead of a pass or fail."
       },
       {
         "no": 23,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "End with a review gate that distinguishes failure of an applicable regulatory duty from departure from guidance."
       },
       {
         "no": 24,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explain why passing the proposed typography and layout checks alone cannot establish full compliance with the plain‑English obligation."
@@ -3863,175 +3863,175 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Rely solely on the supplied Appendix B and Appendix D excerpts as sources."
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Treat the review as a prospective standard and acknowledge that no institution-specific framework, contracts, risk assessments, test results, or incident evidence are provided."
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Condition the analysis on the institution being within both excerpts’ scope."
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not infer applicability from the excerpts’ titles."
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not issue an actual compliance finding."
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Limit the assessment to: response planning for unauthorized access, key-control testing, service-provider selection, contractual safeguards, risk-dependent service-provider monitoring, and their integration into the written risk governance framework."
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not present the limited review as assurance over the entire information-security program or all risk categories."
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Build an integrated evidence matrix that, for every review area, specifies: the Appendix B provision and its qualifications; the relevant Appendix D governance responsibility or framework element; the bank-level conclusion a reviewer would want to reach; and the evidence needed to support that conclusion."
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Cite the relevant excerpt passages used in the matrix."
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Distinguish among: documentary instruments expressly called for by the text; materials named as alternative ways to conduct a review; and additional corroborating evidence recommended as an analyst."
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not turn proposed evidence requests into regulatory documentation requirements or require every listed alternative where equivalent evaluations are permitted."
       },
       {
         "no": 12,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explain the governance dependencies behind the matrix, addressing framework design and approval, delegated authority and limits for material activities, and review and update responsibilities."
       },
       {
         "no": 13,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use the definitions of risk appetite and risk profile to explain the connection between the security and outsourcing activities and the governance framework."
       },
       {
         "no": 14,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Keep Appendix B’s risk assessment distinct from Appendix D’s risk profile; do not assume they are interchangeable."
       },
       {
         "no": 15,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not infer the missing contents of the referenced risk appetite statement provision."
       },
       {
         "no": 16,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Identify potentially relevant risk categories only as analytical mappings, not as findings about a bank’s exposures."
       },
       {
         "no": 17,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Distinguish the independence of security testing from the responsibilities assigned to independent risk management."
       },
       {
         "no": 18,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Construct a conditional decision path that separates: the response-program trigger; the role of risk assessment in determining testing frequency and nature; the condition for service-provider monitoring; and the framework’s review/update timing."
       },
       {
         "no": 19,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each consequential condition in the decision path, explain what evidence establishes whether it is met, what follows if it is met, and what remains unresolved if the evidence is unavailable."
       },
       {
         "no": 20,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Where a condition does not apply, retain any duties that are not dependent on that condition."
       },
       {
         "no": 21,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not add notification recipients, deadlines, or incident-investigation steps beyond what the excerpts support."
       },
       {
         "no": 22,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Conclude by separating evidence needed for a scoped framework-approval review from evidence of operational implementation, and do not treat approval alone as proof that controls operate effectively."
       },
       {
         "no": 23,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "State what these excerpts can establish and what they cannot establish without institution evidence."
       },
       {
         "no": 24,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Label any proposed acceptance condition not defined by the excerpts as a committee-review judgment."
       },
       {
         "no": 25,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Finish with an ordered set of evidence requests derived from the dependencies in the matrix, showing which later conclusion each request would unlock, and avoid supplying a generic diligence list."
@@ -4059,147 +4059,147 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Rely only on the supplied Plain English Handbook excerpt as the source."
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Provide a source-grounded disclosure compliance brief for a prospectus drafting team."
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Frame the brief as a prospective drafting-review standard, not issuer-specific findings."
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Create a compact review table mapping defined-term advice and document-organization principles."
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For every table entry, include a short quoted source anchor."
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For every table entry, state the scope and strength of the source language."
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For every table entry, define a concrete drafting check."
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For every table entry, list the draft material needed to perform the check."
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Distinguish handbook recommendations from the assistant’s proposed implementation tests."
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not treat imperative editorial language as a binding securities-law duty."
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Preserve the distinction between guidance that applies generally and concerns specific to the opening sections."
       },
       {
         "no": 12,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Develop a recommended opening-section outline and an approach to organizing related detail later in the prospectus."
       },
       {
         "no": 13,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use content placeholders and do not invent business or transaction facts."
       },
       {
         "no": 14,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explain how the proposed structure balances early reader orientation with grouping related information and reducing repetition."
       },
       {
         "no": 15,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explain how the defined-term advice affects the opening section."
       },
       {
         "no": 16,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Identify which balancing decisions or section-order choices are editorial judgment rather than prescribed by the excerpt."
       },
       {
         "no": 17,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not convert advice to use defined terms sparingly into a blanket prohibition."
       },
       {
         "no": 18,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "End with conditional review outcomes tied to the table’s checks: evidence supporting a revision, evidence supporting no revision on that issue, and items unassessable until a draft is available."
       },
       {
         "no": 19,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use qualitative judgments where the source provides no measurable cutoff; do not invent numerical limits."
       },
       {
         "no": 20,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Confine evidence requests to the specified drafting checks and label them as proposed review materials, not source-required filings."
       },
       {
         "no": 21,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explain that any favorable review result is limited to alignment with the supplied guidance and does not establish compliance with disclosure requirements outside the excerpt."
@@ -4227,126 +4227,126 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Develop a decision–evidence sufficiency brief using only the supplied Appendix A and Appendix C excerpts for a mortgage-lending risk committee’s prospective review standard."
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Evaluate what the text itself establishes versus what still requires verification, and do not issue any compliance or safety-and-soundness finding."
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Present Appendix C’s discussion of targeting and steering, debt-cancellation and debt-suspension fees, financing single-premium credit insurance, and mandatory arbitration in a compact evidence-to-decision table."
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each practice, identify the supporting paragraph, the expressly stated entity and product scope, and the governing conditions and qualifications; mark any unestablished coverage as unknown rather than extending one clause’s scope to another."
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each practice, distinguish conduct expressly unlawful or prohibited when stated conditions are met, conduct potentially involving legal violations, and practices that may affect secondary-market eligibility; allow overlap where supported and distinguish direct source language from analytical inference."
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each practice, state the conclusion available from the guideline alone and the institution- or loan-specific conclusion that remains unassessable."
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Propose targeted evidence requests based on the mapped conditions."
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Bound the proposed evidence requests to the entity and product coverage, the facts needed to assess the stated conduct conditions, and any claimed secondary-market eligibility effect."
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For steering, make verification responsive to the comparison and borrower-related conditions in the passage."
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For product terms, keep the fee prohibition analysis separate from possible secondary-market effects."
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Label proposed records as analyst-recommended evidence and distinguish them from any documents explicitly required by the supplied text."
       },
       {
         "no": 12,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not invent purchaser acceptance criteria."
       },
       {
         "no": 13,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not treat a possible secondary-market eligibility impairment as categorical ineligibility."
       },
       {
         "no": 14,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Conclude with a recommendation, derived from the table and Appendix A, specifying what the committee can settle about its review framework now and which decisions must await evidence."
       },
       {
         "no": 15,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explain how Appendix A’s purpose and enforcement reservations affect consideration of the identified mortgage practices, including whether capital impairment or exhaustion of other enforcement routes is a prerequisite."
       },
       {
         "no": 16,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Separate the authority described in the source from any escalation recommended as professional judgment, and do not infer that an Appendix C concern automatically establishes a section 39 violation or mandates a particular enforcement action."
       },
       {
         "no": 17,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Cite relevant supplied passages."
       },
       {
         "no": 18,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not import missing definitions, statutory elements, or procedures from cross-referenced authorities."
@@ -4374,140 +4374,140 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Prepare a control-design alternative matrix comparing approach A versus approach B."
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Base the comparison solely on items 4–7 and 10–12 of the supplied Appendix C excerpt; do not use other sources."
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Assume no loan files or evidence of an institution’s existing controls are available."
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For every selected Appendix C item, show the source condition including its qualifications, exceptions, or permitted circumstances, and cite the numbered-item reference."
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For every selected item, classify evaluation as data-testable, judgment-dependent, or unresolved due to a missing definition or standard from the excerpt; allow overlapping classifications when appropriate."
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For every selected item, describe how each alternative would operate, including proposed evidence inputs, the responsible review function, and one material limitation of each design."
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For every selected item, define conditional handling for flagged, not-flagged, and unresolved screening results that pertain only to that specific source condition and do not imply a legal violation or overall loan approval."
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Preserve the distinction between conditions detectable from contractual or transaction data and conclusions requiring substantive assessment."
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not invent a numerical meaning for any undefined term in the excerpt."
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not reconstruct Appendix A from its citation."
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Distinguish documentation expressly required by the excerpt from additional records you recommend to make a control operable."
       },
       {
         "no": 12,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Label any proposed holds, escalation routes, ownership, and release criteria as design judgments, not OCC requirements."
       },
       {
         "no": 13,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Validate the proposed automated logic for the principal-versus-appraised-value condition and for the payment-consolidation condition."
       },
       {
         "no": 14,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "In that validation, explain how equality at the stated comparison boundary is treated and how any conjunctive conditions are preserved; do not invent loan amounts."
       },
       {
         "no": 15,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Apply the validation to the relevant matrix recommendations and revise them if a simple threshold screen would overflag or miss the listed practice."
       },
       {
         "no": 16,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Conclude with a recommended architecture by control area, allowing a hybrid approach."
       },
       {
         "no": 17,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Base the architectural recommendation on the matrix’s assessment of testability, judgment needs, and unresolved inputs."
       },
       {
         "no": 18,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explain which evidence can be shared across contract-term, repayment-assessment, and disbursement controls without allowing one test to substitute for another."
       },
       {
         "no": 19,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Identify the policy clarifications or proposed evidence needed before the recommended design could be accepted for implementation."
       },
       {
         "no": 20,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not infer that inclusion in this partial list establishes an outright prohibition or that any actual control deficiency has occurred."
@@ -4535,182 +4535,182 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Produce an evidence-integrated compliance plan review and failure-consequences brief for 12 CFR part 30 using only the supplied § 30.4 text and Appendix A interagency guidelines."
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Specify the evidence needed to support review, approval, deficiency, and supervisory action conclusions, without asserting any case-specific outcome not established by the supplied materials."
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Structure the brief with level-2 headings in this exact order: Source Status; Governing Standards; Review and Approval Window; Failure Conditions; Supervisory Escalation; Evidence Required."
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Include a short Purpose paragraph immediately before the first heading."
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "In Source Status, state the status of each cited material and identify § 30.4 and Appendix A as current rule text and guidelines establishing standards."
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not present Appendix A historical legislative background (including FDICIA and later amendment history) as a separate current obligation."
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "In Governing Standards, list the Appendix A standards: internal controls; information systems and internal audit systems in accordance with section 36 of the FDI Act (12 U.S.C. 1831m); loan documentation; credit underwriting; interest rate exposure; asset growth; compensation, fees, and benefits."
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Identify the section 39(c) requirement to prohibit excessive compensation arrangements and any compensatory arrangement that could lead to material financial loss."
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each listed standard, specify the evidence needed to determine whether the standard is met or whether a compliance plan deficiency exists."
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Map every evidence item to the exact Appendix A provision that establishes the underlying standard, keeping the source label beside each evidence item (no end-only citations)."
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "In Review and Approval Window, specify the time-window evidence needed to test the § 30.4(c) review deadline."
       },
       {
         "no": 12,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Identify the date the OCC received the submitted plan as the start of the 30-day period, the written notice date as the end point, and whether any OCC extension applies."
       },
       {
         "no": 13,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Separately identify the 24-month and 18-month lookback periods in § 30.4(d)(1) as conditions whose start dates must be evidenced before any section 39(e)(3) action can be established."
       },
       {
         "no": 14,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "In Failure Conditions, treat as potential deficiencies: failure to submit an acceptable plan within the time specified by the OCC; failure in any material respect to implement a compliance plan; failure to submit an acceptable plan within the time allowed by the agency."
       },
       {
         "no": 15,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each failure condition, specify the evidence needed to establish it and classify it using only: Confirmed, Not Triggered, or Not Determinable."
       },
       {
         "no": 16,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not assume any case-specific failure occurred."
       },
       {
         "no": 17,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "In Supervisory Escalation, identify the OCC as the approval authority for a submitted compliance plan under § 30.4(c)."
       },
       {
         "no": 18,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Specify that written notice of approval or a request for additional information is the approval evidence, and treat any plan without an established approval notice as pending rather than approved."
       },
       {
         "no": 19,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each potential deficiency, present a connected chain linking: the active evidence needed to establish the failure; the governing provision (§ 30.4(d)(1) or Appendix A) that makes it actionable; and the resulting supervisory action (order to correct the deficiency or further action under section 39(e)(2)(B))."
       },
       {
         "no": 20,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not present evidence, rule, and action as disconnected fragments."
       },
       {
         "no": 21,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Apply this conditional rule: if evidence establishes failure to submit an acceptable plan within the time allowed or failure in any material respect to implement an accepted plan, specify the order to correct the deficiency as the triggered supervisory action; otherwise label the condition Not Triggered or Not Determinable based on available evidence."
       },
       {
         "no": 22,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "In Evidence Required, use the exact label \"Evidence Required:\" once before the evidence specification table."
       },
       {
         "no": 23,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Present the table with columns: Evidence Item; Source Provision; Source Status; Required to Establish; Missing Evidence Status."
       },
       {
         "no": 24,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Keep narrative explanation outside the table."
       },
       {
         "no": 25,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use only the supplied materials; label any evidence item, condition, or conclusion that cannot be established from these texts as Not Determinable rather than inferring it."
       },
       {
         "no": 26,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Preserve exactly the following figures and terms throughout: the 30-day review period; the 24-month and 18-month lookback periods; statutory citations 12 U.S.C. 1831p-1 and 12 U.S.C. 1831m; the phrase \"material respect\"; and the distinction between \"may\" and \"shall\" in supervisory action provisions."
@@ -4738,210 +4738,210 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use only the supplied page 6 of SBA Form 1920 (Revised 09/20) as source content."
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Produce a reusable loan approval-condition matrix for SBA underwriting (not narrative prose)."
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Treat printed 'Included,' 'N/A,' and Yes/No options as form text, not evidence of completion."
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Support prospective approval conditioning; do not certify borrower eligibility or claim completeness of SBA requirements."
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Limit scope to acquisition valuation, debt refinancing, franchise or similar agreements, Working Capital CAPLines, and export/International Trade Loans; exclude other CAPLine types."
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Begin with routing inputs needed to determine applicability: processing authority, transaction features, and requested program."
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Differentiate an unresolved applicability question from an applicable-but-unevidenced condition; neither is a confirmed failure."
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each condition, state the applicability trigger and classify it as routing gate, substantive eligibility test, documentation requirement, allowing overlaps."
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each condition, provide the acceptance test and the consequence of a negative answer or missing evidence."
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each condition, include a traceable reference to the cited section or opening valuation paragraph with a short supporting quotation."
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each condition, list documents or credit-memo content expressly required by page 6 separately from any recommended supporting evidence."
       },
       {
         "no": 12,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each condition, include any source-stated timing or submission destination; when timing is not stated, mark it as not stated and do not invent deadlines."
       },
       {
         "no": 13,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For valuation, separate the valuation trigger from processing-authority timing treatment and show interaction between the strict monetary threshold and the alternative close-relationship trigger, including the outcomes when (D) equals the threshold without a qualifying relationship and when relationship status is unknown."
       },
       {
         "no": 14,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not reconstruct or supply the missing definition/calculation of (D) or the SOP definition of close relationship."
       },
       {
         "no": 15,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For refinancing, distinguish loan-level credit-memo and debt-schedule requirements from per-debt evidence requirements."
       },
       {
         "no": 16,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For refinancing, preserve the required comparison with the most current interim business financial statement."
       },
       {
         "no": 17,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For refinancing, preserve the special credit-card evidence requirement."
       },
       {
         "no": 18,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not convert illustrative supporting documents into universal requirements for every listed document."
       },
       {
         "no": 19,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For ITL refinancing, link to applicable Section Q conditions while retaining the ITL-specific proceeds test; do not treat completion of Section Q as proof all referenced regulatory or ITL tests are met."
       },
       {
         "no": 20,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For franchise or similar agreements, keep the agreement trigger and the processing-authority and directory-status conditions tied to the determination, credit-memo explanation, and submission requirements."
       },
       {
         "no": 21,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Consolidate the repeated franchise paragraph into a single condition."
       },
       {
         "no": 22,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not infer requirements for branches not addressed by the excerpt."
       },
       {
         "no": 23,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Keep the Working Capital CAPLine test distinct from ITL working-capital conditions; do not apply other CAPLine product tests universally."
       },
       {
         "no": 24,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "If CAPLine introductory eligibility wording leaves a scope issue unresolved, flag it rather than resolving it with outside rules."
       },
       {
         "no": 25,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Keep separate: the general export question, the projected export sales field, ITL permitted-use alternatives, and ITL business-purpose alternatives."
       },
       {
         "no": 26,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Preserve the basis and scope of the stated working-capital cap; do not compare it to projected export sales or treat it as an unrestricted total-loan limit."
       },
       {
         "no": 27,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Identify which negative findings the page expressly links to SBA guaranty or ITL ineligibility; do not treat every missing document as an eligibility failure."
       },
       {
         "no": 28,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Finish with a proposed decision sequence derived from the matrix: resolve routing inputs, activate only relevant conditions, distinguish unresolved evidence from express disqualifications, and identify any conditions the page permits to remain pending until a later stage."
       },
       {
         "no": 29,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Label any additional internal approval hold or evidence request as analyst judgment."
       },
       {
         "no": 30,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Conclude with a bounded information request keyed to the matrix’s applicability and closure fields, including missing referenced definitions needed to evaluate those fields, without supplying contents of external rules."
@@ -4969,140 +4969,140 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Produce a brief that maps civil rights and debarment certifications intake requirements for an intake compliance reviewer."
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use only SBA Form 1919 (02/2025) pages 6 and 7; do not add external facts, customary practice, or assumptions."
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Label any requirement or status not establishable from the supplied pages as Not Determinable."
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Begin by stating these materials are the current form certification and notice text, not evidence of execution or attachments by any applicant."
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Write in a neutral, conservative tone."
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Define each statutory or regulatory abbreviation on first use."
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Pair every identified requirement with its controlling form provision."
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Keep the brief between 350 and 450 whitespace-separated words."
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use level-2 headings in this exact order: Purpose and Source Status; Civil Rights Certification Requirements; Debarment and Suspension Certification Requirements; Exception and Follow-Up Gate; Intake Status Determination."
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Preserve exact statutory and regulatory citations, the three-year lookback periods, the $100,000 direct-funds threshold, and the labels of debarment items (a) through (f) exactly as in the form."
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Present debarment items (a) through (f) in their original order without renumbering."
       },
       {
         "no": 12,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each certification requirement, connect the specific form language creating the obligation to the required applicant action or attachment and then to the resulting intake status."
       },
       {
         "no": 13,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Map civil rights controls to evidence an intake reviewer must obtain or verify: agreement not to discriminate in business practices (including employment and services to the public)."
       },
       {
         "no": 14,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Map civil rights controls to evidence on making goods and services available to handicapped clients or customers."
       },
       {
         "no": 15,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Map civil rights controls to evidence on displaying the prescribed Equal Employment Opportunity Poster."
       },
       {
         "no": 16,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Identify debarment and suspension red flags as items (a) through (f) with the specified categories, using the form’s exact language and scope."
       },
       {
         "no": 17,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "If the applicant cannot certify and acknowledge debarment items (a) through (d), make intake status conditional on obtaining and attaching an SBA written statement of exception permitting participation."
       },
       {
         "no": 18,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Flag as an unresolved intake gap any debarment item the applicant cannot certify and acknowledge, and distinguish this from a confirmed exception supported by an attached SBA written statement of exception."
       },
       {
         "no": 19,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For every unresolved or conditional gap, state the specific evidence to obtain or attach and link it to the certification requirement it would satisfy."
       },
       {
         "no": 20,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "In the Intake Status Determination section, set status to Ready only if certifications are supported by required form execution and any required attachment; otherwise set to Conditional, Hold, or Not Determinable according to the identified gaps."
@@ -5130,84 +5130,84 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use only the two supplied SEC Plain English Handbook excerpts as sources."
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Begin by stating that both excerpts are handbook guidance (not rule text or a current obligation) and that the handbook’s drafting examples are not mandatory prospectus requirements."
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Map the three-document hierarchy: the prospectus, the prospectus supplement, and the pricing supplement."
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each document, classify precedence using only these labels: Pricing Supplement Controls, Prospectus Supplement Controls, or General Prospectus Applies."
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Assign labels by these triggers: if differing information appears between the pricing supplement and either the prospectus or the prospectus supplement, assign Pricing Supplement Controls; if differences appear only between the prospectus supplement and the prospectus, assign Prospectus Supplement Controls; otherwise assign General Prospectus Applies."
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Present exactly three classification rows, one for each document, ordered from the most specific controlling document to the most general."
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "In each row, preserve the exact document names and the exact override phrases from the supplied excerpts."
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "In each row, place beside the classification the supporting excerpt and the exact sentence used; do not place citations only at the end."
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Compare the handbook’s tabulated versus non-tabulated rewrite approaches on reader comprehension, sentence length, and clarity of the override instruction."
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "State the trade-off for each approach."
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "When the supplied text does not establish a required input for any classification or comparison, use the exact phrase Not Determinable and do not import external SEC rules or market practice."
       },
       {
         "no": 12,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Keep the complete brief between 220 and 320 whitespace-separated words."
@@ -5235,217 +5235,217 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Base the analysis solely on SBA Form 1919 (02/2025) page 3 and SBA Form 1920 (Revised 09/20) page 10, including its opening continuation."
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Frame the work as a prospective application-to-policy analysis, not a review of a completed borrower file."
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Keep the forms’ stated revision dates visible in the deliverable."
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not assume the excerpts establish current program policy."
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not assume the two form versions were used together in an actual submission."
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Build a conditions matrix limited to Form 1919 Questions 12–13 and certifications on ownership/control by U.S. citizens or LPRs, child-support delinquency, business size including affiliates, use of proceeds, infrastructure spending, and complete partner buyouts."
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For every matrix item, state the source clause, covered persons/entities, applicability trigger, any precise numerical conditions stated, and the answer, certification, or supporting material the excerpt calls for."
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Differentiate an intake disclosure from an applicant certification and from an express supporting-document obligation, allowing a single item to serve multiple functions."
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Preserve distinct ownership thresholds and the separate scopes for Applicant, Operating Company, affiliates, and household members; do not merge them into a single owner-screening rule."
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not infer adverse eligibility solely from affirmative answers to either Question 12 or 13 when the excerpt does not state such a consequence."
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use the conditional items to develop practical intake logic for the reviewer."
       },
       {
         "no": 12,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For the complete partner buyout certification, separate the triggering conditions from the certifications required of remaining owners."
       },
       {
         "no": 13,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For the complete partner buyout certification, explain how equality at the stated loan-amount and financing-percentage boundaries is treated."
       },
       {
         "no": 14,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For the complete partner buyout certification, preserve the required ownership-history period."
       },
       {
         "no": 15,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Identify the transaction inputs needed to evaluate complete partner buyout conditions without computing financing shares from missing values."
       },
       {
         "no": 16,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For infrastructure spending, distinguish mandatory conditions from merely encouraged actions."
       },
       {
         "no": 17,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For infrastructure spending, explain when the borrower must obtain contractor or subcontractor certifications or affirmations."
       },
       {
         "no": 18,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Leave applicability of conditional items unknown until relevant intake facts are available."
       },
       {
         "no": 19,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Reconcile the applicant-side material with Form 1920’s PLP lender approval/certification on small-business status, eligible purpose, and owners’/managers’ good character."
       },
       {
         "no": 20,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each lender determination, identify overlapping applicant representations, information that is only potentially relevant, and any determination not established by the applicant excerpt."
       },
       {
         "no": 21,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explain why an applicant representation and a lender approval are distinct evidentiary steps."
       },
       {
         "no": 22,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Keep the PLP-only scope and the authorized lender official’s execution fields separate from borrower responsibilities."
       },
       {
         "no": 23,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not imply that non-PLP submissions lack other lender requirements because preceding text is missing."
       },
       {
         "no": 24,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Address the continued disclosure prerequisite shown on Form 1920 within the same analysis."
       },
       {
         "no": 25,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "State what the visible continued-disclosure passage establishes and what cannot be specified because the disclosure and preceding certification text are not supplied."
       },
       {
         "no": 26,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not reconstruct the disclosure, external regulatory standards, or penalty amounts from citations alone."
       },
       {
         "no": 27,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "End with a conditional submission follow-up plan derived from the matrix and lender-certification comparison."
       },
       {
         "no": 28,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Tie each follow-up request to the specific unknown trigger or determination it would resolve."
       },
       {
         "no": 29,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Clearly separate: (a) documents expressly called for in the excerpts, (b) references to documents whose contents are unspecified, and (c) additional substantiation recommended as analyst judgment."
       },
       {
         "no": 30,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Limit the gap review to the fields and sign-off issues identified above."
       },
       {
         "no": 31,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Distinguish unknown results in these excerpts from demonstrated defects in an actual borrower submission."
@@ -5473,154 +5473,154 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Rely solely on the supplied Appendix C excerpt."
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Present the work as a prospective screening framework and do not make findings about any actual loan or institution."
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Address institution scope for national banks and Federal savings associations."
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Begin with a decision table that separates institution scope from the definition of “residential mortgage loan” in paragraph 2(a)."
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Break the paragraph 2(a) definition into cumulative conditions and alternatives, preserving the dwelling‑unit range and express inclusions."
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explain whether the express inclusions in paragraph 2(a) remove any other definitional conditions."
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Provide decision rules to classify a future transaction as within the supplied definition, outside it, or undetermined."
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Distinguish a demonstrated failure of a required condition from missing evidence when classifying transactions."
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not equate falling outside the supplied definition with exemption from other laws referenced in Appendix C."
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explain how paragraph 1’s incorporation of statutory meanings interacts with the express definition, retaining both qualifications to that incorporation and without inventing missing statutory definitions."
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use the institution‑scope screen to organize a conditional map of Appendix C’s relationship to other legal requirements."
       },
       {
         "no": 12,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Distinguish references shared by both institution types from institution‑specific regulatory references."
       },
       {
         "no": 13,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Retain the citations supplied in the excerpt and do not add citations for laws named only by acronym."
       },
       {
         "no": 14,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Keep the predicate—actions in connection with residential mortgage lending that are inconsistent with these Guidelines or Appendix A—separate from possible additional legal consequences."
       },
       {
         "no": 15,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explain why satisfying the loan definition does not by itself establish inconsistency."
       },
       {
         "no": 16,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Preserve the significance of “may also” and do not treat inconsistency as an automatic finding under each referenced authority."
       },
       {
         "no": 17,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "End with a decision‑and‑evidence section keyed to the screening steps."
       },
       {
         "no": 18,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "In the decision‑and‑evidence section, state what the excerpt establishes, what remains conditional, and what narrow factual evidence or missing source provisions are needed before making transaction‑ or institution‑specific determinations."
       },
       {
         "no": 19,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Limit the gap analysis to institution scope, the loan‑definition conditions, the inconsistency predicate, and the additional legal consequences identified in Appendix C."
       },
       {
         "no": 20,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Clearly distinguish analyst‑proposed evidence from any documents expressly required by the supplied text."
       },
       {
         "no": 21,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not infer substantive legal tests, operational duties, or notification requirements from citations alone."
       },
       {
         "no": 22,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Place references to Appendix C, paragraph 1, or paragraph 2(a) beside the material rules and qualifications."
@@ -5648,175 +5648,175 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Base the brief solely on the supplied excerpts from SBA Forms 1919 and 1920 (Revised 09/20)."
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Treat the excerpts as instructions and blank certification language, not as a completed borrower or lender file, and do not assume a known submission route."
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Provide a prospective application-to-policy analysis without finding that any actual applicant has met or breached any condition."
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Produce a source-linked crosswalk that covers: owner identification, optional demographic reporting, taxpayer identifiers, the continued lender-disclosure provision, and the PLP-only certification and execution fields."
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each crosswalk entry, identify the covered party or population, what the excerpt requests or requires, any applicability condition, and a supporting heading or short quotation."
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Classify items by type—express requirements, conditional requirements, requested identification information, optional reporting information, and notices—and allow uncertainty where the text does not resolve the classification."
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Preserve the taxpayer-identifier requirement’s stated coverage and permitted alternatives as written, and do not extend it to everyone named in the forms."
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use the crosswalk to assess how borrower information and collection purposes in Form 1919 relate to each substantive PLP attestation in Form 1920."
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explain both where identification or verification connections exist and where the Form 1919 excerpt provides no basis to substantiate a Form 1920 attestation."
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Account for differences between the populations named in the two excerpts when assessing relationships."
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not treat investigative authority or a possible criminal-history check as evidence that a check is mandatory, has occurred, or establishes good character."
       },
       {
         "no": 12,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Keep optional demographic reporting separate from information collected for character and credit eligibility decisions."
       },
       {
         "no": 13,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Address in both excerpts the condition that a currently valid OMB control number must be displayed, distinguishing what is not visible in an excerpt from what might be absent on a complete form."
       },
       {
         "no": 14,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For the continued disclosure language, separate the stated submission prerequisite from the failure-to-file-or-amend consequence, and do not invent the missing disclosure contents or any penalty amounts."
       },
       {
         "no": 15,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explain how the PLP-only qualifier and the phrase “in addition to above” limit the conclusions that can be drawn from the lender excerpt."
       },
       {
         "no": 16,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not import substantive tests from referenced regulations."
       },
       {
         "no": 17,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not assume the excerpts constitute a complete SBA submission checklist."
       },
       {
         "no": 18,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Provide conditional follow-up paths for both PLP and non-PLP submissions based on the crosswalk."
       },
       {
         "no": 19,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Tie each follow-up item to a specific unresolved field, condition, or attestation."
       },
       {
         "no": 20,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Distinguish borrower information needs from lender actions in the follow-up paths."
       },
       {
         "no": 21,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Separate items expressly called for by the excerpts from analyst-proposed supporting evidence or requests for additional governing text, and do not describe proposed documents as SBA-mandated attachments."
       },
       {
         "no": 22,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Exclude optional demographic reporting from mandatory follow-up."
       },
       {
         "no": 23,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Conclude by stating what the excerpts permit the reviewer to establish and what remains not determinable, preserving the identified applicability and evidence limits."
       },
       {
         "no": 24,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not report blank fields or the absence of a completed record in this context as actual submission defects."
       },
       {
         "no": 25,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not declare either the PLP or non-PLP route approved or fully submission-ready."
@@ -5844,238 +5844,238 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Prepare a prospective regulatory monitoring data specification for a common third-party oversight feed"
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Rely solely on Appendix B (information security) and Appendix C (residential mortgage lending); do not use other sources"
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Support role-based monitoring and exception routing in the specification"
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not make findings about any actual institution or incident"
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Begin by comparing Appendix B’s institutional responsibility and third-party execution with Appendix C’s retained origination oversight"
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use that comparison to design a shared institution/counterparty identification and accountability layer with separate security-incident and mortgage-relationship record types"
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Preserve each appendix’s institutional population and activity scope without alteration"
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explain what identity and role evidence would allow linkage between record types"
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not assume a mortgage intermediary is also a customer-information-system service provider"
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Specify how uncertain applicability or identity prevents unsupported consolidation while allowing either monitoring stream to operate independently"
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Provide a practical data dictionary for fields needed to run the monitoring checks"
       },
       {
         "no": 12,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Include in the dictionary: record grain and relationships, field definitions, types or permitted values, applicability conditions, source support, evidence needed, and treatment of missing or conflicting inputs"
       },
       {
         "no": 13,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Cite a relevant appendix paragraph or short supporting phrase beside each requirement"
       },
       {
         "no": 14,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Distinguish what the text expressly calls for, what it references without supplying, and what you recommend as analyst judgment"
       },
       {
         "no": 15,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Distinguish documents expressly addressed in the passages from proposed records used to demonstrate performance"
       },
       {
         "no": 16,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For security-incident records, encode the service-provider-system condition, institutional responsibility, and permitted arrangements for another party to execute notification"
       },
       {
         "no": 17,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Keep the customer-notification warrant assessment separate from evidence of notice to customers and from evidence of notice to the regulator"
       },
       {
         "no": 18,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Address the passage’s treatment of embarrassment or inconvenience as a reason for withholding customer notice"
       },
       {
         "no": 19,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Because the customer-notification standard is not provided, indicate which responsibility and execution fields can be specified and which notification determinations must remain conditional or unknown"
       },
       {
         "no": 20,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not import notification deadlines, investigation procedures, or other missing handbook provisions"
       },
       {
         "no": 21,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not assume the unprovided customer-notification test also determines regulator notification"
       },
       {
         "no": 22,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For mortgage-relationship records, connect compensation standards and incentive review, agreement requirements, compliance verification, and corrective-action review"
       },
       {
         "no": 23,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Link due-diligence risks to relevant agreement provisions, and link verification results to the agreement, policy, or legal criterion tested and to any resulting corrective-action review"
       },
       {
         "no": 24,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Preserve the distinction between total loan compensation and intermediary compensation"
       },
       {
         "no": 25,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For any comparison to a maximum rate, points, or other charge, identify the documented limit, observed value, units, and comparison basis needed; do not supply numerical limits or calculate results"
       },
       {
         "no": 26,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Treat incentive assessments as requiring supporting evidence and judgment where no mechanical test is supported"
       },
       {
         "no": 27,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not convert listed corrective-action examples into automatic remedies"
       },
       {
         "no": 28,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Derive the exception-routing table from the data dictionary without introducing new inputs"
       },
       {
         "no": 29,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each proposed check, identify the applicability gate, required fields, conditional logic, accountable institution versus any authorized executor, and evidence needed to resolve the output"
       },
       {
         "no": 30,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Distinguish a documented deviation from an evidenced applicable standard, an indicator requiring review, and insufficient evidence, and allow overlapping flags where appropriate"
       },
       {
         "no": 31,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Treat missing evidence of an agreement or notice as insufficient evidence and not as proof that the agreement or notice does not exist"
       },
       {
         "no": 32,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Show how a common counterparty view can display both monitoring streams without combining their distinct obligations into one compliance verdict"
       },
       {
         "no": 33,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Limit the open-input list to only gaps that block the specified checks"
       },
       {
         "no": 34,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not report actual exceptions based on the guideline passages alone"
@@ -6103,203 +6103,203 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use only the supplied excerpts of § 240.10b-10 as sources."
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Produce a confirmation-process handoff checklist (proposed operating standard, not a compliance assessment or complete regulatory mapping)."
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Begin with an intake decision path that identifies the inputs needed to select applicable requirements."
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Provide a checklist mapping each branch to: required confirmation content, information to furnish upon a customer's written request, and the downstream team action."
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Include a supporting paragraph reference for each action."
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Include a proposed owner for each action."
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Leave transaction-specific inputs unpopulated."
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Indicate whether each obligation applies, is conditional, is relieved by an excerpted provision, or cannot be determined without a named input."
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Map transaction-identification fields separately from remuneration disclosures."
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For the remuneration exception, specify the qualifying condition, the exact disclosure element that may be deferred, and the confirmation on which it must later appear."
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Propose a linkage control tying the initiating transaction to the corresponding liquidating transaction so the deferred obligation is not lost."
       },
       {
         "no": 12,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Separate the confirmation notice that information is available upon written request from the information that must be furnished on request."
       },
       {
         "no": 13,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Preserve distinctions among the broker-dealer's capacities and the additional details required when acting as principal."
       },
       {
         "no": 14,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Keep payment-for-order-flow confirmation disclosures separate from the source-and-nature information furnished upon written request."
       },
       {
         "no": 15,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Apply the no-payment exception only within its stated scope."
       },
       {
         "no": 16,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Integrate the transitional provision into the same decision path and checklist (do not create a separate historical summary)."
       },
       {
         "no": 17,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Show how requirements differ before the stated cutoff and from that cutoff onward."
       },
       {
         "no": 18,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explain what customer service must do if a written request arrives during the transition when the corresponding confirmation notice was not required."
       },
       {
         "no": 19,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not extend transitional relief to clauses not named in the transitional provision."
       },
       {
         "no": 20,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not assume identical request-handling language for both transitional subparagraphs."
       },
       {
         "no": 21,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Add an exemption-claim escalation gate using paragraph (f)."
       },
       {
         "no": 22,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Identify which requirements paragraph (f) expressly refers to."
       },
       {
         "no": 23,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use paragraph (f)'s scope to assess whether it supports bypassing the security-futures checks mapped here."
       },
       {
         "no": 24,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Distinguish the Commission’s authority to grant an exemption from evidence that a specific exemption has been granted and its conditions are met."
       },
       {
         "no": 25,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not reconstruct the missing contents of paragraphs (a) and (b)."
       },
       {
         "no": 26,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Finish with a short readiness check identifying unresolved inputs that block branch selection and the evidence needed to resolve each."
       },
       {
         "no": 27,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Limit readiness-check gaps to this handoff’s fields and conditions."
       },
       {
         "no": 28,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Clearly label owner assignments, linkage controls, evidence requests, and escalation rules as operating recommendations, not source-mandated procedures."
       },
       {
         "no": 29,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not infer a general confirmation-delivery deadline, a written-request response deadline, or a retention period from these excerpts."
@@ -6327,210 +6327,210 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Create a prospective applicability-condition matrix for residential mortgage lending and board governance."
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Rely exclusively on the supplied Appendix C and Appendix D excerpts."
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Determine which standards can be reviewed together and what gates must be resolved; do not make findings about a specific institution."
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not assume every national bank or Federal savings association is a covered bank."
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For every material expectation, identify: appendix and paragraph; institution and activity or director population; triggering conditions; responsible party (if stated); expected practice; and qualifications."
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Express AND/OR relationships clearly."
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Retain the source’s “should” language."
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Distinguish each expectation’s conditional scope from evidence that an institution satisfies it."
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "In mortgage rows, distinguish the enhanced-care trigger from the broader consumer-information expectation and from standards for purchased or intermediary-originated loans."
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Show how consumer characteristics and referenced loan features interact."
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Connect the enhanced-care trigger to the line-of-business control and monitoring expectation."
       },
       {
         "no": 12,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For purchased and brokered loans, preserve the comparison to the institution’s direct-lending practices."
       },
       {
         "no": 13,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For purchased and brokered loans, preserve that the listed risk-mitigation measures are illustrative."
       },
       {
         "no": 14,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not reconstruct the missing loan-feature paragraph."
       },
       {
         "no": 15,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "In governance rows, separate each director’s independent-judgment expectation from the board-composition expectation."
       },
       {
         "no": 16,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Translate the board-composition provision into a director-qualification test and a board-level counting rule, retaining the minimum number, the different roles and entities covered by lookbacks, the conjunction of criteria, and the OCC demonstration condition."
       },
       {
         "no": 17,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Preserve the Federal savings association qualification without supplying contents of other regulatory requirements."
       },
       {
         "no": 18,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not infer eligibility from unavailable regulatory definitions or exchange listing standards."
       },
       {
         "no": 19,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not calculate a qualifying director count without director evidence."
       },
       {
         "no": 20,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Build a linked review-routing view for direct lending, purchased loans, and loans via a broker or intermediary."
       },
       {
         "no": 21,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Identify which mortgage expectations are relevant or conditional for each route, allowing overlapping triggers."
       },
       {
         "no": 22,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Show when Appendix D rows could be reviewed alongside mortgage rows, subject to their own scope and activity conditions."
       },
       {
         "no": 23,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explain which dependencies are supported by the excerpts versus proposed planning links."
       },
       {
         "no": 24,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not convert linkage into a mortgage-specific board duty."
       },
       {
         "no": 25,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not treat director independence as proof of mortgage compliance."
       },
       {
         "no": 26,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "End with a short review sequence from the matrix that identifies unresolved gates and checks that need not wait for unrelated gates."
       },
       {
         "no": 27,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Separate missing referenced source material from missing institution-specific facts."
       },
       {
         "no": 28,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each gap, identify the affected condition and propose only the evidence needed to resolve that condition."
       },
       {
         "no": 29,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Label the sequence and proposed records as analyst judgment, not additional source requirements."
       },
       {
         "no": 30,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Keep unknown applicability or satisfaction explicitly unresolved."
@@ -6558,126 +6558,126 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Prepare a Northbridge operations exceptions cash reconciliation brief for Northbridge Specialty Foods LLC as of 2026-06-24."
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Integrate the OPERATIONS RECONCILIATION AND EXCEPTION REPORT with the CLIENT INTAKE AND FINANCIAL PROFILE in the brief."
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Begin the brief with a one-sentence reconciliation status conclusion."
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Cover intake profile factors: ownership and control, authorized contacts, requested services, expected monthly inflows and outflows, and the stated liquidity floor."
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Separate verified intake attributes from profile fields that are missing or unverified."
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Present reconciliation results in a table with columns: Source, Amount, Comparison Basis, Result, and Classification."
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Keep narrative explanation outside the reconciliation results table."
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Using the operations report’s fields, classify each open exception and unresolved cash item into explicit categories (e.g., Matched, Unmatched, Cash Break, Missing Confirmation, Cannot Determine) and tie each classification to cited evidence and the intake profile’s constraints."
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Reconcile bank statement balance to internal ledger balance using the deposit in transit and the adjusted break."
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Show the reconciliation formula and all inputs."
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Verify whether the adjusted break equals the difference between the bank statement and the internal ledger after accounting for the deposit in transit."
       },
       {
         "no": 12,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Compare the internal ledger cash balance to the requested liquidity floor of $618,970.00, preserving the floor’s unit, population, and measurement basis."
       },
       {
         "no": 13,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Report whether the internal ledger balance is above, below, or equal to the floor, including the headroom or shortfall amount."
       },
       {
         "no": 14,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Cover control and governance elements: ownership of each unresolved cash item and open exception, attached support, prepared-by and reviewer sign-off, and any control gap or missing operating evidence."
       },
       {
         "no": 15,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Identify the approval or authorization evidence controlling the reconciliation, including reviewer sign-off by L. Grant and the review timestamp, and state whether any approval prerequisite remains open or pending."
       },
       {
         "no": 16,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "List evidence reviewed and records to retain in the reconciliation workpaper, including support for each open exception, the reconciliation sign-off, and the intake document checklist."
       },
       {
         "no": 17,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Identify any missing document needed to close the file (e.g., secondary contact authority evidence)."
       },
       {
         "no": 18,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Close with a 'Next action:' line tied to the highest-priority unresolved exception or missing evidence."
@@ -6705,105 +6705,105 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Prepare the brief for the covenant eCFR Part 30 Appendix A evidence segment and integrate provisions from the OCC Guidelines Establishing Heightened Standards for Certain Large Insured National Banks, Insured Federal Savings Associations, and Insured Federal Branches."
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Begin with a one-sentence statement of the primary compliance response posture."
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Present response options in a decision matrix with columns: Response Option, Governing Provision, Evidence Role, Threshold Test Result, Stress Scenario Result, Required Approval, and Escalation Trigger."
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use only the labels 'Pass', 'Fail', and 'Not Determinable' in any status field."
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use the exact label 'Next action:' exactly once."
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not use the terms 'approved', 'closed', or 'resolved' while the corresponding approval or resolution prerequisite remains unresolved."
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Cover the named topics: the risk appetite statement, concentration risk limits, front line unit risk limits, breach identification, severity-based distinction of breaches, breach resolution protocols, and the independent risk management communication obligations to the Chief Executive Officer and the board of directors or the board's risk committee."
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each response option, perform a threshold test using the guidelines’ limit-setting standard to determine whether the breach would occur before the covered bank's risk profile jeopardizes the adequacy of its earnings, liquidity, and capital, and state the comparison operator, unit, and measurement basis for that test."
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Separately apply a stress scenario analysis for the quantitative limits using the guidelines’ stress-testing processes to assess whether limits would still prompt management and the board of directors to reduce risk before earnings, capital, and liquidity are jeopardized under a downside case, and keep the stressed result separate from the base case."
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each response option, identify the required approval or authorization path: state which actor or body must approve or receive the response, including management and the board of directors for limit-setting actions and the Chief Executive Officer and the board of directors or the board's risk committee for breach reporting, and preserve any missing approval as an open condition."
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each response option, identify the escalation, reporting, or filing obligation triggered: state the protocol for informing the board of directors, front line unit management, independent risk management, internal audit, and the OCC of a risk limit breach, and the independent risk management communication obligations to the Chief Executive Officer and the board of directors or the board's risk committee, including the activating evidence for each trigger."
       },
       {
         "no": 12,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Preserve the exact source terms and references wherever they control the result, including 'risk appetite statement', 'concentration risk limits', 'front line unit risk limits', 'Chief Executive Officer', 'board of directors or the board's risk committee', and the paragraph references II.C.2.(e), II.C.2.(f), II.H.3., II.C.1., II.L., and II.M., without paraphrasing or relabeling them."
       },
       {
         "no": 13,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For every finding and response option, identify the supporting material and the exact figure, clause, or rule used, keeping source labels beside every threshold test, stress scenario result, approval path, and escalation trigger, with citations placed inline rather than only at the end."
       },
       {
         "no": 14,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Cover the governance and control provisions: the risk governance framework; concentration and front line unit risk limits; breach identification and severity-distinction processes; protocols for informing the board of directors, front line unit management, independent risk management, internal audit, and the OCC; the written breach resolution description requirement; and accountability and consequences for breaches based on magnitude, frequency, and recurrence."
       },
       {
         "no": 15,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Close with a 'Next action:' line tied to the highest-priority unresolved approval or escalation condition identified in the analysis."
@@ -6831,196 +6831,196 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use only the supplied borrower-information form excerpt as the source."
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Provide a conditional loan-application intake requirements brief for the lender intake team."
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Treat the work as a prospective application-to-policy mapping, not a case-level eligibility assessment."
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Assume no completed borrower responses or submitted attachments are available."
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Present a compact trigger-to-requirement matrix that includes: the activating response or condition, the covered people or entities, the information or documentation required, and any expressly stated eligibility consequence."
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Cite the opening instruction or the relevant question number for each source-derived requirement."
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Group questions with similar handling only where appropriate, while retaining distinctions that could change a response or follow-up request."
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Separate form-required information and documents from any verification evidence or operational handling recommended as analyst judgment."
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Apply the opening instruction for Yes answers in addition to question-specific instructions."
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Where requirements overlap, preserve required content and document labels without assuming duplicate attachments are necessary."
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Give particular attention to the ownership addendum in Question 3."
       },
       {
         "no": 12,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Give particular attention to the confirmation requirement and eligibility language in Question 4."
       },
       {
         "no": 13,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Give particular attention to routing through Questions 5, 5.a, and 5.b."
       },
       {
         "no": 14,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Distinguish export-related response fields from the attachment required specifically for an EWCP loan, including what happens on a No response to Question 5."
       },
       {
         "no": 15,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Address Question 6’s fee disclosure without converting it into a requirement to obtain or pay for services."
       },
       {
         "no": 16,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For Questions 1–2 and 7–11, distinguish disclosure triggers from eligibility consequences actually provided in the excerpt."
       },
       {
         "no": 17,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Preserve the applicable entity and person scopes throughout."
       },
       {
         "no": 18,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For Questions 8–11, keep covered roles, ownership cutoffs, timing, and grade conditions separate rather than combining them into a single relationship test."
       },
       {
         "no": 19,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use definitions printed in the excerpt where relevant, and do not supply missing definitions, restrictions, or approval procedures from cited regulations."
       },
       {
         "no": 20,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use the completed mapping to propose an excerpt-only intake handoff rule."
       },
       {
         "no": 21,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explain what would leave documentation readiness unresolved under that rule."
       },
       {
         "no": 22,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explain how an express eligibility consequence would affect handoff even if paperwork were complete."
       },
       {
         "no": 23,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explain where the excerpt does not support an eligibility conclusion."
       },
       {
         "no": 24,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Label the proposed handling as operational judgment, not an additional source requirement."
       },
       {
         "no": 25,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Keep documentation readiness separate from SBA eligibility or underwriting approval."
       },
       {
         "no": 26,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "End with targeted information requests needed to apply the rule to a real application."
       },
       {
         "no": 27,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Limit the gap check to the mapped response fields, confirmations, and triggered supporting documents."
       },
       {
         "no": 28,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "State that current borrower status is unknown and do not treat the blank excerpt as proof of missing submissions, a Yes/No answer, or a deficiency."
@@ -7048,91 +7048,91 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use the OPERATIONS BREAK CASE RECORD as controlling evidence for open break findings."
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use the TRANSACTION DESK SNAPSHOT as controlling evidence for the proposed facility, projections, and uncleared items."
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Section 1: List exactly two numbered exception findings, ordered by absolute amount at risk descending: TRD-26-402 missing confirmation for $560,000.00 (backup not received) and EX-26-401 cash break for $20,000.00 (backup received)."
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each finding, state the affected population, financial exposure, operational impact, and evidence limitation, clearly separating quantified exposure from unquantified consequences."
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Section 2: Calculate the unresolved cash variance as $2,085,000.00 (external cash) minus $2,035,000.00 (recorded cash) minus $30,000.00 (documented timing item), showing each input and its source."
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Section 2: Compute break-case EBITDA compression from base projections (FY2026 revenue $49,593,600.00 and EBITDA $4,290,700.00; FY2027 revenue $52,808,000.00 and EBITDA $4,651,600.00; FY2028 revenue $56,022,400.00 and EBITDA $5,012,500.00) by applying a 15.00% revenue reduction and 3.50 percentage points of margin compression, without providing the final result."
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Section 3: Compare base vs. break-case on revenue, EBITDA, and margin compression, labeling each comparison as above, below, or roughly in line with its benchmark."
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Section 3: Compare the two open break amounts at risk using the same period and unit, labeling each as above, below, or roughly in line."
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Section 4: Address every open break in the operations record and every uncleared item in the transaction snapshot, including confirming payoff amount for existing senior debt, validating latest accounts-receivable aging against the general ledger, the 43-day fuel surcharge recovery lag in Q4 2025, and obtaining evidence for any sponsor support; distinguish confirmed deficiencies from items merely missing evidence."
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Section 5: Classify each open break and each uncleared item as Confirmed, Unresolved, or Pending Evidence, treating TRD-26-402 pending confirmation and unverified sponsor support as Unresolved gaps."
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Section 6: Identify the approval state for the operations record; because the reviewer is not assigned and approval time is pending, treat authorization as an open condition that cannot be represented as approved or released."
       },
       {
         "no": 12,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use only the status labels Confirmed, Unresolved, Pending Evidence, and Not Determinable for exceptions and approval states; do not use the terms approved, cleared, or reconciled while prerequisites remain open."
       },
       {
         "no": 13,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Format every monetary amount in U.S. dollars to two decimal places and every percentage to two decimal places."
@@ -7160,224 +7160,224 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Base the brief solely on the supplied extracts of SBA Form 1919 and Form 1920; do not use outside sources."
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Retain and cite the forms’ revision dates."
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not assume the extracts state current program requirements or reproduce referenced regulations/SOPs."
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Provide a loan-structure restrictions brief that supports prospective structuring and diligence, not borrower approval or rejection."
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Produce an integrated screening matrix mapping Form 1919 page 1 intake fields to restrictions on Form 1920 page 3 and Form 1919 page 6."
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Limit the mapping focus to applicant/operating-company identity, ownership and special ownership, proposed loan purposes and amounts, and project location."
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For every restriction, identify the relevant intake field, any additional fact needed to test applicability, the conditional rule and its consequence, and the supporting form page/section or notice."
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Classify each mapped provision by effect type: information requirement, eligibility restriction, conditional structuring or continuing obligation, and project-risk caution; allow multiple effects for one provision."
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Treat unanswered intake fields as Unknown, not as negative responses or confirmed failures."
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "State inapplicability only conditionally unless supported by actual evidence."
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Analyze ordinary operating-company, EPC/OC, ROBS-funded equity, and qualified-employee-trust/ESOP as potentially overlapping structures, not mutually exclusive."
       },
       {
         "no": 12,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Reconcile Form 1919 ownership-disclosure coverage with Form 1920 required-guarantor tests, including spousal aggregation, both EPC and OC entities, and stated exclusions."
       },
       {
         "no": 13,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Keep guarantor tests separate from the ESOP control threshold."
       },
       {
         "no": 14,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explain what additional ownership information is needed before preparing a guarantor schedule, without inventing the definition of Beneficial Owners."
       },
       {
         "no": 15,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For ROBS and ESOP structures, preserve distinct triggers, compliance conditions, financing-purpose and proceeds alternatives, control timing, and repayment-support/collateral conditions."
       },
       {
         "no": 16,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not infer compliance or a guarantor exemption merely from selecting a special-ownership checkbox."
       },
       {
         "no": 17,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Apply general-eligibility and credit-elsewhere gates as constraints to every potentially applicable structure, preserving the stated EPC exception."
       },
       {
         "no": 18,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Identify lender determinations, credit-memo content, and supporting documentation expressly called for by the excerpts."
       },
       {
         "no": 19,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Where a No answer would render a request ineligible under the excerpts, distinguish that conditional consequence from the absence of an answer."
       },
       {
         "no": 20,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For Form 1919 page 6, limit analysis to prior SBA default and loss reimbursement, flood insurance, floodplain/wetland project risk, and environmental stipulations."
       },
       {
         "no": 21,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Connect page 6 topics to the intake mapping rather than providing a standalone legal-notice summary."
       },
       {
         "no": 22,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Preserve each trigger and consequence, distinguishing loan-origination obligations from continuing obligations."
       },
       {
         "no": 23,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not treat a real-estate purpose or a project address as proof of a designated floodplain."
       },
       {
         "no": 24,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not convert discouragement language into a categorical prohibition."
       },
       {
         "no": 25,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not automatically apply any direct-funds threshold to an SBA-guaranteed loan."
       },
       {
         "no": 26,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "State which necessary trigger facts are not collected in the Form 1919 page 1 fields."
       },
       {
         "no": 27,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use the completed mapping to recommend conditional structure directions and a targeted information/document request."
       },
       {
         "no": 28,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explain which responses could change the guarantor package, permitted proceeds/control arrangement, insurance or environmental conditions, or ability to proceed under the eligibility gates."
       },
       {
         "no": 29,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Separate expressly requested documents from analyst-proposed verification evidence."
       },
       {
         "no": 30,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Identify referenced-rule questions that the excerpts cannot resolve."
       },
       {
         "no": 31,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Describe gaps only within this screening scope and as information not supplied here, not as confirmed omissions from a borrower submission."
       },
       {
         "no": 32,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "End with the next diligence step you would prioritize, explaining that it is analyst judgment tied to the identified restrictions and not an SBA-prescribed sequence."
@@ -7405,126 +7405,126 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Prepare a regulatory threshold condition brief focused on the OCC’s obligations and enforcement options under 12 CFR Part 30 Appendix A."
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use only the supplied rule text as source material."
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Mark any condition that cannot be established from the provided materials as 'Not Determinable'."
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Organize the brief into four sections in this exact order: 'Governing Framework', 'Threshold Conditions and Time Windows', 'Deficiency and Escalation Analysis', 'Open Evidentiary Gaps'."
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Limit the brief to between 350 and 500 whitespace-separated words."
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "In the 'Threshold Conditions and Time Windows' section, present a threshold condition table with columns exactly titled: 'Threshold Condition', 'Source Provision', 'Triggering Facts Required', 'Timing Consequence', 'Escalation Result'."
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Order the threshold table rows from the earliest procedural stage to the latest enforcement stage."
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each time window in the table, state the triggering event, the applicable period, and the timing consequence."
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Include and show the '30 days' period from receipt of a safety and soundness compliance plan under § 30.4(c) and the OCC’s authority to extend that period."
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Include and show the '24-month period' and '18-month period' lookbacks for the section 39(e)(3) conditions under § 30.4(d)(1)."
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For § 30.5(e), state that failure to file a written response within the specified time period constitutes a waiver of the opportunity to respond and consent to the issuance of the order."
       },
       {
         "no": 12,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For every entry in the threshold table, map the threshold condition and escalation path to the exact source provision establishing it, citing the specific subsection and statutory cross-reference."
       },
       {
         "no": 13,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Preserve the exact statutory citations, defined terms, time periods, and procedural labels as they appear in the source text, including 'section 39(e)(2)(B)', 'section 39(e)(3)', 'section 8(i)(1) of the FDI Act, 12 U.S.C. 1818(i)(1)', 'section 8(i)(2)(A) of the FDI Act, 12 U.S.C. 1818(i)(2)(A)', '30 days', '24-month period', and '18-month period'."
       },
       {
         "no": 14,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "In 'Deficiency and Escalation Analysis', classify each deficiency trigger as a confirmed breach, a potential gap needing additional facts, or 'Not Determinable' from the supplied materials."
       },
       {
         "no": 15,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Preserve the distinction among: failure to submit an acceptable plan; failure to implement a plan in any material respect; failure to file a written response to a proposed order."
       },
       {
         "no": 16,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each confirmed deficiency trigger, state the required escalation or reporting path, including: the OCC’s obligation to issue a corrective order under section 39(e)(2)(B); the waiver and consent consequence for failure to file a response; and judicial and civil money penalty enforcement options under 12 U.S.C. 1818(i)(1) and 1818(i)(2)(A)."
       },
       {
         "no": 17,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each threshold condition, connect the triggering evidence, the governing rule provision, and the resulting action into a single traceable chain rather than as disconnected elements."
       },
       {
         "no": 18,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Cover all named topics: plan review and approval timing; failure to submit or implement a compliance plan; failure to file a response to a proposed order; request for modification or rescission; judicial remedies; civil money penalties; and other enforcement action."
@@ -7552,105 +7552,105 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Prepare the brief for THE BOEING COMPANY."
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use only the supplied annual balance sheet and cash flow materials for fiscal years ending 2021-12-31 through 2025-12-31."
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Preserve all reported amounts, signs, fiscal year-end dates, concept labels, and units exactly as shown, keeping negative values unaltered."
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not round any source value before completing a calculation or comparison."
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Apply the fiscal year-end dates 2021-12-31 through 2025-12-31 consistently to every balance sheet and cash flow figure."
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explicitly state that all comparisons are aligned to the same annual reporting endpoints."
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each fiscal year 2021–2025, calculate Assets minus Liabilities minus StockholdersEquity using reported annual balance sheet figures and present the residual in USD."
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each fiscal year 2021–2025, verify NetCashProvidedByUsedInOperatingActivities by checking that the sign and magnitude in the cash flow material are internally consistent with the disclosed concept label and reporting year."
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each fiscal year 2021–2025, state whether NetCashProvidedByUsedInOperatingActivities ties out or has an unexplained variance."
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For every reported figure, calculation, and cross-statement observation, identify the source material, statement type, concept label, and fiscal year, and keep the source label beside each numeric input and result."
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Label any requested figure or comparison that cannot be established from the supplied materials as Not Determinable, without estimating or importing outside data."
       },
       {
         "no": 12,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use a neutral, evidence-bound tone."
       },
       {
         "no": 13,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Define each statement concept on first use."
       },
       {
         "no": 14,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not editorialize on the company's condition."
       },
       {
         "no": 15,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Close with a Next action line stating the single most material unresolved reporting observation from the five-year comparison and the specific figure requiring follow-up."
@@ -7678,224 +7678,224 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use only the supplied intake profile, credit request, and operations report as sources."
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Base operational status on 2026-06-24 and keep the intake record date separate from later preparation/review timestamps."
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not assign unstated effective dates to credit figures."
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not treat the collateral appraisal date as the as-of date for all balances."
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Build a source-labeled tie-out focused on cash, receivables, and debt/refinancing."
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Distinguish numerical agreement from substantive reconciliation; repeated amounts do not prove a common measurement date or control completion."
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Receivables: compute the difference between intake receivables balance and the credit request’s eligible receivables."
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Receivables: explain the difference in measurement scope."
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Receivables: assess what remains unverified."
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Debt: test the arithmetic linking intake senior debt, the requested facility, the credit request’s stated full-draw debt, and FY2025 leverage."
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Debt: explain why any arithmetic agreement does or does not resolve treatment of debt being refinanced."
       },
       {
         "no": 12,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Debt: keep requested and pro forma amounts separate from approved, funded, or paid-off balances; do not infer the latter."
       },
       {
         "no": 13,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Cash: reperform the reconciliation showing the unadjusted bank-versus-ledger difference and how the reported deposit in transit is used algebraically to reproduce the stated adjusted break."
       },
       {
         "no": 14,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Cash: distinguish an arithmetic fit from evidence that the deposit belongs on the assumed side; do not infer posting errors or fee treatment from reference names alone."
       },
       {
         "no": 15,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Cash: calculate headroom over the intake’s requested liquidity floor using recorded ledger cash."
       },
       {
         "no": 16,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Cash: use reconciliation findings to explain limitations of the headroom measure, including whether cleared or corrected cash can be determined."
       },
       {
         "no": 17,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Cash: treat the liquidity floor as a client request, not a covenant."
       },
       {
         "no": 18,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Cash: leave unsupported adjustments conditional; do not manufacture a corrected balance."
       },
       {
         "no": 19,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Create a follow-up register covering unresolved cash items, both operational exceptions, and receivables, debt-payoff, and contact-authority gaps relevant to this review."
       },
       {
         "no": 20,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For every follow-up entry, identify the amount, what it represents, recorded status, relevant source dates or reported age, recorded owner if available, supporting reference, and the next action or evidence needed."
       },
       {
         "no": 21,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Evaluate possible links between cash items and exception entries, and between the missing-confirmation exception and trade activity; state the basis and certainty of each link; do not treat matching amounts as conclusive identification."
       },
       {
         "no": 22,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Keep cash-item ages distinct from exception opening dates."
       },
       {
         "no": 23,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Avoid double-counting candidate duplicate cash entries."
       },
       {
         "no": 24,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not combine trade notional under documentation review with cash discrepancies as though both were cash losses."
       },
       {
         "no": 25,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Separate evidence explicitly requested in the credit record from documents merely listed as received or attached and from additional evidence you recommend."
       },
       {
         "no": 26,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Assess whether a settled trade status, an attachment indicator, or a reviewer timestamp establishes resolution; do not infer approval or closure."
       },
       {
         "no": 27,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Where evidence is insufficient, state what cannot be determined and give a specific resolution prerequisite for the named item (not a general document list)."
       },
       {
         "no": 28,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Provide a sequenced follow-up plan driven by the reconciliation and exception findings."
       },
       {
         "no": 29,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Preserve recorded internal owners and label any proposed assignments or priorities as analyst judgment."
       },
       {
         "no": 30,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Route borrower follow-up using the intake’s authority and verification information; do not elevate a finance-only contact to a signer."
       },
       {
         "no": 31,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "State which conclusions are currently supportable and which remain conditional, and what evidence would be needed to assert resolution of each material open item."
       },
       {
         "no": 32,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Cite the relevant record and row or passage for material figures and conclusions, and show the operands used in calculations."
@@ -7923,203 +7923,203 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use only the supplied annual income-statement and cash-flow extracts."
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Prepare a brief comparing profitability, liquidity evidence, and cash generation."
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Focus on FY 2025 vs FY 2024, with FY 2023 as the benchmark."
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use compact exhibits followed by an analytical conclusion."
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Present monetary amounts in USD millions, preserve signs, and compute from unrounded inputs."
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Show percentages and percentage-point changes to one decimal place."
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each input, identify the supplying statement, reported concept, and fiscal period end (source legend allowed)."
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Clearly distinguish reported amounts from analyst calculations."
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Show for all three years: revenue, gross profit, operating income/loss, net income/loss, operating cash flow, and payments to acquire property, plant and equipment."
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Calculate gross, operating, and net margins using Revenues as the denominator."
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Compute a free-cash-flow proxy as operating cash flow minus payments to acquire property, plant and equipment, and label it as an analyst proxy, not a reported measure."
       },
       {
         "no": 12,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Compute the earnings-to-cash gap as operating cash flow minus net income (signed)."
       },
       {
         "no": 13,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Quantify 2025 vs 2024 revenue growth rate."
       },
       {
         "no": 14,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Quantify 2025 vs 2024 changes in each margin in percentage points."
       },
       {
         "no": 15,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Quantify 2025 vs 2024 dollar changes in net income, operating cash flow, and the free-cash-flow proxy."
       },
       {
         "no": 16,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "When the comparison base is negative for those earnings and cash measures, use dollar changes rather than percentage growth rates."
       },
       {
         "no": 17,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Compare 2025 margins, operating cash flow, and the free-cash-flow proxy with 2023, explicitly stating above, equal to, or below the benchmark."
       },
       {
         "no": 18,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use the calculated results and earnings-to-cash gaps to assess consistency between profitability and cash generation; do not infer working-capital movements, noncash charges, or recurring earnings quality from the selected lines alone."
       },
       {
         "no": 19,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Liquidity Test 1: classify operating cash flow as covering PP&E payments when the free-cash-flow proxy is nonnegative, and not covering them when it is negative."
       },
       {
         "no": 20,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Liquidity Test 2: calculate operating plus investing cash flow, and also the sum of operating, investing, and financing cash-flow activity totals for each year."
       },
       {
         "no": 21,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explain how the reported financing inflow or outflow changes the pre-financing balance in Test 2."
       },
       {
         "no": 22,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Keep Test 2 separate from the capital-spending coverage test: do not deduct PP&E payments again from the activity totals."
       },
       {
         "no": 23,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not infer specific financing or investing transactions from activity totals."
       },
       {
         "no": 24,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not describe the three-activity sum as the fully reconciled change in cash."
       },
       {
         "no": 25,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Conclude which dimensions strengthened or weakened year over year and which remain above or below 2023, grounding the funding assessment in the preceding calculations."
       },
       {
         "no": 26,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Separately state whether closing cash resources and the current ratio can be determined."
       },
       {
         "no": 27,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "If required inputs are missing, mark the result not determinable and identify the specific missing balances."
       },
       {
         "no": 28,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not substitute annual cash flows for balance-sheet liquidity."
       },
       {
         "no": 29,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not present a flow-based improvement as proof of adequate liquidity."
@@ -8147,147 +8147,147 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Provide a prospective risk‑disclosure evidence specification brief based on the supplied presentation provisions; do not render compliance findings."
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Limit scope to presentation issues only; do not assess substantive risk‑factor completeness or import other securities‑law requirements."
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Acknowledge that only excerpts are available and no issuer draft, rendered pages, or supporting chart data; design tests accordingly."
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Organize explanatory drafting/terminology, headings and visual hierarchy, glossary use, and graphics into a practical review matrix."
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For every test, identify a short source anchor, its scope, the force of the source wording, the evidence to request, and the acceptance condition."
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Distinguish express duties and prohibitions from permissions, encouragement, and advice."
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Preserve stated qualifications, including conditional glossary use and circumstances tied to drafting recommendations."
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Keep the presentation provision, its Note, the whole‑prospectus design summary, and the typography guidance distinct and identifiable as separate sources."
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Label proposed review artifacts as analyst‑selected evidence unless the excerpts expressly require them."
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Integrate alignment and typeface guidance into evidence requests to support readability and hierarchy checks."
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explain how alignment/typeface inspections support clear, understandable, and non‑misleading presentation without treating deviations from typography advice as automatic failures."
       },
       {
         "no": 12,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Preserve the qualifications and exclusions contained in the typeface guidance."
       },
       {
         "no": 13,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Enable reviewers to distinguish advisory design concerns from potential issues under express presentation duties and state what further evidence would be needed to establish the latter."
       },
       {
         "no": 14,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Make graphic‑related checks conditional on the presence of the relevant visual elements."
       },
       {
         "no": 15,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Differentiate not using an optional/encouraged visual from failing a requirement that applies to a visual that is used."
       },
       {
         "no": 16,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Specify how rendered charts/graphs and their underlying data would support scale and misleading‑presentation checks without inventing numerical tolerances or performing calculations from absent values."
       },
       {
         "no": 17,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Define review dispositions using source classifications and evidence dependencies: what could support acceptance, what would require correction if demonstrated, what remains undetermined pending evidence, and what is advisory only."
       },
       {
         "no": 18,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Separate missing evidence from proven failure in the dispositions."
       },
       {
         "no": 19,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Bound evidence gaps to the tests in this brief."
       },
       {
         "no": 20,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Distinguish checks possible on risk‑disclosure pages from those requiring other prospectus sections or the complete rendered document, including checks for unhelpful repetition."
       },
       {
         "no": 21,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Conclude with a conditional readiness gate that identifies the evidence needed for a risk‑disclosure presentation conclusion and states the limits of any conclusion about the prospectus as a whole."
@@ -8315,168 +8315,168 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use only SBA Form 1919 (02/2025) page 3 and SBA Form 1920 (Revised 09/20) page 5 as sources."
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Prepare a conditional intake requirements brief for 7(a) business acquisitions and ownership changes, including complete partner buyouts."
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Limit the review to Form 1919’s special partner-buyout certification and acknowledgment of lender confirmation of the eligible loan amount, and to Sections O and P of Form 1920."
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not present this as a complete program-eligibility review."
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not treat blank pages as evidence of borrower answers, attachments, or approval."
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Build one integrated decision-and-evidence crosswalk linking future application information to borrower certifications and lender checks."
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each check, identify the facts needed to determine applicability, the condition to test, the resulting follow-up, and the supporting form passage."
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Distinguish items expressly requested by the excerpts (information, certifications, documents) from verification evidence that is analyst-recommended."
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "When a source references required documents without identifying them, preserve that lack of identification."
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Include the conditional broker-information request and loan-type-specific checks contained in Section O."
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Make consequences operationally clear by distinguishing: expressly stated ineligibility, restrictions on delegated processing, added certification/document obligations, and unresolved applicability/evidence questions; allow overlaps where applicable."
       },
       {
         "no": 12,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not treat a blank answer as a failed test."
       },
       {
         "no": 13,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not present passing the visible checks as establishing overall eligibility."
       },
       {
         "no": 14,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Show the quantitative screening logic symbolically; identify inputs and preserve all thresholds, conjunctions, and time conditions for triggering the special partner-buyout certification."
       },
       {
         "no": 15,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Separately reconstruct Section P’s financing and intangible-assets calculations and its visible internal-valuation condition."
       },
       {
         "no": 16,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Keep distinct: requested 7(a) loan amount, proceeds financing the buyout, total financing from all sources, appraised asset values, and business valuation."
       },
       {
         "no": 17,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explain how the valuation evidence informs Section O’s comparison of ownership-change proceeds with business value; do not treat selection of a valuation method as satisfying that comparison or as establishing the eligible SBA loan amount."
       },
       {
         "no": 18,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Address evidence boundaries: note that Section P ends at an incomplete alternative, referenced SOP/regulations are not supplied, and the forms have different revision dates."
       },
       {
         "no": 19,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not reconstruct the missing valuation alternative."
       },
       {
         "no": 20,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not import external requirements."
       },
       {
         "no": 21,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not assume either form silently updates the other."
       },
       {
         "no": 22,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Identify which conclusions remain conditional due to the evidence boundaries and version differences."
       },
       {
         "no": 23,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Finish with a practical follow-up sequence: first the questions to select applicable branches; then the responses, certifications, and valuation evidence needed if those branches apply; and finally the unresolved source/version questions to validate before live use."
       },
       {
         "no": 24,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Label any proposed verification steps as recommendations, not source-mandated requirements."
@@ -8504,91 +8504,91 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use only the supplied § 240.10b-10 text; do not add external interpretation, market practice, or remembered facts"
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Label any condition that cannot be resolved from the supplied text as 'Not Determinable'"
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Cover these topics: full source-and-amount disclosure for other remuneration; the conditional abbreviated disclosure exception; the purchase-side distribution participation condition; the sale-side tender offer participation condition"
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For purchases: if the broker was 'not participating in a distribution', apply the conditional abbreviated disclosure outcome; otherwise apply the full source-and-amount disclosure outcome"
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For sales: if the broker was 'not participating in a tender offer', apply the conditional abbreviated disclosure outcome; otherwise apply the full source-and-amount disclosure outcome"
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Preserve the exact phrases: 'the source and amount of any other remuneration', 'not participating in a distribution', 'not participating in a tender offer', and 'the fact that the source and amount of such other remuneration will be furnished upon written request of such customer'"
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "State explicitly that the supplied material is current rule text under § 240.10b-10, not staff guidance, a proposal, or a non-binding illustration"
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Frame disclosure outcomes as rule-based obligations"
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For every branch and condition, identify the exact supporting rule clause from § 240.10b-10, keeping the source label beside each trigger and each outcome"
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Present exactly two conditional disclosure branches, ordered first by the purchase-side condition and second by the sale-side condition"
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Keep the entire brief between 180 and 240 whitespace-separated words"
       },
       {
         "no": 12,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use a two-row table with columns 'Condition', 'Disclosure Outcome', and 'Rule Clause', with one row per branch"
       },
       {
         "no": 13,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Classify each branch as 'Full Remuneration Disclosure' or 'Conditional Abbreviated Disclosure' using only the participation conditions in the rule text"
@@ -8616,161 +8616,161 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Rely solely on the supplied CFPB excerpts; do not use outside sources."
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Provide defensible language for an executive presentation on 2022–2023 expansion, including whether evidence supports broader consumer adoption or deeper usage."
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "First define the evidence boundary: describe the product as qualified in the Introduction, identify the provider sample and calendar periods, and distinguish sampled-firm findings from overall market estimates."
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not assume every product marketed as BNPL is covered by the report’s scope."
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Build a compact quantitative table that estimates the combined lender-reported consumer total for 2022 by reversing the stated growth to 2023."
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Index loan count, inflation-adjusted originated dollars, and the combined reported-consumer total to 2022 = 100."
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "From those indices, calculate percentage changes in average real originated dollars per loan and in loans per unit of the combined reported-consumer count."
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Show formulas and units for all table calculations."
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Label all calculations as analyst-derived approximations because published inputs are rounded."
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Keep dollar measures on an inflation-adjusted (real) basis."
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not invent absolute loan counts, dollar volumes, or earlier growth rates from references to missing tables."
       },
       {
         "no": 12,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Reconcile the Introduction’s 21% usage statistic with the Key Findings consumer total before attempting any common penetration estimate or implied population size."
       },
       {
         "no": 13,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each of those measures, identify population, denominator or counting basis, study attribution, and available timing."
       },
       {
         "no": 14,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Keep publication dates separate from observation periods and mark any missing timing as unknown."
       },
       {
         "no": 15,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explain how possible cross-lender duplication affects interpretation of the consumer total and the loans-per-reported-consumer metric."
       },
       {
         "no": 16,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "If the two statistics are not demonstrably comparable, do not compute a combined estimate and explain why."
       },
       {
         "no": 17,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Clearly distinguish: directly reported findings, analyst-derived aggregate results, and what is not established regarding activity growth, average real loan size, unique-consumer adoption, and increased borrowing by the same individuals."
       },
       {
         "no": 18,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Preserve the report’s qualitative statement about slower growth without treating it as an independently verified deceleration calculation."
       },
       {
         "no": 19,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not infer borrower-level behavior or causality from aggregate ratios."
       },
       {
         "no": 20,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Support material figures and judgments only with references to the relevant supplied section or footnote; do not treat linked studies or referenced tables as evidence beyond what the excerpts disclose."
       },
       {
         "no": 21,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Conclude with proposed executive-slide wording that reflects the distinctions among evidence types and certainty levels."
       },
       {
         "no": 22,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For unresolved conclusions about unique reach or individual usage, recommend targeted additional data and explain which conclusion each item would test."
       },
       {
         "no": 23,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Present data requests as analyst recommendations, not CFPB reporting requirements."
@@ -8798,175 +8798,175 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use only the supplied CFPB excerpts as factual evidence."
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Provide recommendations on what can be specified now, what must remain open, and whether to advance design work, consider a conditional pilot, or defer, and keep these distinct from a launch-ready conclusion."
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Permit an undetermined conclusion on credit risk or profitability."
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Anchor proposed repayment format, interest treatment, and purchase purpose in the introduction’s description of typical BNPL without treating it as mandated or optimal."
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Separate 2022–2023 findings from the longer data-collection period and identify the relevant provider sample."
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Calculate the implied 2022–2023 percentage change in inflation-adjusted origination dollars per loan."
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Calculate the implied 2022–2023 percentage change in loans per summed firm-level annual unique-user count."
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Show the ratio calculations used for these measures."
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Treat results derived from reported growth percentages as approximate."
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explain what each measure can inform for product planning and what it cannot establish about individual borrowers."
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Assess whether the reported user total and the sample’s estimated share of the point-of-sale financing market support estimating total unique pay-in-four users, and do not extrapolate if the population or denominator is incompatible."
       },
       {
         "no": 12,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Exclude the introduction’s consumer-prevalence research from these calculations."
       },
       {
         "no": 13,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Provide a structuring table covering repayment format and interest, initial loan limits, underwriting, late-fee treatment, and launch economics."
       },
       {
         "no": 14,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Within each table area, distinguish source-grounded observations, provisional analyst recommendations, and unresolved parameters."
       },
       {
         "no": 15,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explicitly assess whether the growth calculations justify larger initial limits or relaxed underwriting, avoiding assumptions that market expansion implies repayment capacity."
       },
       {
         "no": 16,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Leave unsupported numerical limits, payment spacing, fee amounts, and risk tolerances unspecified."
       },
       {
         "no": 17,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Build an approval-gate plan based on the unresolved structuring decisions."
       },
       {
         "no": 18,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For late fees and charge-offs, distinguish fields the CFPB reports collecting from numerical results actually available in these excerpts, and do not treat headings or listed fields as findings."
       },
       {
         "no": 19,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Map each material gap to the decision it blocks, the evidence proposed to obtain, and how that evidence would inform the decision."
       },
       {
         "no": 20,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Separate missing values for aggregate fields from proposed borrower-level, cohort, or economic evidence."
       },
       {
         "no": 21,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Label evidence requests as analyst recommendations rather than CFPB requirements."
       },
       {
         "no": 22,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "End with a committee recommendation that follows from the growth analysis and approval gates."
       },
       {
         "no": 23,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explain what can proceed before gaps are closed and what cannot be approved on credit-risk or economic grounds."
       },
       {
         "no": 24,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Cite the relevant section or identifiable source passage for material factual claims."
       },
       {
         "no": 25,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not infer borrower-level behavior, causality, actual loss performance, or profitability from aggregate growth."
@@ -8994,196 +8994,196 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Produce a compliance review evidence specification brief framed as a review design, not as findings or incidents."
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Base all content solely on the supplied Part 30 Appendix B and Appendix D excerpts."
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Integrate information-security evidence requirements with separate heightened-standards applicability and timing checks."
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Begin with a conditional applicability and timing map."
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Keep Appendix B’s institutional scope separate from Appendix D’s use of “covered bank.”"
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Translate Appendix D paragraph (e) into a test that preserves the historical scope condition, the asset threshold and comparison operator, the reference to the average calculation, the Call Report date anchor, and the compliance interval."
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explain how each reserved OCC authority could affect scope or timing, retaining the conditions and qualifications attached to that authority."
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Preserve the distinction between “shall,” “should,” and discretionary authority."
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not reconstruct the missing paragraph I.A calculation method or the definition of “covered bank.”"
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not calculate an actual average or a calendar deadline."
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not infer an OCC determination."
       },
       {
         "no": 12,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Identify which conclusions must remain conditional or unknown."
       },
       {
         "no": 13,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use the applicability and timing map to build an integrated evidence schedule."
       },
       {
         "no": 14,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For Appendix B, cover: the written program and safeguard appropriateness; coordination without requiring uniform policies; stated program objectives; board or appropriate committee approval and oversight; implementation responsibility; and the actually supplied threat-identification step."
       },
       {
         "no": 15,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Preserve distinct references to customer information, consumer information, and customer information systems, including qualifications attached to the objectives."
       },
       {
         "no": 16,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not expand the excerpt into a complete risk-assessment or incident-response standard."
       },
       {
         "no": 17,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For every review topic, provide a traceable Appendix and visible heading or paragraph reference, the source-stated responsibility where given, the evidence to request, and a proposed verification test."
       },
       {
         "no": 18,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Distinguish documents expressly required by the excerpt from those merely referenced as oversight or calculation inputs and from additional reviewer-recommended evidence."
       },
       {
         "no": 19,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each proposed test, explain what evidence would support a limited design or implementation conclusion and what missing evidence would prevent that conclusion."
       },
       {
         "no": 20,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Label test designs and additional evidence requests as reviewer judgment, not new regulatory requirements, and note that unavailable evidence in this planning exercise is not itself a control failure."
       },
       {
         "no": 21,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For Appendix D branches, connect evidence requests to the specific scope or timing decision they would resolve, including any relevant OCC action."
       },
       {
         "no": 22,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "State how each possible result would change the review plan."
       },
       {
         "no": 23,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Distinguish an unresolved bank-specific input from missing source text."
       },
       {
         "no": 24,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Identify that the excerpt provides applicability, timing, and reserved-authority provisions rather than the substantive heightened standards before proposing any conclusion about Appendix D compliance as a whole."
       },
       {
         "no": 25,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Finish with a cross-section analysis of institutional size, complexity, and operational scope."
       },
       {
         "no": 26,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Identify profile evidence informing both Appendix B safeguard tailoring and Appendix D scope inquiries, and explain why shared evidence does not make the tests interchangeable or substitute for an OCC determination."
       },
       {
         "no": 27,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explain whether an Appendix D extension, modification, below-threshold application, or cessation determination provides any basis in these excerpts to change Appendix B evidence requests."
       },
       {
         "no": 28,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "End with next steps tied to unresolved applicability and timing branches, separating requests that can proceed under Appendix B from conditional Appendix D requests and questions requiring missing source provisions."
@@ -9211,217 +9211,217 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Base the work solely on the supplied extracts."
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Prepare a traceability matrix linking prospectus presentation/design provisions to the handbook’s layout and graphics guidance."
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Frame the output as prospective policy design, not an assessment of an issuer’s compliance."
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Maintain a prospectus-wide scope; do not imply provisions apply only to risk disclosures."
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For every policy control, include: source locator and brief quotation; applicability and conditions; the source’s expressed force; a proposed review test; proposed evidence; and links to related provisions."
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Distinguish the quoted presentation provision and its Note from the handbook’s design summary and practical guidance."
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Classify operative language as requirement/prohibition, permission, or encouragement/advice, and split passages where clauses have different force or conditions."
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Label all review tests and evidence requests as analyst proposals, not source-mandated procedures or records."
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Cover the clear, concise, and understandable presentation duty and its supporting standards, including conditional treatment of short explanatory sentences, bullet lists, and glossaries."
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Connect relevant Note guidance to the controls it supports without converting it into additional unconditional mandates."
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Trace permissions/encouragements to use design elements separately from restrictions on graphs, charts, and misleading design."
       },
       {
         "no": 12,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Map layout and graphics recommendations to broader presentation controls they could help implement, citing both sides of each connection; following a recommendation must not automatically establish compliance with the broader provision."
       },
       {
         "no": 13,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Keep general line-length and column-width recommendations distinct, retaining their character units and relationship to type size."
       },
       {
         "no": 14,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Preserve conditions on graphic placement, pie-chart suitability, and graphic typography, including the distinction between short labels in small type and longer explanatory text."
       },
       {
         "no": 15,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Retain relevant cross-references."
       },
       {
         "no": 16,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not reconstruct earlier typography guidance that is not supplied."
       },
       {
         "no": 17,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Tie any unresolved source gap to a named matrix field or review test, not to a generalized securities-law checklist."
       },
       {
         "no": 18,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use the supplied ‘1994 Foreign Markets’ figures only as an illustrative application of the matrix."
       },
       {
         "no": 19,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Recommend a table or a graphic as analyst judgment."
       },
       {
         "no": 20,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explain whether a pie chart is suitable under the supplied guidance."
       },
       {
         "no": 21,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Identify the matrix controls activated by the recommended format."
       },
       {
         "no": 22,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Show how applicable checks would differ between a table and a graph or chart."
       },
       {
         "no": 23,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Specify additional evidence needed to assess the chosen presentation."
       },
       {
         "no": 24,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Treat the figures as illustration rather than issuer evidence."
       },
       {
         "no": 25,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not infer the figures’ metric beyond the supplied label."
       },
       {
         "no": 26,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not assume that extracted text establishes the rendered design."
       },
       {
         "no": 27,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "End with a proposed internal review gate derived from the matrix classifications and the illustrative format choice."
       },
       {
         "no": 28,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Distinguish an evidenced failure of an applicable mandatory provision, a departure from advisory guidance, and an unresolved evidence question."
       },
       {
         "no": 29,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explain the follow-up needed before concluding on applicable mandatory controls."
       },
       {
         "no": 30,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Identify any discretionary escalation as proposed policy, not as a source requirement."
       },
       {
         "no": 31,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not report an actual compliance finding from these handbook extracts."
@@ -9449,259 +9449,259 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Produce a reusable approval‑condition matrix template, not a borrower‑specific decision."
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Limit all content to what is supported solely by page 3 of SBA Form 1920 (Revised 09/20)."
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Treat the unmarked form only as a source of conditions, not as evidence of borrower responses, attachments, or eligibility."
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Restrict the evidence‑gap review to the Total reconciliation, the ROBS question, and sections F–I."
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Cover the displayed Total reconciliation requirement in the matrix."
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Cover the ROBS (rollover as business startup) question separately in the matrix."
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Cover sections F, G, H, and I of page 3 in the matrix."
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For every condition, show the applicability trigger distinct from the satisfaction test."
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For every condition, show the substantive acceptance (satisfaction) test."
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For every condition, cite the source section and the specific bullet or identifiable passage on page 3."
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For every condition, list the evidence needed to evaluate it."
       },
       {
         "no": 12,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For every condition, indicate present assessability (whether it can be assessed now from page 3 alone)."
       },
       {
         "no": 13,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For every condition, state the consequence of a future negative or unresolved response."
       },
       {
         "no": 14,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Keep applicability and satisfaction separable, allowing either to remain unknown."
       },
       {
         "no": 15,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Distinguish conditions that expressly render the request ineligible from compliance, verification, or arithmetic conditions that do not state ineligibility."
       },
       {
         "no": 16,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "In the evidence column, distinguish form certifications from documents expressly required by page 3 and from analyst‑recommended supporting records."
       },
       {
         "no": 17,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Make the matrix operational by articulating acceptance tests beyond merely restating Yes/No prompts."
       },
       {
         "no": 18,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Preserve combined requirements and permitted alternatives stated within each question."
       },
       {
         "no": 19,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Determine whether section F applies before imposing its ‘all‑Yes’ eligibility test."
       },
       {
         "no": 20,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Retain section F distinctions among permitted proceeds uses, control thresholds, and ownership/control timing."
       },
       {
         "no": 21,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Keep the ROBS applicability trigger separate from ESOP applicability."
       },
       {
         "no": 22,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For general eligibility, preserve the stated exception and do not supply the missing contents of cited regulations."
       },
       {
         "no": 23,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For credit elsewhere, separate the lender’s substantive determination from the credit‑memo requirement and supporting‑documentation requirements."
       },
       {
         "no": 24,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For required guarantors, show how the ownership threshold, combined spousal ownership, EPC/OC structure, and limited exclusions determine whose guarantee the lender must verify."
       },
       {
         "no": 25,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not assume retirement‑plan involvement alone resolves guarantor requirements."
       },
       {
         "no": 26,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For the Total row, state only the reconciliation relationship supported by the printed instruction."
       },
       {
         "no": 27,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For the Total row, identify the amounts and the column‑identification information needed to perform the reconciliation."
       },
       {
         "no": 28,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not invent meanings for missing column headings."
       },
       {
         "no": 29,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not supply any amounts not present on page 3."
       },
       {
         "no": 30,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not report a numerical reconciliation result for the Total row."
       },
       {
         "no": 31,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Preserve stated ownership thresholds without calculating borrower‑specific ownership or guarantor outcomes from absent data."
       },
       {
         "no": 32,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Treat external regulatory references only as references; do not import substantive rules not printed on page 3."
       },
       {
         "no": 33,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "End with a short conditional review path derived from the matrix that explains how a demonstrated disqualifying answer differs from an unanswered item."
       },
       {
         "no": 34,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explain in that path why clearing page‑level conditions does not establish overall loan approval."
       },
       {
         "no": 35,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use applicability gates in the review path to separate initial information requests from follow‑up evidence requests that apply only when a branch is triggered."
       },
       {
         "no": 36,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Label the collection sequence as a recommendation."
       },
       {
         "no": 37,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Keep any unresolved applicability gate open rather than presuming the branch is satisfied or not applicable."
@@ -9729,77 +9729,77 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Rely exclusively on the three supplied Appendix C segments for all content and evidentiary support."
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Create one decision‑map entry for each numbered item or feature listed in the supplied segments, preserving the order in which items appear in the source text."
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each entry, include the exact quoted Appendix C language that provides the trigger or governing standard for that item."
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each entry, state the source status of the quoted language as Appendix C guideline text, distinguishing prohibition language from prudent‑consideration language, and do not treat the guidelines as an external statute."
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each entry, assign a classification using only the labels Prohibited, Prudent Consideration, or Cannot Determine, based on whether the item appears in the prohibition section, the prudent‑consideration section, or if the supplied text does not establish the section."
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each entry, specify the affected population, the specific risk associated with the item in the guideline, and any limitation in the supplied text that prevents quantifying that risk."
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each entry, include an Evidence: label followed by the exact section, numbered item, and quoted phrase from the supplied segments that supports the classification."
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each entry, connect the quoted evidence, the applicable prohibition or prudent‑consideration standard, and the resulting classification in one traceable chain."
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Cover the topics of prohibited practices, prudent‑consideration features, the national bank or Federal savings association scope, and the residential mortgage lending activity scope."
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Preserve the exact terms, numbered items, defined phrases, and threshold language from Appendix C, including the distinction between practices a bank should not become involved in and features that require prudent consideration."
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Label any classification or risk statement that cannot be established from the supplied segments as Not Determinable."
@@ -9827,196 +9827,196 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use only the supplied Form 1919 excerpt as the source; do not use other pages or external rules."
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Produce a prospective loan approval-condition matrix tailored for an SBA 7(a) credit memo template."
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Scope the matrix strictly to collection and review of information shown in the excerpt of an uncompleted form."
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not infer borrower-specific deficiencies, eligibility, creditworthiness, or approval from the excerpt."
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Identify any proposed preapproval gate explicitly as lender judgment, not an SBA approval requirement."
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Limit the matrix focus to business and project addresses, loan purposes with their dollar fields, the three employment measures, and ownership disclosures."
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For every matrix row, include: the supporting field label or short quotation; the condition and its applicability trigger; the information needed to evaluate it; a prospective clearance or escalation test; and any limitation on what the excerpt establishes."
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Distinguish an express form instruction from a field presented for completion, and clearly label analyst-proposed checks or corroborating documents."
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "State the current evidentiary status without treating blank fields as confirmed borrower failures."
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For addresses, preserve any address restrictions and the condition under which a separate project address is requested."
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For addresses, show how a future response would determine whether the additional project address condition activates."
       },
       {
         "no": 12,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For employment, preserve the population and the measurement basis of each of the three employment fields."
       },
       {
         "no": 13,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For employment, explain how to handle entries prepared on inconsistent bases without converting headcount to FTE or inventing a conversion method."
       },
       {
         "no": 14,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not assume the three employment measures can be added together or reconciled to each other."
       },
       {
         "no": 15,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For loan purposes, map each purpose selection to its associated amount field(s)."
       },
       {
         "no": 16,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Separate any proposed consistency check on loan purposes and amounts from any eligibility conclusion; a purpose label alone is not proof of qualifying use."
       },
       {
         "no": 17,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Identify limits on dollar reconciliation when no amounts are completed and no independent loan-total comparison basis is provided; do not calculate a total from blanks."
       },
       {
         "no": 18,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For ownership, preserve the exact disclosure thresholds stated in the excerpt."
       },
       {
         "no": 19,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For ownership, distinguish among covered entities, the natural persons behind those entities, and beneficial-owner coverage."
       },
       {
         "no": 20,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Translate ownership rules into conditional review steps only to the extent the excerpt permits."
       },
       {
         "no": 21,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Identify where a referenced but unavailable SOP definition prevents creating a fully operational acceptance test."
       },
       {
         "no": 22,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Preserve any separate-sheet requirement as conditional without assuming a separate sheet is always required or has been received."
       },
       {
         "no": 23,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Conclude with an approval-review handoff that identifies: which conditions could be evaluated from future form responses; which also may require the expressly conditional attachment; and which depend on missing interpretive material or analyst-proposed corroboration."
       },
       {
         "no": 24,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Allow overlap among the handoff groups when applicable."
       },
       {
         "no": 25,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Tie each requested input in the handoff to the specific condition it would help resolve."
       },
       {
         "no": 26,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Distinguish unresolved source interpretation issues from missing applicant-provided information in the handoff."
       },
       {
         "no": 27,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explain the boundary between clearing these information conditions and making an actual loan approval decision."
       },
       {
         "no": 28,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not import requirements from other form pages or external SBA rules into the analysis or handoff."
@@ -10044,217 +10044,217 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use only the supplied handbook extracts to prepare the deliverable."
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Prepare a risk‑disclosure policy traceability matrix."
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not present the extracts as risk‑factor‑specific legal requirements."
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not present the extracts as evidence that any actual filing complies."
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each matrix entry, include: an identifiable source passage with a short quotation; its original scope or condition; its source function; the proposed internal control or unresolved dependency; and the conclusion a reviewer could legitimately draw."
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Distinguish source functions: editorial guidance; illustrative examples or commentary; explicit handbook instructions or responsibility statements; and references to unsupplied authority."
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Allow overlapping functions where appropriate."
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Label proposed controls as analyst recommendations, not source‑imposed requirements."
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Trace the parallel‑structure standard through both mutual‑fund examples."
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explain the editing principle illustrated by each mutual‑fund example."
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Translate each editing principle into a conditional check for future risk‑disclosure drafts."
       },
       {
         "no": 12,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not turn the examples’ purchase instructions or investment language into substantive policy requirements."
       },
       {
         "no": 13,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not make a verb series the only acceptable construction merely because one revision uses it."
       },
       {
         "no": 14,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Integrate the Plain English Examples passage into the same control framework."
       },
       {
         "no": 15,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "State the scope of the Plain English Examples passage’s illustration‑only caveat."
       },
       {
         "no": 16,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Connect the filer’s responsibility for substance to the limits of any presentation‑review conclusion."
       },
       {
         "no": 17,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Include the MBNA cover‑page comments on defined terms and sentence length."
       },
       {
         "no": 18,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Distinguish MBNA page‑specific advice from descriptive observations."
       },
       {
         "no": 19,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not convert annotated word counts in MBNA comments into mandatory limits."
       },
       {
         "no": 20,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Identify any broader application of MBNA comments to risk disclosures as a policy choice."
       },
       {
         "no": 21,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Trace the instruction to consult the proposing and adopting releases and identify both by release number."
       },
       {
         "no": 22,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Preserve the Item 501 remark as an unanswered question."
       },
       {
         "no": 23,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not reconstruct Item 501 or either release from outside knowledge."
       },
       {
         "no": 24,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "After the matrix, propose a short acceptance‑and‑escalation sequence with branches that follow from the mapped source classifications and controls."
       },
       {
         "no": 25,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explain what a successful wording check could clear under the proposed internal policy."
       },
       {
         "no": 26,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explain what would remain unresolved about accuracy, completeness, or legal requirements."
       },
       {
         "no": 27,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explain what would be needed before those unresolved matters could be assessed."
       },
       {
         "no": 28,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Separate documents the handbook expressly instructs readers to consult from evidence you recommend obtaining."
       },
       {
         "no": 29,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Keep the gap analysis limited to the matrix’s controls and cited authorities."
       },
       {
         "no": 30,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Permit conditional or not‑determinable outcomes."
       },
       {
         "no": 31,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not approve or reject an actual filing."
@@ -10282,133 +10282,133 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use only the supplied plain‑English handbook excerpts as sources; do not rely on external materials."
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Produce a source‑grounded disclosure compliance brief translating the stated scope and drafting principles into a prospective review standard."
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not make findings about any particular issuer or filing because no issuer facts or draft disclosure were supplied."
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Identify which prospectus sections the Introduction states are covered by the SEC’s plain‑English rules."
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Distinguish the reported rule scope from the handbook’s explanation of plain English and its adaptable implementation advice."
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explain the limit on legal conclusions due to the absence of the underlying rule text; do not extend the stated obligation to other sections merely because the handbook discusses disclosure documents generally."
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Build a compact mapping that links each relevant source statement to its role in reviewing the covered sections."
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Ensure the mapping includes treatment of complex information, flexibility afforded to handbook tips, and advice on shortened names, simpler words, and sentence structure."
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each mapping entry, include a short identifying quotation, classify it as a reported rule‑scope statement, a substantive drafting principle, or flexible implementation advice, and distinguish the source language from the proposed review check."
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Preserve qualifications and advisory wording; do not convert tips into filing requirements."
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use the mapping to create conditional editing decisions for three proposals: removing complex information; replacing a long proper noun with a newly assigned short name; substituting simpler words while reorganizing a sentence."
       },
       {
         "no": 12,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each proposal, explain whether the approach is supported in principle, note conditions or limitations, and specify what an editor must inspect before accepting the revision."
       },
       {
         "no": 13,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Link each editing decision back to the corresponding entries in the mapping."
       },
       {
         "no": 14,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Address whether the freedom to tailor tips affects the treatment of information investors need."
       },
       {
         "no": 15,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Label any additional acceptance criteria you recommend as analyst judgment, not source requirements."
       },
       {
         "no": 16,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Keep the approach’s general suitability distinct from the unassessable quality of an unseen draft."
       },
       {
         "no": 17,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Conclude with a focused evidence‑request list limited to applying these checks to the prospectus sections identified at the outset."
       },
       {
         "no": 18,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Distinguish the supplied source passages from any draft materials you recommend obtaining; do not describe those proposed materials as documents mandated by the excerpts."
       },
       {
         "no": 19,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Treat incomplete examples and cross‑references as pointers rather than evidence of their missing contents, and state what cannot be concluded until actual disclosure text is available."
@@ -10436,161 +10436,161 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use only the supplied excerpts of § 30.6(c), Appendix A, and Appendix C as sources."
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Provide a prospective control-design alternative matrix for a national bank or Federal savings association’s residential mortgage risk committee comparing the two specified operating models (centralized review vs. embedded controls with targeted escalation)."
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Assess design coverage only; do not assess actual compliance or operating effectiveness."
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Build the matrix around the supplied descriptions of loan flipping, refinancing of special mortgages, encouragement of default, and the three loan features in Appendix C section B."
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each listed practice and section B feature, include: the source condition and its qualifications; how each alternative detects and routes the issue; the proposed decision owner; evidence required; conditional approval/hold/escalation criteria; and the principal coverage limitation or qualitative trade-off."
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Treat missing or inconclusive evidence as requiring an explicit unresolved-review path, not as evidence of acceptability."
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not assign outcomes to actual loans."
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Keep practice descriptions separate from section B’s circumstance-dependent treatment of loan features."
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Preserve borrower-benefit comparisons, timing and refinancing scope, and defined feature characteristics from the supplied excerpts."
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not infer a legal prohibition from an unsupplied heading, and do not treat a section B feature as automatically impermissible merely because it is present."
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Identify additional records an analyst would propose obtaining, separate from any documents expressly required by the excerpts."
       },
       {
         "no": 12,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not invent a numerical tangible-economic-benefit test, a refinancing lookback period, or a definition of a short-term transaction."
       },
       {
         "no": 13,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Integrate Appendix A by distinguishing the agencies’ duty to establish standards for insured depository institutions from the institution-facing language in Appendix C."
       },
       {
         "no": 14,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Link proposed controls to relevant Appendix A standard families and operational or managerial topics as an analytical mapping, not as evidence that detailed control requirements have been supplied."
       },
       {
         "no": 15,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not rely on a heading or statutory cross-reference alone to establish missing substantive content."
       },
       {
         "no": 16,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Cite the supplied section or numbered passage alongside each material source-based condition."
       },
       {
         "no": 17,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use the matrix findings to recommend one alternative or a clearly specified hybrid."
       },
       {
         "no": 18,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explain which coverage gaps drive the recommendation and which approval or escalation safeguards must be in place before implementation."
       },
       {
         "no": 19,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Compare trade-offs qualitatively and do not claim cost savings, staffing sufficiency, or superior observed performance without evidence."
       },
       {
         "no": 20,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Incorporate § 30.6(c)’s reservation of other authorized enforcement avenues into the limits of the recommendation’s assurance, without reconstructing absent provisions or predicting OCC action."
       },
       {
         "no": 21,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "End with unresolved questions limited to the matrix’s triggers, decision criteria, responsibilities, evidence, and escalation routes."
       },
       {
         "no": 22,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Distinguish missing source detail, proposed policy choices, and evidence to be collected for future loan reviews."
       },
       {
         "no": 23,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Where the excerpts do not settle a point, leave conclusions conditional rather than filling gaps with external rules."
@@ -10618,119 +10618,119 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Provide a risk‑disclosure evidence specification brief usable to request evidence and test presentation when only the supplied plain‑English handbook excerpt is available (no issuer draft or underlying data)."
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Treat the handbook excerpt solely as presentation guidance, not as evidence of a securities‑law obligation or of any issuer’s compliance."
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Develop an evidence‑to‑test matrix covering proportional representation of quantities, consistency of scales and units in side‑by‑side graphics, chronological direction, and organization that helps readers make relevant comparisons."
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each check in the matrix, identify: the supporting heading or short passage; the feature that makes the check applicable; the evidence needed to perform it; and the conditions supporting a finding of alignment, inconsistency, or an unresolved assessment."
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Distinguish inapplicability from insufficient evidence for each check."
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Preserve the strength and scope of the handbook’s language without converting recommendations into absolute rules."
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Make the proposed tests operational by explaining how the reviewer would connect displayed quantities to underlying data and scaling choices, assess grouped graphics without relying solely on individual labels, and verify time direction."
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For data ordering, limit prescriptions to the scope of the single‑year stock‑market‑return example; do not mandate one sorting method for all graphics."
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Distinguish source passages that support a check from documents expressly required by the excerpt and from artifacts you recommend obtaining; do not imply that proposed evidence requests are handbook‑mandated documents."
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Validate the proportionality check using the oil‑production illustration by calculating: (a) the percentage‑point difference between stated represented growth and underlying growth, and (b) the ratio of those growth percentages; label this as a handbook illustration, not an issuer finding."
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explain what the oil‑production calculations do and do not establish about the graphic’s geometry, without assuming which dimension (height, area, or volume) represents “bigger,” and use this limitation to refine the evidence request for pictorial scaling."
       },
       {
         "no": 12,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not reconstruct visual details of the revenue charts that are not established by the supplied text."
       },
       {
         "no": 13,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Finish with an evidence‑request and reassessment sequence derived from unresolved checks, explaining what each requested item would resolve and which possible findings would call for a graphic revision, additional evidence, or both."
       },
       {
         "no": 14,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Identify the sequence and any proposed acceptance criteria as reviewer judgment and add no unsupported numerical tolerances."
       },
       {
         "no": 15,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "State the limited presentation conclusion that could be reached once sufficient evidence is available."
       },
       {
         "no": 16,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Treat missing issuer materials as an evidence gap rather than an adverse issuer finding."
       },
       {
         "no": 17,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not certify the completeness of substantive risk disclosure."
@@ -10758,112 +10758,112 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use only SBA Form 1919 (02/2025) pages 6 and 7 as source material."
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Structure the brief with level-2 headings in this exact order: Source Status; Requirement Mapping; Compliance Analysis; Risk and Impact; Intake Decision and Open Items."
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "In Source Status, state that the supplied materials are SBA Form 1919 rule text and a blank form page, not a completed application."
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "In Source Status, distinguish form-stated current certification requirements from any conclusions requiring applicant-specific facts not in the packet."
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "In Requirement Mapping, provide a source mapping table pairing each certification, disclosure, or acknowledgment requirement with the exact Form 1919 page and the governing statutory or regulatory citation."
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "In Requirement Mapping, cover these topics: OSHA compliance certification; lead-based paint prohibition; Civil Rights non-discrimination and Equal Employment Opportunity Poster duties; Equal Credit Opportunity Act non-discrimination; debarment and suspension certifications items (a)–(f); written SBA exception requirement; Build America, Buy America Act domestic-content certification."
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For every mapped requirement, identify the supporting form language and the exact figure or rule used."
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "In Compliance Analysis, for each civil rights and debarment requirement, distinguish: the governing certification or acknowledgment text; the intake control that should verify it; and any monitoring or follow-up obligation during the life of the loan."
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Assign each requirement exactly one status: Satisfied, Conditional, or Not Determinable."
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Mark a requirement as Satisfied only if the supplied form text itself establishes the requirement without needing applicant-specific facts; otherwise use Conditional or Not Determinable."
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For any debarment condition in items (a)–(d) that cannot be certified from the supplied materials, flag it as an exception and use the phrase “Exception Required.”"
       },
       {
         "no": 12,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "In Risk and Impact, for each civil rights or debarment requirement, separately state: the compliance risk from an unverified or conditional certification; the population or transaction scope potentially affected; and only the consequences identified in the form (e.g., required abatement, ineligibility, SBA exception approval), without inferring unstated consequences."
       },
       {
         "no": 13,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "In Intake Decision and Open Items, provide a corrective-action and evidence-collection plan for each requirement whose intake evidence cannot be confirmed from the blank form."
       },
       {
         "no": 14,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each such open item, state the exact document or certification to obtain, the responsible intake owner, and the condition that closes the item."
       },
       {
         "no": 15,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For any debarment certification under items (a)–(d) that cannot be made, route to SBA for a written statement of exception and require that exception attachment before the intake file can be marked complete."
       },
       {
         "no": 16,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Conclude with exactly one intake readiness decision of Proceed, Hold, or Escalate, based only on whether mapped civil rights and debarment requirements are Satisfied, Conditional, or Not Determinable from the supplied form text."
@@ -10891,126 +10891,126 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Produce a source-grounded disclosure compliance brief intended as a prospective drafting and review standard for quarterly revenue graphics."
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Rely solely on the supplied plain-English handbook excerpt."
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Present the excerpt’s charts only as illustrations, not as evidence about the company or any existing disclosure draft."
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Map the handbook’s baseline advice to its implications for disclosure drafting, using short supporting quotations or chart labels."
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Distinguish between guidance, illustrative data, and reported research from the excerpt."
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "State whether the excerpt creates any binding disclosure obligation."
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Preserve the qualification in the baseline advice and do not turn it into an absolute prohibition."
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explain the scope and evidentiary limits of the quoted annual-report study, including whether it supports an acceptance threshold for an individual graphic."
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use the paired “before” and “after” charts under “Check proportions of visuals” as a worked example."
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Identify the example charts’ period, units, quarterly amounts, and displayed baselines."
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Determine whether the underlying revenue values change between the before/after versions."
       },
       {
         "no": 12,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For Q3 to Q4, calculate the actual percentage increase in revenue and the percentage increase in displayed bar length under each baseline; define bar length as revenue minus the displayed baseline; show the workings; do not attribute that formula to the handbook."
       },
       {
         "no": 13,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "If any necessary chart detail cannot be read reliably, flag it and make the affected result conditional rather than inventing a value."
       },
       {
         "no": 14,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Using the source mapping and numerical comparison, recommend a drafting treatment and practical sign-off criteria covering baseline and scale, visual proportionality, and consistency of the revenue amounts, period, and units."
       },
       {
         "no": 15,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Separate source-backed guidance from proposed internal controls."
       },
       {
         "no": 16,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explain how to handle a non-zero-baseline draft under the qualified advice without inventing a formal exception procedure or declaring it automatically unlawful."
       },
       {
         "no": 17,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "End with the evidence needed to apply the criteria to an actual draft and identify the conclusions that remain undetermined without it."
       },
       {
         "no": 18,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Keep evidence requests within those review fields and label them as proposed review evidence, not documents expressly required by the excerpt."
@@ -11038,210 +11038,210 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use only the supplied Appendix B and Appendix D excerpts as sources."
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Produce a prospective design, not an assessment of an institution or incident."
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Allow reviewing a service-provider customer-information incident alongside an associated risk‑limit breach only when that association is independently supported."
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not assume every incident is a breach."
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not assume both appendices apply to every institution."
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Begin with an applicability and dependency map, then provide a minimum viable field dictionary in that order."
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Keep notification decisions, routine risk‑limit oversight, and breach handling distinguishable, and include proposed linking keys and evidence references."
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each field or closely related field group, specify meaning, value type or allowed states, applicable population or trigger, and source‑assigned responsibility where available."
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Cite the supporting passage for each field and distinguish source expectations from implementation judgment."
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Separate expressly required documentary content from recommended evidence, and do not imply recommended items are required by the excerpts."
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Allow unknown applicability and unknown decision inputs without treating them as negative findings."
       },
       {
         "no": 12,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "In notification records, distinguish the institution’s responsibility from execution by an authorized or contracted service provider."
       },
       {
         "no": 13,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Keep customer notification and regulator notification roles separate."
       },
       {
         "no": 14,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Record the customer‑notification‑warranted decision, its basis, delegation evidence, execution status, and a check against suppressing warranted customer notice due to embarrassment or inconvenience."
       },
       {
         "no": 15,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Identify which notification trigger details are unavailable in the supplied text."
       },
       {
         "no": 16,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not reconstruct missing notification standards or assume customer and regulator notifications share an identical decision test."
       },
       {
         "no": 17,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For Appendix D, specify data supporting conditional independent‑risk‑management monitoring, communication, concern‑reporting activities, and the breach process in II.H."
       },
       {
         "no": 18,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Preserve the breach categories named in Appendix D without forcing them to be mutually exclusive."
       },
       {
         "no": 19,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Cover severity and impact, protocol‑driven recipients and timing, the written resolution description, and accountability and consequence factors."
       },
       {
         "no": 20,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Keep the at‑least‑quarterly cadence attached only to its stated activities and preserve its risk‑based condition."
       },
       {
         "no": 21,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not convert the quarterly cadence into a notification, breach‑escalation, or resolution deadline."
       },
       {
         "no": 22,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not invent thresholds, severity bands, applicability criteria, or contents of referenced but unsupplied paragraphs."
       },
       {
         "no": 23,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Using the dictionary, derive a decision table for a linked review queue."
       },
       {
         "no": 24,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Show how applicability, trigger evidence, delegation, protocol availability, and execution evidence determine which actions can be presented for review and which decisions remain unresolved."
       },
       {
         "no": 25,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Keep customer notice, regulator notice, routine concern reporting, and breach escalation as separate tracks."
       },
       {
         "no": 26,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not automatically equate Appendix B’s regulator with the OCC."
       },
       {
         "no": 27,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Provide an explicitly labeled design recommendation defining readiness and closure checks that prevent completion of one track, or assignment to a service provider, from substituting for completion of another applicable track."
       },
       {
         "no": 28,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explain where missing decision criteria prevent automation instead of supplying substitute rules."
       },
       {
         "no": 29,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "End with unresolved design inputs bounded to the proposed fields and decision logic."
       },
       {
         "no": 30,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Distinguish missing criteria in the excerpts from institution‑specific configuration and operating evidence to be supplied later, and do not report these prospective evidence needs as existing compliance deficiencies."
@@ -11269,147 +11269,147 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Provide a disclosure compliance brief grounded in the supplied plain‑English handbook excerpt as a model for a notes offering."
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Limit the brief to a prospective drafting standard supported by the passage."
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not treat the handbook example as an independent legal obligation or as evidence of an issuer’s actual compliance."
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Read the paragraph and the alternative numbered presentation together."
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Create a compact mapping that explains the three documents’ roles, their applicability to a particular note, and which document controls when information differs."
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For every mapped point, include: a short supporting quotation identified by which presentation it comes from, an indication of whether the point is explicit in both versions or only one, and a checkable acceptance criterion for a future draft."
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Distinguish substantive disclosure content from presentation choices and from your own drafting recommendations."
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not treat the alternative presentations as cumulative required formats."
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use the mapping to draft a reader‑facing replacement disclosure that preserves the source‑supported distinctions."
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not invent issuer facts, note terms, or legal requirements in the replacement disclosure."
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Briefly explain how the draft preserves limits on reliance instructions and avoids implying that one document replaces every statement in another."
       },
       {
         "no": 12,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Test the replacement against three hypothetical reviewer questions: which information controls if the two supplements differ; which controls if only the prospectus and prospectus supplement differ; and what can be concluded if the pricing supplement is silent on a point addressed elsewhere."
       },
       {
         "no": 13,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each hypothetical test, connect the conclusion to the mapping and assess whether the replacement communicates the supported result."
       },
       {
         "no": 14,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Present the reviewer questions as hypothetical configurations rather than observed discrepancies."
       },
       {
         "no": 15,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Leave any conclusion unresolved where silence or missing information does not support a reliance decision."
       },
       {
         "no": 16,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Close with a limited review‑readiness assessment."
       },
       {
         "no": 17,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "In the assessment, identify which drafting criteria can be established from the excerpt and which checks require actual offering‑document evidence."
       },
       {
         "no": 18,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Tie each proposed evidence request to a mapped criterion."
       },
       {
         "no": 19,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Limit evidence requests to document roles, applicability, and reliance language."
       },
       {
         "no": 20,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Distinguish documents described in the model from any legally mandated document requirement not established by the excerpt."
       },
       {
         "no": 21,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not label unavailable offering documents as a confirmed compliance failure."
@@ -11437,175 +11437,175 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Produce a borrower submission conditions analysis brief for an SBA 7(a) application, written for an SBA loan processing reviewer."
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Determine readiness to proceed for each applicable condition."
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Identify any evidence still required for each applicable condition."
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Link each required or missing evidence item to the governing SBA form section or regulation before making a processing decision."
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Begin with a single-sentence overall readiness statement choosing exactly one: Ready to Process, Hold for Evidence, or Not Determinable."
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Provide separate sections covering: (1) SBA Form 1919 demographic and privacy notice requirements; (2) change-of-ownership valuation conditions; (3) debt refinancing documentation requirements; (4) franchise/license/jobber/membership agreement conditions; (5) CAPLine and Export Loan Program eligibility from SBA Form 1920."
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "In the change-of-ownership section, independently verify the reported intangible assets to be financed."
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Recalculate D = A − B − C, where A = total amount being financed (7(a), 504, seller, other), B = appraised value of commercial real estate financed, and C = appraised value of equipment financed."
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Show inputs A, B, and C in U.S. dollars and show the recalculated D in U.S. dollars."
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "State whether the reported D ties out to the recalculated D or cannot be verified due to blank input fields."
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Apply the $250,000 threshold test to D to determine the applicable business valuation requirement branch."
       },
       {
         "no": 12,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Compare the two SBA Form 1920 page 6 valuation paths and, for each path, state the triggering condition, the evidence burden, and the processing consequence."
       },
       {
         "no": 13,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Identify all listed deficiencies or unresolved conditions in the submission, including missing independent business valuation, missing complete business debt schedule or supporting documentation, unanswered franchise agreement questions, and unanswered CAPLine or Export Loan eligibility questions."
       },
       {
         "no": 14,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Distinguish each deficiency from items that are merely missing evidence."
       },
       {
         "no": 15,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Document SBA Form 1919 owner-profile fields, including owner legal name and owner position, and mark each field as Complete, Blank, or Not Applicable based solely on the supplied packet."
       },
       {
         "no": 16,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not infer any missing demographic data."
       },
       {
         "no": 17,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each condition that cannot be confirmed from the packet, state the affected submission area, the specific risk or limitation caused by the missing or unverified evidence, and whether the impact is quantified or qualitative."
       },
       {
         "no": 18,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Identify any SBA Form 1920 conditions that require escalation or submission to the Loan Guaranty Processing Center (LGPC) or another named SBA processing path and state the activating evidence or missing-evidence trigger for each."
       },
       {
         "no": 19,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Present exactly one condition-assessment table with columns: condition, governing standard or form section, required evidence, status, and decision, sorted by decision impact from highest to lowest blocking effect."
       },
       {
         "no": 20,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Assign exactly one decision per condition—Ready to Process, Hold for Evidence, or Not Determinable—using only choices provided by the blank form and the evidence present in the packet."
       },
       {
         "no": 21,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For every decision or escalation, state in a single connected chain the active evidence, the governing SBA Form 1920 or Form 1919 rule or statutory notice provision, and the resulting action."
       },
       {
         "no": 22,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not present facts, calculations, and recommendations as disconnected fragments."
       },
       {
         "no": 23,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Define abbreviations (e.g., SOP, LGPC, CAPLine, ITL) on first use."
       },
       {
         "no": 24,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Pair every condition assessment with its controlling form section or regulatory citation."
       },
       {
         "no": 25,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Close with a Next action line identifying the single highest-priority unresolved evidence item from SBA Form 1920 conditions."
@@ -11633,203 +11633,203 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use only the supplied Form 1919 instructions and the SOP document listing as source material."
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Prepare an application evidence and open-items checklist for prospective SBA loan intake."
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Distinguish items that can be established now from applicant-specific checks that cannot yet be performed."
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each check, present: its source basis, any applicability condition, evidence expressly required by the excerpt, additional verification evidence labeled as reviewer judgment, and the condition to clear the item, in a checklist table."
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Label recommendations as reviewer judgment rather than SBA requirements."
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Indicate when borrower information is not supplied, when applicability is unresolved, and when governing text or version is unresolved; allow overlapping labels and do not characterize these limitations as borrower failures."
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Establish the co-Applicant population."
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Verify separate Form 1919 completion for each co-Applicant."
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Verify authorized-representative signatures on the Forms 1919."
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Verify submission of the Forms 1919 to the participating lender."
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explain how the co-Applicant inventory determines both the set of Forms 1919 to collect and the population for loan-purpose reconciliation."
       },
       {
         "no": 12,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Identify Owners per the excerpt’s definition for each entity type, preserving stated thresholds and exceptions."
       },
       {
         "no": 13,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not equate an Owner with a co-Applicant, and do not infer any additional owner signature or separate-form requirement."
       },
       {
         "no": 14,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Check NAICS code consistency with the business activity code on IRS income tax filings when applicable."
       },
       {
         "no": 15,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Keep the NAICS matching instruction separate from any recommendation to obtain tax documents."
       },
       {
         "no": 16,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explain how unresolved applicability affects the NAICS consistency check."
       },
       {
         "no": 17,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Reconcile the Purpose of the loan amounts across all relevant Forms 1919 to the total loan request; identify needed inputs and show a symbolic tie-out without providing amounts or claiming a numerical result."
       },
       {
         "no": 18,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Include an authority-control open item."
       },
       {
         "no": 19,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Compare the Form edition with the SOP versions and effective dates actually listed."
       },
       {
         "no": 20,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Assess whether the listing supplies substantive eligibility, underwriting, or approval conditions that can be mapped to application evidence."
       },
       {
         "no": 21,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not assume an older listed SOP version governs or is inapplicable solely because of its date."
       },
       {
         "no": 22,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not infer rule content from related-document titles."
       },
       {
         "no": 23,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Specify the version confirmation and underlying passages you recommend obtaining before extending the review to those conditions, without presenting this as a required borrower attachment."
       },
       {
         "no": 24,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Limit other evidence-gap checks to the specified application controls and do not invent fields or attachments from the Form’s purpose statement."
       },
       {
         "no": 25,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Provide a dependency-based collection plan that separates borrower evidence requests from source-document requests."
       },
       {
         "no": 26,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explain, conditionally, which checklist tests could be performed if completed, signed Forms 1919 and a total requested loan amount were supplied."
       },
       {
         "no": 27,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explain which tests would still require applicability determination or other verification even with completed, signed Forms and a total amount."
       },
       {
         "no": 28,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explain why that scenario would not by itself resolve any authority-content gap."
       },
       {
         "no": 29,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explain why that scenario would not establish borrower eligibility or approval."
@@ -11857,119 +11857,119 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Rely solely on the supplied CFPB excerpt; do not use outside sources."
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Present all content as aggregate complaint reporting, not as verified consumer files or findings of legal violations."
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Begin with an evidence perimeter section presented in a compact table."
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "In the table, distinguish four populations: all CFPB complaints; credit and consumer reporting complaints; complaints about the three largest NCRAs; complaints within the report’s FCRA Section 611(e) scope."
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each population in the table, identify: available volume, original numerical qualifiers, applicable period, and stated basis for inclusion; mark any missing information as unknown."
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explain how the reporting mandate, the primary data window, and any older contextual data differ."
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Address the qualification regarding consumers’ previous use of dispute procedures and the selective availability of additional NCRA response fields, and do not assume populations or denominators are interchangeable."
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Assess four proposed dashboard uses and classify each as Supported, Qualified, or Not established."
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Ground each assessment in a named source section or a short supporting passage from the excerpt."
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For the share and growth assessments, identify the relevant denominator or comparison population, the time basis, and any precision limitations."
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Perform calculations only when compatible inputs support them; provide approximate estimates or not-determinable conclusions when appropriate; do not manufacture exact values from rounded or bounded quantities."
       },
       {
         "no": 12,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For the relief assessment, distinguish NCRA-reported actions from independently verified consumer outcomes and assess whether the excerpt provides a usable outcome-rate denominator."
       },
       {
         "no": 13,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explain whether complaint volume or growth establishes the incidence of inaccuracies or violations."
       },
       {
         "no": 14,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "End with management-ready wording limited to conclusions that survive the assessments."
       },
       {
         "no": 15,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each use classified as Qualified or Not established, identify the specific evidence needed to resolve the limitation."
       },
       {
         "no": 16,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Keep evidence requests confined to the four proposed uses; distinguish referenced-but-unavailable report material from proposed additional records; label these as analyst judgment, not statutory or CFPB requirements."
       },
       {
         "no": 17,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not reconstruct missing figures, response categories, report sections, or statutory provisions."
@@ -11997,224 +11997,224 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use only the supplied Appendix C excerpt as the source for the specification."
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Target the specification to a national bank or Federal savings association’s residential mortgage risk team."
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Make the specification implementable by a data team."
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not make findings about actual loans or institutional compliance."
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Distinguish the numbered refinancing/default practices preceding Section B from Section B’s circumstance-dependent prudent-consideration guidance."
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Preserve the original passage numbering."
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Preserve the express scope of each provision."
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Preserve the distinction between a potentially concerning practice and a loan feature that may be appropriate in some circumstances."
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not reconstruct omitted introductory provisions."
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not convert guidance into an unconditional prohibition."
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Present loan flipping, refinancing of special mortgages, encouragement of default, and the three Section B features in a source-to-data-to-test matrix."
       },
       {
         "no": 12,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For every topic, identify the relevant source passage, the elements to be evaluated, the proposed record grain and linkage keys, the minimum proposed fields with data types and missing-value treatment, and the monitoring logic supported by those fields."
       },
       {
         "no": 13,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Distinguish information needed to evaluate the passage from records or documents expressly required by the source, and label suggested evidence sources and provenance fields as implementation proposals rather than source-mandated documentation."
       },
       {
         "no": 14,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Create separate condition flags for each of the three practice patterns."
       },
       {
         "no": 15,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Create separate feature-presence flags for each of the three Section B features."
       },
       {
         "no": 16,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Define flag status values as: met = sufficient evidence for every necessary element; not met = affirmative evidence that a necessary element is absent; indeterminate = insufficient evidence or unresolved decision criterion."
       },
       {
         "no": 17,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Apply the flag status definitions prospectively and do not populate outcomes."
       },
       {
         "no": 18,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Preserve borrower identity, old/new-loan relationships, refinancing sequence, and required timing or transactional connections in the tests."
       },
       {
         "no": 19,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not infer encouragement from a default alone."
       },
       {
         "no": 20,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For negative amortization, use the payment-schedule definition in the excerpt and do not treat any balance increase as sufficient."
       },
       {
         "no": 21,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Identify where undefined terms or absent evaluation methods prevent a fully automated test."
       },
       {
         "no": 22,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not invent a repeat-count threshold, lookback period, definition of short-term, or a tangible-economic-benefit formula."
       },
       {
         "no": 23,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For Section B, separate feature detection from evidence of prudent consideration."
       },
       {
         "no": 24,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Specify proposed fields capturing relevant circumstances, targeted-market characteristics, safeguards, and assessment rationale without treating a completed checklist as proof that the feature is appropriate."
       },
       {
         "no": 25,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Preserve the possibility of acceptable risk mitigation and customer benefit, as well as potential for abuse under other circumstances."
       },
       {
         "no": 26,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Show which data can be reused across tests and which comparisons or judgments must remain distinct between the two parts of the specification."
       },
       {
         "no": 27,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explain how a refinancing could generate both a practice-pattern flag and a Section B feature flag without collapsing them into one finding or treating an acceptable-feature rationale as automatic clearance of a separate concern."
       },
       {
         "no": 28,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Derive a review-output schema from the flags that carries forward the source basis, unresolved elements, and targeted evidence requests needed to resolve indeterminate results."
       },
       {
         "no": 29,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Clearly identify any proposed review routing or ownership as analyst design, not an OCC investigation or notification requirement."
       },
       {
         "no": 30,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "End with a bounded implementation-gap list tied to the specified fields and tests."
       },
       {
         "no": 31,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Separate gaps in the supplied guidance from transaction evidence that must be collected."
       },
       {
         "no": 32,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explain which downstream determinations must remain conditional until each material gap is resolved."
@@ -12242,154 +12242,154 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Provide a brief on risk‑disclosure exceptions and thresholds."
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Rely exclusively on the supplied handbook passages as sources."
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Distinguish audience‑oriented drafting guidance and illustrative language from binding legal requirements."
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not make findings about any actual issuer."
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Present “threshold” only as a qualitative condition that changes which information a reader should rely on, without adding a numerical or materiality test."
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Reconstruct the applicability and reliance logic across the prospectus, prospectus supplement, and pricing supplement."
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Include a decision table that lists each document relationship, the condition that triggers priority, the information affected by that priority, and what remains unresolved without the actual note documents."
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Address general information whose applicability to a particular note is uncertain."
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Address differing information between the three document layers."
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Address additional detail for which no difference has been established across document layers."
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Assess whether the narrative and numbered versions of the example support the same conclusions, including whether priority displaces an entire document or only particular information."
       },
       {
         "no": 12,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Anchor material conclusions to short source quotations."
       },
       {
         "no": 13,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use the analysis and audience guidance to recommend how the review should test whether investors can find and understand the applicable information."
       },
       {
         "no": 14,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each proposed presentation control, connect it to a reliance/applicability issue from the decision table and to a relevant audience consideration (e.g., terminology familiarity, linear vs. non‑linear reading, later retrieval while holding the security)."
       },
       {
         "no": 15,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Draft a short reader‑facing explanation of the hierarchy."
       },
       {
         "no": 16,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explain how the hierarchy presentation might change depending on audience information obtained, keeping those changes conditional due to no actual investor profile."
       },
       {
         "no": 17,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Label proposed controls and drafting choices as analyst recommendations, not handbook mandates."
       },
       {
         "no": 18,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Close with a targeted evidence‑gap and disposition table limited to note‑specific applicability, differences between the three document layers, and needed audience characteristics for the presentation recommendations."
       },
       {
         "no": 19,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each identified gap, specify the document or information that would resolve it and the conclusion or recommendation that must remain conditional until then."
       },
       {
         "no": 20,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Distinguish documents mentioned in the example from evidence you propose collecting (including investor‑research or existing investor‑communication materials)."
       },
       {
         "no": 21,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not infer that a document is legally required merely because the handbook refers to it."
       },
       {
         "no": 22,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not treat missing case evidence as proof of a disclosure failure."
@@ -12417,168 +12417,168 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Base all analysis solely on the supplied Appendix C and Appendix D excerpts."
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Assume for this comparison that the institution is a national bank within Appendix C’s scope and a covered bank under Appendix D."
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Distinguish design recommendations from findings on eligibility or control effectiveness due to absent institution-specific data."
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Compare two governance approaches: (1) reuse the parent’s framework in full without modification, and (2) a bank-tailored framework with proposed mortgage-specific changes."
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Present the bank-tailored approach as an analyst-designed alternative, not as a fallback endorsed by the excerpts."
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Present the mortgage-control approach, governance constraints, supporting evidence, qualitative trade-offs, and unresolved questions in a side-by-side comparable format."
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Build the mortgage-control analysis from the distinct definitions of loan flipping, refinancing of special mortgages, and encouragement of default, and from Section B’s listed terms, conditions, and features."
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Preserve each trigger’s qualifications; do not generalize all refinancings or all Section B features alike."
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each defined practice and each Section B feature, propose a preventive or review control and explain the evidence a reviewer would use to test its operation."
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Keep the defined practices separate from Section B’s circumstance-dependent prudent consideration, including targeted-market and safeguard considerations."
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "If proposing blanket exclusions or a tangible-economic-benefit methodology, label them as analyst judgments, not requirements or numerical tests from the text."
       },
       {
         "no": 12,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use Appendix D as a decision gate for the unmodified-parent framework option."
       },
       {
         "no": 13,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Map Appendix D’s minimum-standards condition, the documented risk-profile assessment, the timing of that assessment, and its relationship to independent risk management’s framework review."
       },
       {
         "no": 14,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Set out the asset test’s reporting sources, comparison period, numerator and denominator bases, and threshold without performing any institution-specific calculation."
       },
       {
         "no": 15,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Identify calculation mechanics and any standards incorporated by reference that are not reproduced in the excerpts."
       },
       {
         "no": 16,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Describe separately the outcomes when the asset test is satisfied, when it is not and the written-analysis route is used, and when evidence is insufficient."
       },
       {
         "no": 17,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not equate submission to the OCC with approval."
       },
       {
         "no": 18,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not treat either risk-profile route as replacing other conditions required to reuse the parent framework."
       },
       {
         "no": 19,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "End with a conditional design recommendation that depends on both the mortgage-control mapping and the governance gate."
       },
       {
         "no": 20,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explain how required modifications to the parent’s framework would affect the unmodified-parent option, distinguishing framework changes from operating procedures that could fit within an unchanged framework."
       },
       {
         "no": 21,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Limit follow-up evidence requests to matters relevant to the control design and the parent-framework reuse gate."
       },
       {
         "no": 22,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Cite the supporting subsection or numbered paragraph for each source-based conclusion."
       },
       {
         "no": 23,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Differentiate documents expressly required by the excerpts from proposed implementation evidence."
       },
       {
         "no": 24,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Leave adequacy or eligibility unresolved where the supplied excerpts cannot establish them."
@@ -12606,147 +12606,147 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Base the evidence specification brief solely on the supplied guideline passages; do not use outside sources."
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Scope the review to consumer residential mortgage activities at a national bank or Federal savings association, including related service-provider agreements where the supplied information-handling provisions apply."
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Design conditional tests rather than report compliance findings because no institution-specific records or review period are supplied."
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Present a source-linked evidence matrix followed by a short cross-section assessment."
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For every review question, identify: the applicable population or activity; the supporting section with a short source phrase; the conditions to establish; proposed evidence; and the conclusion the evidence could support."
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Keep Appendix B, Appendix C.F, and the opening paragraphs of Appendix D distinguishable; preserve their operative language differences (e.g., “must,” “should,” “OCC expects”); and distinguish analyst-recommended records from documents expressly required by the excerpts."
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For Appendix B, separate the security-and-confidentiality contract grandfathering from the consumer-information disposal provisions."
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Show the general disposal deadline and how the existing-service-provider-contract exception modifies that deadline."
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Preserve execution-date boundaries, deadlines, service-provider conditions, and the distinction between customer information and consumer information; do not invent definitions for those terms."
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Specify conditional paths where evidence establishes eligibility for relief, establishes ineligibility, or leaves eligibility undetermined."
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not treat missing evidence as ineligibility, and do not treat ineligibility itself as a compliance failure."
       },
       {
         "no": 12,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explain what review-date and contract facts are required before relying on any historical transition relief; do not present these transition provisions as current exemptions."
       },
       {
         "no": 13,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use the conditional paths to explain which information-handling evidence requests could be narrowed and which Appendix C.F requests remain separately justified for mortgage activities."
       },
       {
         "no": 14,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Address compliance monitoring; the nature, quantity, and resolution of complaints; evaluation of standards and practices; and evidence relevant to corrective action or adjustments."
       },
       {
         "no": 15,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explain what additional evidence is needed to move from a contract-eligibility question to an identified failure and corrective-action follow-up."
       },
       {
         "no": 16,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not treat contractual relief as proof of effective mortgage monitoring, and do not treat an unresolved eligibility question as a corrective-action trigger."
       },
       {
         "no": 17,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Make any governance evidence request under Appendix D conditional on establishing covered-bank applicability."
       },
       {
         "no": 18,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explain how Appendix D’s framework and board-oversight scope would affect the review if applicable, without inventing the missing covered-bank definition, detailed governance duties, or effective dates."
       },
       {
         "no": 19,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not assume Appendix C or Appendix D provisions applied during the historical Appendix B transition periods merely because they appear together here."
       },
       {
         "no": 20,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "End with a bounded list of unresolved inputs that prevent conclusions on transition eligibility, substantive information-handling compliance, mortgage monitoring and corrective action, or governance applicability."
       },
       {
         "no": 21,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Distinguish missing institution evidence from missing source text (including referenced standards or objectives not supplied) and state the appropriate conditional or unknown conclusion for each identified gap."
@@ -12774,168 +12774,168 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Produce a regulatory calculation input matrix for the eCFR Part 30 Appendix A evidence segment covering §§ 30.4 and 30.5."
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Begin with a one-sentence statement on whether the supplied evidence segment is sufficient to populate the matrix."
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Organize the matrix into exactly three sections, in this order: compliance plan filing inputs; amendment approval inputs; notice-of-intent response inputs."
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Include a separate row for the 30-day filing schedule for a written safety and soundness compliance plan after an OCC request under § 30.3(b)."
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Include a separate row for required plan contents describing corrective steps and the time within which they will be taken."
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Include a separate row for the extraordinary growth threshold of more than 7.5 percent asset increase during any quarter within the 18-month period preceding a compliance plan request for an institution that is not well capitalized under section 38 of the FDI Act."
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Include a separate row for the exclusion of Bank Merger Act–approved merger or acquisition assets from the extraordinary growth asset increase calculation."
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Include a separate row for the prior written notice to and approval by the OCC required to amend an approved compliance plan."
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Include a separate row for the prior written notice of the OCC's intention to issue a corrective order."
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Include a separate row for the 14-calendar-day response period from the date of the notice of intent."
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Include a separate row for the required response content: explanation, recommended modification, and supporting documentation."
       },
       {
         "no": 12,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For every input row, map each requirement to the exact section and clause from the supplied rule text and keep the source label beside each input, threshold test, deadline, and resulting decision."
       },
       {
         "no": 13,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Treat all extracted provisions as current rule text under 12 CFR Part 30 Appendix A unless the supplied text itself indicates they are staff guidance, proposals, or non-binding."
       },
       {
         "no": 14,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Display every percentage with exactly one decimal place and every deadline in calendar days."
       },
       {
         "no": 15,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For the extraordinary growth threshold, apply the 'more than 7.5 percent' test to the asset increase inputs and state whether the threshold is met, breached, or Not Determinable from the supplied inputs."
       },
       {
         "no": 16,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For the filing and response deadlines, calculate the 30-day compliance plan filing window from the OCC request date and the 14-calendar-day response window from the notice-of-intent date, and state whether each deadline is met, exceeded, or Not Determinable from the supplied dates."
       },
       {
         "no": 17,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Identify the OCC as the approving authority for compliance plan amendments and for any modified filing period."
       },
       {
         "no": 18,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Mark each approval-dependent input as pending until the supplied evidence shows prior written OCC approval."
       },
       {
         "no": 19,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use the exact label Not Determinable for any input that cannot be established from the supplied evidence segment."
       },
       {
         "no": 20,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not use the terms approved, complete, or satisfied for any input that still requires OCC approval or has missing evidence."
       },
       {
         "no": 21,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Flag each gap between required compliance plan contents and the available evidence as confirmed, potential, or Not Determinable, and preserve any unresolved inconsistency in the matrix."
       },
       {
         "no": 22,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For every input that is missing or conditionally required, list the exact information or evidence to collect, the section it would resolve, and the matrix row it would complete."
       },
       {
         "no": 23,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Identify the required OCC filing or response for each triggering event, state the recipient, and specify the source-supported deadline or response period."
       },
       {
         "no": 24,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Close with a one-sentence readiness gate identifying the highest-priority missing input still required for a complete calculation."
@@ -12963,126 +12963,126 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Provide a prospective control-design alternative matrix comparing a standalone written safety-and-soundness compliance-plan filing with an integrated filing in another eligible host document."
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Rely solely on the supplied § 30.4 for the comparison; do not import requirements from statutes or sections merely referenced in the excerpt."
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Treat the task as a design comparison, not a finding about any actual institution or filing."
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each alternative, show: regulatory trigger and route conditions, deadline control, plan-content validation, proposed internal checkpoints, and the evidence needed to operate those checkpoints."
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Cite the relevant § 30.4 subsections and clearly separate source requirements from control-design recommendations."
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For the integrated route, identify eligible host-document types and the institution’s qualifying relationship to each."
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For the integrated route, distinguish the OCC permission needed for integration from the written OCC notification that governs a different filing period, preserving any expressly specified differences in the form of evidence."
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explain how § 30.4(a)(1), § 30.4(a)(2), and § 30.4(b) interact, including whether integration changes the applicable deadline or the required plan contents."
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Set up separate prospective gates: one for route availability and one for submission readiness."
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Show how each design establishes the deadline from receipt of the OCC request, handles an OCC-notified different period, and checks inclusion of required corrective-step and timing information."
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Express gates conditionally when case information is absent; do not invent a receipt date, calculate an unsupported calendar due date, or equate readiness under this excerpt with OCC approval of the plan."
       },
       {
         "no": 12,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Limit evidence-gap checks to: the OCC request and its receipt, any different-period notification, host-document type and status, OCC permission, and required plan contents."
       },
       {
         "no": 13,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Distinguish written documents expressly required by § 30.4 from additional records you recommend obtaining or retaining to verify those fields."
       },
       {
         "no": 14,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explain which gate (route availability or submission readiness) each unresolved field would prevent the reviewer from establishing."
       },
       {
         "no": 15,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "End with a conditional design recommendation derived from the matrix’s route and readiness gates."
       },
       {
         "no": 16,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Address how the process should respond if integration permission or host-document eligibility remains unconfirmed as the deadline approaches."
       },
       {
         "no": 17,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Label fallback and escalation measures as analyst recommendations."
       },
       {
         "no": 18,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not assume that pursuing integration suspends or extends the filing obligation."
@@ -13110,154 +13110,154 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Provide a disclosure compliance brief for counsel that relies only on the supplied handbook excerpts."
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Treat the quoted “before” paragraph solely as an illustrative disclosure, not as an issuer filing or a binding rule."
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Differentiate among: (a) handbook recommendations, (b) substantive relationships in the illustration an editor should preserve, and (c) mandatory disclosure obligations actually established by the excerpts."
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "State explicitly wherever a legal requirement cannot be established from the excerpts."
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Provide a concise mapping supported by short quotations with handbook page references."
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "In the mapping, cover for the illustrative Note: the stated scope of the description, its relationship to the accompanying Prospectus, the condition under which inconsistent material is replaced, the per‑Note applicability exception, and the document cross‑references."
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Identify the conditions and their consequences without supplying the contents of referenced documents."
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Link the mapped matters to relevant drafting guidance from the excerpts."
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Propose reviewer acceptance checks and label them clearly as editorial judgment rather than source‑imposed legal requirements."
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use the mapping to produce a plain‑English revision of the paragraph."
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Preserve the paragraph’s substantive scope, qualifications, and cross‑references in the revision."
       },
       {
         "no": 12,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Address the handbook’s concern about giving readers context before complex information."
       },
       {
         "no": 13,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explain the chosen conditional sentence or tabular structure using the supplied if/then guidance."
       },
       {
         "no": 14,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Show which condition governs each consequence in the revised presentation."
       },
       {
         "no": 15,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not expand the stated exception or precedence relationship."
       },
       {
         "no": 16,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Add a short, clearly hypothetical, one‑investor explanation to make the document relationships concrete."
       },
       {
         "no": 17,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Apply the abstraction guidance and do not invent instrument terms or imply the underlying documents have been reviewed."
       },
       {
         "no": 18,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Trace both the revision and the illustrative explanation back to the mapped content to confirm meaning is unchanged."
       },
       {
         "no": 19,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "End with a bounded verification section that addresses only the mapped matters."
       },
       {
         "no": 20,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "In the verification section, separate checks that can be completed against the proposed wording from checks that require missing document contents."
       },
       {
         "no": 21,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Distinguish a document merely cross‑referenced in the illustration from an expressly required document and from evidence you recommend obtaining."
       },
       {
         "no": 22,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each unresolved check, explain what remains unknown and how it limits sign‑off, and avoid turning an editorial review into an issuer‑level legal compliance conclusion."
@@ -13285,112 +13285,112 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use only the supplied CFPB report; do not include outside facts, external assumptions, or unsupported additions."
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Format the brief with exactly four level-2 headings, in this order and using these exact titles: Statutory Scope, Covered Complaint Population, Scope Limitations, Interpretation Limits."
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Under Statutory Scope, state that the report fulfills the FCRA Section 611(e)(5) reporting requirement and preserve the exact statutory citation."
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Under Statutory Scope, identify the statutory reference to the Federal Trade Commission as the issuer as a likely drafting error that does not change the Bureau's data-collection basis."
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Under Statutory Scope, preserve the report’s own terminology and the statement that the report summarizes certain complaints about credit reporting inaccuracies lodged against the NCRAs where the consumer appears to have previously utilized FCRA dispute procedures."
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Under Covered Complaint Population, cover three topics: (a) the report’s statutory scope under FCRA Section 611(e)(5); (b) covered complaint characteristics tied to prior FCRA dispute procedures; and (c) actions NCRAs report taking in response to covered complaints."
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Under Covered Complaint Population, map each of the three topics to the specific report passage that establishes the governing standard, data source, or covered-issue response field."
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Under Covered Complaint Population, include the report’s statement that additional response fields are presented only on certain covered issues and were introduced in 2012 to allow the CFPB to complete the data collection required by FCRA Section 611(e)."
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Under Scope Limitations, classify each complaint category as Covered, Out of Scope, or Cannot Determine using the report’s stated coverage criteria."
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Under Scope Limitations, for every limitation finding, use the exact label \"Scope Limitation\" and identify the supporting report passage."
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Under Scope Limitations, address the report’s distinction between NCRA complaints and complaints about furnishers and other, more specialized CRAs, including that some complaints are forwarded to other regulators because the named company does not participate in the CFPB’s complaint process."
       },
       {
         "no": 12,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Under Scope Limitations, preserve and use the report’s exact controlling counts and percentages: more than 5.6 million complaints from January 1, 2024 to June 30, 2025; almost 4.8 million about credit and consumer reporting; about 3.9 million about the three largest NCRAs; and the almost 3,000% increase in NCRA complaints since January 1, 2020."
       },
       {
         "no": 13,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Under Scope Limitations, separate the primary January 2024–June 2025 complaint window from the 2020 contextual lookback and state which window controls the covered-complaint interpretation."
       },
       {
         "no": 14,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Under Scope Limitations, compare NCRA complaint growth of almost 3,000% since January 1, 2020 against roughly 1,000% combined growth for furnisher and specialized CRA complaints, and rank the two categories by growth magnitude."
       },
       {
         "no": 15,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Under Interpretation Limits, do not describe the report’s complaint coverage as \"comprehensive.\""
       },
       {
         "no": 16,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Under Interpretation Limits, label any limitation that cannot be established from the supplied report text as \"Not Determinable.\""
@@ -13418,140 +13418,140 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Rely solely on the supplied plain-English handbook excerpts."
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Limit scope to risk-factor navigation from the cover page, the hierarchy and readability of surrounding information, and any tables or graphics used for related disclosure."
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Treat this as a prospective review specification only; do not assess an issuer’s compliance and do not use any issuer draft or underlying securities-rule text."
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Establish evidentiary weight by distinguishing general handbook guidance from comments on particular examples, explaining the note about the rules applicable when MBNA filed, and identifying what the excerpts cannot establish about legal obligations or substantive risk-disclosure adequacy."
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Provide a traceable review matrix that, for each test, lists the presentation feature, supporting passage or example, proposed evidence to obtain, a qualitative acceptance test, and follow-up actions if the test cannot be satisfied."
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use brief quotations or example names and page numbers where available in the matrix."
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Clearly distinguish supplied source material from documents recommended for collection."
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not portray any proposed artifact, handbook preference, or analyst-designed test as a regulatory requirement."
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Include evidence sufficient to evaluate both the rendered presentation and, where relevant, the information represented by a table or graphic."
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Ensure the matrix supports one integrated decision path rather than separate summaries of the excerpts."
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For repeated or quantitative information, explain how a reviewer decides among prose, a table, or a graphic while preserving attention to key information and risk-factor navigation."
       },
       {
         "no": 12,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use both the MBNA and Premium Cigars cross-reference comments to test whether prominence alone is sufficient to accept a layout."
       },
       {
         "no": 13,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Connect general table guidance with the Premium Cigars comments on the offering table, footnotes, and surrounding paragraph, and do not assume that changing the format automatically resolves the presentation concern."
       },
       {
         "no": 14,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Define reviewer outcome categories and when to use them: 'acceptable under the proposed presentation standard,' 'revision indicated,' 'not determinable,' and 'not applicable.'"
       },
       {
         "no": 15,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not automatically treat missing evidence as a breach."
       },
       {
         "no": 16,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not treat optional presentation techniques as mandatory."
       },
       {
         "no": 17,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "From the defined criteria, derive a targeted evidence request list and a conditional recommendation for closing this limited review."
       },
       {
         "no": 18,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For every blocking gap, name the affected test and the evidence needed to resolve it, keeping requests within the stated presentation scope."
       },
       {
         "no": 19,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "State what remains unknown at this stage."
       },
       {
         "no": 20,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Label any closure conditions or remediation suggestions as analyst judgment rather than requirements established by the excerpts."
@@ -13579,119 +13579,119 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use only the three supplied Johnson & Johnson 10-K statements (balance sheet, income statement, cash flow statement); do not use any external data, customary practice, or remembered facts."
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Label any result that cannot be established from the supplied materials as Not Determinable."
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Structure the brief with exactly four level-2 headings, in order: Source Evidence; Recalculation and Cross-Statement Checks; Comparison and Timing; Open Evidence and Conclusion."
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Under Source Evidence, identify a common FY end 2025-12-28 reporting period across all three statements."
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Under Source Evidence, calculate the number of days between FY end 2024-12-29 and FY end 2025-12-28 to determine the latest annual reporting window."
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For every numeric input, recalculation, comparison, and open-evidence item, identify the supporting statement and the exact reported concept and fiscal endpoint used, with the source label adjacent to each figure."
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Preserve exact reported concept names, fiscal endpoint dates, USD units, signs, and dollar amounts wherever they control a calculation or comparison, and do not round any source value before completing the checks."
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Under Recalculation and Cross-Statement Checks, for FY end 2025-12-28, recalculate total assets as AssetsCurrent plus all non-current asset components and show the variance versus reported Assets."
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Under Recalculation and Cross-Statement Checks, for FY end 2025-12-28, recalculate total liabilities as LiabilitiesCurrent plus all non-current liability components and show the variance versus reported Liabilities."
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For FY end 2025-12-28, calculate the current ratio as AssetsCurrent divided by LiabilitiesCurrent, showing the formula, both inputs, and the USD result."
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For FY end 2025-12-28, calculate net working capital as AssetsCurrent minus LiabilitiesCurrent, showing the formula, both inputs, and the USD result."
       },
       {
         "no": 12,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Under Comparison and Timing, compare gross profit 63,937,000,000 (FY 2025-12-28) to 61,350,000,000 (FY 2024-12-29) using the same USD unit and annual basis, show absolute and percentage differences, and label the result Above, Below, or Roughly in Line relative to the prior year."
       },
       {
         "no": 13,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Under Open Evidence and Conclusion, treat missing CostOfGoodsAndServicesSold and IncomeTaxExpenseBenefit values for FY 2023-07-02 and FY 2023-10-01 as unresolved gaps, list them under Open Evidence, and state which cross-statement calculation or comparison each missing value prevents."
       },
       {
         "no": 14,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use only the status labels Ties Out, Variance, and Not Determinable for every recalculation, comparison, and missing-evidence result."
       },
       {
         "no": 15,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not use the words approved, closed, or reconciled anywhere in the brief."
       },
       {
         "no": 16,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Include exactly three numbered findings, ordered from largest to smallest by absolute variance or difference."
       },
       {
         "no": 17,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Show every monetary difference in USD with no decimal places."
@@ -13719,231 +13719,231 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Provide a brief on risk‑disclosure exceptions and thresholds aimed at a prospective standard for streamlining prospectus language."
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Rely solely on the supplied plain‑English handbook passages."
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Frame the work as a proposed review standard, not a compliance finding about any issuer."
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Present a decision table linking content‑retention guidance to presentation guidance."
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For every decision point, identify the trigger."
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For every decision point, cite the source passage using a short quotation."
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For every decision point, state any prerequisite or qualification."
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For every decision point, state the action the guidance supports."
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For every decision point, state what remains unresolved."
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Address information’s importance, legal necessity, and usefulness to investors."
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Address inherited language with an uncertain purpose."
       },
       {
         "no": 12,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Address repetition in disclosures."
       },
       {
         "no": 13,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Address readable, consistent emphasis."
       },
       {
         "no": 14,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Preserve the distinction between questioning whether text is needed, considering its removal, and having sufficient support to approve an edit."
       },
       {
         "no": 15,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Where the source provides no final approval threshold or express exception, explicitly note the absence."
       },
       {
         "no": 16,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not convert suggested practices into binding disclosure duties."
       },
       {
         "no": 17,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not invent numerical cutoffs or deadlines."
       },
       {
         "no": 18,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Construct a review sequence in which the content decision gates the next step: removal, consolidation, further inquiry, or presentation‑only changes."
       },
       {
         "no": 19,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explain how unresolved legal necessity or investor usefulness affects the next step in the sequence."
       },
       {
         "no": 20,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Identify which parts of the sequence come directly from the handbook and which are conservative safeguards recommended as analyst judgment."
       },
       {
         "no": 21,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Stress‑test the sequence against the uppercase and sentence‑case SEC warning examples in the presentation passage."
       },
       {
         "no": 22,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Assess whether difficult typography or apparently repeated substance, by itself, justifies deleting any warning content."
       },
       {
         "no": 23,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Distinguish alternative highlighting techniques from guidance that applies after a highlighting method is selected."
       },
       {
         "no": 24,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Compare only the wording actually visible in the two examples."
       },
       {
         "no": 25,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not assume the uppercase excerpt is complete."
       },
       {
         "no": 26,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not treat the handbook demonstrations as duplicate disclosures in an issuer’s prospectus."
       },
       {
         "no": 27,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not infer that the illustrated warning is legally required in any particular filing."
       },
       {
         "no": 28,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "End with a conditional editing recommendation derived from the earlier decision gates that states what can proceed as a presentation change."
       },
       {
         "no": 29,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "End with a conditional editing recommendation derived from the earlier decision gates that states what remains unresolved before any substantive cut."
       },
       {
         "no": 30,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "End with a conditional editing recommendation derived from the earlier decision gates that specifies narrowly targeted follow‑up evidence to resolve those uncertainties."
       },
       {
         "no": 31,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Limit follow‑up evidence requests to legal necessity, investor usefulness, completeness of the proposed wording, and consistency of the proposed emphasis."
       },
       {
         "no": 32,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Distinguish handbook‑stated review steps from evidence or approvals you recommend."
       },
       {
         "no": 33,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not fill gaps using outside securities law or the unsupplied Chapter 8."
@@ -13971,112 +13971,112 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Prepare a reporting scope and controls analysis brief for the CFPB's FY 2025 Annual Performance Report using only the supplied materials."
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Begin the brief with a single-sentence scope determination for the FY 2025 reported performance measures."
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Preserve exactly the measure labels, FY 2025 targets, FY 2025 actuals, statutory references, and defined terms from the supplied materials wherever they control the analysis."
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not round, relabel, or normalize any source figure."
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For every scope determination, control conclusion, metric comparison, and transition observation, identify the supporting material and the exact figure, clause, or statutory reference used."
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Keep source labels beside each input and each result."
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Structure the brief around these review areas: timely and understandable information; protection from unfair, deceptive, or abusive acts and practices and from discrimination; reduction of unwarranted regulatory burdens; consistent enforcement of federal consumer financial law; transparent and efficient markets."
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each review area, assess which FY 2025 reported performance measures from Table 1 speak to that objective and which do not, using only the supplied materials."
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each scope and control conclusion, use only the exact status labels: Supported, Not Supported, Not Determinable."
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not use the labels approved, closed, or reconciled while any prerequisite evidence remains unresolved."
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "State the source status of each governing reference, distinguishing Dodd-Frank Act statutory provisions, OMB Circular A-11 Part 6 reporting guidance, and future-action transition statements."
       },
       {
         "no": 12,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not present transition statements as current reporting requirements."
       },
       {
         "no": 13,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Calculate the time window between the FY 2025 APR reporting period and the February 2026 release of the new strategic plan and the February 2027 release of the new measures."
       },
       {
         "no": 14,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Determine whether the transition timing falls within the described reporting cycle."
       },
       {
         "no": 15,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Show the source dates, the applicable window, the date calculation, the timing status, and the implication for the current measures."
       },
       {
         "no": 16,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "End with a single-sentence readiness gate stating the evidence still required before the February 2026 transition can be assessed."
@@ -14104,119 +14104,119 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use only the supplied text and reproduced footnotes; do not import information from linked publications or reconstruct the missing Figure 2 plot."
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Begin with a short conclusion on whether complaint-volume growth evidences deteriorating compliance, signals need for further review, or neither, and clearly separate your analytical judgment from what the CFPB expressly reports."
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Establish the scope before evaluating the trend."
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Identify the company types and the complaint-routing conditions described, keeping company type distinct from referral status and not assuming these categories are mutually exclusive."
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explain how precisely the text identifies which categories are covered by the combined growth statement, and flag unresolved category membership rather than supplying categories from the absent figure."
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Describe the complaint-form design and its implementation timing, and explain implications for counting complaints, submission sessions, and unique consumers."
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not assume every submission session names the maximum number of companies or that complaint counts can be deduplicated based on this excerpt."
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For the reported combined increase, preserve the approximate percentage, its stated starting point, and the figure caption’s indexing reference."
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Translate the percentage increase into an approximate multiple of the starting volume and show the arithmetic used."
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "State whether the endpoint, absolute volumes, category-specific growth rates, and consumer or exposure denominators are identifiable from the supplied text."
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Keep the complaint-form change date distinct from the growth period and do not attribute growth during that period to the earlier change without supporting evidence."
       },
       {
         "no": 12,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Provide a compact assessment table evaluating these proposed dashboard uses: describing the combined complaint-volume trend; assigning growth rates to individual company types; inferring growth in unique affected consumers; treating complaints as verified violations; comparing misconduct risk across financial products; attributing growth to particular drivers."
       },
       {
         "no": 13,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "In that table, label each interpretation as “Explicitly reported,” “Qualified inference,” or “Not established,” and include a short definition of those labels."
       },
       {
         "no": 14,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Tie each table judgment to a specific supplied passage or footnote."
       },
       {
         "no": 15,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Integrate the market-structure caution and the discussion of potential growth factors into the table judgments, distinguishing possible contributors from measured causal attribution, including for AI-related technologies."
       },
       {
         "no": 16,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Draft a short dashboard note that retains usable trend information without implying unsupported consumer-level, category-level, causal, or violation findings."
       },
       {
         "no": 17,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Propose follow-up evidence only for gaps blocking the evaluated dashboard uses, link each proposed evidence item to the inference it would test, and label these as analyst recommendations rather than required documents or validation steps."
@@ -14244,224 +14244,224 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Base the traceability matrix solely on the supplied excerpts from the SEC’s August 1998 A Plain English Handbook."
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Make the matrix support a prospective drafting and review policy."
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not make issuer-specific compliance findings."
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not certify the completeness of current legal requirements."
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Include matrix columns for: source anchor; nature and force of the passage; applicable document or section; condition or qualification; proposed policy check and acceptance basis; review evidence or unresolved limitation."
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each substantive row, cite the supplied heading, any legible clause label, and a short supporting quotation."
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Split passages into separate rows where their operative force or scope differs."
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not reconstruct missing numbering or text."
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use the introductory general-information caveat to set the authority boundary for the whole matrix while preserving the mandatory wording actually reproduced in the disclosure provision."
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Distinguish among mandatory wording, conditional permission, encouragement or guidance, and illustrative drafting language."
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Trace the plain-English duty to the covered prospectus sections and to the writing principles actually visible in the excerpt, retaining the source’s qualified compliance standard."
       },
       {
         "no": 12,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Separately map: the permission to use design elements and its conditions; the encouragement on understandable financial presentations; and the mandatory presentation restrictions."
       },
       {
         "no": 13,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Clearly distinguish which checks concern the named sections versus design provisions that also address other prospectus sections."
       },
       {
         "no": 14,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not extend design duties to supplements solely because supplements appear elsewhere in the handbook."
       },
       {
         "no": 15,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Integrate the three-document note example into the matrix as a conditional reader-reliance check."
       },
       {
         "no": 16,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Derive the hierarchy from the alternative presentations without counting the alternatives as separate obligations."
       },
       {
         "no": 17,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Preserve the conditions governing general note information and differing information in the example."
       },
       {
         "no": 18,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not convert the illustration into a universal filing requirement."
       },
       {
         "no": 19,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not convert the illustration into an obligation to make every document’s terms identical."
       },
       {
         "no": 20,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explain what must be established before the team could use the illustrated hierarchy in an actual offering."
       },
       {
         "no": 21,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Using the completed matrix, propose a brief reviewer decision path for a future offering that adopts the illustrated hierarchy and includes a chart in the prospectus risk-factors section."
       },
       {
         "no": 22,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Show how differing note information would affect reader reliance."
       },
       {
         "no": 23,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Indicate which applicable language and design checks would still require review."
       },
       {
         "no": 24,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Identify where an unresolved applicability or evidence question would prevent a conclusion."
       },
       {
         "no": 25,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Link decision-path steps back to the relevant matrix entries rather than giving an unrelated summary."
       },
       {
         "no": 26,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Label proposed review evidence and workflow steps as analyst recommendations, not source-mandated records or procedures."
       },
       {
         "no": 27,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Bound the gap assessment to authority, scope, source coverage, and the evidence needed for the matrix’s checks."
       },
       {
         "no": 28,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Leave missing provision text unknown."
       },
       {
         "no": 29,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Leave actual issuer compliance unknown."
       },
       {
         "no": 30,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not introduce numerical acceptance thresholds."
       },
       {
         "no": 31,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not introduce external legal rules."
       },
       {
         "no": 32,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not introduce an effective date inferred from the handbook’s publication date."
@@ -14489,245 +14489,245 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use only the supplied excerpts of § 240.10b-10."
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not make findings about an actual transaction."
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not claim to cover the complete regulation."
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Build a conditional decision table mapping transaction-routing facts to required confirmation content and permitted alternative treatments."
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Keep remuneration provision (D), principal equity-pricing provisions (ii)(A) and (ii)(B), and security-futures provisions in separate scopes."
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each decision-table branch, cite the relevant supplied clause."
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each branch, distinguish: content required on the confirmation, notices with details available upon written request, amounts eligible for deferred disclosure, and clause-specific absence of a disclosure obligation."
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Allow different fields within the same transaction to have different disclosure treatments."
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Mark applicability as unresolved where necessary facts or governing parent text are missing."
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not infer the opening (D)’s missing parent scope."
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not import the referenced NMS-stock definition."
       },
       {
         "no": 12,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For the opening (D), preserve the purchase-versus-sale conditions governing the alternative remuneration disclosure."
       },
       {
         "no": 13,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For principal equity transactions, retain the full prerequisites for (ii)(A)."
       },
       {
         "no": 14,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For principal equity transactions, retain the residual scope governed by (ii)(B)."
       },
       {
         "no": 15,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Identify the price inputs compared in each principal equity branch, including the distinction between customer purchases and sales."
       },
       {
         "no": 16,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not invent transaction prices or a sign convention."
       },
       {
         "no": 17,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For security-futures, cover the transaction-identification fields."
       },
       {
         "no": 18,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For security-futures, distinguish remuneration source from remuneration amount."
       },
       {
         "no": 19,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For security-futures, distinguish initiating from corresponding liquidating transactions."
       },
       {
         "no": 20,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For security-futures, distinguish information-availability notices from the underlying requested information."
       },
       {
         "no": 21,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For security-futures, distinguish payment-for-order-flow disclosures from other remuneration disclosures."
       },
       {
         "no": 22,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "State the conditions that must be established before selecting a reduced or delayed disclosure treatment."
       },
       {
         "no": 23,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Apply the transitional provision to the security-futures portion using separate branches for dates before June 1, 2003 and on or after June 1, 2003."
       },
       {
         "no": 24,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Show how the transition changes notice obligations and the handling of a customer’s written request."
       },
       {
         "no": 25,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not extend the transitional provision to provisions it does not name."
       },
       {
         "no": 26,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Add a separate exemption overlay explaining what must be established before relying on paragraph (f), respecting its stated paragraph scope and any alternative procedures or imposed terms."
       },
       {
         "no": 27,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not assume an exemption under paragraph (f) has been granted."
       },
       {
         "no": 28,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Identify any exemption-to-branch mapping that cannot be resolved from the supplied excerpts."
       },
       {
         "no": 29,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Derive proposed template-validation checks and a minimal evidence-intake checklist from the completed decision table."
       },
       {
         "no": 30,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Connect each validation check to its applicable branch."
       },
       {
         "no": 31,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Show when content can be accepted, conflicts with an established requirement, or must remain unresolved pending routing or exception evidence."
       },
       {
         "no": 32,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Limit the evidence-intake checklist to branch selection, disclosure content, and claimed alternative treatments."
       },
       {
         "no": 33,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Treat missing evidence as unresolved, not as a finding of an actual violation."
       },
       {
         "no": 34,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Distinguish source requirements from recommended controls and supporting records."
       },
       {
         "no": 35,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not add deadlines or documentary mandates that are not in the supplied text."
@@ -14755,147 +14755,147 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Develop a material-risk disclosure requirement matrix for a prospective review, relying solely on the two supplied excerpts."
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Limit the focus to presentation obligations and implementation guidance supported by the excerpts; do not treat them as a complete statement of substantive material-risk disclosure law or make findings about an actual issuer."
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Include in the matrix: the mapped proposition, the supporting passage, applicability, authority or evidentiary status, and the resulting review check with its limitations."
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Cite the Introduction or a short quoted locator from the writing-guidance excerpt beside each proposition; do not invent rule citations."
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Distinguish obligations reported by the Introduction from editorial guidance, worked illustrations, and the assistant’s own recommended controls."
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Allow overlapping labels where a passage both illustrates and explains guidance."
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Identify which prospectus sections the Introduction places within its plain‑English statement."
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Connect that scope to guidance on passive voice, strong verbs, filler language, and concrete procedural references."
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explain how each relevant drafting technique could inform review of risk disclosures while distinguishing stated presentation obligations from techniques not established as independently binding requirements."
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use both before‑and‑after examples as evidence for implementation analysis only, not as issuer risk disclosures."
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Compare each rewrite for what it preserves, changes, or adds regarding actor, certainty or conditionality, scope, timing, and procedural references, where relevant."
       },
       {
         "no": 12,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Differentiate clarity improvements from factual or substantive changes that would require validation before making similar edits to a risk disclosure."
       },
       {
         "no": 13,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Preserve inclusive timing and procedural conditions in the proxy illustration."
       },
       {
         "no": 14,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Treat the referenced page in the proxy illustration as unavailable and do not reconstruct its contents."
       },
       {
         "no": 15,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not infer an unidentified actor."
       },
       {
         "no": 16,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "From each comparison, derive a recommended risk‑disclosure editing control and connect it to the applicable matrix entry."
       },
       {
         "no": 17,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not transfer the examples’ fund or proxy facts into the risk‑disclosure requirements."
       },
       {
         "no": 18,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Conclude with a short review recommendation, based on the matrix, that states what presentation coverage can be checked from the excerpts, which checks are guidance‑based recommendations, and what cannot yet be determined."
       },
       {
         "no": 19,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Limit the unresolved‑fields assessment to materiality or risk‑selection criteria, exceptions to the stated presentation scope, disclosure timing, and issuer compliance evidence."
       },
       {
         "no": 20,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For unresolved fields, identify additional information you would request and why, labeling those requests as analyst proposals rather than documents required by the excerpts."
       },
       {
         "no": 21,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not generalize the proxy example’s timing into a disclosure deadline."
@@ -14923,196 +14923,196 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use only the supplied excerpts of § 240.10b-10."
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Produce a prospective books-and-records retention standard for a broker-dealer’s confirmation-related processes."
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Provide a requirements-to-records mapping for designing a retention schedule."
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not make findings that any customer event occurred."
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not find or assume that the firm holds an exemption."
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Build an integrated schedule covering the group-payment clause labeled (C), the two transitional subparagraphs, and the Commission exemption provision."
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each schedule entry, identify: the supporting passage; affected parties; trigger or qualifying condition; required action and timing; expressly described documents or communications; proposed supporting records; and, if established, the retention duration and clock-start event."
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Distinguish broker-dealer-produced documents from incoming documents that trigger duties and from evidentiary records recommended for retention."
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not treat a communication requirement as an express legal retention requirement."
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Preserve the distinction between each customer in the group and the designated person."
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Translate the group-payment provision into a conditional monitoring and notification sequence."
       },
       {
         "no": 12,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Distinguish the payment-receipt trigger window, any unstated notification deadline, and the number of succeeding payments requiring written notifications."
       },
       {
         "no": 13,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not convert the trigger window, notification deadline, or number of succeeding payments into a retention period."
       },
       {
         "no": 14,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Keep the transitional relief tied to its stated cutoff."
       },
       {
         "no": 15,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Apply the written-request exception only where the text places it."
       },
       {
         "no": 16,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not reconstruct the missing contents of paragraph (a), (e)(1)(iii), or (e)(1)(iv)."
       },
       {
         "no": 17,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not infer the missing parent provision of clause (C)."
       },
       {
         "no": 18,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not create additional duties from definitions or cross-references alone."
       },
       {
         "no": 19,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use the mapping to specify proposed conditional record packages and an exemption-review gate."
       },
       {
         "no": 20,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explain what evidence is needed of an exemption’s grant, transaction scope, alternative procedures, and imposed conditions before revising the communication-duty mapping."
       },
       {
         "no": 21,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Test any proposed revision against paragraph (f)’s stated paragraph scope."
       },
       {
         "no": 22,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "If the supplied text cannot establish whether a mapped provision falls within paragraph (f)’s scope, leave the effect unresolved."
       },
       {
         "no": 23,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not treat relief from communication duties as authority to shorten retention or destroy records."
       },
       {
         "no": 24,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Finish with retention and disposal controls that follow from the mapping."
       },
       {
         "no": 25,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Clearly label internal recordkeeping recommendations as policy judgment."
       },
       {
         "no": 26,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Where the excerpts do not establish retention duration, clock start, storage format, or destruction authority, mark the field unresolved and do not import another rule or invent a period."
       },
       {
         "no": 27,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Identify the missing rule passages and retention authorities needed to finalize unresolved fields, and identify exemption documentation only if relief will be relied upon."
       },
       {
         "no": 28,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Recommend how affected records should be handled pending that review, without presenting the recommendation as a requirement of these excerpts."
@@ -15140,140 +15140,140 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use only the two supplied excerpts as sources."
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Provide a prospective risk-disclosure policy traceability matrix that translates disclosed provisions into review controls and does not conclude issuer or prospectus compliance."
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Include in every matrix row: an identifiable source passage or printed clause locator; applicable prospectus sections and any trigger; the force of the source language; the corresponding policy control; and a practical review test with the evidence needed to perform it."
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Classify source passages by force: mandatory duties, conditions on permitted design choices, permissions, and encouragement/editorial guidance; allow multiple classifications when combined in one passage."
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Clearly label any analyst-proposed implementation step as a proposal, not as a source requirement."
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Apply scope limits: do not extend writing duties beyond the specifically named sections, and include the design provision’s references to other sections."
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Preserve the standard of minimum substantial compliance for each displayed writing principle."
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Preserve the condition that tables or bullet lists are for complex material."
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Preserve separate safeguards for clarity, misleading information, consistency, and chart or graph scale."
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not convert encouraged financial-data illustrations into a mandatory presentation format."
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For the concrete-word control, connect the handbook’s guidance on abstraction and its before-and-after fund example to the provision on definite, concrete, everyday words, and explain how that guidance informs the proposed review test."
       },
       {
         "no": 12,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "In that explanation, preserve the guidance that not all abstractions can be eliminated and that a more concrete term should be used when possible."
       },
       {
         "no": 13,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not treat the handbook example as evidence about an actual issuer or as proof of compliance with other writing principles."
       },
       {
         "no": 14,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Add a short decision protocol, using the matrix’s scope and source-force classifications, to distinguish an evidenced shortfall under an applicable duty or design condition from an editorial improvement supported only by guidance, and explain when unresolved applicability or missing evidence requires an undetermined outcome."
       },
       {
         "no": 15,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Apply the decision protocol prospectively to a concrete-word concern and to a chart-design concern, identifying which matrix controls would govern and what evidence would be needed before reaching a finding."
       },
       {
         "no": 16,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "End with a bounded evidence-gap note covering source completeness, applicability, and the materials needed for the review tests, and separate missing source text from proposed review evidence (e.g., draft disclosure passages or prospectus information for a consistency check)."
       },
       {
         "no": 17,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Leave issuer-level results unevaluated because no issuer draft is supplied."
       },
       {
         "no": 18,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not reconstruct omitted numbering or list entries."
       },
       {
         "no": 19,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not add external legal citations."
       },
       {
         "no": 20,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not import other securities-law requirements."
@@ -15301,133 +15301,133 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use only the two supplied handbook excerpts as sources."
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Prepare a traceability matrix mapping proposed internal provisions to supporting guidance and indicating where that support ends."
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not present handbook advice as binding securities-law requirements."
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not infer that any issuer has adopted or satisfied the handbook guidance."
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each proposed provision, include: the supporting heading and a short source quotation; the strength of the source language; its applicability conditions or qualifications; any relationship to another supplied provision; and a proposed review test with the reviewer evidence needed."
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Distinguish source guidance and illustrative material from internal-policy recommendations."
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Label proposed inspection materials as reviewer evidence, not as documents expressly required by the handbook."
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Cover presentation decisions for body text, headings and emphasis, text within graphics, placement of graphics relative to explanatory text, and chart-versus-table choices."
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Reconcile general typography guidance with graphic-specific advice by explaining how applicable conditions affect each proposed policy clause and carrying that conclusion into its review test."
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not treat the excerpts as unrelated checklists."
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not assume graphic-specific advice creates a formal exception to a binding rule."
       },
       {
         "no": 12,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Preserve distinctions among direct recommendations, suggestions to consider an option, and statements that one approach can sometimes be clearer."
       },
       {
         "no": 13,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Retain qualitative or approximate boundaries; do not invent numeric cutoffs (e.g., font sizes, text lengths, slice counts)."
       },
       {
         "no": 14,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Identify any stricter internal acceptance criterion separately as an analyst recommendation requiring policy approval."
       },
       {
         "no": 15,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For earlier typography guidelines, trace only what the supplied typography excerpt supports and do not assume it reproduces the full referenced discussion."
       },
       {
         "no": 16,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Keep illustrative fonts and historical market figures separate from required disclosure content."
       },
       {
         "no": 17,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Finish with a short adoption-readiness note derived from the matrix."
       },
       {
         "no": 18,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "In the adoption-readiness note, identify only unresolved authority, applicability, or review-criterion issues for the proposed provisions and explain what policy decision or design evidence would resolve each."
       },
       {
         "no": 19,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Where the excerpts do not establish an objective acceptance condition, allow a conditional or judgment-dependent result rather than creating a pass/fail rule."
@@ -15455,182 +15455,182 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Base the brief solely on Definitions 10–11 and Appendix D Sections A–B as sources."
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Provide a prospective implementation analysis and do not make an institution-specific compliance finding."
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Begin with a concise source-to-decision crosswalk covering: framework design and approval; delegations and limits for material activities; review and update responsibilities and timing; and risk-category scope."
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Keep 'risk appetite' and 'risk profile' distinct and preserve each definition’s qualifications."
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explain how the appetite/profile distinction informs whether changes in risk profile require additional framework maintenance."
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Preserve both the annual review cadence and the qualified as-needed update standard; do not treat either as a substitute for the other."
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Cite the relevant definition or section beside each articulated standard."
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not reconstruct or supply missing contents of paragraph II.E."
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Compare the three options: retain existing framework with ongoing review/updates; make targeted compliance-risk amendments while retaining the rest; redesign the framework across applicable risk categories."
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each option, state factual conditions that would make it sufficient."
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each option, state conditions that would make it insufficient."
       },
       {
         "no": 12,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each option, state its principal limitation."
       },
       {
         "no": 13,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each option, link the assessment to supporting entries from the crosswalk."
       },
       {
         "no": 14,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Distinguish responsibilities expressly assigned by the source from any implementation responsibilities you recommend."
       },
       {
         "no": 15,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not infer a requirement for board approval of every subsequent update from the framework-approval provision."
       },
       {
         "no": 16,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Make the scope comparison substantive by explaining why a targeted remediation effort is not equivalent to a compliance-risk-only framework."
       },
       {
         "no": 17,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Identify the listed risk categories and retain the qualification that coverage concerns only categories applicable to the bank."
       },
       {
         "no": 18,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not assume every listed category applies, and do not assume unverified categories can be omitted."
       },
       {
         "no": 19,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Assess each option conditionally where applicability of categories or the quality of the existing framework is unknown."
       },
       {
         "no": 20,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Conclude with a conditional recommendation path distinguishing: evidence supporting retention; a localized gap suitable for amendment; broader gaps warranting redesign; and insufficient evidence to choose."
       },
       {
         "no": 21,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Allow sequencing of responses where appropriate."
       },
       {
         "no": 22,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each branch of the recommendation path, specify what evidence would establish or defeat its preconditions and how that would change the recommended response."
       },
       {
         "no": 23,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Limit evidence requests to governance, authority/limits, maintenance, and category-scope topics from the crosswalk."
       },
       {
         "no": 24,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Separate the formal written framework required by the excerpt from any corroborating materials you propose requesting."
       },
       {
         "no": 25,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not treat missing bank evidence as proof of a deficiency."
       },
       {
         "no": 26,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not invent remediation deadlines."
@@ -15658,154 +15658,154 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Provide a compliance review evidence specification brief for residential mortgage origination relationships at a national bank or Federal savings association."
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Rely solely on items 3–6 of Appendix C to Part 30; do not use other sources."
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Treat the exercise as a prospective review specification with no institution records or actual findings and an incomplete appendix excerpt."
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Present a traceability table linking each review objective to its numbered item (3–6) and a short supporting passage."
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each objective, distinguish the mechanism named in the excerpt (agreement, procedure, system, or other) from the evidence artifacts you recommend requesting."
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Specify separately what evidence would establish control design and what additional evidence would demonstrate operation."
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Label proposed records and testing methods as reviewer judgment, not as additional source requirements."
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "In the table, preserve the specified distinctions: total loan compensation versus total compensation of intermediaries; compensation limits versus incentive structure; agreement provisions addressing due‑diligence risks, compliance, remedies, protection against risk, and termination; verification against agreements, institutional policies, and applicable laws; and oversight across loan sourcing, underwriting, and closings."
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Keep contractual remedies, loan‑term modification, and relationship termination distinct rather than treating them as interchangeable."
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use the table to develop linked testing paths for both a potential compensation‑incentive concern and a due‑diligence‑identified risk."
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explain how each concern is traced to agreement provisions, tested via item 5 verification mechanisms, and evaluated against item 6 corrective‑action criteria and procedures, treating these paths as hypothetical."
       },
       {
         "no": 12,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Cite the supporting Appendix item for each link and identify which connections are reviewer design recommendations rather than relationships expressly prescribed by the text."
       },
       {
         "no": 13,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explain how an unresolved upstream criterion or a missing agreement would limit downstream verification or corrective‑action assessment."
       },
       {
         "no": 14,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For proposed tests, state what evidence would support the review criterion, what would indicate a gap, and when the result must remain undetermined."
       },
       {
         "no": 15,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Distinguish an unspecified criterion in the excerpt from institution evidence that is merely not provided."
       },
       {
         "no": 16,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not treat missing records as proof of a control failure, staying within a compensation limit as sufficient proof of appropriate incentives, or a detected problem as automatically requiring termination."
       },
       {
         "no": 17,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not invent numerical limits, definitions of predatory or abusive characteristics, applicable‑law contents, sampling thresholds, or corrective‑action triggers; identify any additional criterion needed for a conclusive test."
       },
       {
         "no": 18,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "End with a targeted evidence‑request plan derived from the testing paths."
       },
       {
         "no": 19,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Bound the evidence‑request plan to compensation design and operation, due‑diligence risks and agreements, origination verification, and corrective‑action criteria and records."
       },
       {
         "no": 20,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Sequence evidence requests by the downstream assessments they enable."
       },
       {
         "no": 21,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Distinguish necessary test inputs from optional corroboration in the request plan."
       },
       {
         "no": 22,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explain which conclusions would remain conditional even after obtaining the proposed records."
@@ -15833,112 +15833,112 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use only the two supplied plain-English extracts and limit the brief to presentation and readability issues."
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Specify a prospective review; do not report issuer findings or certify legal compliance."
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Classify source material as general writing guidance, observations about the illustrated disclosures, and expressly optional techniques; allow overlaps and explain how the classification affects the strength of review criteria."
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "State the limits of what the extracts establish about mandatory risk-disclosure obligations; do not import securities-law rules or the missing opening cross-reference content."
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Build an evidence-to-test matrix covering terminology and word choice, sentence construction, and investor-oriented organization and navigation."
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each matrix check, include the source footing, a short supporting quotation with an identifiable passage or company-example reference, the draft material or reviewer explanation to request, the review procedure, and a conditional acceptance or follow-up rule."
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Distinguish documents expressly required by the sources from evidence you recommend obtaining, and label internal acceptance standards as analyst judgment rather than source-imposed obligations."
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For terminology, reconcile guidance on shortened proper names with the examples’ treatment of defined terms, and specify what evidence would support retaining a term rather than requesting a rewrite."
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For sentence construction, connect structural guidance with annotated before-and-after observations to design a review that tests clarity rather than sentence length alone."
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explain what the reported sentence-length figures can and cannot support; do not invent a numerical cutoff or claim to have independently counted sentences."
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Make follow-up rules depend on the source classification and any applicable condition or exception."
       },
       {
         "no": 12,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not treat omission of an expressly optional presentation technique as, by itself, a noncompliance finding."
       },
       {
         "no": 13,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Keep the named companies’ examples distinct and do not treat their annotations as evidence about the future risk disclosure."
       },
       {
         "no": 14,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Conclude with a consolidated evidence request derived from the matrix and identify which proposed checks cannot be performed until that material is available."
       },
       {
         "no": 15,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Keep actual draft conformity undetermined and confine evidence gaps to the defined review checks."
       },
       {
         "no": 16,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Distinguish any future presentation conclusion from conclusions about substantive risk coverage or legal compliance that the extracts cannot support."
@@ -15966,91 +15966,91 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use only the supplied excerpts of SBA Form 1919 (02/2025), SBA Form 1920 page 10 lender application, and SBA Form 1920 page 4 character determination and eligibility as sources; treat each as a blank form excerpt and do not infer any executed certification, checked answer, signature, attachment, approval, or other facts not present."
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Begin with a single-sentence readiness conclusion stating whether submission conditions can be certified on the supplied evidence."
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Present the analysis as a submission-conditions matrix with columns: Condition; Governing Source; Required Evidence or Approval; Classification; Risk or Exposure; Open Item."
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Cover these submission topics in the matrix: OSHA compliance certification; lead-based paint prohibition for residential structures; civil rights and ECOA nondiscrimination obligations including the Equal Employment Opportunity Poster requirement; debarment and suspension certifications under Executive Order 12549 as amended and 2 C.F.R. Part 180; BABAA domestic content certification for infrastructure projects; the lender disclosure prerequisite under Section 1352, Title 31, U.S. Code; and character determination, citizenship, prior loss to government, and size analysis requirements."
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each submission condition, assign a classification of Satisfied, Not Determinable, or Exception Required, using the certification, debarment, and character-determination criteria stated in the supplied forms."
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Identify each listed submission deficiency or exception trigger, including inability to certify debarment items (a)–(d), undisclosed criminal charges, parole or probation status, crimes against a minor, felony or recent disposition, prior federal loss, delinquent federal debt, and missing contractor BABAA certifications."
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Identify the required approval or authorization evidence for each condition, including: SBA written statement of exception when the applicant cannot certify debarment items (a)–(d); PLP lender certification of small business status, eligible purpose, and good character; SBA clearance letter when a disclosed crime includes a felony, a crime against a minor, or a disposition within the last six months; keep any missing approval as an open condition without implying approval."
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each condition, state the affected population or loan scope, the exposure or consequence of noncompliance, and any evidence limitation preventing a definitive risk conclusion; distinguish quantified exposure from qualitative consequences when amounts cannot be measured from the blank-form materials."
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Apply the six-month disposition threshold to character-determination items and compute the six-month window from the court disposition date to determine whether submission to OCA912@SBA.gov and receipt of an SBA clearance letter is triggered."
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Apply the alternative size standard ceilings of $15 million tangible net worth and $5 million average net income after federal income taxes for the preceding two completed fiscal years, and for each threshold state whether it is met, exceeded, or not determinable from the blank-form evidence."
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "State the 25-minute estimated burden period as a form-completion timing reference and do not treat it as a filing deadline."
       },
       {
         "no": 12,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Present exactly four numbered submission-condition findings ordered by severity of the unresolved condition from most restrictive to least restrictive, and display every monetary threshold with the exact source figure and unit."
       },
       {
         "no": 13,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "End with a Next action: line tied to the most restrictive unresolved condition."
@@ -16078,161 +16078,161 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Base analysis solely on the supplied first page of Form 1919 (02/2025) and page 6 of Form 1920 (Revised 09/20); do not use other sources."
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Provide a prospective application-to-policy crosswalk, not findings on an actual borrower; treat the forms as blank with no supporting file."
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Keep all analysis tied to the supplied form versions; do not present a reconciled statement of current SBA policy."
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Focus routing on Form 1919 purpose-of-loan selections and dollar allocations for business acquisition valuation, debt refinancing, and export/ITL review."
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Produce a concise crosswalk that, for each relevant borrower-form field, identifies the lender-form condition it screens, what a completed entry could establish, what it could not establish, the additional facts or expressly required documents needed, and a citation to the relevant section or short source passage."
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Allow multiple review routes to apply to the same submission; do not treat a working-capital or other use-of-proceeds selection as establishing a particular loan program."
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "In the valuation route, preserve the exact threshold boundary, the alternative close-relationship trigger, and the delegated-processing timing provision."
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Identify the limitation created by the unavailable definition of “(D)” and do not reconstruct that definition from borrower-requested amounts."
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For refinancing, distinguish borrower document collection tasks from the lender’s credit-memo responsibility."
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For refinancing, identify the debt-schedule reconciliation requirement."
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For refinancing, retain the special documentation treatment that applies to credit-card debt."
       },
       {
         "no": 12,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For exports/ITL, separate the general exporter screen from the ITL proceeds-use and market/injury tests."
       },
       {
         "no": 13,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For exports/ITL, preserve the alternatives within the ITL tests and explain the scope of each express consequence of a “No” answer."
       },
       {
         "no": 14,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not convert a documentation gap into an eligibility denial unless the excerpt expressly states that consequence."
       },
       {
         "no": 15,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Include a brief dollar-measurement check on whether Form 1919 dollar allocations alone would permit testing the acquisition-valuation threshold or the ITL working-capital ceiling."
       },
       {
         "no": 16,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Identify the required comparison bases and any additional inputs needed before attempting either dollar comparison."
       },
       {
         "no": 17,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "If an operand or definition is unavailable, leave the comparison result undetermined; do not assume a guarantee percentage, equate different dollar measures, or invent a calculation."
       },
       {
         "no": 18,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Create a targeted request-and-review plan driven by the crosswalk’s unresolved triggers and evidence limits."
       },
       {
         "no": 19,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "In the plan, separately list: borrower questions/information to obtain; documents expressly named in the lender excerpt when the route applies; lender determinations or actions with their stated timing; and any additional analyst-recommended evidence."
       },
       {
         "no": 20,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Tie each request or action in the plan to the specific condition it is intended to resolve."
       },
       {
         "no": 21,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Keep unavailable source material (e.g., preceding pages and external definitions) separate from borrower-file evidence, and do not supply missing SOP or regulatory content."
       },
       {
         "no": 22,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "End with a scope-limited conclusion stating what a completed borrower-form page could support and what would still prevent determination of the selected conditions."
       },
       {
         "no": 23,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not infer that any checkbox is answered, any item marked “Included” has been supplied, or that any borrower is eligible, approved, or deficient."
@@ -16260,231 +16260,231 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use only the supplied Form 1919 excerpt and Form 1920 (revised 09/20, page 5)."
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Design conditional approval controls without determining eligibility, evidence submission, or approval status for any applicant."
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Limit the matrix to Form 1919 questions 3–6, the general instruction for Yes-answer attachments, and the size, occupancy, change-of-ownership, and valuation provisions shown on Form 1920."
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Provide an integrated control matrix, not separate form summaries."
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For every condition, show: applicability trigger, source question/section, borrower information needed, lender test, evidence needed to close, and consequence if unmet or unknown."
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Separate expressly required responses/attachments/documents from analyst-recommended additional evidence."
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Distinguish among: express ineligibility outcomes, restrictions on delegated processing, disclosure/documentation obligations, and unresolved dependencies; allow overlaps when applicable."
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not treat a blank response as No."
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not use N/A unless the activity is established to be outside scope."
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Connect Form 1919 question 3 and Addendum A to a combined applicant-and-affiliate size review."
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Preserve the information requested about other businesses under question 3 without assuming every disclosed business is an affiliate."
       },
       {
         "no": 12,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Show the stated size alternatives and the limited-exceedance condition as written, and identify any missing definitions/thresholds/interpretations needed before clearing that route."
       },
       {
         "no": 13,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not convert labor-surplus-area wording into an unconditional exception."
       },
       {
         "no": 14,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Include question 4’s eligibility consequence and its response-confirmation requirement."
       },
       {
         "no": 15,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Keep question 4’s express disqualification separate from questions that only request information without stating ineligibility upon a Yes answer."
       },
       {
         "no": 16,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Follow question 5 through its conditional follow-up fields and the EWCP-specific attachment requirement."
       },
       {
         "no": 17,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Identify the separate program-status evidence needed to determine whether the International Trade or Export Express change-of-ownership certification in section O applies; exporting alone must not establish either loan type."
       },
       {
         "no": 18,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Reconcile question 6’s application-assistance and referral-fee disclosures with section O’s applicant-paid business-sale commission fields."
       },
       {
         "no": 19,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Show when each of the question 6 and section O disclosures is triggered and whether both could apply, without assuming disclosure under one satisfies the other."
       },
       {
         "no": 20,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For occupancy, keep the new-construction/short-term-construction-refinancing branch separate from the existing-building branch."
       },
       {
         "no": 21,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Preserve the applicable occupancy percentages, timing, proceeds-use restrictions, and the stated consequence of failing an applicable occupancy certification."
       },
       {
         "no": 22,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Retain any ambiguity in the supplied occupancy wording; do not resolve it from external regulation."
       },
       {
         "no": 23,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For changes of ownership, distinguish certifications that carry express ineligibility from the seller-loan payoff certification that affects delegated authority."
       },
       {
         "no": 24,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Treat references to SOP 50 10 as unresolved rule dependencies where its contents are not supplied."
       },
       {
         "no": 25,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Link the proceeds-versus-business-value condition to the required business valuation."
       },
       {
         "no": 26,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Set out section P’s worksheet symbolically, including the inputs needed for A, B, C, and D, without inventing amounts."
       },
       {
         "no": 27,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explain how D and the buyer–seller relationship condition govern the visible internally prepared valuation branch."
       },
       {
         "no": 28,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not reconstruct the missing alternative after “OR” in section P."
       },
       {
         "no": 29,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Keep the intangible-assets calculation distinct from section O’s comparison of proceeds allocated to the ownership change against the business valuation."
       },
       {
         "no": 30,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "End with a conditional clearance sequence derived from the matrix that identifies which upstream disclosures or valuation inputs must be resolved before corresponding lender checks can close."
       },
       {
         "no": 31,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "In the clearance sequence, explain how an express ineligibility finding or a delegation-only restriction would change the path."
       },
       {
         "no": 32,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Label recommended sequencing and evidence holds as analyst judgment."
       },
       {
         "no": 33,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "State that passing the checks in these excerpts is not sufficient for full SBA approval."
@@ -16512,175 +16512,175 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use only the content of page 6 of SBA Form 1919 (02/2025) as the source."
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Provide a conditional loan-application intake requirements brief targeted to lender intake staff."
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Treat this as a prospective mapping exercise with no borrower application, responses, attachments, or acknowledgments supplied."
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not make actual borrower eligibility or compliance findings."
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Cover only these topics in a compact requirements map: taxpayer identification, prior SBA default and loss reimbursement, floodplain issues, flood-insurance conditions, and environmental stipulations."
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each topic, include the notice heading and a short supporting passage, the responsible party, the triggering facts, and the stated obligation or consequence."
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Classify, where applicable, an express application-information requirement, a conditional loan or eligibility requirement, an applicant stipulation, and a caution (non-mandatory bar)."
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Allow overlapping category tags when justified."
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Separate floodplain/wetland development cautions from flood-insurance conditions."
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Construct a conditional intake decision path based on the requirements map."
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Name the application information needed to evaluate each decision branch, while leaving current applicability undetermined."
       },
       {
         "no": 12,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "At the environmental provision, treat equality at the printed dollar threshold as within scope and preserve the stated funding-type limitation."
       },
       {
         "no": 13,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not extend the environmental provision to other funding types without explicit support on page 6."
       },
       {
         "no": 14,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For flood insurance, explain what can and cannot be determined given references to “certain loans” and an undefined “required level.”"
       },
       {
         "no": 15,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For prior SBA debt, preserve distinctions among delinquency, default, resulting loss, reimbursement, referral, possible consequences at other Federal agencies, and the SBA-specific eligibility consequence."
       },
       {
         "no": 16,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Distinguish a source-stated ineligibility outcome from a condition or stipulation needing further review; do not create an automatic-decline rule."
       },
       {
         "no": 17,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Add a short intake-controls note linking financial-record access and disclosure notices to the intake process."
       },
       {
         "no": 18,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Distinguish SBA access/transfers to Government authorities from third-party disclosure requests."
       },
       {
         "no": 19,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Identify the certificates or permissions actually described on page 6, who provides them, and any timing, limits, or exceptions."
       },
       {
         "no": 20,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explain whether page 6 adds any borrower authorization or attachment requirements, without converting SBA notices/certifications into borrower deliverables."
       },
       {
         "no": 21,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "End with a targeted follow-up plan derived from unresolved decision branches."
       },
       {
         "no": 22,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Separate items expressly required by page 6 from analyst-recommended questions and supporting evidence in the follow-up plan."
       },
       {
         "no": 23,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each recommendation, state which branch it informs, how the outcome would change the limited screening conclusion, and whether further governing policy would still be needed."
       },
       {
         "no": 24,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Limit the gap assessment to the mapped topics; absence of a borrower file is not noncompliance, and clearing these checks does not establish overall eligibility or approval."
       },
       {
         "no": 25,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not reconstruct missing rules from cited statutes, regulations, or Federal Register references."
@@ -16708,329 +16708,329 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use only the supplied Part 30 excerpts as sources."
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Deliver a prospective regulatory monitoring data specification (system design), not findings about any institution or incident."
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Produce one evidence-backed register that distinguishes compliance-plan growth screening, plan amendments, OCC proposed-order communications, and information-security response-program expectations without treating them as interchangeable triggers."
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Provide a data dictionary with a shared institution, source, and evidence layer."
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Create separate records where provisions have different populations, events, or decision rules."
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For every material field, state its meaning."
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For every material field, state the record grain."
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For every material field, state the data type or unit where relevant."
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For every material field, cite the specific source passage."
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For every material field, state its purpose in a test."
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For every material field, define its treatment when missing."
       },
       {
         "no": 12,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Distinguish fields needed to evaluate a source condition from documents or communications expressly required by the text and from recommended evidence to verify implementation."
       },
       {
         "no": 13,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Label proposed system controls and evidence requirements as analyst judgments rather than regulatory mandates."
       },
       {
         "no": 14,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Establish applicability before evaluating any substantive condition."
       },
       {
         "no": 15,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Keep applicability determinations separate from test outcomes."
       },
       {
         "no": 16,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Support an undetermined state for applicability or test outcome when necessary."
       },
       {
         "no": 17,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Ensure missing evidence does not produce a false trigger or a compliance failure."
       },
       {
         "no": 18,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Preserve the distinction between regulatory rule text and interpretive guidance."
       },
       {
         "no": 19,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Preserve differences among mandatory actions, permissions, definitions, and guidance expectations."
       },
       {
         "no": 20,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not assume Appendix B guidance has the same population as compliance-plan provisions when the full incorporated scope is not supplied."
       },
       {
         "no": 21,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Translate the extraordinary-growth definition into field-level rules capturing institution and capitalization conditions, request-date anchor, quarterly measurement and lookback basis, strict numerical comparison, and qualifying merger/acquisition exclusion."
       },
       {
         "no": 22,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Identify asset measurements and exclusion evidence needed to substantiate the extraordinary-growth calculation."
       },
       {
         "no": 23,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Expose unresolved choices where the excerpt lacks a calculation convention or assessment date; do not silently supply one."
       },
       {
         "no": 24,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not infer the consequence under absent paragraph (d)(1) from the extraordinary-growth definition alone."
       },
       {
         "no": 25,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For compliance-plan amendment monitoring, distinguish: the previously approved plan, a proposed amendment reflecting changed circumstances, notice to the OCC, OCC approval, and which plan version is implemented while approval is pending."
       },
       {
         "no": 26,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For compliance-plan amendment monitoring, separate expressly written communications from recommended substantiating evidence."
       },
       {
         "no": 27,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For proposed-order monitoring, distinguish the OCC’s prior-notice responsibility from the institution’s opportunity to respond."
       },
       {
         "no": 28,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Capture the authority and evidence for the response period without manufacturing a deadline from unavailable paragraph (c)."
       },
       {
         "no": 29,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For information-security response-program monitoring, preserve the supplied definition of customer information, including record forms and information maintained on the institution’s behalf."
       },
       {
         "no": 30,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Respect the unauthorized-access-or-use and potential-harm boundary in the information-security scope."
       },
       {
         "no": 31,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Map the expectation to develop and implement a response program, including customer-notification procedures, without turning the introductory guidance into a full incident investigation standard."
       },
       {
         "no": 32,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not determine that a particular customer notice must be sent based on the introductory guidance alone."
       },
       {
         "no": 33,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Build a cross-section communication-routing and control-status table comparing the institution-to-OCC amendment process, OCC-to-institution proposed-order process, and customer-notification procedures."
       },
       {
         "no": 34,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each compared process, show the actor and the recipient."
       },
       {
         "no": 35,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each compared process, show the activation condition."
       },
       {
         "no": 36,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each compared process, show any writing requirement if stated."
       },
       {
         "no": 37,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each compared process, show any timing basis if stated."
       },
       {
         "no": 38,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each compared process, include supporting evidence."
       },
       {
         "no": 39,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each compared process, define permissible monitoring output."
       },
       {
         "no": 40,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Make downstream outputs depend on applicability and evidence checks."
       },
       {
         "no": 41,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explain which fields can be shared across processes and which must remain source-specific so a generic 'notification required' flag cannot conflate processes."
       },
       {
         "no": 42,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not infer that a security event or extraordinary-growth result automatically initiates a compliance plan, amendment, or order."
       },
       {
         "no": 43,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Provide implementation acceptance checks derived from the specification covering: the growth threshold boundary and acquisition exclusion; a pending amendment’s effect on the active plan version; and incomplete evidence for a customer-notification decision."
       },
       {
         "no": 44,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use symbolic conditions instead of invented institutions or balances in acceptance checks."
       },
       {
         "no": 45,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Identify which determinations can be conditionally automated and which must remain unresolved."
       },
       {
         "no": 46,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Limit the open-items list to missing source passages, measurement conventions, or institution-level evidence needed for the fields and decisions in this specification."
       },
       {
         "no": 47,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "In the open-items list, distinguish missing source passages, missing measurement conventions, and missing institution-level evidence rather than labeling every gap as a missing required document."
@@ -17058,140 +17058,140 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Develop a risk‑disclosure policy traceability matrix for an internal plain‑English drafting policy relying solely on the supplied handbook excerpts."
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Provide traceable drafting controls rather than a general summary of writing advice."
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Treat the task as prospective policy design, not an issuer compliance assessment."
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For every proposed policy clause, include: proposed wording; a source locator (heading or recognizable opening phrase); a short supporting quotation; the source passage’s character and normative force; applicability and qualifications; and a proposed review test with the evidence needed to perform it."
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Classify sources by recommendations/process guidance, reported practices or research, and illustrative transaction terms, allowing overlapping classifications where appropriate."
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Label internal control language and acceptance criteria as analyst recommendations, not as requirements from the handbook."
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not invent legal citations and do not supply unsupplied securities‑law content."
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Link audience‑analysis guidance to the document‑review process and then to guidance on explaining abstractions."
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Cover: differing investor sophistication; suggested treatment of basic educational material; the sequence and purpose of reviewing an existing document; and investor‑centred examples for complex concepts."
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Preserve tailorability of the rewriting approach and the optional nature of presentation techniques; do not convert reported practices or often‑successful techniques into universal format requirements."
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Make example‑design and presentation controls depend on earlier audience and comprehension findings, and explain how those controls operate conditionally when audience information is unavailable."
       },
       {
         "no": 12,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Apply the relevant matrix controls to the supplied call‑option illustration in a short worked review cross‑referenced to the proposed clauses."
       },
       {
         "no": 13,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Separate directly observable features from suitability conclusions that require an audience profile, reader feedback, or the complete disclosure document."
       },
       {
         "no": 14,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Distinguish obligations within the hypothetical transaction from requirements governing disclosure drafting."
       },
       {
         "no": 15,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "As an analyst‑proposed numerical‑fidelity check, calculate the share‑purchase payment if the option is exercised, distinguish it from the price paid for the option, and determine whether total outlay (including the option payment and profit) can be calculated from the supplied information."
       },
       {
         "no": 16,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Retain the relative exercise window and the exercise and non‑exercise conditions; do not invent a calendar expiry date, any missing price, or actual investor exposure."
       },
       {
         "no": 17,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Limit evidence‑gap requests to audience suitability, completion of the proposed document‑review process, and the linked example checks."
       },
       {
         "no": 18,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each unresolved check, identify the evidence that would resolve it and distinguish documents expressly required by the source from evidence you merely recommend collecting."
       },
       {
         "no": 19,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "When issuer records are missing, report an untested or conditional conclusion rather than a compliance failure."
       },
       {
         "no": 20,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "End with a brief statement of what the excerpts can support in the proposed policy and what substantive risk‑disclosure or issuer‑compliance conclusions remain outside their evidentiary scope."
@@ -17219,119 +17219,119 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Open with a single-sentence purpose statement that identifies the borrower information evidence segment of SBA Form 1919 (02/2025), page 7."
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Close with a 'Next action:' line tied to the highest-priority unresolved certification condition."
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Produce exactly six rows, ordered: (1) Occupational Safety and Health Act, (2) Lead-Based Paint Poisoning Prevention Act, (3) Civil Rights and EEO poster, (4) Equal Credit Opportunity Act, (5) Debarment and Suspension, (6) Build America, Buy America Act."
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use the following columns in this exact order for every row: Certification area; Governing citation; Certification required; Trigger condition; Classification; Supporting record; Missing document; Approval action."
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each row, preserve the form’s exact statutory citations, regulation references, defined terms, and certification language, including: 15 U.S.C. 651 et seq.; 42 U.S.C. § 4821 et seq.; 13 C.F.R. 112, 113, 117; 15 U.S.C. 1691 et seq.; 2 C.F.R. 180; 2 C.F.R. Part 2700; and 41 U.S.C. § 8301."
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Include OSHA compliance and the applicant’s certification to remain in OSHA compliance for the life of the loan."
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Include the lead-based paint prohibition for construction or rehabilitation of a residential structure and the definition of residential structure."
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Include civil rights nondiscrimination obligations and the requirement to display the Equal Employment Opportunity Poster."
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Include ECOA prohibited bases of discrimination."
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Include debarment and suspension certifications for items (a) through (f) and the requirement for a written statement of exception from SBA when the applicant cannot certify items (a) through (d)."
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Include BABAA domestic content requirements for iron, steel, manufactured products, and construction materials, and the borrower’s obligation to obtain contractor or subcontractor BABAA certifications."
       },
       {
         "no": 12,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each certification area, identify the specific red flag or exception condition; treat any inability to certify or acknowledge as a gap or exception requiring an SBA written statement of exception or specified remediation before approval."
       },
       {
         "no": 13,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Define a conditional trigger for each row: if the borrower cannot certify or acknowledge, assign the specified hold or exception action instead of approval; if not applicable based on use of proceeds, state the applicability condition that makes it Not Applicable."
       },
       {
         "no": 14,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Classify each certification area using only: Certified, Exception Required, or Not Applicable."
       },
       {
         "no": 15,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each row, list the supporting record evidencing compliance and flag any missing document required to close the approval file."
       },
       {
         "no": 16,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Address governance duties embedded in the certifications: remain OSHA-compliant during the loan term; display the EEO poster; obtain contractor/subcontractor BABAA certifications for an infrastructure project."
       },
       {
         "no": 17,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not provide a final approval decision without case facts; instead, state the condition and evidence boundary for each classification."
@@ -17359,147 +17359,147 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Map SBA Form 1919 borrower identity and ownership fields to SBA Form 1920 eligibility and approval conditions using only the supplied blank forms as controlling evidence."
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Organize the brief into exactly four sections, in this order: Profile Fields, Eligibility Conditions, Threshold Tests, Evidence-Action Chain."
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Define each form abbreviation on first use, including OC, EPC, ESOP, ROBS, LPR, and FTE."
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not imply any field is completed when the source is a blank form."
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "In Profile Fields, document every SBA Form 1919 borrower identity and ownership profile field listed in the prompt and mark each field only as Complete, Incomplete, or Missing Evidence."
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "In Profile Fields, include mandatory ownership and demographic information for all entities owning at least 20% of the applicant and at least 51% of beneficial owners, with owner legal name, title, ownership percentage, TIN, and home address, and mark each field only as Complete, Incomplete, or Missing Evidence."
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "In Eligibility Conditions, identify each Character Determination deficiency type listed on SBA Form 1920 page 4 and distinguish each identified deficiency from missing evidence."
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "State in Eligibility Conditions that the supplied forms are blank and contain no completed case data."
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "In Threshold Tests, apply SBA Form 1919 thresholds: 20% ownership identification and 51% beneficial ownership."
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "In Threshold Tests, apply SBA Form 1920 page 4 thresholds: 6-month disposition timing and felony or crime-against-a-minor classification."
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "In Threshold Tests, apply SBA Form 1920 page 5 thresholds: 25% size-standard excess, 60% permanent occupancy, 20% long-term lease, 51% occupancy for existing building acquisition, and $250,000 intangible asset valuation."
       },
       {
         "no": 12,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Preserve each threshold’s comparison operator, unit, population, and measurement period exactly as stated in the source."
       },
       {
         "no": 13,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For the Character Determination 6-month condition, perform a date-based test showing source dates, the 6-month window, the date calculation, and the resulting timing status."
       },
       {
         "no": 14,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "When a blank form supplies no value for a threshold test, state Not Determinable rather than inferring a result."
       },
       {
         "no": 15,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "In Evidence-Action Chain, connect each Character Determination condition to its governing rule on SBA Form 1920 page 4 and to the resulting action."
       },
       {
         "no": 16,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Show that a disclosed felony conviction, a crime against a minor, or a case dispositioned within the last 6 months requires electronic submission of all required documents to OCA912@SBA.gov and receipt of an SBA clearance letter."
       },
       {
         "no": 17,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Show that disclosed misdemeanors fully dispositioned more than 6 months ago with no convictions for crimes against a minor require no submission of the Character Determination Package."
       },
       {
         "no": 18,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use the exact label Approval Prerequisite: once when introducing the SBA clearance letter requirement and identify the clearance letter as the required approval evidence."
       },
       {
         "no": 19,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "State that no SBA clearance letter exists in the supplied blank forms."
       },
       {
         "no": 20,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Preserve all cited figures, terms, dates, thresholds, and legal references exactly as they appear in SBA Form 1919 and SBA Form 1920 pages 4 and 5, including OMB Control Number 3245-0348, expiration date 6/30/2027, the 20% and 51% ownership thresholds, the 6-month disposition window, OCA912@SBA.gov, 13 CFR § 121.104, 13 CFR § 120.131, 13 CFR § 120.202, and the $250,000 intangible asset threshold; do not round or relabel any source value."
       },
       {
         "no": 21,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For every Character Determination condition that cannot be resolved from the blank forms, list the exact evidence to obtain, including the original Character Determination Package with all required supporting information and court documentation and the SBA clearance letter received after electronic submission to OCA912@SBA.gov, and link each item to the condition it would resolve."
@@ -17527,77 +17527,77 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Prepare a customer relationship profiling brief for \"Blue Harbor Logistics Holdings LLC\" using only the supplied onboarding activity profile."
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Structure the brief with clear sections for entity identity, ownership and control, authorized actors, financial profile, risk parameters, and supporting documentation."
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use the exact terms and labels from the profile (e.g., \"Blue Harbor Logistics Holdings LLC\", \"moderate\", \"primary signer\", \"prohibited usage\") without paraphrasing key terminology."
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Map each element in the brief to the specific section or data point in the supplied onboarding activity profile from which it is drawn."
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Integrate observed transactions, expected pattern, entity profile, ownership, authority, balance-sheet data, risk parameters, and supporting files into a coherent relationship profile, not as disconnected fragments."
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Identify and list all risk-related issues, prohibited usages, and missing or absent supporting documentation present in the profile."
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Cover the monitoring note, risk parameters, and documentation status as governance and control elements relevant to the relationship."
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Discuss the identified risks and impacts, including the liquidity minimum, risk setting, prohibited usage, and the fuel surcharge recovery lag."
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Compare the stated liquidity minimum of $1,119,250.00 against the available cash balance of $2,035,000.00 and state whether the threshold is met."
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Classify the entity type, ownership structure, authorized actor roles, and risk setting using the categories provided in the profile."
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Flag any prohibited usage restrictions, missing documentation, or absent authority evidence as gaps or exceptions requiring attention, and include a corresponding flag or follow-up action in the brief when such items are present."
@@ -17625,154 +17625,154 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Provide a disclosure compliance brief grounded solely in the supplied plain‑English handbook excerpt for use by securities counsel."
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not use any external securities-law rules."
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Treat the quoted “before” paragraph as illustrative language, not evidence about an issuer or an offering."
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explain the limits of what the excerpt establishes about mandatory disclosure requirements."
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Include a concise mapping that links relevant source passages to their evidentiary status, drafting implications, and proposed review checks."
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Distinguish handbook guidance from representations made within the illustrative paragraph in the mapping."
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Label any acceptance criteria you add as reviewer judgment, not source requirements."
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Connect advice about short sentences to concerns about jargon, legalese, and providing reader context."
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not invent or specify a numerical sentence‑length limit."
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Apply the mapping by rewriting the illustrative Notes paragraph in shorter, context‑first sentences."
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Preserve in the rewrite: the scope of the assertion about material terms; the relationship between the current description and the accompanying Prospectus; the conditional effect of any inconsistency; the defined‑term and named‑heading references; and the application to individual Notes subject to the Pricing Supplement exception."
       },
       {
         "no": 12,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not infer the contents of referenced documents."
       },
       {
         "no": 13,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not claim that rewrites mentioned but not included in the excerpt support your wording."
       },
       {
         "no": 14,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Follow the rewrite with a compact fidelity check tracing the preserved substantive features to the original language."
       },
       {
         "no": 15,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "In the fidelity check, identify any ambiguity that the revision cannot resolve."
       },
       {
         "no": 16,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "End with a conditional readiness assessment for using the revision as a drafting template, not as a certification of legal compliance."
       },
       {
         "no": 17,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Base the readiness assessment on the mapping and the fidelity check."
       },
       {
         "no": 18,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "In the assessment, distinguish presentation checks assessable from the excerpt from substantive checks that remain unknown."
       },
       {
         "no": 19,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Limit unknown substantive checks to material‑term coverage, cross‑reference accuracy, interaction between the descriptions, and Note‑specific exceptions."
       },
       {
         "no": 20,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For every unresolved check, identify the referenced material or additional analyst‑proposed evidence needed and explain what drafting decision it would inform."
       },
       {
         "no": 21,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Clearly distinguish documents merely referenced in the example from documents expressly required by the handbook."
       },
       {
         "no": 22,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not convert proposed review evidence into a filing or record‑retention obligation."
@@ -17800,168 +17800,168 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Base all content solely on the supplied Appendix C excerpt; do not import other provisions of Part 30 or external legal standards."
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Provide a prospective compliance-response option brief, not findings about any actual institution, borrower, or loan."
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use the supplied definition and Objectives to establish the covered-entity and activity perimeter at the start."
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Create a short standards map that connects General, Objectives, and Avoidance of Particular Loan Terms, Conditions, and Features, citing the relevant heading for each proposition."
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Preserve the Guidelines' 'should' wording verbatim."
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Separate the Guidelines’ standards from your own implementation recommendations."
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explain how size, complexity, and the nature and scope of lending inform response design without treating proportionality as an unstated exception to the avoidance standard."
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Decompose the Equity Stripping and Fee Packing example into the factual features that must be assessed together."
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Build a conditional assessment table with states defined as: Example matched only if all stated features are supported; Example not matched only if evidence affirmatively rules out at least one necessary feature; Unresolved otherwise."
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Treat these assessment states as prospective decision states, not findings derived from the excerpt."
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Propose evidence to assess each factual feature, including the basis needed to evaluate whether fees are excessive."
       },
       {
         "no": 12,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not invent a numerical fee threshold."
       },
       {
         "no": 13,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Do not assume that repeat refinancing alone establishes the example."
       },
       {
         "no": 14,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explain why not matching the Equity Stripping and Fee Packing example does not show the activity is free of other abusive, predatory, unfair, or deceptive practices."
       },
       {
         "no": 15,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use the assessment to compare three options: enhanced review while activity continues; a targeted temporary restriction pending review; and stopping or redesigning an identified practice."
       },
       {
         "no": 16,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Present these as analyst-proposed response options, not remedies prescribed by the excerpt."
       },
       {
         "no": 17,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For each option, explain: evidence conditions that could support its use; when it would be inadequate; the source objective it could advance; and its principal benefit and limitation as professional judgment."
       },
       {
         "no": 18,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Distinguish uncertainty requiring further assessment from evidence supporting a practice the Guidelines say the institution should avoid."
       },
       {
         "no": 19,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Allow options to be combined or sequenced rather than assigning them one-to-one."
       },
       {
         "no": 20,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Conclude with a conditional response recommendation that depends on the assessment states."
       },
       {
         "no": 21,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explain how the recommendation’s scope accounts for direct lending, mortgage brokers or other intermediaries, and purchased loans, and what additional evidence would justify narrowing, expanding, or ending the response."
       },
       {
         "no": 22,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Limit identified evidence gaps to entity applicability, the example’s factual features, and the response scope."
       },
       {
         "no": 23,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Distinguish documents expressly required by the excerpt from additional evidence you propose collecting."
       },
       {
         "no": 24,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "For approval authority, notification duties, and response deadlines, identify what the excerpt does and does not specify, without inferring that silence removes obligations under other sources."
@@ -17989,126 +17989,126 @@ window.FINIF_ITEMS = [
     "constraints": [
       {
         "no": 1,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Use only the supplied § 30.4(c) and (d)(1) excerpt as the source; do not use other sources."
       },
       {
         "no": 2,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Produce a prospective regulatory monitoring data specification that supports future monitoring decisions and does not assert findings about any actual institution."
       },
       {
         "no": 3,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Provide a field-level data dictionary linked to a decision table, and for each test identify: source paragraph, applicable institution population, responsible actor named in the text, minimum data inputs, date or unit basis, and evidence needed to evaluate the test."
       },
       {
         "no": 4,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Distinguish communications and actions expressly required by the excerpt from any recommended records or internal control owners proposed for implementation."
       },
       {
         "no": 5,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Keep the legal force of an action (mandatory, discretionary, or potentially required under a referenced provision) separate from whether its factual trigger is established."
       },
       {
         "no": 6,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Include a Not determinable outcome when necessary evidence or source detail is missing; do not treat the absence of a record as establishing either compliance or breach."
       },
       {
         "no": 7,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Design plan-review timing rules around OCC receipt of the plan, preserving the 30-day period, the alternatives of written notice of approval decision or request for additional information, and the scope of OCC’s extension authority."
       },
       {
         "no": 8,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Track separately: OCC receipt of the plan, OCC notice, approval outcome, information requests, and extension evidence."
       },
       {
         "no": 9,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explain how the tracked fields determine the next monitoring step without: treating an information request as approval, assuming an information request restarts the clock, or assuming an extension changes the institution’s submission deadline."
       },
       {
         "no": 10,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Show timing logic symbolically (do not invent dates) and flag any unresolved counting assumptions needed for implementation."
       },
       {
         "no": 11,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Create separate tests for: (1) failure to submit an acceptable plan within the OCC-specified time, and (2) failure in any material respect to implement a plan."
       },
       {
         "no": 12,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Identify the evidence needed to establish plan acceptability, the applicable submission deadline, implementation performance, and materiality without inventing standards for those terms."
       },
       {
         "no": 13,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Explain which review-status information from subsection (c) is relevant but insufficient to establish either failure."
       },
       {
         "no": 14,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Make action-tracking requirements depend on the results of the two failure tests, preserving the distinction between an order requiring correction and possible further actions."
       },
       {
         "no": 15,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Within the action analysis, specify a recent-history screen that treats commencement of operations and change in control within the previous 24 months separately from extraordinary growth during the previous 18 months."
       },
       {
         "no": 16,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Preserve the qualified consequence that certain actions may be required; do not convert a positive recent-history screen into a determination of a particular sanction."
       },
       {
         "no": 17,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "Identify unresolved lookback anchors, definitions, or action details where the excerpt does not supply them, and do not reconstruct sections 39(e)(2)(B) or 39(e)(3) from their citations."
       },
       {
         "no": 18,
-        "tag": "GPT-5",
+        "tag": "",
         "family": "Frozen constraint",
         "check_type": "query-derived",
         "text": "End with a targeted gap-and-follow-up table limited to the timing, failure, and recent-history tests that: separates missing source detail from proposed future institution-specific evidence, and identifies the downstream decision each missing input prevents or would enable."

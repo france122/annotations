@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FinIF 实验3 · Judge–Human 一致性</title>
+  <link rel="stylesheet" href="styles.css?v=finif-experiment3-20261006-v1" />
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <p class="eyebrow">FinIF 人工审核 · Test 50 × 3 Constraints</p>
+      <h1>实验3：Rule / LLM Judge 与 Human 一致性</h1>
+    </div>
+    <div class="toolbar">
+      <label class="annotator">标注者
+        <select id="annotatorSelect">
+          <option value="A1">A1</option><option value="A2">A2</option><option value="A3">A3</option>
+        </select>
+      </label>
+      <a class="button-link" href="experiment3_sample.json" download>下载盲标样本</a>
+      <a class="button-link" href="experiment3_items_constraints.csv" download>下载 Items / Constraints</a>
+      <button id="downloadBtn" type="button">导出人工标签 CSV</button>
+    </div>
+  </header>
+
+  <main class="app-shell">
+    <aside class="sidebar">
+      <div class="progress-card">
+        <div class="mode-summary">约束级二分类盲标</div>
+        <div class="progress-title">完成进度</div>
+        <div id="progressText" class="progress-text">0 / 150 constraints</div>
+        <div class="progress-track"><div id="progressBar"></div></div>
+        <p class="review-note">每个 item 的 3 条约束全部标完后，题号会显示“已填”。</p>
+        <form id="jumpForm" class="jump-form">
+          <label for="jumpInput">跳转到</label>
+          <input id="jumpInput" type="number" min="1" max="50" value="1" required />
+          <button type="submit">前往</button>
+        </form>
+      </div>
+      <div id="itemList" class="item-list"></div>
+    </aside>
+
+    <section class="content">
+      <nav class="item-nav">
+        <button id="prevBtn" type="button">上一题</button>
+        <span id="itemCounter"></span>
+        <button id="nextBtn" type="button">下一题</button>
+      </nav>
+      <article class="item-panel">
+        <div class="meta-grid" id="metaGrid"></div>
+        <section class="block">
+          <details class="full-prompt-details">
+            <summary>完整 Prompt（点击展开）</summary>
+            <div class="copy-row"><button id="copyPromptBtn" type="button">复制 Prompt</button><span id="copyPromptStatus"></span></div>
+            <pre id="fullPromptText" class="full-prompt"></pre>
+          </details>
+        </section>
+        <section class="block response-block">
+          <h2>待评模型回复</h2>
+          <p class="hint">请只依据 Prompt、回复与右侧当前约束作出判断。</p>
+          <pre id="responseText" class="response-text"></pre>
+        </section>
+      </article>
+    </section>
+
+    <aside class="rating-panel">
+      <h2>3 条抽样约束</h2>
+      <p class="hint">逐条判断回复是否满足约束。机器判定在标注期间不可见。</p>
+      <div class="blind-notice">Pass：回复满足约束；Fail：回复未满足约束。无法确认时，请重读 Prompt 与回复后选择最接近的结论，并在理由中说明。</div>
+      <div id="constraintForms"></div>
+      <div class="autosave">结果自动保存在当前浏览器；完成后请导出 CSV。</div>
+    </aside>
+  </main>
+  <script src="items.js?v=finif-experiment3-20261006-v1"></script>
+  <script src="app.js?v=finif-experiment3-20261006-v1"></script>
+</body>
+</html>
